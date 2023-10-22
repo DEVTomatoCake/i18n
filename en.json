@@ -1,0 +1,125 @@
+{
+	"action": {
+		"backupcreate": {
+			"description": "Creates a backup for this server",
+			"title": "Create a backup"
+		},
+		"backuplist": {
+			"created": "created on",
+			"description": "Lists all backups from this server",
+			"error": "Couldn't load the backups!",
+			"title": "List backups"
+		},
+		"restart": {
+			"description": "The server will be restarted with 20 seconds notice",
+			"error": "The server cannot be restarted!",
+			"success": "The server will be restarted in 20 seconds!",
+			"title": "Restart server"
+		}
+	},
+	"add": {
+		"adminsuccess": "The application api key for the alias **{ALIAS}** was saved! You can now display the node status.",
+		"aliasused": "The alias **{ALIAS}** is already used!",
+		"invalidurl": "Invalid panel url! The link must be the start page (server list) of the panel: start with `https://` and end with `/`.",
+		"success": "The webinterface with the alias **{ALIAS}** was saved! You can now use </manage:872924492593254454>!",
+		"tutorial": "How to get an API key:"
+	},
+	"button": {
+		"cantkill": "Couldn't kill **{SERVER}**!",
+		"cantrestart": "Couldn't restart **{SERVER}**!",
+		"cantstart": "Couldn't start **{SERVER}**!",
+		"cantstop": "Couldn't stop **{SERVER}**!",
+		"killed": "**{SERVER}** was killed!",
+		"restarted": "**{SERVER}** was restarted!",
+		"started": "**{SERVER}** was started!",
+		"stopped": "**{SERVER}** was stopped!"
+	},
+	"commanderror": "An error occurred while executing the command `{COMMAND}`!\nThe developer was informed and will try to fix the error, so try again later. You can also join the support server <https://tomatenkuchen.com/discord> to help with bug fixing.",
+	"confirm": {
+		"no": "No",
+		"yes": "Yes"
+	},
+	"console": {
+		"success": "The command was run in panel **{ALIAS}**: `{COMMAND}`"
+	},
+	"customcommand": {
+		"apikeyinvalid": "The panel or the api key of the customcommand creator is invalid!",
+		"args": "Arguments for the customcommand",
+		"created": "The customcommand **{NAME}** was created!",
+		"deleted": "The customcommand **{NAME}** was deleted!",
+		"edited": "The customcommand **{NAME}** was edited!",
+		"error": "There was an error with the panel while executing the command!",
+		"guildonly": "This command can only be used on servers!",
+		"list": "List of customcommands",
+		"missingarg": "You must add the argument {ARG}!",
+		"missingperms": "You don't have enough perms for that!",
+		"missingrole": "You can't use this command as you're missing a role which is required",
+		"nocommands": "No customcommands found!",
+		"success": "Command was run: `{COMMAND}`"
+	},
+	"feedback": {
+		"received": "Thank you for your feedback! :D"
+	},
+	"help": {
+		"ccvars": "Possible variables",
+		"invite": "Bot invite",
+		"registered": "Registered users",
+		"servers": "Servers"
+	},
+	"list": {
+		"default": "Default",
+		"title": "Your panel aliases"
+	},
+	"manage": {
+		"backup": {
+			"created": "A backup is being created!",
+			"failed": "The backup cannot be created!"
+		},
+		"loading": "Panel is loading…",
+		"needsupport": "If you have questions regarding that, feel free to ask on my support server: https://discord.gg/ZqzFUC8qe9",
+		"nobackups": "No backups available",
+		"noservers": "No servers",
+		"panelerrorshort": "An error occured while trying to connect to the panel.",
+		"selectserver": "Select server",
+		"serverlist": "Serverlist",
+		"unknown": "Unknown server! Use </manage:872924492593254454> to list all your servers."
+	},
+	"nodata": "You have to register a panel using </setup:1097100610366623784> first!",
+	"nodataadmin": "You have to register a panel using </setup:1097100610366623784> and then link it to an admin panel using </adminsetup:1097160563353731182>!",
+	"panelerror": "An error occured while connecting to the panel. Check if the panel is online, the url is correct and the api key valid.",
+	"settings": {
+		"alias": {
+			"delete": "The alias **{ALIAS}** was deleted!"
+		},
+		"apikey": "The api key of **{ALIAS}** was updated!",
+		"default": "Your default panel was set to **{ALIAS}**!",
+		"panelurl": "The panel url of **{ALIAS}** was updated!"
+	},
+	"status": {
+		"disc": "Disk",
+		"memory": "Memory"
+	},
+	"statusupdate": {
+		"defaultcontent": "Preview of the message which will be send to the set channel ({CHANNEL}).",
+		"editdiscohook": "Edit message",
+		"insertdata": "Paste JSON or an URL",
+		"loaddata": "Load edited message",
+		"sendto": "Send to: {CHANNEL}",
+		"success": "The message was sent successfully!",
+		"updatemsg": "Edit message"
+	},
+	"unknownalias": "The alias **{ALIAS}** doesn't exist!",
+	"update": {
+		"editfail": ":warning: The message cannot be edited!\nMake sure that the bot has the permissions \"View channel\", \"Send messages\", \"Embed links\" and \"View message history\".",
+		"error": "Couldn't get the data! Please try again later!",
+		"freezed": "This embed is inactive, you have to run the command again!",
+		"kill": "Kill",
+		"outdated": "Status not up-to-date",
+		"restart": "Restart",
+		"runaction": "Run action",
+		"start": "Start",
+		"starting": "Starting",
+		"stop": "Stop",
+		"stopping": "Stopping"
+	}
+}

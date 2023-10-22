@@ -1,0 +1,125 @@
+{
+	"action": {
+		"backupcreate": {
+			"description": "Erstellt ein Backup für den Server",
+			"title": "Backup erstellen"
+		},
+		"backuplist": {
+			"created": "erstellt am",
+			"description": "Zeigt alle Backups eines Servers",
+			"error": "Die Backups können nicht abgefragt werden!",
+			"title": "Backups auflisten"
+		},
+		"restart": {
+			"description": "Der Server wird mit Ankündigung in 20 Sekunden neu gestartet",
+			"error": "Der Server kann nicht neu gestartet werden!",
+			"success": "Der Server wird in 20 Sekunden neu gestartet!",
+			"title": "Server neu starten"
+		}
+	},
+	"add": {
+		"adminsuccess": "Der Application-API-Key für den Alias **{ALIAS}** wurde gespeichert! Du kannst jetzt den Node-Status anzeigen lassen.",
+		"aliasused": "Der Alias **{ALIAS}** wird bereits verwendet!",
+		"invalidurl": "Ungültige Panel-URL! Der Link muss die Startseite (Serverliste) des Panels sein sowie mit `https://` anfangen und mit `/` aufhören.",
+		"success": "Das Webinterface mit dem Alias **{ALIAS}** wurde gespeichert! Du kannst jetzt </manage:872924492593254454> auf Servern nutzen!",
+		"tutorial": "So bekommst du einen API-Key:"
+	},
+	"button": {
+		"cantkill": "**{SERVER}** kann nicht gekillt werden!",
+		"cantrestart": "**{SERVER}** kann nicht neu gestartet werden!",
+		"cantstart": "**{SERVER}** kann nicht gestartet werden!",
+		"cantstop": "**{SERVER}** kann nicht gestoppt werden!",
+		"killed": "**{SERVER}** wurde gekillt!",
+		"restarted": "**{SERVER}** wurde neu gestartet!",
+		"started": "**{SERVER}** wurde gestartet!",
+		"stopped": "**{SERVER}** wurde gestoppt!"
+	},
+	"commanderror": "Während der Ausführung des Befehls `{COMMAND}` ist ein Fehler aufgetreten!\nDer Entwickler wurde informiert und wird versuchen, den Fehler zu beheben, also versuche es doch später noch einmal. Du kannst auch dem Support-Server <https://tomatenkuchen.com/discord> beitreten, um bei der Fehlerbehebung mitzuhelfen.",
+	"confirm": {
+		"no": "Nein",
+		"yes": "Ja"
+	},
+	"console": {
+		"success": "Der Befehl wurde im Panel **{ALIAS}** ausgeführt: `{COMMAND}`"
+	},
+	"customcommand": {
+		"apikeyinvalid": "Das Panel oder der API-Key des Customcommand-Erstellers ist ungültig!",
+		"args": "Argumente für den Customcommand",
+		"created": "Der Customcommand **{NAME}** wurde erstellt!",
+		"deleted": "Der Customcommand **{NAME}** wurde gelöscht!",
+		"edited": "Der Customcommand **{NAME}** wurde bearbeitet!",
+		"error": "Der Befehl kann aufgrund eines panelseitigen Fehlers nicht ausgeführt werden!",
+		"guildonly": "Dieser Befehl kann nur auf Servern genutzt werden!",
+		"list": "Liste aller Customcommands",
+		"missingarg": "Du musst Argument {ARG} angeben!",
+		"missingperms": "Dazu hast du keine Rechte!",
+		"missingrole": "Du kannst diesen Befehl nicht ausführen, weil dir eine benötigte Rolle fehlt",
+		"nocommands": "Keine Customcommands vorhanden!",
+		"success": "Befehl wurde ausgeführt: `{COMMAND}`"
+	},
+	"feedback": {
+		"received": "Danke für dein Feedback :D"
+	},
+	"help": {
+		"ccvars": "Mögliche Parameter",
+		"invite": "Bot einladen",
+		"registered": "Registrierte Nutzer",
+		"servers": "Server"
+	},
+	"list": {
+		"default": "Standard",
+		"title": "Deine Panel-Aliase"
+	},
+	"manage": {
+		"backup": {
+			"created": "Es wird ein Backup erstellt!",
+			"failed": "Es kann kein Backup erstellt werden!"
+		},
+		"loading": "Panel wird geladen…",
+		"needsupport": "Wenn du Fragen dazu hast, melde dich einfach auf meinem Support-Server: https://discord.gg/ZqzFUC8qe9",
+		"nobackups": "Keine Backups vorhanden",
+		"noservers": "Keine Server vorhanden",
+		"panelerrorshort": "Es ist ein Fehler bei der Verbindung zum Panel aufgetreten.",
+		"selectserver": "Server auswählen",
+		"serverlist": "Serverliste",
+		"unknown": "Unbekannter Server! Nutze </manage:872924492593254454> zum Auflisten deiner Server."
+	},
+	"nodata": "Du musst zuerst mit </setup:1097100610366623784> ein Panel registrieren!",
+	"nodataadmin": "Du musst zuerst mit </setup:1097100610366623784> ein Panel registrieren und dieses dann mit </adminsetup:1097160563353731182> mit einem Adminpanel verknüpfen!",
+	"panelerror": "Es ist ein Fehler bei der Verbindung zum Panel aufgetreten. Überprüfe, ob das Panel online ist, die URL stimmt und der API-Key gültig ist.",
+	"settings": {
+		"alias": {
+			"delete": "Der Alias **{ALIAS}** wurde gelöscht!"
+		},
+		"apikey": "Der API-Key von **{ALIAS}** wurde geändert!",
+		"default": "Dein Standard-Panel wurde auf **{ALIAS}** gesetzt!",
+		"panelurl": "Die Panel-URL von **{ALIAS}** wurde geändert!"
+	},
+	"status": {
+		"disc": "Speicherplatz",
+		"memory": "RAM"
+	},
+	"statusupdate": {
+		"defaultcontent": "Vorschau der Nachricht, welche im festgelegten Kanal ({CHANNEL}) gesendet wird.",
+		"editdiscohook": "Nachricht bearbeiten",
+		"insertdata": "Füge JSON oder einen Link ein",
+		"loaddata": "Bearbeitete Nachricht laden",
+		"sendto": "Senden nach: {CHANNEL}",
+		"success": "Die Nachricht wurde erfolgreich gesendet!",
+		"updatemsg": "Nachricht bearbeiten"
+	},
+	"unknownalias": "Den Alias **{ALIAS}** gibt es nicht!",
+	"update": {
+		"editfail": ":warning: Die Nachricht kann nicht bearbeitet werden!\nStelle sicher, dass der Bot die Berechtigungen \"Kanal anzeigen\", \"Nachrichten senden\", \"Links einbetten\" sowie \"Nachrichtenverlauf anzeigen\" hat.",
+		"error": "Die Informationen können nicht abgefragt werden! Bitte warte etwas und versuche es nochmal!",
+		"freezed": "Dieses Embed ist inaktiv, du musst den Befehl erneut ausführen!",
+		"kill": "Kill",
+		"outdated": "Status nicht aktuell",
+		"restart": "Neustarten",
+		"runaction": "Aktion ausführen",
+		"start": "Starten",
+		"starting": "Startet",
+		"stop": "Stoppen",
+		"stopping": "Stoppt"
+	}
+}

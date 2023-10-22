@@ -1,0 +1,125 @@
+{
+	"action": {
+		"backupcreate": {
+			"description": "Crée une sauvegarde pour ce serveur",
+			"title": "Créer une sauvegarde"
+		},
+		"backuplist": {
+			"created": "créé le",
+			"description": "Répertorie toutes les sauvegardes de ce serveur",
+			"error": "Impossible de charger les sauvegardes !",
+			"title": "Répertorier les sauvegardes"
+		},
+		"restart": {
+			"description": "Le serveur sera redémarré avec un préavis de 20 secondes",
+			"error": "Impossible de redémarrer le serveur !",
+			"success": "Le serveur sera redémarré dans 20 secondes !",
+			"title": "Redémarrer le serveur"
+		}
+	},
+	"add": {
+		"adminsuccess": "La clé api de l'application pour l'alias **{ALIAS}** a été sauvegardée ! Vous pouvez maintenant afficher l'état du nœud.",
+		"aliasused": "L'alias **{ALIAS}** est déjà utilisé !",
+		"invalidurl": "URL de panneau non valide ! Le lien doit être la page de démarrage (liste de serveurs) du panneau : commencer par `https://` et se terminer par `/`.",
+		"success": "L'interface Web avec l'alias **{ALIAS}** a été enregistrée ! Vous pouvez désormais utiliser </manage:872924492593254454> !",
+		"tutorial": "Comment obtenir une clé API :"
+	},
+	"button": {
+		"cantkill": "Impossible de tuer **{SERVER}** !",
+		"cantrestart": "Impossible de redémarrer **{SERVER}** !",
+		"cantstart": "Impossible de démarrer **{SERVER}** !",
+		"cantstop": "Impossible d'arrêter **{SERVER}** !",
+		"killed": "**{SERVER}** a été tué !",
+		"restarted": "**{SERVER}** a été redémarré !",
+		"started": "**{SERVER}** a été démarré !",
+		"stopped": "**{SERVER}** a été arrêté !"
+	},
+	"commanderror": "Une erreur s'est produite lors de l'exécution de la commande `{COMMAND}` !\nLe développeur a été informé et va essayer de corriger l'erreur, alors réessayez plus tard. Vous pouvez également rejoindre le serveur de support <https://tomatenkuchen.com/discord> pour aider à la correction des bugs.",
+	"confirm": {
+		"no": "Non",
+		"yes": "Oui"
+	},
+	"console": {
+		"success": "La commande a été exécutée dans le panneau **{ALIAS}** : `{COMMAND}`"
+	},
+	"customcommand": {
+		"apikeyinvalid": "Le panneau ou la clé api du créateur de la commande customcommand n'est pas valide !",
+		"args": "Arguments de la commande customcommand",
+		"created": "La commande personnalisée **{NAME}** a été créée !",
+		"deleted": "La commande personnalisée **{NAME}** a été supprimée !",
+		"edited": "La commande personnalisée **{NAME}** a été modifiée !",
+		"error": "Une erreur s'est produite avec le panneau lors de l'exécution de la commande !",
+		"guildonly": "Cette commande ne peut être utilisée que sur des serveurs !",
+		"list": "Liste des commandes personnalisées",
+		"missingarg": "Vous devez ajouter l'argument {ARG} !",
+		"missingperms": "Vous n'avez pas assez de permis pour ça !",
+		"missingrole": "Vous ne pouvez pas utiliser cette commande car il vous manque un rôle requis",
+		"nocommands": "Aucune commande personnalisée trouvée !",
+		"success": "Commande exécutée : `{COMMAND}`"
+	},
+	"feedback": {
+		"received": "Merci pour vos commentaires ! :D"
+	},
+	"help": {
+		"ccvars": "Variables possibles",
+		"invite": "Invitation du bot",
+		"registered": "Utilisateurs inscrits",
+		"servers": "Serveurs"
+	},
+	"list": {
+		"default": "Par défaut",
+		"title": "Les alias de votre panneau"
+	},
+	"manage": {
+		"backup": {
+			"created": "Une sauvegarde est en cours de création !",
+			"failed": "Impossible de créer la sauvegarde !"
+		},
+		"loading": "Le panneau est en cours de chargement…",
+		"needsupport": "Si vous avez des questions à ce sujet, n'hésitez pas à les poser sur mon serveur de support : https://discord.gg/ZqzFUC8qe9",
+		"nobackups": "Aucune sauvegarde disponible",
+		"noservers": "Aucun serveur",
+		"panelerrorshort": "Une erreur s'est produite lors de la tentative de connexion au panneau.",
+		"selectserver": "Sélectionner un serveur",
+		"serverlist": "Liste de serveurs",
+		"unknown": "Serveur inconnu ! Utilisez </manage:872924492593254454> pour répertorier tous vos serveurs."
+	},
+	"nodata": "Vous devez d'abord enregistrer un panneau en utilisant </setup:1097100610366623784> !",
+	"nodataadmin": "Vous devez enregistrer un panneau en utilisant </setup:1097100610366623784> et le lier à un panneau d'administration en utilisant </adminsetup:1097160563353731182> !",
+	"panelerror": "Une erreur s'est produite lors de la connexion au panneau. Vérifiez si le panneau est en ligne, si l'URL est correcte et si la clé api est valide.",
+	"settings": {
+		"alias": {
+			"delete": "L'alias **{ALIAS}** a été supprimé !"
+		},
+		"apikey": "La clé api de **{ALIAS}** a été mise à jour !",
+		"default": "Votre panneau par défaut a été défini sur **{ALIAS}** !",
+		"panelurl": "L'URL du panneau **{ALIAS}** a été mise à jour !"
+	},
+	"status": {
+		"disc": "Disque",
+		"memory": "Mémoire"
+	},
+	"statusupdate": {
+		"defaultcontent": "Aperçu du message qui sera envoyé au canal défini ({CHANNEL}).",
+		"editdiscohook": "Modifier le message",
+		"insertdata": "Coller JSON ou une URL",
+		"loaddata": "Charger le message édité",
+		"sendto": "Envoyer à : {CHANNEL}",
+		"success": "Le message a été envoyé avec succès !",
+		"updatemsg": "Modifier le message"
+	},
+	"unknownalias": "L'alias **{ALIAS}** n'existe pas !",
+	"update": {
+		"editfail": ":warning: Le message ne peut pas être édité !\nAssurez-vous que le bot a les permissions \"Voir le canal\", \"Envoyer des messages\", \"Intégrer des liens\" et \"Voir l'historique des messages\".",
+		"error": "Impossible d'obtenir les données ! Veuillez réessayer plus tard !",
+		"freezed": "Cet embed est inactif, vous devez réexécuter la commande !",
+		"kill": "Tuer",
+		"outdated": "Statut non à jour",
+		"restart": "Redémarrer",
+		"runaction": "Exécuter l'action",
+		"start": "Début",
+		"starting": "Démarrage",
+		"stop": "Arrêter",
+		"stopping": "Arrêt"
+	}
+}

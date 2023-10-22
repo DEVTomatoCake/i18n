@@ -1,0 +1,125 @@
+{
+	"action": {
+		"backupcreate": {
+			"description": "サーバーのバックアップを作成する",
+			"title": "バックアップの作成"
+		},
+		"backuplist": {
+			"created": "作成日時",
+			"description": "サーバーのすべてのバックアップを表示する",
+			"error": "バックアップの照会に失敗しました!",
+			"title": "バックアップ一覧"
+		},
+		"restart": {
+			"description": "サーバーは20秒後にアナウンスとともに再起動されます",
+			"error": "サーバーの再起動に失敗しました!",
+			"success": "サーバーは20秒後に再起動します！",
+			"title": "サーバーの再起動"
+		}
+	},
+	"add": {
+		"adminsuccess": "エイリアスのアプリケーションAPIキー**{ALIAS}**が保存されました！ノードのステータスを表示できるようになりました。",
+		"aliasused": "エイリアス **{ALIAS}** はすでに使用されています！",
+		"invalidurl": "パネルの URL が無効です！リンクはパネルの開始ページ（サーバリスト）でなければならず、`https://`で始まり、`/`で終わる必要があります。",
+		"success": "エイリアス **{ALIAS}** を持つウェブインターフェイスが保存されました！サーバ上で </manage:872924492593254454> を使えるようになりました！",
+		"tutorial": "APIキーの取得方法："
+	},
+	"button": {
+		"cantkill": "**{SERVER}** の強制停止に失敗しました!",
+		"cantrestart": "**{SERVER}** の再起動に失敗しました!",
+		"cantstart": "**{SERVER}** を起動できませんでした!",
+		"cantstop": "**{SERVER}** の停止に失敗しました!",
+		"killed": "**{SERVER}** を強制停止しました!",
+		"restarted": "**{SERVER}**を再起動しました!",
+		"started": "**{SERVER}** を起動しました!",
+		"stopped": "**{SERVER}** を停止しました!"
+	},
+	"commanderror": "コマンド `{COMMAND}` の実行中にエラーが発生しました！\n開発者に報告し、エラーを修正するように努めますので、後でもう一度試してください。また、サポートサーバー<https://tomatenkuchen.com/discord>に参加することで、エラーを修正することができます。",
+	"confirm": {
+		"no": "いいえ",
+		"yes": "Ja"
+	},
+	"console": {
+		"success": "コマンドは**{ALIAS}**パネルで実行されました：`{COMMAND}`"
+	},
+	"customcommand": {
+		"apikeyinvalid": "カスタムコマンドのパネルまたはAPIキーが無効です！",
+		"args": "カスタムコマンドの引数",
+		"created": "カスタムコマンド**{NAME}**が作成されました！",
+		"deleted": "カスタムコマンド **{NAME}** が削除されました！",
+		"edited": "カスタムコマンド**{NAME}**が編集されました！",
+		"error": "パネル側のエラーによりコマンドが実行できません!",
+		"guildonly": "このコマンドはサーバーでのみ使用できます!",
+		"list": "カスタムコマンド一覧",
+		"missingarg": "引数 {ARG} を指定する必要があります！",
+		"missingperms": "このコマンドを実行する権限がありません!",
+		"missingrole": "必要なロールがないため、このコマンドを実行できません",
+		"nocommands": "カスタムコマンドがありません!",
+		"success": "コマンドが実行されました。：`{COMMAND}`"
+	},
+	"feedback": {
+		"received": "ご意見ありがとうございます :D"
+	},
+	"help": {
+		"ccvars": "使用可能なパラメータ",
+		"invite": "ボットを招待する",
+		"registered": "ユーザー登録",
+		"servers": "サーバー"
+	},
+	"list": {
+		"default": "標準",
+		"title": "パネルのエイリアス"
+	},
+	"manage": {
+		"backup": {
+			"created": "バックアップが作成されます!",
+			"failed": "バックアップが作成できませんでした!"
+		},
+		"loading": "パネル読み込み中…",
+		"needsupport": "ご質問があれば、私のサポート・サーバー https://discord.gg/ZqzFUC8qe9 までご連絡ください",
+		"nobackups": "バックアップはありません",
+		"noservers": "利用可能なサーバーはありません",
+		"panelerrorshort": "パネルとの接続でエラーが発生しました。",
+		"selectserver": "サーバーを選択してください",
+		"serverlist": "サーバー一覧",
+		"unknown": "不明なサーバーがあります！</manage:872924492593254454>を使ってサーバをリストアップしてください。"
+	},
+	"nodata": "最初に</setup:1097100610366623784>でパネルを登録する必要があります！",
+	"nodataadmin": "</setup:1097100610366623784>を使用してパネルを登録し、</adminsetup:1097160563353731182>を使用して管理パネルにリンクする必要があります！",
+	"panelerror": "パネルへの接続中にエラーが発生しました。パネルがオンラインかどうか、URLが正しいかどうか、APIキーが有効かどうかを確認してください。",
+	"settings": {
+		"alias": {
+			"delete": "エイリアス**{ALIAS}**は削除されました！"
+		},
+		"apikey": "**{ALIAS}** のAPIキーが変更されました!",
+		"default": "デフォルトのパネルは**{ALIAS}**に設定されています！",
+		"panelurl": "**{ALIAS}** のパネルURLを変更しました!"
+	},
+	"status": {
+		"disc": "ストレージスペース",
+		"memory": "RAM"
+	},
+	"statusupdate": {
+		"defaultcontent": "指定したチャンネル ({CHANNEL}) で送信されるメッセージをプレビューする。",
+		"editdiscohook": "メッセージを編集する",
+		"insertdata": "JSONまたはリンクを挿入する",
+		"loaddata": "編集したメッセージを読み込む",
+		"sendto": "送信先: {CHANNEL｝",
+		"success": "メッセージは正常に送信されました！",
+		"updatemsg": "メッセージを編集する"
+	},
+	"unknownalias": "エイリアス**{ALIAS}**は存在しません！",
+	"update": {
+		"editfail": ":warning: : 権限が不足しています！\nボットに \"チャンネルを表示\"、\"メッセージを送信\"、\"リンクを埋め込む\"、\"メッセージ履歴を表示 \"の権限があることを確認してください。",
+		"error": "情報が取得できません！しばらく待ってからもう一度お試しください！",
+		"freezed": "この埋め込みは無効です。もう一度コマンドを実行する必要があります!",
+		"kill": "強制停止",
+		"outdated": "現在のステータスは最新の情報ではありません",
+		"restart": "再起動",
+		"runaction": "アクションを実行する",
+		"start": "起動",
+		"starting": "起動",
+		"stop": "停止",
+		"stopping": "停止"
+	}
+}

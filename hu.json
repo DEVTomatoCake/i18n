@@ -1,0 +1,125 @@
+{
+	"action": {
+		"backupcreate": {
+			"description": "Biztonsági másolatot hoz létre ehhez a szerverhez",
+			"title": "Készítsen biztonsági másolatot"
+		},
+		"backuplist": {
+			"created": "készült ekkor",
+			"description": "Felsorolja az összes biztonsági másolatot erről a szerverről",
+			"error": "Nem sikerült betölteni a biztonsági másolatokat!",
+			"title": "Biztonsági másolatok listázása"
+		},
+		"restart": {
+			"description": "A szerver 20 másodperces értesítéssel újraindul",
+			"error": "A szerver nem indítható újra!",
+			"success": "A szerver 20 másodpercen belül újraindul!",
+			"title": "Indítsa újra a szervert"
+		}
+	},
+	"add": {
+		"adminsuccess": "A **{ALIAS}** alias alkalmazás api-kulcsa el lett mentve! Most már megjeleníthető a csomópont állapota.",
+		"aliasused": "A **{ALIAS}** alias már használatban van!",
+		"invalidurl": "Érvénytelen panel URL! A linknek a panel kezdőoldalának (szerverlistájának) kell lennie: `https://` előtaggal kezdődik és `/` karakterrel végződik.",
+		"success": "A **{ALIAS}** alias webes felület mentése megtörtént! Most már használhatja a </manage:872924492593254454> címet!",
+		"tutorial": "Az API kulcs beszerzése:"
+	},
+	"button": {
+		"cantkill": "Nem sikerült megölni **{SERVER}**!",
+		"cantrestart": "A **{SERVER}** nem indítható újra!",
+		"cantstart": "A **{SERVER}** nem indítható!",
+		"cantstop": "Nem lehetett megállítani **{SERVER}**!",
+		"killed": "**{SERVER}** meghalt!",
+		"restarted": "**{SERVER}** újraindult!",
+		"started": "**{SERVER}** elindult!",
+		"stopped": "**{SERVER}** leállt!"
+	},
+	"commanderror": "Hiba történt a `{COMMAND}` parancs végrehajtása közben!\nA fejlesztőt értesítettük, és megpróbálja kijavítani a hibát, ezért próbálja meg később újra. Csatlakozhatsz a <https://tomatenkuchen.com/discord> támogatási szerverhez is, hogy segíts a hibajavításban.",
+	"confirm": {
+		"no": "Nem",
+		"yes": "Igen"
+	},
+	"console": {
+		"success": "A parancs a **{ALIAS}** panelen futott: `{COMMAND}`"
+	},
+	"customcommand": {
+		"apikeyinvalid": "Az egyéni parancs létrehozójának panelje vagy api-kulcsa érvénytelen!",
+		"args": "Érvek az egyéni parancs mellett",
+		"created": "A **{NAME}** egyéni parancs létrejött!",
+		"deleted": "A **{NAME}** egyéni parancsot törölték!",
+		"edited": "A **{NAME}** egyéni parancsot szerkesztették!",
+		"error": "Hiba történt a panellel a parancs végrehajtása közben!",
+		"guildonly": "Ez a parancs csak szervereken használható!",
+		"list": "Egyedi parancsok listája",
+		"missingarg": "Hozzá kell adnia az {ARG} argumentumot!",
+		"missingperms": "Nincs elég dauerje ehhez!",
+		"missingrole": "Nem használhatja ezt a parancsot, mert hiányzik egy szükséges szerepkör",
+		"nocommands": "Nem található egyéni parancs!",
+		"success": "A következő parancs futott: `{COMMAND}`"
+	},
+	"feedback": {
+		"received": "Köszönjük visszajelzését! :D"
+	},
+	"help": {
+		"ccvars": "Lehetséges változók",
+		"invite": "Bot meghívó",
+		"registered": "Regisztrált felhasználók",
+		"servers": "Szerver"
+	},
+	"list": {
+		"default": "Alapértelmezett",
+		"title": "A panel álnevei"
+	},
+	"manage": {
+		"backup": {
+			"created": "Biztonsági mentés készül!",
+			"failed": "A biztonsági mentés nem hozható létre!"
+		},
+		"loading": "A panel betöltődik…",
+		"needsupport": "Ha kérdésed van ezzel kapcsolatban, nyugodtan tedd fel a támogatási szerveremen: https://discord.gg/ZqzFUC8qe9",
+		"nobackups": "Nincsenek biztonsági mentések",
+		"noservers": "Nincsenek szerverek",
+		"panelerrorshort": "Hiba történt a panelhez való csatlakozáskor.",
+		"selectserver": "Válassza ki a szervert",
+		"serverlist": "Szerverlista",
+		"unknown": "Ismeretlen szerver! A </manage:872924492593254454> segítségével listázza ki az összes szervert."
+	},
+	"nodata": "Először regisztrálnia kell egy panelt a </setup:1097100610366623784> segítségével!",
+	"nodataadmin": "Regisztrálnia kell egy panelt a </setup:1097100610366623784> segítségével, majd összekapcsolni egy admin panellel a </adminsetup:1097160563353731182> segítségével!",
+	"panelerror": "Hiba történt a panelhez való csatlakozáskor. Ellenőrizze, hogy a panel online állapotban van-e, az URL helyes-e, és az api kulcs érvényes-e.",
+	"settings": {
+		"alias": {
+			"delete": "A **{ALIAS}** alias törölve lett!"
+		},
+		"apikey": "A **{ALIAS}** API-kulcsa frissült!",
+		"default": "Az alapértelmezett panel a következőre volt állítva: **{ALIAS}**!",
+		"panelurl": "A **{ALIAS}** panel URL-je frissítve!"
+	},
+	"status": {
+		"disc": "Lemez",
+		"memory": "Memória"
+	},
+	"statusupdate": {
+		"defaultcontent": "A beállított csatornára ({CHANNEL}) küldött üzenet előnézete.",
+		"editdiscohook": "Üzenet szerkesztése oldalon",
+		"insertdata": "JSON vagy URL beillesztése",
+		"loaddata": "Szerkesztett üzenet betöltése",
+		"sendto": "Küldje el a következő címre: {CHANNEL}",
+		"success": "Az üzenet sikeresen elküldésre került!",
+		"updatemsg": "Üzenet szerkesztése"
+	},
+	"unknownalias": "A **{ALIAS}** alias nem létezik!",
+	"update": {
+		"editfail": ":warning: Az üzenet nem szerkeszthető!\nGyőződjön meg róla, hogy a bot rendelkezik a \"Csatorna megtekintése\", \"Üzenetek küldése\", \"Linkek beágyazása\" és \"Üzenethistória megtekintése\" jogosultságokkal.",
+		"error": "Nem sikerült beszerezni az adatokat! Kérlek, próbáld újra később!",
+		"freezed": "Ez a beágyazás inaktív, újra le kell futtatnia a parancsot!",
+		"kill": "Megöl",
+		"outdated": "Az állapot nem naprakész",
+		"restart": "Újrakezd",
+		"runaction": "Futtasson műveletet",
+		"start": "Rajt",
+		"starting": "Indulás",
+		"stop": "Álljon meg",
+		"stopping": "Megállás"
+	}
+}
