@@ -1,0 +1,1645 @@
+{
+	"add": {
+		"fail": "The user couldn't be added to this channel",
+		"success": "{USERORROLE} has been added to the ticket"
+	},
+	"addemoji": {
+		"error": "⚠️ Couldn't add {URL}!",
+		"missing": "You need to specify an emoji",
+		"noneadded": "No emojis were added",
+		"success": "The emoji {EMOJI} was added with the name `{NAME}`!",
+		"successnoname": "The emoji {EMOJI} was added!"
+	},
+	"afk": {
+		"afk": "{USER} is afk!",
+		"end": "You're no longer afk!\nYou were afk for **{TIME}**.",
+		"mentions": "Mentions",
+		"reason": "Reason",
+		"set": "Your afk state has been set",
+		"since": "Since"
+	},
+	"anagram": {
+		"wordfound": "The word **{WORD}** was found!"
+	},
+	"approve": {
+		"dm": "Your suggestion **#{ID}** on **{GUILD}** was approved by **{USER}**!"
+	},
+	"automod": {
+		"accountminage": "Your account isn't old enough, it must be at least **{AGE}** old!",
+		"capsmute": "{USER}, you were muted for using too many CAPS!",
+		"capswarn": "{USER}, you must not use that many CAPS!",
+		"changereason": "Change reason",
+		"emptylinesmute": "{USER}, you were muted for spamming too many empty lines!",
+		"emptylineswarn": "{USER}, you must not use that many empty lines!",
+		"flagreason": "Reason for flag",
+		"massemojismute": "{USER}, you were muted for sending too many emojis!",
+		"massemojiswarn": "{USER}, you must not send that many emojis!",
+		"massspoilermute": "{USER}, you were muted for using too many spoilers!",
+		"massspoilerwarn": "{USER}, you must not use that many spoilers!",
+		"masszalgomute": "{USER}, you were muted for using too much zalgo!",
+		"masszalgowarn": "{USER}, you must not use that much zalgo!",
+		"noinvites": "You may not send invites here",
+		"nolinks": "You may not send links here",
+		"onlyattachments": "You may only send attachments and image urls in this channel",
+		"repeatmute": "{USER}, you were muted for repeating messages!",
+		"repeatwarn": "{USER}, you must not repeat your messages too often!",
+		"spammute": "{USER}, you got muted for spam!",
+		"spamwarn": "{USER}, stop spamming!",
+		"userleft": "The user isn't on the server anymore!",
+		"viewmodlogs": "View modlogs",
+		"violaterule": "[Automod] Violation against rule \"{RULE}\""
+	},
+	"back": "Back",
+	"backup": {
+		"adminrolepos": "My bot role {ROLE} has to be the highest role on the server",
+		"automod": "AutoMod rules",
+		"cancelled": "The loading of the backup `{CODE}` on **{GUILDNAME}** was cancelled!",
+		"cancelloading": "Cancel loading",
+		"changesonly": "Changes only",
+		"channelmessages": "100 messages per text/voice channel",
+		"channelthreads": "Channels & threads",
+		"created": "The backup `{CODE}` of **{GUILDNAME}** was created, **{DISPLAYNAME}**! It's file size is `{SIZE}` (compressed by {PERCENT}%). The following settings were used: {SELECTED}.",
+		"creating": "Creating backup…",
+		"creatingemojis": "Creating emojis",
+		"creatingstickers": "Creating stickers",
+		"creatingthreads": "Creating threads",
+		"delete": "Delete backup",
+		"deleteconfirm": "Yes, delete backup",
+		"deleteconfirmtext": "⚠️ Are you sure you want to delete the backup `{CODE}` of **{GUILDNAME}**? This is irreversible! ⚠️",
+		"deleted": "The backup `{CODE}` of **{GUILDNAME}** was deleted!",
+		"deletingemojis": "Deleting emojis",
+		"deletingstickers": "Deleting stickers",
+		"emojis": "Emojis",
+		"events": "Scheduled events",
+		"filedownload": "Download imgs/files (big backup, safe)",
+		"fileurl": "Use URLs for imgs/files (small backup, unsafe)",
+		"infotitle": "Backup info about `{CODE}`",
+		"limit": "You already created **{LIMIT}** backups. Delete one to be able create a new one",
+		"limitnotsaved": "The backup wasn't saved because it is bigger than the current limit of **{LIMIT}**",
+		"load": "Load backup",
+		"loadconfirm": "Yes, load backup and replace all selected server parts",
+		"loadconfirmselect": "⚠️ Are you sure you want to load the backup `{CODE}` from **{GUILDNAME}**?\n\nIf you are, select the parts of the server which should get replaced (**!**).",
+		"loadconfirmtext": "⚠️ Are you sure you want to load the backup `{CODE}` of **{GUILDNAME}**? This action is irreversible! ⚠️\n\nThe following parts of the server will be deleted and recreated using the backup: {LIST}",
+		"loaded": "The backup `{CODE}` was loaded successfully on **{GUILDNAME}**!",
+		"loading": "Loading backup `{CODE}` of **{GUILDNAME}**…",
+		"loadingowneronly": "Only the server owner may load backups!",
+		"loadthreads": "Loading threads",
+		"messages": "Messages",
+		"nicknames": "Nicknames",
+		"nobackups": "No backups",
+		"restoringlong": "Restoring TomatenKuchen backup…",
+		"restoringshort": "Restoring TK backup…",
+		"running": "There is already a backup action being executed on this server",
+		"saveall": "All will be saved",
+		"select": "Select backup…",
+		"selectbackupparts": "Select which parts of the server should get backed up.",
+		"selectedsavemessages": "Channels with message attachment saving",
+		"settings": "Settings:",
+		"size": "Size:",
+		"start": "Start backup",
+		"state": {
+			"channelmessages": "Channels, messages",
+			"compressing": "Compressing",
+			"createcategories": "Creating categories",
+			"createremainingchannels": "Creating remaining channels",
+			"createroles": "Creating & assigning roles",
+			"creatingwebhooks": "Creating webhooks for {CHANNEL}",
+			"decompressing": "Decompressing",
+			"deletechannels": "Deleting channels",
+			"deleteroles": "Deleting roles",
+			"finishing": "Finishing",
+			"general": "Loading members, icon, banner",
+			"loadmessages": "loading messages",
+			"preparation": "Preparation, server settings etc.",
+			"roles": "Roles, role members"
+		},
+		"stickers": "Stickers",
+		"stoppedloading": "You decided against the loading of the backup `{CODE}`.",
+		"threadmessages": "100 messages per thread",
+		"tkupsell": "Did you know that TomatenKuchen can replace most multipurpose bots? :D",
+		"webhooks": "Webhooks"
+	},
+	"ban": {
+		"alreadybanned": "The user is already banned",
+		"cantban": "I cannot ban **{USER}**",
+		"fail": "The user couldn't be banned",
+		"forceban": "You can skip this check using the argument `forceban`.",
+		"forcemissingreason": "No ban reason has been given.",
+		"maynot": "You may not ban **{USER}** because they have the Ban Members permission",
+		"success": "**{MOD}** banned **{USER}** for **{DURATION}**: {REASON}",
+		"unbanned": "**{USER}** was unbanned after **{TIME}**"
+	},
+	"banlist": {
+		"none": "There are no banned or muted users!",
+		"title": "**{BANS}** users are banned and **{MUTES}** are muted:",
+		"unknown": "The user isn't banned or muted"
+	},
+	"birthday": {
+		"dayhigh": "A month doesn't have more than 31 days",
+		"daylow": "The day cannot be less than or equal to 0",
+		"deleted": "Your saved birthday has been deleted",
+		"deletedfictional": "The fictive birthday **{NAME}** was deleted",
+		"fictivetitle": "Fictive birthdays of the server",
+		"invalidyear": "You must enter a valid year",
+		"missingargs": "You must add a birthday",
+		"missingday": "You must add the number of a day",
+		"missingmonth": "You must add the number of a month",
+		"monthhigh": "One year has not more than 12 months",
+		"monthlow": "The month cannot be less then or equal to 0",
+		"nofictive": "There are no fictive birthdays on this server!",
+		"nonesaved": "You don't have a birthday saved",
+		"unknownfictional": "The fictive birthday **{NAME}** doesn't exist on this server",
+		"updated": "Your new birthday was saved",
+		"updatedfictional": "The fictive birthday **{NAME}** was updated"
+	},
+	"bot": {
+		"amount": "Amount",
+		"commands": "Commands",
+		"commandsused": "Used commands",
+		"mostused": "Most used commands",
+		"nocustom": "Not support for custom bots",
+		"servers": "Servers",
+		"size": {
+			"allcommands": "Commands overall:",
+			"allevents": "Events overall:",
+			"biggestcommands": "Biggest commands:",
+			"biggestevents": "Biggest events:",
+			"smallestcommands": "Smallest commands:",
+			"smallestevents": "Smallest events:",
+			"title": "Statistics about file sizes",
+			"transcripts": "Transcripts:"
+		},
+		"speed": "Speed",
+		"statcorderror": "The data from statcord couldn't be fetched, please try again later",
+		"unknownguild": "Unknown guild",
+		"userscached": "in cache:"
+	},
+	"calc": {
+		"invalid": "Invalid syntax",
+		"title": "|                         Calculator                        |"
+	},
+	"cantusebutton": "Only **{USER}** can use buttons on this message!",
+	"cantuseselect": "Only **{USER}** can use the select menu on this message!",
+	"channelinfo": {
+		"automatic": "Automatic",
+		"bitrate": "Bitrate",
+		"bots": "Amount of bots",
+		"created": "Channel created",
+		"members": "Users in the channel",
+		"notopic": "No topic set",
+		"region": "Region",
+		"title": "Info for **{CHANNEL}**",
+		"type": "Type",
+		"userlimit": "Userlimit"
+	},
+	"channels": "Channels",
+	"channeltypes": {
+		"announcement": "Announcement channel",
+		"announcementthread": "Announcement thread",
+		"category": "Category",
+		"forum": "Forum channel",
+		"media": "Media channel",
+		"privatethread": "Private thread",
+		"publicthread": "Public thread",
+		"stage": "Stage channel",
+		"text": "Text channel",
+		"voice": "Voice channel"
+	},
+	"chatgpt": {
+		"aioutput": "AI result (read only)",
+		"dailylimit": "The daily GPT generation limit for this server was reached",
+		"input": "The text the AI should respond to",
+		"modaltitle": "Chat with ChatGPT",
+		"ratelimit": "A ratelimit was hit. Please try again in a minute"
+	},
+	"checkperms": {
+		"hasall": "✅ All **{AMOUNT}** needed permissions were granted to the bot.",
+		"missing": "Only **{AMOUNT}** of the **{NEEDED}** needed permissions were granted to the bot, the following are missing:\n{MISSING}",
+		"missingchannel": "Only **{AMOUNT}** of the **{NEEDED}** needed permissions were granted to the bot for the current channel, the following are missing:\n{MISSING}",
+		"missingguild": "Only **{AMOUNT}** of the **{NEEDED}** needed permissions were granted to the bot for the server, the following are missing:\n{MISSING}"
+	},
+	"claim": {
+		"alreadyclaimed": "This ticket was already claimed by {USER}",
+		"cantparticipant": "You can't claim a ticket as participant",
+		"claimed": "The ticket was claimed by {USER}!",
+		"claimother": "{USER} transferred the ticket to {CLAIMER}!",
+		"disabled": "The claiming of tickets isn't enabled here",
+		"nobot": "You cannot transfer tickets to bots",
+		"unclaimyou": "The ticket isn't claimed by your anymore"
+	},
+	"clonecategory": {
+		"invalid": "The category doesn't exist or the channel isn't a category",
+		"missing": "You must enter a category",
+		"success": "The category with the channels is being duplicated"
+	},
+	"commanderror": "An error occurred while executing the command `{COMMAND}`!\nThe developer was informed and will try to fix the error, so try again later. You can also join the support server <https://tomatenkuchen.com/discord> to help with bug fixing.",
+	"convert": {
+		"missing": "You must add a value and a unit",
+		"unknowntargetunit": "Unknown target unit **{UNIT}**",
+		"unknownunit": "Unknown unit **{UNIT}**"
+	},
+	"cooldown": "You still have a cooldown!",
+	"counting": {
+		"lbcurrent": "current run:",
+		"lbtitle": "Counting leaderboard",
+		"next": "The next number is **{NUMBER}**!",
+		"nochannel": "There is no counting channel set",
+		"twice": "You must not count twice in a row!"
+	},
+	"customcommand": {
+		"deleted": "The command **{NAME}** was deleted",
+		"edited": "The command **{NAME}** was edited",
+		"list": "List of customcommands",
+		"missingarg": "You must add the argument {ARG}!",
+		"missingrole": "You can't use this command as you're missing a role which is required"
+	},
+	"customrole": {
+		"created": "Your customrole {ROLE} was created",
+		"deleted": "Your customrole was deleted",
+		"editcolor": "The color of your customrole {ROLE} was edited",
+		"editicon": "The role icon of your customrole {ROLE} was edited",
+		"editname": "Your customrole {ROLE} was renamed",
+		"missingparent": "There wasn't any valid role selected under which the custom roles should be created",
+		"missingrole": "You cannot create customroles as you're missing a role required for that",
+		"roleiconboostlevel": "The server must be boosted to boost level 2 or higher to be able to use role icons",
+		"title": "Your customrole",
+		"usermissing": "You don't have a custom role on the server which you could edit"
+	},
+	"dcstatus": {
+		"current": "Current status:",
+		"lastincident": "Last incident",
+		"lastupdate": "Last update:"
+	},
+	"dehoist": {
+		"finished": "**{SUCCESS}** users have been renamed, **{FAILED}** couldn't be renamed",
+		"found": "**{AMOUNT}** users were found with a hoist-name, renaming…",
+		"none": "Couldn't find users to dehoist"
+	},
+	"delete": {
+		"deleter": "Deleted by:"
+	},
+	"deny": {
+		"dm": "Your suggestion **#{ID}** on **{GUILD}** was denied by **{USER}**!"
+	},
+	"deutschebahn": {
+		"arrivalboard": "Arrival board",
+		"changedarrival": "Amount of changed arrival times",
+		"changeddepature": "Amount of changed departure times",
+		"changedplatforms": "Amount of changed platforms",
+		"changedroutes": "Amount of changed routes",
+		"changetypes": "Change types",
+		"departureboard": "Departure board",
+		"eventcancelled": "Event cancelled",
+		"eventnewstop": "Event added as new stop",
+		"eventplanned": "Event planned",
+		"messagepriorities": "Message priorities",
+		"missing": "You must add the EVA number of a train station",
+		"removedstations": "Amount of removed stations",
+		"title": "Deutsche Bahn statistics",
+		"traindelay": "Train delay",
+		"trainearly": "Train too early",
+		"unknown": "No station has been found with this EVA number"
+	},
+	"diff": {
+		"missing": "You must add a second text separated by ` | `",
+		"title": "{PERCENT} similar"
+	},
+	"dig": {
+		"found": "You've found **{ITEM}** with the value of **{VALUE}**",
+		"missingshovel": "You need a shovel to use this command",
+		"nothingfound": "You've sadly found nothing"
+	},
+	"dns": {
+		"error": "An error occurred while trying to reach the domain",
+		"minttl": "Minimum TTL:",
+		"missing": "You must add a domain",
+		"nodata": "No data was found!",
+		"noturl": "You must enter a domain instead of an URL",
+		"priority": "Priority",
+		"records": "{TYPE} records",
+		"select": "Select DNS type"
+	},
+	"duden": {
+		"error": "An error occurred while checking the grammar",
+		"grammarcheck": "Grammar check",
+		"missing": "You must add a subcommand and a word/sentence",
+		"missingsentence": "You must add a type and a word/sentence",
+		"missingword": "You must add a word",
+		"noerrors": "No errors found",
+		"noerrorsdesc": "The text is mistake free!",
+		"nosuggestions": "*no suggestions*",
+		"results": "results",
+		"searchresults": "Search results:",
+		"spelling": "Spelling mistakes",
+		"style": "Styling mistakes",
+		"unknown": "No word has been found",
+		"wordselect": "Select word…"
+	},
+	"economy": {
+		"cooldown": "You still have a cooldown for this command: **{COOLDOWN}**",
+		"deposit": "You have deposited **{AMOUNT}**",
+		"invalidamount": "You must add a valid amount",
+		"inventory": "Inventory",
+		"job": "Job",
+		"leaderboard": "Global economy leaderboard",
+		"missingamount": "You must add money",
+		"missinguservalue": "You must add a user and a value",
+		"nobank": "You can't withdraw from the bank because you don't have money there",
+		"nobot": "You cannot send money to a bot",
+		"nocash": "You cannot deposit money because you don't have any cash",
+		"nojob": "None",
+		"notenough": "You don't have enough cash",
+		"wallet": "Cash",
+		"withdraw": "You have withdrawn **{AMOUNT}**",
+		"zinsen": "Interest per day"
+	},
+	"embed": {
+		"addfield": "Add field",
+		"addfieldinline": "Field inline? Yes/No",
+		"addfieldtitle": "The field title",
+		"addfieldvalue": "The field value",
+		"description": "Modify the content of the embed using the buttons below!",
+		"editauthor": "Edit author",
+		"editauthoricon": "Modify the icon",
+		"editauthorurl": "Modify the author URL",
+		"editbigimage": "Modify the {N}big image",
+		"editcolor": "Modify the embed color as HEX code",
+		"editdescription": "Modify the description",
+		"editfooter": "Edit footer",
+		"editimage": "Modify images",
+		"editimages": "Modify embed images",
+		"editsmallimage": "Modify the small image",
+		"edittitle": "Modify title/description",
+		"edittitletext": "Modify the title",
+		"edittitleurl": "Modify the URL of the title",
+		"invalidinput": "Your input couldn't be parsed to valid embed code. Please check your input and try again or remove this field to continue editing.",
+		"invalidinputtitle": "Invalid embed code",
+		"send": "Send embed",
+		"title": "Embed creator"
+	},
+	"emoji": {
+		"animated": "Animated",
+		"likes": "Likes:",
+		"lockupdated": "The roles which can use the emoji {EMOJI} were updated",
+		"notanimated": "Not animated",
+		"of": "Emojis of **{GUILD}**",
+		"publisher": "Published by:",
+		"search": {
+			"notfound": "No emojis were found"
+		},
+		"source": "Source:",
+		"title": "Showing **{CURRENT}** of **{TOTAL}** emojis",
+		"unknownsticker": "Unknown sticker",
+		"usedby": "Used by:"
+	},
+	"eval": {
+		"error": "Error",
+		"result": "Result",
+		"time": "Time"
+	},
+	"feedback": {
+		"text": "Your feedback or suggestion",
+		"title": "Give Feedback"
+	},
+	"flag": {
+		"missing": "You must add the abbreviation of a country",
+		"unknown": "This country abbreviation doesn't exist"
+	},
+	"form": {
+		"addfield": "Add form field",
+		"anonymous": "Anonymous submissions",
+		"cooldownedit": "Edit cooldown between submitting responses",
+		"created": "The form **{SLUG}** (`{ID}`) was created",
+		"createthread": "Create thread on submission message",
+		"deleted": "The form **{SLUG}** (`{ID}`) was deleted",
+		"editfield": "Edit form field",
+		"editfieldspecific": "Edit field specific options",
+		"editform": "Editing form **{SLUG}** (`{ID}`)",
+		"editresultchannel": "Select result channel (type to search)",
+		"edittitle": "Edit title or slug",
+		"edittype": "Edit type",
+		"fieldnameexists": "There's a field with the name `{NAME}`already. Please use something else!",
+		"fieldoptions": "Options separated by \";\"",
+		"missingtitle": "You must add an URL slug and a title",
+		"none": "There are no forms on this server",
+		"oneperuser": "One answer per user",
+		"onlymembers": "Only server members",
+		"preview": "View",
+		"regexpattern": "RegEx pattern for validating the content",
+		"setupdesc": "The form was prepared, you can now set it up using the buttons below.",
+		"setuptitle": "Setting up form **{SLUG}** (`{ID}`)",
+		"slugedit": "Edit slug",
+		"slugexists": "There's a form with the slug **{SLUG}** already. Please use something else!",
+		"title": "Forms",
+		"type": {
+			"choice": "Single or multiple choice",
+			"color": "Color",
+			"number": "Number",
+			"textmulti": "Text field (multiple lines)",
+			"textsingle": "Text field (single line)"
+		},
+		"unknown": "There's no form with the ID or slug `{INPUT}`"
+	},
+	"game": {
+		"alreadyin": "You've already joined the game!",
+		"c4message": "Connect Four game of **{USER1}** and **{USER2}**:\nCurrent turn: {TURN}.",
+		"full": "The game is full!",
+		"hangmanfail": "Hangman failed!",
+		"joingame": "Join game",
+		"notingame": "You're not participating!",
+		"notyou": "You may not play against yourself",
+		"notyourturn": "It's not your turn!",
+		"singlelose": "Lost",
+		"singlewin": "Won",
+		"startgame": "Start game",
+		"tie": "Tie/Draw",
+		"win": "{USER} won the game!"
+	},
+	"github": {
+		"following": "Following",
+		"missing": "You must add a GitHub username",
+		"public_gists": "Public gists",
+		"public_repos": "Public repos",
+		"title": "**{USER}** on GitHub",
+		"unknown": "The user **{USER}** doesn't exist",
+		"username": "Username"
+	},
+	"giveaway": {
+		"addrequirements": "Do you want to set additional requirements for participants? If not, reply with `finish` to create the giveaway. If yes, reply with `yes`.",
+		"alreadyended": "That giveaway already ended",
+		"alreadyparticipating": "You already participate in this giveaway!",
+		"created": "The giveaway has been created!",
+		"creator": "Creator:",
+		"deleted": "The giveaway was deleted",
+		"dmmsg": "🎉 You've won a giveaway on **{GUILDNAME}**! 🎉\nVisit the server to claim your prize: {PRIZE}",
+		"edit": "Edit",
+		"edited": "The giveaway was edited!",
+		"editprize": "Edit prize",
+		"editprizebutton": "Edit prize/time",
+		"edittime": "Relative duration of the giveaway",
+		"edittitle": "Edit giveaway",
+		"ended": "The giveaway was ended",
+		"endedmsg": "🎉 The giveaway has ended! 🎉",
+		"endednowinner": "There are no winners.",
+		"ends": "Ends {TIME}",
+		"endtext": "🎉 **GIVEAWAY ENDED** 🎉",
+		"endtime": "Ended:",
+		"endwait": "It can take up to one minute.",
+		"errorlbpoints": "You need **{POINTS}** points on the leaderboard to be able to participate in this giveaway! You currently only have **{CURRENT}**.",
+		"errorminage": "Your account must be on Discord since **{MINAGE}** to allow you to participate in the giveaway!",
+		"errorminmemberage": "You must be on the server since **{TIME}** to be able to participate in this giveaway!",
+		"errornoleaderboard": "You've never sent a message on this server but you need **{AMOUNT}** leaderboard points to be able to participate in the giveaway!",
+		"howlong": "How long should the giveaway last? Example: `2h 30m` or `5d`",
+		"informdm": "Inform winner via DM",
+		"invalidchannel": "You must add a valid channel",
+		"join": "Join",
+		"joined": "Entered users: {AMOUNT}",
+		"limit": "A server without premium may not have more than **{LIMIT}** active giveaways at once",
+		"link": "View online",
+		"missingeditperms": "You don't have permission to edit giveaways!",
+		"missinguserperms": "❌ You must have permissions for the channel yourself",
+		"pricetoolong": "❌ The prize must not be longer than 256 characters!",
+		"prize": "Prize:",
+		"req": {
+			"anyroles": "As you are missing a required role you cannot participate in the giveaway.",
+			"notroles": "One of your roles disallow you the joining of the giveaway.",
+			"roles": "You need at least one required role to be able to participate in the giveaway."
+		},
+		"requirements": {
+			"anyroles": "Has any of those roles:",
+			"minage": "Minimum account age:",
+			"minleaderboardpoints": "Minimum leaderboard points:",
+			"minmemberage": "Minimum time on the server:",
+			"notroles": "Has not role:",
+			"roles": "Has all of those roles:"
+		},
+		"requirementstext": "**Set giveaway requirements**:\n\nYou have to input the parameter the following way:\n> `<Condition>:<Value>;<another Condition>:<Value 1>,<Value 2>;…`\n\nPossible requirements:\n> `roles`: User must have all of these roles\n> `anyRoles`: User must have any of these roles\n> `notRoles`: User must not have role\n> `minAge`: User account must be X old\n> `minMemberAge`: User must be at least since X on the server\n> `minLeaderboardPoints`: User must have X points on the leaderboard\n\nExamples:\n> `roles:Member,Verified`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
+		"reroll": "Reroll",
+		"rerolled": "The giveaway was rerolled and the winners are: {USERS}",
+		"rerollednowinner": "No winner(s) could be found",
+		"savebutton": "Save",
+		"stillrunning": "You can only reroll ended giveaways",
+		"unknown": "The giveaway `{GIVEAWAY}` doesn't exist",
+		"whatprizemulti": "What should the winners receive?",
+		"whatprizesingle": "What should the winner receive?",
+		"whichchannel": "In which channel should the giveaway be started?",
+		"winner": "Winners:",
+		"winners": "Amount of winners:",
+		"youjoined": "You successfully joined the giveaway with **{ENTRIES}** entries!"
+	},
+	"gpt": {
+		"balanced": "Balanced (Default)",
+		"creative": "A bit creative",
+		"dailylimit": "Daily limit reached",
+		"howcreative": "How creative should ChatGPT answer?",
+		"verycreative": "Very creative"
+	},
+	"guildonly": "This command can only be ran on servers!",
+	"hack": {
+		"footer": "Definitely real™️",
+		"hacking": "Hacking… {PERCENT}%",
+		"loading": "Hacking **{USER}**…",
+		"nobot": "You may not hack bots",
+		"password": "Password"
+	},
+	"help": {
+		"admin": {
+			"description": "Shows commands for server administration",
+			"title": "Admin"
+		},
+		"aliases": "Aliases",
+		"all": {
+			"description": "Shows all bot commands",
+			"title": "All commands"
+		},
+		"category": "Category",
+		"description": "__Command usage:__\n**<>** - Required\n**[]** - Optional\n\nSelect a category to see it's commands.",
+		"fun": {
+			"description": "Shows fun commands",
+			"title": "Fun"
+		},
+		"general": {
+			"description": "Shows general commands",
+			"title": "General"
+		},
+		"help": "Help",
+		"moderation": {
+			"description": "Shows moderation commands",
+			"title": "Moderation"
+		},
+		"selectcategory": "Select category",
+		"suggest": {
+			"description": "Shows suggestion commands",
+			"title": "Suggestions"
+		},
+		"ticket": {
+			"description": "Shows ticket commands",
+			"title": "Ticket"
+		},
+		"unknown": "Unknown command/category!",
+		"usage": "Usage"
+	},
+	"http": {
+		"list": "List of all supported codes:"
+	},
+	"hug": {
+		"cantemoji": "The emoji cannot be uploaded as emoji!",
+		"doneemoji": "The image was additionally uploaded as an emoji: {EMOJI}"
+	},
+	"image": {
+		"invalidwidget": "Invalid widget",
+		"missingmultiple": "You must add more images",
+		"toobig": "The image is too big!"
+	},
+	"imageloadfail": "The image couldn't be loaded",
+	"importmissingreply": "You must reply to the message you want to import!",
+	"integration": {
+		"actions": "Actions",
+		"arguments": "Arguments",
+		"exampleresult": "Example result:",
+		"exampleusing": "Using:",
+		"function": "Function:",
+		"lastupdated": "Last updated:",
+		"missingfunction": "You must enter the name of a function",
+		"missingname": "You must add the name of an integration",
+		"noresults": "No matching integrations have been found",
+		"onlyusable": "Only usable for",
+		"publictitle": "Public integrations",
+		"tests": "Tests",
+		"unknown": "This integration doesn't exist or it isn't public",
+		"unknownfunction": "There's no function with the name `{FUNCTION}`",
+		"use": "Use",
+		"verified": "Verified:"
+	},
+	"invalidsubcommand": "You must enter a valid subcommand",
+	"invaliduser": "You must enter a valid user",
+	"invite": "Bot invite",
+	"inviteinfo": {
+		"boosts": "Boosts:",
+		"inviter": "Inviter",
+		"maxuses": "Maximum amount of uses:",
+		"missing": "You must add an invite",
+		"online": "Online:",
+		"serverid": "Server ID:",
+		"title": "Invite information",
+		"unknown": "Unknown invite",
+		"uses": "Uses"
+	},
+	"isitdown": {
+		"available": "Website is available",
+		"missingurl": "You need to specify a website URL",
+		"notavailable": "Website is not available"
+	},
+	"join": {
+		"inviter": "Invited by {USER}",
+		"vanity": "Joined with vanity URL"
+	},
+	"kick": {
+		"cantkick": "I cannot kick **{USER}**",
+		"fail": "I cannot kick this user",
+		"maynot": "You may not kick **{USER}** because they have the Kick Members permission"
+	},
+	"leaderboard": {
+		"importcancel": "The importing of the leaderboard was aborted",
+		"imported": "The loading of **{SUCCESS}** entries was finished, **{DISPLAYNAME}**!\n**{FAILED}** entries were ignored as the users aren't on the server.",
+		"importing": "The leaderboard is being imported now, you can find the old level data of the server attached",
+		"level": "Level",
+		"points": "Points",
+		"unavailable": "This leaderboard doesn't exist or another error occured"
+	},
+	"level": {
+		"disabled": "Levels are disabled here",
+		"notfound": "**{USER}** has never sent a message here",
+		"progress": "Progress:"
+	},
+	"lock": {
+		"locked": "**{SUCCESS}** channels were locked, **{FAILED}** couldn't be locked",
+		"unlocked": "**{SUCCESS}** channels were unlocked, **{FAILED}** couldn't be unlocked"
+	},
+	"logs": {
+		"accountcreated": "Account created",
+		"afkchannel": "AFK channel edited",
+		"author": "Author",
+		"autoarchiveduration": "Auto archive duration of `{CHANNEL}` updated",
+		"automodactions": "Actions of the AutoMod rule **{RULE}** edited",
+		"automodcreate": "AutoMod rule **{RULE}** created",
+		"automoddelete": "AutoMod rule **{RULE}** deleted",
+		"automodexemptchannels": "Excepted channels of AutoMod rule **{RULE}** edited",
+		"automodexemptroles": "Excepted roles of AutoMod rule **{RULE}** edited",
+		"automodrename": "AutoMod rule renamed",
+		"automodruledisable": "AutoMod rule **{RULE}** disabled",
+		"automodruleenable": "AutoMod rule **{RULE}** enabled",
+		"automodtrigger": "Triggers of the AutoMod rule **{RULE}** edited",
+		"avatarupdate": "Avatar updated",
+		"banadd": "User banned",
+		"banremove": "User unbanned",
+		"bitrate": "Bitrate of `{CHANNEL}` updated",
+		"boostadd": "Serverboost added",
+		"boostremove": "Serverboost removed",
+		"botadd": "Bot added",
+		"botkick": "Bot removed",
+		"bulkdelete": "**{MESSAGES}** messages in `{CHANNEL}` cleared",
+		"camerastarted": "Camera enabled",
+		"camerastopped": "Camera disabled",
+		"categorycreate": "Category created",
+		"categorydelete": "Category deleted",
+		"channelcategory": "`{CHANNEL}` moved to other category",
+		"channelflags": "Channel flags of `{CHANNEL}` updated",
+		"channelicon": "Channel icon of `{CHANNEL}` edited",
+		"channeliconcolor": "Channel icon color of `{CHANNEL}` edited",
+		"channelname": "Channel name updated",
+		"channelnsfw": "NSFW state of `{CHANNEL}` updated",
+		"channelperms": "Channel permissons of `{CHANNEL}` updated",
+		"channelpin": "Message pinned",
+		"channeltype": "Channel type of `{CHANNEL}` edited",
+		"channelunpin": "Message unpinned",
+		"defaultlayout": "Default forum layout of `{CHANNEL}` updated",
+		"defaultreactionemoji": "Default reaction emoji of `{CHANNEL}` updated",
+		"defaultsorting": "Default sorting of `{CHANNEL}` updated",
+		"discriminatorupdate": "Discriminator edited",
+		"emojicreate": "Emoji created",
+		"emojidelete": "Emoji deleted",
+		"emojiedit": "Emoji edited",
+		"emojiroles": "Emoji roles updated",
+		"eventchannel": "Event channel of **{EVENT}** updated",
+		"eventcreate": "Event **{EVENT}** created",
+		"eventdelete": "Event **{EVENT}** deleted",
+		"eventdescription": "Event description of **{EVENT}** updated",
+		"eventend": "Event end time of **{EVENT}** updated",
+		"eventlocation": "Event location of **{EVENT}** edited",
+		"eventname": "Event name updated",
+		"eventstart": "Event start time of **{EVENT}** updated",
+		"eventstate": "Event state of **{EVENT}** updated",
+		"globalnameupdate": "Global name updated",
+		"guildboostprogessoff": "Boost progressbar disabled",
+		"guildboostprogesson": "Boost progressbar enabled",
+		"guilddescription": "Server description updated",
+		"guildname": "Servername updated",
+		"guildpartneroff": "Partner server removed",
+		"guildpartneron": "Partner server granted",
+		"guildverificationlevel": "Server verification requirements updated",
+		"guildverifiedoff": "Server verification removed",
+		"guildverifiedon": "Server verification granted",
+		"integrationadd": "Integration added",
+		"integrationremove": "Integration removed",
+		"invitecreate": "Invite created",
+		"invitedelete": "Invite deleted",
+		"jump": "Jump",
+		"memberadd": "User joined",
+		"memberavatar": "Serveravatar updated",
+		"memberremove": "User left",
+		"memberspruned": "**{AMOUNT}** inactive members pruned",
+		"membersprunedtime": "Inactive since **{DAYS}** day(s)",
+		"messageid": "Message ID",
+		"msgdelete": "Message in `{CHANNEL}` deleted",
+		"msgdeletetime": "Message in `{CHANNEL}` deleted after **{TIME}**",
+		"msgedit": "Message in `{CHANNEL}` edited",
+		"msgedittime": "Message in `{CHANNEL}` edited after **{TIME}**",
+		"nicknameupdate": "Nickname edited",
+		"publicupdateschannel": "Public updates channel updated",
+		"reactionadd": "Reaction added",
+		"reactionaddrr": "Received reaction role role",
+		"reactionremove": "Reaction removed",
+		"reactionremoveall": "Reactions removed",
+		"reactionremoverr": "Removed reaction role role",
+		"rolecolor": "Role color updated",
+		"rolecreate": "Role created",
+		"roledelete": "Role deleted",
+		"roleemoji": "Role emoji updated",
+		"rolehoist": "Role hoist updated",
+		"rolementionable": "Role mentionability updated",
+		"rolename": "Role name updated",
+		"rolepermission": "Role permissions updated",
+		"rulesaccept": "Member screening accepted",
+		"ruleschannel": "Rules channel updated",
+		"rulesunaccept": "Member screening no longer accepted",
+		"serverbanner": "Serverbanner updated",
+		"serverboostdec": "Boost level decreased",
+		"serverboostinc": "Boost level increased",
+		"servercontentfilter": "Server content filter updated",
+		"serverdefaultnotifs": "Server default message notifications updated",
+		"serverdiscoverysplash": "Discovery splash image updated",
+		"servericon": "Servericon updated",
+		"serverjoined": "Server joined",
+		"servernsfwlevel": "Server NSFW level updated",
+		"serverownerchanged": "Server owner changed",
+		"serversplash": "Splash image updated",
+		"slowmode": "Slowmode of `{CHANNEL}` updated",
+		"stageinstancecreate": "Stage instance created",
+		"stageinstancedelete": "Stage instance deleted",
+		"stickercreate": "Sticker **{STICKER}** created",
+		"stickerdelete": "Sticker **{STICKER}** deleted",
+		"stickerdescription": "Sticker description of **{STICKER}** updated",
+		"stickername": "Sticker name updated",
+		"stickertags": "Sticker tags of **{STICKER}** updated",
+		"streamstarted": "Stream started",
+		"streamstopped": "Stream stopped",
+		"systemchannel": "System channel edited",
+		"systemchannelmessages": "System channel messages edited",
+		"threadarchive": "Thread **{THREAD}** closed",
+		"threadinactiveduration": "Thread inactivity duration of **{THREAD}** updated",
+		"threadlock": "Thread **{THREAD}** locked",
+		"threadname": "Thread renamed in `{PARENT}`",
+		"threadslowmode": "Post slowmode of `{CHANNEL}` updated",
+		"threadunarchive": "Thread **{THREAD}** reopened",
+		"threadunlock": "Thread **{THREAD}** unlocked",
+		"timeoutend": "Timeout removed",
+		"timeoutstart": "User timeouted",
+		"topic": "Channel topic of `{CHANNEL}` updated",
+		"userjoinraid": "[Raid] User joined",
+		"userkick": "User kicked",
+		"userlimit": "Userlimit of `{CHANNEL}` updated",
+		"usernameupdate": "Username updated",
+		"userroleadd": "Role added",
+		"userroleremove": "Role removed",
+		"vanityurl": "Vanity URL updated",
+		"videoquality": "Video quality of `{CHANNEL}` updated",
+		"voicechannelregion": "Voice channel region of `{CHANNEL}` edited",
+		"voicejoin": "Voice channel joined",
+		"voiceleave": "Voice channel left",
+		"voiceswitch": "Voice channel switched",
+		"webhookcreate": "Webhook created",
+		"webhookdelete": "Webhook deleted",
+		"widgetchannel": "Widget channel edited",
+		"widgetoff": "Widget disabled",
+		"widgeton": "Widget enabled"
+	},
+	"lyrics": {
+		"missing": "You must add a song name",
+		"title": "**{NAME}** by **{AUTHOR}**",
+		"unknown": "No song has been found"
+	},
+	"mass": {
+		"ban": {
+			"finish": "**{SUCCESS}** users have been banned, **{FAILED}** couldn't be banned",
+			"start": "Banning users…"
+		},
+		"cancel": "Cancel",
+		"cancelled": "Mass action was cancelled!",
+		"kick": {
+			"finish": "**{SUCCESS}** users have been kicked, **{FAILED}** couldn't be kicked",
+			"start": "Kicking users…"
+		},
+		"missing": "You must specify a reason and at least one user"
+	},
+	"maze": {
+		"columns": "Columns",
+		"crossings": "Amount of crossings",
+		"editmaze": "Edit maze",
+		"rows": "Rows"
+	},
+	"mcbug": {
+		"attachments": "Attachments",
+		"creatededited": "Created/edited",
+		"fixedinversion": "Fixed in version",
+		"fixversion": "None",
+		"invalidid": "Invalid bug ID",
+		"issuecreate": "Report created:",
+		"linked": "Linked",
+		"missing": "You must add a minecraft bugreport id",
+		"more": "…and **{AMOUNT}** more",
+		"sinceversion": "Since version",
+		"solution": "Solution",
+		"state": {
+			"done": "**Done**: The report was handled.",
+			"duplicate": "**Duplicate**: Content was already reported in another report.",
+			"fixed": "**Fixed**: The bug was fixed.",
+			"open": "**Open**: The report can be handled by a developer.",
+			"reopened": "**Reopened**: The report was reopened."
+		},
+		"unknown": "This minecraft bugreport doesn't exist",
+		"uploadby": "Uploaded by {USER}"
+	},
+	"mclint": {
+		"missingcommand": "You must enter a command"
+	},
+	"mcrecipe": {
+		"loading": "Loading…",
+		"missing": "You must add a German minecraft item name",
+		"title": "Recipe of **{ITEM}**",
+		"unknown": "The item **{ITEM}** couldn't be found"
+	},
+	"mcrelease": {
+		"paper": "First paper build for **{VERSION}**",
+		"pre": "New Minecraft Pre Release",
+		"rc": "New Minecraft Release Candidate",
+		"release": "New Minecraft Full Release",
+		"snapshot": "New Minecraft snapshot"
+	},
+	"mcserver": {
+		"offline": "The server ip is invalid or the server is offline!",
+		"playersonline": "Players online",
+		"title": "Status of **{IP}**"
+	},
+	"mcupdate": {
+		"created": "Setup completed. The status will be updated every few minutes from now",
+		"invalidchannel": "❌ Invalid channel!",
+		"invalidip": "❌ Invalid IP/domain!",
+		"invalidport": "❌ Invalid port!",
+		"ip": "Which IP does the server have? You can also use a (sub)domain.",
+		"messagechannel": "In which channel should the status be shown?",
+		"messagewaiting": "Waiting for setup and first query…",
+		"namechannel": "In which channel name should the status be displayed?",
+		"offlineformat": "If the server is offline, which message should be displayed? Default is `{IP}:{Port} | **Server not reachable**`, following arguments are possible: `{IP} {PORT}`",
+		"port": "Which port does the server have? If you entered a (sub)domain for step 1, use `25565`. Use `-query=<Port>` to enter a query port to be able to display player names.",
+		"selecttype": "How should the status be displayed? beschreibung (topic), name, nachricht (message)",
+		"statusformat": "How should the status be display? The following arguments are possible: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
+		"topicchannel": "In which channel topic should the status be displayed?"
+	},
+	"meme": {
+		"nothingfound": "No meme has been found",
+		"nsfw": "The meme was marked as nsfw"
+	},
+	"mention": "Mention",
+	"message": {
+		"edited": "The message has been edited!",
+		"editfailed": "The message cannot be edited",
+		"embedhidden": "The embeds of the message were hidden",
+		"embedjson": "The content of the embeds is:",
+		"embedunhidden": "The embeds of the message were made visible again",
+		"invalidembed": "The JSON is invalid, use the editor on https://embed.tomatenkuchen.com to create embeds",
+		"missingmessage": "You must add a message",
+		"missingmessageemoji": "You must add a message and an emoji",
+		"missingtitledesc": "You must add a title an optionally a description separated by `|`",
+		"msgid": "The message id is `{ID}`",
+		"noembed": "This message doesn't have an embed",
+		"noreference": "You must reply to a message",
+		"noslash": "You cannot use this command with slash commands",
+		"reacted": "The bot reacted with the given emoji!",
+		"reactfail": "Reacting failed! Make sure the bot has access to the emoji"
+	},
+	"minecraft": {
+		"missing": "You must add a player name",
+		"unknown": "Unknown player"
+	},
+	"minesweeper": {
+		"bombsleft": "**{BOMBS}** bombs/flags left",
+		"stats": "Game ran for: **{TIME}**\nButtons pressed: **{BUTTONS}**"
+	},
+	"missingperms": {
+		"bot": "I don't have enough permissions for this command",
+		"user": "You don't have enough permissions"
+	},
+	"missingtext": "You must enter a text",
+	"modal": {
+		"created": "The modal `{MODAL}` was created",
+		"creating": "Creating modal **{MODAL}**",
+		"deleted": "The modal `{MODAL}` was deleted",
+		"description": "Title: {TITLE}\nFields: **{FIELDS}**",
+		"editing": "Edit modal **{MODAL}**",
+		"exists": "The modal `{MODAL}` already exists",
+		"fieldadd": "Create modal field",
+		"fielddefault": "Predefined value of the field",
+		"fielddefaulttitle": "Default value",
+		"fielddelete": "Delete field",
+		"fielddeleted": "You've deleted the field `{FIELD}`!",
+		"fieldedit": "Edit modal field",
+		"fieldediting": "You're editing the field `{FIELD}`:",
+		"fieldmaxlength": "The maximum length of the field.",
+		"fieldmaxlengthtitle": "Maximum length",
+		"fieldminlength": "The minimum length of the field.",
+		"fieldminlengthtitle": "Minimum length",
+		"fieldplaceholder": "Shown when the field is empty.",
+		"fieldplaceholdertitle": "Placeholder",
+		"fieldrequired": "Field required",
+		"fieldstyle": "Style: {STYLE}",
+		"idmaxlength": "The ID may not be longer than 32 characters",
+		"missing": "You must add an ID and a title",
+		"none": "There are no modals",
+		"prepared": "The modal was prepared, you can now set it up using the buttons below.",
+		"preview": "Preview",
+		"titleedit": "Edit modal title",
+		"titlemaxlength": "The title may not be longer than 45 characters",
+		"unknown": "The modal `{ID}` doesn't exist"
+	},
+	"modlogs": {
+		"date": "Date",
+		"moderator": "Moderator",
+		"none": "The user has no modlogs",
+		"title": "Showing **{CURRENT}** of **{TOTAL}** modlogs",
+		"titleshort": "Showing **{TOTAL}** modlogs",
+		"usertitle": "Modlogs of {USER}"
+	},
+	"movie": {
+		"birthday": "Birthday",
+		"birthplace": "Birthplace",
+		"deathday": "Deathday",
+		"duration": "Duration",
+		"episodes": "Episodes",
+		"knownfor": "known for",
+		"knownfordepartment": "Known for department",
+		"languages": "Language[s]",
+		"missingmovieid": "You must specify a movie ID",
+		"missingpersonid": "You must specify a person ID",
+		"missingquery": "You must specify a search term",
+		"missingseriesid": "You must specify a series ID",
+		"noresults": "No result was found for this search term",
+		"nsfw": "This film or series is only for adults",
+		"nsfwperson": "The content of this person was marked as nsfw",
+		"producer": "Producer",
+		"rating": "Rating",
+		"searchtitle": "**{AMOUNT}** search results for **{QUERY}**",
+		"unknownmovie": "No movie was found for this search term",
+		"unknownperson": "No person was found for this search term",
+		"unknownseries": "No series was found for this search term"
+	},
+	"ms": {
+		"and": "and",
+		"days": "day[s]",
+		"hours": "hour[s]",
+		"milliseconds": "millisecond[s]",
+		"minutes": "minute[s]",
+		"months": "month[s]",
+		"seconds": "second[s]",
+		"weeks": "week[s]",
+		"years": "year[s]"
+	},
+	"mute": {
+		"alreadymuted": "The user is already muted",
+		"autounmute": "Automatic unmute",
+		"autounmutetext": "{USER} was unmuted after **{TIME}**",
+		"cantmute": "You may not mute **{USER}**",
+		"changeduration": "Change mute duration",
+		"done": "{USER} was muted by {MOD} for **{DURATION}**",
+		"expanded": "Mute expanded",
+		"fail": "The user couldn't be muted"
+	},
+	"nitroverify": {
+		"alreadydone": "You already have the nitro verify role",
+		"disabled": "There is no nitro verification enabled on this server",
+		"notanimated": "As the emoji isn't animated your nitro couldn't be verified",
+		"notfound": "The nitro verify role doesn't exist",
+		"otheruser": "As another user reacted on the message the nitro verification was cancelled",
+		"tutorial": "To verify your Nitro, react within the next **30 seconds** with an animated emoji to this message",
+		"verified": "Your nitro was verified successfully"
+	},
+	"none": "None",
+	"noreason": "No reason",
+	"npm": {
+		"author": "Author",
+		"downloadsmonth": "Downloads of the last 30 days",
+		"edited": "Edited",
+		"keywords": "Keywords",
+		"maintainer": "Maintained by",
+		"missing": "You must add a npm package name",
+		"repository": "Repository:",
+		"sizeinstallation": "Size after installing",
+		"sizepublish": "Publish size",
+		"unknown": "The package **{PACKAGE}** doesn't exist",
+		"version": "Version:"
+	},
+	"periodensystem": {
+		"boilingpoint": "Boiling point:",
+		"defaultstate": "Default state:",
+		"density": "Density:",
+		"discovered": "Discovered in year",
+		"electronegativity": "Electronegativity:",
+		"group": "Element group",
+		"ionizationenergy": "Ionization energy",
+		"mass": "Mass",
+		"meltingpoint": "Melting point:",
+		"missing": "You must add an element",
+		"notknown": "Unknown",
+		"symbol": "Symbol",
+		"unknown": "Unknown element"
+	},
+	"permission": {
+		"adduser": "Add user",
+		"bitrate": {
+			"invalid": "You must enter a valid bitrate between **8.000** and **{LIMIT}**",
+			"missing": "You must enter a number as bitrate in kbps",
+			"set": "The bitrate for your private voice channel was set to **{BITRATE}**"
+		},
+		"closed": "Your private voice channel was closed",
+		"infotitle": "Information about **{NAME}**",
+		"missingvoice": "You have to be in a voice channel",
+		"modadd": "{USER} was added to the private channel as moderator",
+		"modremove": "{USER} was removed from the private channel as moderator",
+		"notprivatevoice": "You're not in your own private voice channel",
+		"opened": "Your private voice channel was opened",
+		"owner": "Owner of the channel",
+		"private": "Private",
+		"reset": "The permissions of your private voice channel have been reset",
+		"state": "State",
+		"useradd": "You gave {USER} permissions to join your private voice channel",
+		"userlimit": {
+			"missing": "You must add a limit",
+			"remove": "The user limit was removed",
+			"set": "The user limit was set to **{LIMIT}**"
+		},
+		"userremove": "{USER} can't join your private voice channel anymore"
+	},
+	"permissions": {
+		"bitfield": "Permissions for Bitfield {BITFIELD}",
+		"user": "Permissions of {USER}"
+	},
+	"ping": {
+		"title": "Pinging…"
+	},
+	"pinstats": {
+		"currentchannel": "This channel",
+		"server": "Whole server",
+		"title": "Pinned messages stats"
+	},
+	"poll": {
+		"ended": "Poll ended",
+		"ends": "Poll ends",
+		"hasended": "This poll has ended already!",
+		"missingoptions": "You must add options separated by ` | `",
+		"noresult": "No one voted!",
+		"roleblacklisted": "You are not allowed to participate in polls because of one or more of your roles!",
+		"vote": "Vote",
+		"voteadded": "You successfully voted for **{OPTION}**!",
+		"votelimit": "You can only vote for **{MAXVOTES}** options!\nYou voted for:\n{VOTED}",
+		"voteplural": "Votes",
+		"voteremoved": "Your vote for **{OPTION}** was removed!",
+		"votesingular": "Vote"
+	},
+	"prefix": "My prefix is **/** or",
+	"purge": {
+		"fail": "The messages cannot be deleted",
+		"invalidamount": "You must add a number between **1** and **99**",
+		"multi": "**{DELETED}** messages have been deleted:{MESSAGES}",
+		"nonedeleted": "No messages have been deleted",
+		"single": "**One** message was deleted:{MESSAGES}"
+	},
+	"qrcreate": {
+		"missing": "You must add content for the QR code"
+	},
+	"qrread": {
+		"content": "Content of the QR code:",
+		"error": "An error occurred while reading the QR code",
+		"missing": "You must enter a link to a QR code"
+	},
+	"quoted": "Quoted by {USER}",
+	"random": {
+		"average": "The average of the **{AMOUNT}** numbers is **{AVERAGE}**",
+		"averagemissing": "You must add more numbers so the average can be calculated",
+		"chosen": "I choose **{CHOSEN}**!",
+		"dicemultiple": "Generated **{AMOUNT}** numbers between **1** and **{MAX}**: **{NUMBERS}**",
+		"dicesingle": "Generated number between **1** and **{MAX}**: **{NUMBER}**",
+		"missingchoices": "You must add more possible choices separated by `,`",
+		"optionlist": "List of options:"
+	},
+	"reactionrole": {
+		"roleadded": "The role {ROLE} was added to you!",
+		"roleaddedmultiple": "The roles {ROLES} were added to you!",
+		"roleremoved": "The role {ROLE} was removed from you!",
+		"roleremovedmultiple": "The roles {ROLES} were removed from you!",
+		"selecttext": "Select roles",
+		"unknownemoji": "Unknown emoji!",
+		"unknownmessage": "Unknown message!",
+		"unknownmsg": "There are no reactionroles for this message (anymore)!"
+	},
+	"reddit": {
+		"unknownsubreddit": "Subreddit not existent?"
+	},
+	"remind": {
+		"alreadycopied": "You already copied this reminder!",
+		"cleared": "Your reminders have been deleted",
+		"copied": "You've copied the reminder from {USER}!",
+		"copy": "Remind me too",
+		"copyown": "You cannot copy your own reminders!",
+		"created": "The reminder will remind you {TIME} for:\n{TEXT}",
+		"deletebutton": "Delete",
+		"deleted": "The reminder was deleted!",
+		"edit": "Edit reminder",
+		"editdelete": "Edit/delete reminder",
+		"edited": "The reminder was edited!",
+		"edittext": "Modify the text",
+		"edittime": "Modify the time",
+		"endsin": "Ends at",
+		"finished": "Here is your reminder, {USERS}",
+		"later": "Remind me later",
+		"latercustom": "Custom…",
+		"limit": "You may not have more than **{LIMIT}** reminders at the same time",
+		"manage": "Manage reminders",
+		"missingreminder": "This reminder no longer exists!",
+		"missingtime": "You must enter a valid time",
+		"noreminders": "You don't have any more reminders!",
+		"ranout": "This reminder already ran out!",
+		"snoozenotyou": "You cannot use this select menu!",
+		"snoozeselecttime": "Select time",
+		"snoozetime": "Enter the time for the reminder",
+		"title": "Your reminders",
+		"your": "Your reminder"
+	},
+	"remove": {
+		"fail": "The user couldn't be removed from this channel",
+		"success": "{USERORROLE} has been removed from the ticket"
+	},
+	"reply": {
+		"dm": "**{USER}** replied to your suggestion **#{ID}** on **{GUILD}**!"
+	},
+	"role": {
+		"botcount": "**{COUNT}** bots with the role",
+		"buyable": "Buyable",
+		"clearedperms": "All permissions of the role (without overwrites) were removed",
+		"clearedpermsshort": "Permissions revoked",
+		"duplicate": {
+			"duped": "The role {NEWROLE} was created as copy of {OLDROLE}",
+			"missingperms": "The bot cannot create the role due to missing permissions",
+			"permshelp": "Probably the role has rights that the bot does not have. Give the bot the rights it needs or temporarily administrator."
+		},
+		"footer": "{COUNT} roles found • 🔒 = Managed",
+		"list": "List of all roles:",
+		"listperm": "List of all roles with the permission **{PERMISSION}**:",
+		"managed": "This role cannot be given or removed manually",
+		"managedby": "Managed by",
+		"massadd": {
+			"finish": "**{MEMBERCOUNT}** users were added to **{ROLE}**, but the role couldn't be added to **{FAILED}** users",
+			"start": "I'll add the role **{ROLE}** to **{MEMBERCOUNT}** members"
+		},
+		"massremove": {
+			"finish": "The role **{ROLE}** was added to **{MEMBERCOUNT}** users, but it couldn't be removed from **{FAILED}** users",
+			"start": "I'll remove the role **{ROLE}** from **{MEMBERCOUNT}** members"
+		},
+		"mentionable": "Mentionable",
+		"missing": "You must enter an action and a role",
+		"missingpermission": "You must enter a permission",
+		"nousers": "No users with the role {ROLE} have been found!",
+		"randomtitle": "**{AMOUNT}** randomly selected users with the role **{ROLE}**",
+		"roleorder": "I cannot add/remove this role as it's above my highest role",
+		"tempadd": "{USER} has received the role {ROLE} from {MODERATOR}.",
+		"tempremove": "{USER} has had the role {ROLE} revoked by {MODERATOR}.",
+		"temprequested": "Role given",
+		"toomany": "Too many to display all",
+		"unknown": "Unknown role",
+		"usercount": "**{COUNT}** users with the role"
+	},
+	"say": {
+		"error": "The message couldn't be sent"
+	},
+	"scheresteinpapier": {
+		"title": "Rock Paper Scissors"
+	},
+	"screenshot": {
+		"title": "Website screenshot"
+	},
+	"server": {
+		"badges": "Badges",
+		"badgeshave": "have",
+		"categories": "Categories",
+		"contentfilter": {
+			"all": "All messages",
+			"disabled": "Disabled",
+			"withoutroles": "Messages from users without roles"
+		},
+		"created": "Created",
+		"description": "Description",
+		"emojianimated": "Animated emojis",
+		"emojinotanimated": "Normal emojis",
+		"features": "Features:",
+		"members": "Members",
+		"messagefilter": "Message filter:",
+		"newestmember": "Newest member",
+		"newestuser": "Newest account",
+		"notifications": {
+			"onlymentions": "Only mentions",
+			"text": "Notifications"
+		},
+		"oldestuser": "Oldest account",
+		"owner": "Owner",
+		"raid": "The last raid caused **{AMOUNT}** users to be kicked.",
+		"text": "Text channels",
+		"toomanyroles": "*Too many roles*",
+		"verificationlevel": {
+			"high": "High",
+			"highest": "Highest",
+			"low": "Low",
+			"middle": "Middle"
+		},
+		"verilvl": "Verification level",
+		"voice": "Voice channels"
+	},
+	"shop": {
+		"footer": "Use /shop buy <Name> to buy an item",
+		"notenough": "You don't have enough tomatoes",
+		"shovel": {
+			"fail": "You already have a shovel",
+			"success": "You've bought a shovel"
+		},
+		"unknown": "This item doesn't exist"
+	},
+	"shorter": {
+		"averageuniqueusers": "Average unique visitors per day",
+		"blacklisted": "The URL is blacklisted",
+		"cantresolve": "⚠️ Cannot resolve {URL}: {ERROR}",
+		"cfthreats": "By Cloudflare detected threats",
+		"created": "The short URL **{URL]** was created",
+		"exists": "There is already a short URL with this name",
+		"invalidurl": "You must enter a valid URL",
+		"mostusedbrowsers": "Most-used browsers",
+		"redirects": "URL redirects",
+		"statstitle": "shorter.cf stats of the last month",
+		"views": "Views",
+		"weekstats": "**{WEEK}.** week: {REQUESTS} requests ({CACHED}% of them cached, {ENCRYPTED}% encrypted), {PAGEVIEWS} page views"
+	},
+	"slowmode": {
+		"current": "Current slowmode:",
+		"error": "An error occurred while setting the slowmode",
+		"missing": "You must enter a valid value for the slowmode",
+		"updated": "The slowmode has been set to **{TIME}** seconds"
+	},
+	"snake": {
+		"down": "Down",
+		"left": "Left",
+		"right": "Right",
+		"up": "Up"
+	},
+	"snowflake": {
+		"counter": "Increment",
+		"invalid": "You must add a valid snowflake",
+		"missing": "You must add a snowflake, e.g. a user ID",
+		"process": "Process ID"
+	},
+	"ssp": {
+		"paper": "Paper",
+		"playagain": "Play again",
+		"scissors": "Scissors",
+		"stone": "Stone"
+	},
+	"starboard": {
+		"description": "Embed description",
+		"fields": "Embed fields",
+		"title": "Embed title"
+	},
+	"stats": {
+		"chatters": "Active chatters",
+		"disabled": "Stats aren't enabled on this server",
+		"messagesperday": "Messages per day",
+		"modlogs": {
+			"title": "Moderation statistics",
+			"titlerange": "Moderation statistics within **{TIME}**",
+			"total": "Total modlogs"
+		},
+		"processing": "The stats aren't available for this server yet",
+		"title": "Stats for **{GUILD}**"
+	},
+	"steam": {
+		"contentwarning": "Content warning:",
+		"developers": "Developer(s)",
+		"free": "Free",
+		"gameselect": "Select game",
+		"missing": "You must add a name of an entry in the Steam store",
+		"platforms": "Platforms",
+		"price": "Price",
+		"priceunknown": "Yet unknown",
+		"publishedat": "Published"
+	},
+	"suggest": {
+		"alreadyhandled": "This suggestion was already handled by server staff and as such it's content cannot be edited anymore",
+		"approved": "The suggestion **#{ID}** has been approved!",
+		"approvedby": "Approved by {USER}",
+		"approvedon": "Approved on",
+		"autocomplete": {
+			"nonefound": "No suggestions found",
+			"suggest": "Use /suggest to suggest something"
+		},
+		"awaitingreview": "The suggestion can now be checked and will be available in {CHANNEL} once it is allowed",
+		"denied": "The suggestion **#{ID}** has been denied!",
+		"deniedby": "Denied by {USER}",
+		"deniedon": "Denied on",
+		"edit": "The suggestion **#{ID}** has been edited!",
+		"lastedit": "Last edited",
+		"missingperms": "The bot has not enough perms (Send messages/Add reactions) in {CHANNEL}",
+		"missingreply": "You must add a suggestion and a reply",
+		"missingreviewchannel": "The channel for review of suggestions is missing",
+		"missingsuggestion": "You must add a suggestion",
+		"nochannel": "There is no suggestion channel set!",
+		"notown": "That's not your suggestion",
+		"replied": "The reply on the suggestion **#{ID}** was saved!",
+		"replyfrom": "Reply from {USER}",
+		"reviewapprove": "Allow suggestion",
+		"reviewdeny": "Reject suggestion",
+		"sent": "The suggestion was sent!",
+		"title": "Suggestion",
+		"unknownmessage": "This suggestion doesn't exist"
+	},
+	"supportserver": "Support server",
+	"sync": {
+		"ban": {
+			"otherlimit": "The other server already syncs it's bans with two other servers",
+			"started": "The bans/unbans will now get synced from the other server to this one",
+			"thislimit": "This server already syncs it's bans with two other servers"
+		},
+		"invalidcode": "This verification code is invalid",
+		"log": {
+			"othersyncing": "The other server syncs it's logs with another server already",
+			"started": "The logs are now synced from the other server to this one",
+			"thissyncing": "This server already syncs it's logs with a server"
+		},
+		"notsyncing": "This server doesn't sync anything to other servers",
+		"stopped": "The syncing of logs and bans/unbans to other servers was stopped",
+		"unknownguild": "This server doesn't exist",
+		"verify": "The code which you have to insert into {SLASHCMD} on the other server within one minute is `{CODE}`"
+	},
+	"tagebis": {
+		"missing": "You must specify a month and a day",
+		"year": "**{YEAR}** is **{PERCENT}%** over!"
+	},
+	"template": {
+		"adminrole": "My bot role {ROLE} needs administrator perms",
+		"buttoncancel": "No, cancel loading",
+		"buttonload": "Yes, load template",
+		"cancel": "The template loading has been cancelled",
+		"finished": "The template **{NAME}** by **{CREATOR}** with the code **{CODE}** was loaded successfully!",
+		"started": "The template will be loaded now. You can cancel it by using `/template cancel` (`cancel` as template id) - but this wont restore already deleted channels/roles!\nEstimated time: ",
+		"unknown": "This template doesn't exist",
+		"warning": "This will load the template **{NAME}** by **{CREATOR}**, it was used **{USES}** times before. Are you sure that you want to continue?\n⚠️ **This action will (depending on arguments) delete all roles and channels and replace them with the new ones.** ⚠️"
+	},
+	"test": {
+		"feed": {
+			"content": "Content as JSON:",
+			"entriesdeleted": "The saved entries by the bot are more than the ones found in the feed (entries were deleted). The feed must be indexed again",
+			"invalidcontent": "I cannot parse the feed content (it likely isn't a feed)",
+			"newentries": "The feed was loaded successfully and contains **{AMOUNT}** new entries",
+			"nonew": "The feed was loaded successfully but doesn't contain new content",
+			"notarray": "The parsed feed content must be an array (a list)",
+			"notindexed": "The feed is unknown to the bot as of now which is why the bot has to index it first",
+			"redirected": "⚠️ The URL `{INPUT}` was redirected to `{TARGET}`, please use this URL for feeds!"
+		}
+	},
+	"testvote": "Vote is a test vote!",
+	"text": {
+		"failed": "The webhook couldn't be created"
+	},
+	"threads": {
+		"all": "All threads",
+		"description": "Messages | Members"
+	},
+	"ticket": {
+		"alreadyclosed": "This ticket is already closed",
+		"alreadyopen": "You can only have **{LIMIT}** tickets open at a time",
+		"closebutton": "Close ticket",
+		"closed": "Ticket has been closed",
+		"closedby": "Closed by",
+		"closedm": "Your ticket on **{GUILD}** was closed by **{CLOSER}**.",
+		"created": "✅ The ticket has been created in {CHANNEL}",
+		"createdbutton": "Your ticket has been created!",
+		"createdcategory": "Ticket category created",
+		"deletebutton": "Delete ticket",
+		"deleting": "Ticket {CHANNEL} was deleted",
+		"empty": "*Not entered*",
+		"excludedrole": "You cannot open a ticket because you have the role {ROLES}!",
+		"missingcategorymodal": "The ticket category or this modal doesn't exist anymore!",
+		"missingticketcategory": "There's no category called \"Ticket\" on this server and there was no ticket category set, which is why the ticket cannot be created",
+		"notclosed": "This channel isn't a closed ticket",
+		"notfound": "Either this channel is not a ticket or the author of the ticket is unknown",
+		"noticket": "This channel isn't a ticket",
+		"notifyauthor": "Notify author",
+		"notifydone": "The author was notified",
+		"notifyerror": "Couldn't notify the author",
+		"notranscript": "No automatic transcript was created, as there weren't enough messages sent in this ticket. If you do need a transcript, use {TRANSCRIPT}.",
+		"previoustickets": "Previous tickets",
+		"reopenbutton": "Reopen ticket",
+		"reopened": "The ticket has been reopened!",
+		"requireRole": "You need the role {ROLE} to be able to create a ticket in this category!",
+		"ticketclosing": "Ticket will be deleted in **5** seconds",
+		"transcript": "View transcript",
+		"transcriptdiscordpromo": "You want to archive all messages, including attachments, from non-tickets as well? Join our support server <https://tomatenkuchen.com/discord> and ask for it!"
+	},
+	"ticketembed": {
+		"addbutton": "Add ticket category",
+		"button": "Create Ticket",
+		"buttonstyle": "The style of the button",
+		"buttontext": "The label of the button",
+		"buttonurl": "URL (only for type LINK)",
+		"categoryname": "Ticket category name from the dashboard",
+		"customavatar": "The avatar URL of the webhook",
+		"customize": "Customize",
+		"customizetitle": "Customize the ticket embed",
+		"customizeupdated": "The appearance of the ticketembed was updated!",
+		"customname": "The name of the webhook",
+		"description": "To create a ticket click on \"Create Ticket\"",
+		"editmessage": "Edit message",
+		"editweb": "Edit embed/buttons",
+		"emoji": "An emoji ID for the button",
+		"invalidcategory": "The ticket category **{CATEGORY}** doesn't exist!",
+		"pastebutton": "Copy/paste JSON code",
+		"pastejson": "Paste the JSON code of the message.",
+		"sendin": "Send to {CHANNEL}",
+		"sent": "The ticketembed was sent!"
+	},
+	"tickets": {
+		"average": "Average:",
+		"averageclose": "Average ticket duration till close",
+		"averagedelete": "Average ticket duration till deletion",
+		"buttonchannel": "Send here",
+		"buttondm": "Send in DMs",
+		"claimedcount": "Amount of claimed tickets",
+		"claimfirst": "Time until a ticket has been claimed once",
+		"closedcount": "Closed tickets",
+		"deletedcount": "Deleted tickets",
+		"displaywarning": "This will show all tickets{? of the user?} from this server and everyone with the link can access the transcript.",
+		"opencount": "Open tickets",
+		"ownerscount": "Amount of unique ticket owners",
+		"senddm": "The ticket logs were sent to you via dms if the bot could dm you!",
+		"stats": "Ticket statistics",
+		"title": "Showing **{CURRENT}** of **{TOTAL}** tickets",
+		"titleshort": "Showing **{TOTAL}** tickets",
+		"unknowncategory": "The ticket category **{CATEGORY}** doesn't exist",
+		"usertitle": "Tickets of {USER}"
+	},
+	"timer": {
+		"deleted": "The timer doesn't exist!",
+		"empty": "No one joined the timer D:",
+		"ended": "The timer ended {TIME}!",
+		"footer": "Use the button to get notified once the timer ends",
+		"success": "You'll now be notified once the timer runs out!",
+		"timesup": "Time's up!",
+		"title": "Timer ends on {TIME}"
+	},
+	"timezone": {
+		"converted": "Converted time:",
+		"given": "Given time:",
+		"timezone": "Timezone:"
+	},
+	"todo": {
+		"add": "The entry was added",
+		"none": "Your todo list is empty! Use {SLASHTODOADD} <Entry> to add new entries",
+		"remove": "The entry was removed",
+		"title": "Your todo list"
+	},
+	"transcript": {
+		"done": "**{MESSAGES}** messages were saved:",
+		"edited": "(edited)",
+		"useslash": "{USER} used {SLASHCOMMAND}"
+	},
+	"transform": {
+		"missing": "You must add a type and a text",
+		"time": {
+			"longdate": "Long date",
+			"longtime": "Long time",
+			"longtimedate": "Long time and date",
+			"relative": "Relative time",
+			"shortdate": "Short date",
+			"shorttime": "Short time",
+			"shorttimedate": "Short time and date",
+			"title": "Discord time formatting"
+		}
+	},
+	"translate": {
+		"doyoumean": "Do you mean",
+		"error": "The text cannot be translated",
+		"errorcorrected": "Mistake corrected",
+		"missing": "You must add the target language and the text",
+		"translated": "The text ```\n{TEXT}```\nwas translated from the language **{LANGUAGE}**:\n```{TRANSLATION}```"
+	},
+	"twitch": {
+		"currentstream": "Current livestream",
+		"game": "Game:",
+		"partner": "Twitch Partner",
+		"title": "Title:",
+		"unknown": "This Twitch channel doesn't exist",
+		"viewers": "Viewers:"
+	},
+	"tz": "en-US",
+	"unban": {
+		"fail": "The user couldn't be unbanned",
+		"success": "The user has been unbanned"
+	},
+	"unmute": {
+		"done": "{USER} was unmuted by {MOD}",
+		"fail": "The user couldn't be unmuted",
+		"notmuted": "The user isn't muted"
+	},
+	"uno": {
+		"autoskip": "⏩ Your turn was skipped as you would have to draw the cards anyway.",
+		"calledfail": "You can't currently use Uno, which is why you received a penalty card!",
+		"calledsuccess": "You called Uno!",
+		"dontuse": "Don't use",
+		"joined": "You joined the game!",
+		"missingplayers": "Not enough players joined for an Uno game D:",
+		"notowner": "You're not the creator of this game!",
+		"selectcolor": "Select a color:",
+		"start": "{USER} invites to a game of Uno! Click on the button below this message to join! The game starts {TIMESTAMP} with **{PLAYERS}** players.",
+		"usedrawn": "Do you want to use the drawn card?",
+		"win": "You've won the game!"
+	},
+	"user": {
+		"admin": "Administrator",
+		"badge": {
+			"developer": "<:owner:712736235873108148> Developer",
+			"oldeconomy": "<a:pepemoney:960027591115407370> Old economy system",
+			"staff": "<:staff:713984949639708712> Staff",
+			"translator": "🏴‍☠️ Translator"
+		},
+		"boostingsince": "Boosting server since",
+		"globaldisplayname": "Global display name:",
+		"invites": "Invites:",
+		"joined": "Joined",
+		"nickname": "Nickname:",
+		"noperms": "No additional permissions",
+		"owner": "Server owner",
+		"pending": "Pending",
+		"permissions": "Permissions",
+		"privacy": "Privacy policy",
+		"profilecolor": "Profile color",
+		"public": "Public",
+		"requirecodegrant": "Code grant required",
+		"roles": "Roles",
+		"serveravatar": "Server avatar",
+		"supportserver": "Support server ID:",
+		"timeouted": "Timeouted",
+		"timeoutedvalue": "✅, ends {TIMESTAMP}",
+		"tos": "Terms of Service",
+		"user": "User",
+		"voice": "Voice channel"
+	},
+	"usersettings": {
+		"editlevelbg": "Edit level background",
+		"imageurl": "Image URL",
+		"levelbg": "Level background image",
+		"saveticketatt": "Store avatar and attachments in tickets",
+		"title": "User settings"
+	},
+	"verification": {
+		"defaulttitle": "Use the button below to verify yourself!",
+		"disabled": "The verification isn't enabled on this server!",
+		"invalid": "Your result **{RESULT}** is invalid, try again!",
+		"missingpermissions": "I need the permissions \"View channel\", \"Send messages\" and \"Embed links\" in the channel",
+		"modallabel": "Write the characters of the captcha image",
+		"modaltitle": "Prove that you're a human",
+		"sent": "The verification message was sent successfully in {CHANNEL}!",
+		"success": "You've verified yourself successfully!"
+	},
+	"voice": {
+		"deafedall": "Deafened all users in your voice channel except you",
+		"mutedall": "Muted all users in your voice channel except you"
+	},
+	"vote": {
+		"nextvote": "Next vote in **{TIME}**"
+	},
+	"warn": {
+		"cantwarn": "You may not warn **{USER}**",
+		"missingreason": "You must specify a reason",
+		"warned": "{USER} has been warned"
+	},
+	"wordsearch": {
+		"invalidposition": "Invalid position!",
+		"mark": "Mark word",
+		"noword": "No word was found on the given position!",
+		"position": "Start and end position of the word"
+	},
+	"work": {
+		"captcha": {
+			"start": "**{USER}**, solve the following captcha:"
+		},
+		"lose": {
+			"time": "You were too slow!"
+		},
+		"win": "Well done! Took **{TIME}** seconds and you earned **{AMOUNT}** tomatoes!"
+	},
+	"ytsearch": {
+		"country": "Country:",
+		"found": "Found **{AMOUNT}** channels",
+		"hidden": "Hidden",
+		"missing": "You must add a youtube channel name",
+		"onlychildren": "Channel only for children:",
+		"selectchannel": "Select channel",
+		"subscribers": "Subscribers:",
+		"topics": "Topics:",
+		"unknown": "No channels have been found"
+	}
+}

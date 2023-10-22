@@ -1,0 +1,1147 @@
+{
+	"add": {
+		"fail": "ユーザーをチャンネルに追加することができませんでした",
+		"success": "チケットに{USERORROLE}が追加されました"
+	},
+	"addemoji": {
+		"error": "⚠️ {URL} を追加できませんでした！",
+		"missing": "絵文字を指定する必要があります",
+		"noneadded": "絵文字は追加されていません",
+		"success": "絵文字{EMOJI}が名前`{NAME}`と一緒に追加されました！",
+		"successnoname": "絵文字{EMOJI}が追加されました！"
+	},
+	"afk": {
+		"afk": "{USER}はafkです！",
+		"end": "あなたはもうafkではありません！\nあなたは **{TIME}** 欠席していました。",
+		"mentions": "メンション",
+		"reason": "理由",
+		"set": "あなたのAFK状態が設定されました",
+		"since": "以来"
+	},
+	"anagram": {
+		"wordfound": "単語**{WORD}**が見つかりました！"
+	},
+	"approve": {
+		"dm": "GUILD}**に関するあなたの提案**#{ID}**が**{USER}**に受理されました！"
+	},
+	"automod": {
+		"accountminage": "あなたのアカウントは十分に古くありません。少なくとも**{AGE}**の年齢である必要があります！",
+		"capsmute": "{USER}さん、CAPS多すぎでミュートされますよ！",
+		"capswarn": "{USER}さん、あまりCAPSを多用しない方がいいですよ！",
+		"changereason": "変更理由",
+		"emptylinesmute": "{USER}さん、空行が多すぎてミュートされています！",
+		"emptylineswarn": "{USER}では、空行を多く使ってはいけません！",
+		"flagreason": "",
+		"massemojismute": "{USER}さん、絵文字の送りすぎでミュートされました！",
+		"massemojiswarn": "{USER}さん、あまり絵文字を送らない方がいいですよ！",
+		"massspoilermute": "{USER}さん、ネタバレが多いのでミュートされています！",
+		"massspoilerwarn": "{USER}さん、ネタバレを多用してはいけませんよ！",
+		"masszalgomute": "{USER}さん、ザルゴのキャラクターが多すぎてミュートされていますよ！",
+		"masszalgowarn": "{USER}さん、メッセージにザルゴ文字を多用するのはやめてください！",
+		"noinvites": "ここでは、招待状を送ることはできません",
+		"nolinks": "ここではリンクの送信を禁止しています",
+		"onlyattachments": "このチャンネルでは、添付ファイルや画像URLの送信のみ可能です",
+		"repeatmute": "{USER}の場合、メッセージを繰り返すとミュートされます！",
+		"repeatwarn": "{USER}さん、そんなに頻繁にメッセージを繰り返してはいけませんよ！",
+		"spammute": "{USER}さん、スパムのためミュートされています！",
+		"spamwarn": "{USER}さん、スパムをやめてください！",
+		"userleft": "ユーザーがサーバーからいなくなった！",
+		"viewmodlogs": "ログを表示する",
+		"violaterule": "[Automod] ルール「{RULE}」違反"
+	},
+	"back": "バック",
+	"backup": {
+		"adminrolepos": "私のボットロール{ROLE}は、サーバー上で最も高いロールでなければなりません",
+		"automod": "AutoModのルール",
+		"cancelled": "**{GUILDNAME}**上のバックアップ`{CODE}`のロードが中止されました！",
+		"cancelloading": "読み込みを中止する",
+		"changesonly": "変更のみ",
+		"channelmessages": "テキスト/ボイスチャンネル1つにつき100メッセージ",
+		"channelthreads": "チャンネル＆スレッド",
+		"created": "**{GUILDNAME}**のバックアップ`{CODE}`が作成されました、**{DISPLAYNAME}**です！`{SIZE}`の大きさです（{PERCENT} %で圧縮されています）。以下のような設定になっています： {SELECTED}。",
+		"creating": "バックアップが作成される…",
+		"creatingemojis": "絵文字の作成",
+		"creatingstickers": "ステッカー作成",
+		"creatingthreads": "スレッドを作成する",
+		"delete": "バックアップを削除する",
+		"deleteconfirm": "はい、バックアップを削除します",
+		"deleteconfirmtext": "⚠️ **{GUILDNAME}** のバックアップ `{CODE}` を本当に削除してもよろしいですか？これは元に戻せません！⚠️",
+		"deleted": "**{GUILDNAME}**のバックアップ`{CODE}`は削除されました！",
+		"deletingemojis": "絵文字を削除する",
+		"deletingstickers": "ステッカー削除",
+		"emojis": "絵文字",
+		"events": "イベント情報",
+		"filedownload": "画像・添付ファイルのダウンロード（大容量バックアップ、セキュア）",
+		"fileurl": "画像/添付ファイルのURL（バックアップが少ない、安全でない）",
+		"infotitle": "`{CODE}`で情報をバックアップする",
+		"limit": "すでに**{LIMIT}**個のバックアップが作成されています。新しいバックアップを作成できるようにするには、1つ削除してください",
+		"limitnotsaved": "バックアップのサイズが現在の制限値**{LIMIT}**より大きいため、バックアップは保存されませんでした",
+		"load": "負荷バックアップ",
+		"loadconfirm": "はい、ロードバックアップと選択したサーバーパーツの交換を行います",
+		"loadconfirmselect": "⚠️ 本当に **{GUILDNAME}** のバックアップ `{CODE}` をロードしたいですか？\n\n間違いなければ、サーバーの交換する部分を選択してください(**!**)。",
+		"loadconfirmtext": "⚠️ 本当に **{GUILDNAME}** のバックアップ `{CODE}` をロードしたいのですか？これは元に戻せません！⚠️\n\nこれにより、サーバーの以下の部分が削除され、バックアップにしたがって再作成されます： {LIST}",
+		"loaded": "バックアップ `{CODE}` は **{GUILDNAME}** に正常にロードされました！",
+		"loadingowneronly": "",
+		"loadthreads": "",
+		"messages": "",
+		"nicknames": "",
+		"nobackups": "バックアップはありません",
+		"running": "",
+		"saveall": "",
+		"select": "",
+		"selectbackupparts": "",
+		"start": "",
+		"stickers": ""
+	},
+	"ban": {
+		"alreadybanned": "",
+		"cantban": "",
+		"fail": "",
+		"forceban": "",
+		"forcemissingreason": "",
+		"success": "",
+		"unbanned": ""
+	},
+	"banlist": {
+		"none": "",
+		"title": "",
+		"unknown": ""
+	},
+	"birthday": {
+		"dayhigh": "",
+		"daylow": "",
+		"deleted": "",
+		"deletedfictional": "",
+		"invalidyear": "",
+		"missingargs": "",
+		"missingday": "",
+		"missingmonth": "",
+		"monthhigh": "",
+		"monthlow": "",
+		"nonesaved": "",
+		"unknownfictional": "",
+		"updated": "",
+		"updatedfictional": ""
+	},
+	"bot": {
+		"amount": "",
+		"commands": "コマンド",
+		"commandsused": "",
+		"mostused": "",
+		"servers": "サーバー",
+		"size": {
+			"allcommands": "",
+			"allevents": "",
+			"biggestcommands": "",
+			"biggestevents": "",
+			"smallestcommands": "",
+			"smallestevents": ""
+		},
+		"speed": "",
+		"statcorderror": "",
+		"unknownguild": ""
+	},
+	"calc": {
+		"invalid": "",
+		"title": ""
+	},
+	"cantusebutton": "",
+	"channelinfo": {
+		"automatic": "",
+		"bitrate": "",
+		"bots": "",
+		"created": "",
+		"members": "",
+		"notopic": "",
+		"region": "",
+		"title": "",
+		"type": "タイプ",
+		"userlimit": ""
+	},
+	"channels": "",
+	"channeltypes": {
+		"category": "カテゴリー"
+	},
+	"chatgpt": {
+		"aioutput": "",
+		"dailylimit": "",
+		"input": "",
+		"modaltitle": ""
+	},
+	"checkperms": {
+		"hasall": "",
+		"missing": "",
+		"missingchannel": "",
+		"missingguild": ""
+	},
+	"claim": {
+		"alreadyclaimed": "",
+		"cantparticipant": "",
+		"claimed": "",
+		"claimother": "",
+		"disabled": "",
+		"nobot": "",
+		"unclaimyou": ""
+	},
+	"commanderror": "コマンド `{COMMAND}` の実行中にエラーが発生しました！\n開発者に報告し、エラーを修正するように努めますので、後でもう一度試してください。また、サポートサーバー<https://tomatenkuchen.com/discord>に参加することで、エラーを修正することができます。",
+	"convert": {
+		"missing": "",
+		"unknownunit": ""
+	},
+	"cooldown": "",
+	"counting": {
+		"lbcurrent": "",
+		"lbtitle": "",
+		"next": "",
+		"nochannel": "",
+		"twice": ""
+	},
+	"customcommand": {
+		"deleted": "",
+		"edited": "",
+		"list": "カスタムコマンド一覧",
+		"missingarg": "引数 {ARG} を指定する必要があります！",
+		"missingrole": "必要なロールがないため、このコマンドを実行できません"
+	},
+	"dehoist": {
+		"finished": "",
+		"found": "",
+		"none": ""
+	},
+	"deutschebahn": {
+		"missing": "",
+		"title": "",
+		"unknown": ""
+	},
+	"diff": {
+		"missing": "",
+		"title": ""
+	},
+	"dig": {
+		"found": "",
+		"missingshovel": "",
+		"nothingfound": ""
+	},
+	"dns": {
+		"missing": "",
+		"nodata": ""
+	},
+	"duden": {
+		"error": "",
+		"grammarcheck": "",
+		"missing": "",
+		"missingsentence": "",
+		"missingword": "",
+		"results": "",
+		"searchresults": "",
+		"unknown": "",
+		"wordselect": ""
+	},
+	"economy": {
+		"cooldown": "",
+		"deposit": "",
+		"invalidamount": "",
+		"inventory": "",
+		"job": "",
+		"leaderboard": "",
+		"missingamount": "",
+		"missinguservalue": "",
+		"nobank": "",
+		"nobot": "",
+		"nocash": "",
+		"nojob": "",
+		"notenough": "",
+		"wallet": "",
+		"withdraw": "",
+		"zinsen": ""
+	},
+	"embed": {
+		"addfield": "",
+		"description": "",
+		"editauthor": "",
+		"editbigimage": "",
+		"editcolor": "",
+		"editdescription": "",
+		"editfooter": "",
+		"editimage": "",
+		"editimages": "",
+		"editsmallimage": "",
+		"edittitle": "",
+		"edittitletext": "",
+		"edittitleurl": "",
+		"invalidinput": "",
+		"invalidinputtitle": "",
+		"send": "",
+		"title": ""
+	},
+	"emoji": {
+		"animated": "",
+		"likes": "",
+		"notanimated": "",
+		"of": "",
+		"publisher": "",
+		"search": {
+			"notfound": ""
+		},
+		"source": "",
+		"title": "",
+		"usedby": ""
+	},
+	"eval": {
+		"error": "",
+		"result": "",
+		"time": ""
+	},
+	"feedback": {
+		"text": "",
+		"title": ""
+	},
+	"flag": {
+		"missing": "",
+		"unknown": ""
+	},
+	"github": {
+		"following": "",
+		"missing": "",
+		"public_gists": "",
+		"public_repos": "",
+		"title": "",
+		"unknown": "",
+		"username": ""
+	},
+	"giveaway": {
+		"alreadyended": "",
+		"alreadyparticipating": "",
+		"created": "",
+		"creator": "クリエイター：",
+		"deleted": "",
+		"edit": "編集",
+		"edited": "",
+		"editprize": "",
+		"editprizebutton": "",
+		"edittitle": "",
+		"ended": "",
+		"ends": "",
+		"endtext": "",
+		"howlong": "",
+		"informdm": "",
+		"invalidchannel": "",
+		"join": "",
+		"joined": "",
+		"limit": "",
+		"link": "",
+		"missingeditperms": "",
+		"missinguserperms": "",
+		"pricetoolong": "",
+		"requirements": {
+			"anyroles": "",
+			"minage": "",
+			"minleaderboardpoints": "",
+			"minmemberage": "",
+			"notroles": "",
+			"roles": ""
+		},
+		"reroll": "",
+		"rerolled": "",
+		"savebutton": "セーブ",
+		"stillrunning": "",
+		"unknown": "",
+		"whatprizemulti": "",
+		"whatprizesingle": "",
+		"whichchannel": "",
+		"winners": ""
+	},
+	"guildonly": "",
+	"hack": {
+		"footer": "",
+		"hacking": "",
+		"loading": "",
+		"nobot": "",
+		"password": ""
+	},
+	"help": {
+		"admin": {
+			"description": "",
+			"title": ""
+		},
+		"aliases": "",
+		"all": {
+			"description": "",
+			"title": ""
+		},
+		"category": "カテゴリー",
+		"description": "",
+		"fun": {
+			"description": "",
+			"title": ""
+		},
+		"general": {
+			"description": "",
+			"title": "一般"
+		},
+		"help": "",
+		"moderation": {
+			"description": "",
+			"title": ""
+		},
+		"selectcategory": "",
+		"suggest": {
+			"description": "",
+			"title": "プロポーザル"
+		},
+		"ticket": {
+			"description": "",
+			"title": ""
+		},
+		"unknown": "",
+		"usage": "使用"
+	},
+	"http": {
+		"list": ""
+	},
+	"hug": {
+		"cantemoji": "",
+		"doneemoji": ""
+	},
+	"image": {
+		"invalidwidget": "",
+		"missingmultiple": "",
+		"toobig": ""
+	},
+	"imageloadfail": "",
+	"integration": {
+		"actions": "アクション"
+	},
+	"invalidsubcommand": "",
+	"invaliduser": "",
+	"invite": "ボットを招待する",
+	"inviteinfo": {
+		"inviter": "",
+		"missing": "",
+		"title": "",
+		"unknown": "",
+		"uses": ""
+	},
+	"isitdown": {
+		"available": "",
+		"missingurl": "",
+		"notavailable": ""
+	},
+	"join": {
+		"inviter": "",
+		"vanity": ""
+	},
+	"kick": {
+		"cantkick": "",
+		"fail": ""
+	},
+	"leaderboard": {
+		"importcancel": "",
+		"importing": "",
+		"level": "",
+		"points": "",
+		"unavailable": ""
+	},
+	"level": {
+		"disabled": "",
+		"notfound": ""
+	},
+	"logs": {
+		"author": "クリエイター",
+		"avatarupdate": "",
+		"banadd": "",
+		"banremove": "",
+		"boostadd": "",
+		"boostremove": "",
+		"botadd": "",
+		"camerastarted": "",
+		"camerastopped": "",
+		"categorycreate": "",
+		"categorydelete": "",
+		"channelpin": "",
+		"channelunpin": "",
+		"discriminatorupdate": "",
+		"emojicreate": "",
+		"emojidelete": "",
+		"emojiedit": "",
+		"emojiroles": "",
+		"guildboostprogessoff": "",
+		"guildboostprogesson": "",
+		"guilddescription": "",
+		"guildname": "",
+		"guildpartneroff": "",
+		"guildpartneron": "",
+		"guildverifiedoff": "",
+		"guildverifiedon": "",
+		"invitecreate": "",
+		"invitedelete": "",
+		"memberadd": "",
+		"memberremove": "",
+		"messageid": "メッセージID",
+		"nicknameupdate": "",
+		"reactionadd": "",
+		"reactionaddrr": "",
+		"reactionremove": "",
+		"reactionremoveall": "",
+		"reactionremoverr": "",
+		"rolecolor": "",
+		"rolecreate": "",
+		"roledelete": "",
+		"roleemoji": "",
+		"rolehoist": "",
+		"rolementionable": "",
+		"rolename": "",
+		"rolepermission": "",
+		"rulesaccept": "",
+		"rulesunaccept": "",
+		"stickercreate": "",
+		"stickerdelete": "",
+		"streamstarted": "",
+		"streamstopped": "",
+		"systemchannel": "",
+		"systemchannelmessages": "",
+		"threadinactiveduration": "",
+		"timeoutend": "",
+		"timeoutstart": "",
+		"usernameupdate": "",
+		"userroleadd": "",
+		"userroleremove": "",
+		"voicejoin": "",
+		"voiceleave": "",
+		"voiceswitch": "",
+		"widgetchannel": "",
+		"widgetoff": "",
+		"widgeton": ""
+	},
+	"lyrics": {
+		"missing": "",
+		"title": "",
+		"unknown": ""
+	},
+	"mass": {
+		"ban": {
+			"finish": "",
+			"start": ""
+		},
+		"cancel": "キャンセルする",
+		"cancelled": "",
+		"kick": {
+			"finish": "",
+			"start": ""
+		},
+		"missing": ""
+	},
+	"maze": {
+		"columns": "",
+		"crossings": "",
+		"editmaze": "",
+		"rows": ""
+	},
+	"mcbug": {
+		"attachments": "",
+		"creatededited": "",
+		"fixedinversion": "",
+		"fixversion": "",
+		"invalidid": "",
+		"linked": "",
+		"missing": "",
+		"more": "",
+		"sinceversion": "",
+		"solution": "",
+		"state": {
+			"done": "",
+			"duplicate": "",
+			"fixed": "",
+			"open": "",
+			"reopened": ""
+		},
+		"unknown": "",
+		"uploadby": ""
+	},
+	"mclint": {
+		"missingcommand": ""
+	},
+	"mcrecipe": {
+		"loading": "",
+		"missing": "",
+		"title": "",
+		"unknown": ""
+	},
+	"mcrelease": {
+		"pre": "",
+		"rc": "",
+		"release": "",
+		"snapshot": ""
+	},
+	"mcserver": {
+		"offline": "",
+		"playersonline": ""
+	},
+	"mcupdate": {
+		"created": "",
+		"invalidchannel": "",
+		"invalidip": "",
+		"invalidport": "",
+		"ip": "",
+		"messagechannel": "",
+		"messagewaiting": "",
+		"namechannel": "",
+		"selecttype": "",
+		"topicchannel": ""
+	},
+	"meme": {
+		"nothingfound": "",
+		"nsfw": ""
+	},
+	"mention": "",
+	"message": {
+		"edited": "",
+		"editfailed": "",
+		"embedjson": "",
+		"invalidembed": "",
+		"msgid": "",
+		"noembed": "",
+		"noreference": "",
+		"noslash": ""
+	},
+	"minecraft": {
+		"missing": "",
+		"unknown": ""
+	},
+	"missingperms": {
+		"bot": "",
+		"user": ""
+	},
+	"missingtext": "",
+	"modal": {
+		"created": "",
+		"creating": "",
+		"deleted": "",
+		"description": "",
+		"editing": "",
+		"exists": "",
+		"fieldadd": "",
+		"fielddefault": "",
+		"fielddefaulttitle": "",
+		"fielddelete": "",
+		"fielddeleted": "",
+		"fieldedit": "",
+		"fieldediting": "",
+		"fieldmaxlength": "",
+		"fieldmaxlengthtitle": "",
+		"fieldminlength": "",
+		"fieldminlengthtitle": "",
+		"fieldplaceholder": "",
+		"fieldstyle": "",
+		"idmaxlength": "",
+		"missing": "",
+		"none": "",
+		"prepared": "",
+		"preview": "",
+		"titleedit": "",
+		"titlemaxlength": "",
+		"unknown": ""
+	},
+	"modlogs": {
+		"date": "",
+		"moderator": "司会",
+		"none": "",
+		"title": "",
+		"titleshort": ""
+	},
+	"movie": {
+		"birthplace": "",
+		"knownfor": "",
+		"knownfordepartment": "",
+		"missingmovieid": "",
+		"missingpersonid": "",
+		"missingquery": "",
+		"missingseriesid": "",
+		"noresults": "",
+		"nsfw": "",
+		"nsfwperson": "",
+		"rating": "",
+		"unknownmovie": "",
+		"unknownperson": "",
+		"unknownseries": ""
+	},
+	"ms": {
+		"and": "",
+		"days": "",
+		"hours": "",
+		"milliseconds": "",
+		"minutes": "",
+		"months": "",
+		"seconds": "",
+		"weeks": "",
+		"years": ""
+	},
+	"mute": {
+		"alreadymuted": "",
+		"cantmute": "",
+		"changeduration": "",
+		"done": "",
+		"fail": ""
+	},
+	"nitroverify": {
+		"alreadydone": "",
+		"disabled": "",
+		"notanimated": "",
+		"notfound": "",
+		"otheruser": "",
+		"tutorial": "",
+		"verified": ""
+	},
+	"none": "",
+	"noreason": "",
+	"npm": {
+		"author": "",
+		"downloadsmonth": "",
+		"edited": "",
+		"keywords": "",
+		"maintainer": "",
+		"missing": "",
+		"sizeinstallation": "",
+		"sizepublish": "",
+		"unknown": ""
+	},
+	"periodensystem": {
+		"boilingpoint": "",
+		"discovered": "",
+		"mass": "",
+		"meltingpoint": "",
+		"missing": "",
+		"notknown": "",
+		"symbol": "",
+		"unknown": ""
+	},
+	"permission": {
+		"bitrate": {
+			"invalid": "",
+			"missing": "",
+			"set": ""
+		},
+		"closed": "",
+		"missingvoice": "",
+		"modadd": "",
+		"modremove": "",
+		"notprivatevoice": "",
+		"opened": "",
+		"reset": "",
+		"state": "ステータス",
+		"useradd": "",
+		"userlimit": {
+			"missing": "",
+			"remove": "",
+			"set": ""
+		},
+		"userremove": ""
+	},
+	"permissions": {
+		"bitfield": "",
+		"user": ""
+	},
+	"ping": {
+		"title": ""
+	},
+	"poll": {
+		"ended": "",
+		"ends": "",
+		"missingoptions": "",
+		"noresult": "",
+		"vote": "",
+		"voteadded": "",
+		"votelimit": "",
+		"voteplural": "",
+		"voteremoved": "",
+		"votesingular": ""
+	},
+	"prefix": "",
+	"purge": {
+		"fail": "",
+		"invalidamount": "",
+		"multi": "",
+		"nonedeleted": "",
+		"single": ""
+	},
+	"qrcreate": {
+		"missing": ""
+	},
+	"qrread": {
+		"error": "",
+		"missing": ""
+	},
+	"quoted": "",
+	"reactionrole": {
+		"roleadded": "",
+		"roleaddedmultiple": "",
+		"roleremoved": "",
+		"roleremovedmultiple": "",
+		"selecttext": "",
+		"unknownemoji": "",
+		"unknownmessage": ""
+	},
+	"remind": {
+		"alreadycopied": "",
+		"cleared": "",
+		"copied": "",
+		"copy": "",
+		"copyown": "",
+		"created": "",
+		"deletebutton": "削除",
+		"deleted": "",
+		"edit": "",
+		"editdelete": "",
+		"edited": "",
+		"edittext": "",
+		"edittime": "",
+		"endsin": "",
+		"finished": "",
+		"limit": "",
+		"manage": "",
+		"missingreminder": "",
+		"missingtime": "",
+		"noreminders": "",
+		"ranout": "",
+		"snoozenotyou": "",
+		"snoozeselecttime": "",
+		"snoozetime": "",
+		"title": "",
+		"your": ""
+	},
+	"remove": {
+		"fail": "",
+		"success": ""
+	},
+	"role": {
+		"botcount": "",
+		"footer": "",
+		"list": "",
+		"listperm": "",
+		"managedby": "",
+		"massadd": {
+			"finish": "",
+			"start": ""
+		},
+		"massremove": {
+			"finish": "",
+			"start": ""
+		},
+		"mentionable": "",
+		"missing": "",
+		"missingpermission": "",
+		"toomany": "",
+		"unknown": "",
+		"usercount": ""
+	},
+	"say": {
+		"error": ""
+	},
+	"scheresteinpapier": {
+		"title": ""
+	},
+	"server": {
+		"badges": "",
+		"badgeshave": "",
+		"contentfilter": {
+			"all": "",
+			"disabled": "",
+			"withoutroles": ""
+		},
+		"created": "作成された",
+		"description": "説明",
+		"emojianimated": "",
+		"emojinotanimated": "",
+		"members": "",
+		"messagefilter": "",
+		"newestmember": "",
+		"newestuser": "",
+		"notifications": {
+			"onlymentions": "",
+			"text": ""
+		},
+		"oldestuser": "",
+		"owner": "",
+		"raid": "",
+		"text": "",
+		"toomanyroles": "",
+		"verificationlevel": {
+			"high": "",
+			"highest": "",
+			"low": "",
+			"middle": ""
+		},
+		"verilvl": "",
+		"voice": ""
+	},
+	"shop": {
+		"footer": "",
+		"notenough": "",
+		"shovel": {
+			"fail": "",
+			"success": ""
+		},
+		"unknown": ""
+	},
+	"shorter": {
+		"averageuniqueusers": "",
+		"blacklisted": "",
+		"cfthreats": "",
+		"created": "",
+		"exists": "",
+		"invalidurl": "",
+		"mostusedbrowsers": "",
+		"statstitle": "",
+		"views": ""
+	},
+	"slowmode": {
+		"error": "",
+		"missing": "",
+		"updated": ""
+	},
+	"snowflake": {
+		"invalid": "",
+		"missing": "",
+		"process": ""
+	},
+	"ssp": {
+		"paper": "",
+		"playagain": "",
+		"scissors": "",
+		"stone": ""
+	},
+	"starboard": {
+		"description": "",
+		"fields": "",
+		"title": ""
+	},
+	"stats": {
+		"chatters": "",
+		"disabled": "",
+		"messagesperday": "",
+		"processing": "",
+		"title": ""
+	},
+	"suggest": {
+		"approved": "",
+		"approvedby": "",
+		"approvedon": "",
+		"awaitingreview": "",
+		"denied": "",
+		"deniedby": "",
+		"deniedon": "",
+		"edit": "",
+		"lastedit": "",
+		"missingperms": "",
+		"missingreply": "",
+		"missingreviewchannel": "",
+		"missingsuggestion": "",
+		"nochannel": "",
+		"notown": "",
+		"replied": "",
+		"replyfrom": "",
+		"reviewapprove": "",
+		"reviewdeny": "",
+		"sent": "",
+		"title": "",
+		"unknownmessage": ""
+	},
+	"supportserver": "",
+	"sync": {
+		"ban": {
+			"otherlimit": "",
+			"started": "",
+			"thislimit": ""
+		},
+		"invalidcode": "",
+		"log": {
+			"othersyncing": "",
+			"started": "",
+			"thissyncing": ""
+		},
+		"notsyncing": "",
+		"stopped": "",
+		"unknownguild": "",
+		"verify": ""
+	},
+	"tagebis": {
+		"missing": ""
+	},
+	"template": {
+		"adminrole": "",
+		"buttoncancel": "",
+		"buttonload": "",
+		"cancel": "",
+		"finished": "",
+		"started": "",
+		"unknown": "",
+		"warning": ""
+	},
+	"testvote": "",
+	"text": {
+		"failed": ""
+	},
+	"threads": {
+		"all": "",
+		"description": ""
+	},
+	"ticket": {
+		"alreadyclosed": "",
+		"alreadyopen": "",
+		"closebutton": "",
+		"closed": "",
+		"closedby": "",
+		"closedm": "",
+		"created": "",
+		"createdbutton": "",
+		"deletebutton": "",
+		"deleting": "",
+		"excludedrole": "",
+		"missingcategorymodal": "",
+		"notclosed": "",
+		"noticket": "",
+		"notifyauthor": "",
+		"notifydone": "",
+		"notifyerror": "",
+		"notranscript": "",
+		"previoustickets": "",
+		"reopenbutton": "",
+		"reopened": "",
+		"requireRole": "",
+		"ticketclosing": "",
+		"transcript": "",
+		"transcriptdiscordpromo": ""
+	},
+	"ticketembed": {
+		"addbutton": "",
+		"button": "",
+		"buttonstyle": "",
+		"buttontext": "",
+		"buttonurl": "",
+		"categoryname": "",
+		"customavatar": "",
+		"customize": "",
+		"customizetitle": "",
+		"customizeupdated": "",
+		"customname": "",
+		"description": "",
+		"editmessage": "メッセージを編集する",
+		"editweb": "",
+		"emoji": "",
+		"invalidcategory": "",
+		"pastebutton": "",
+		"pastejson": "",
+		"sendin": "",
+		"sent": ""
+	},
+	"tickets": {
+		"average": "",
+		"averageclose": "",
+		"averagedelete": "",
+		"buttonchannel": "",
+		"buttondm": "",
+		"claimedcount": "",
+		"closedcount": "",
+		"deletedcount": "",
+		"displaywarning": "",
+		"opencount": "",
+		"ownerscount": "",
+		"senddm": "",
+		"stats": "",
+		"title": "",
+		"titleshort": ""
+	},
+	"timer": {
+		"deleted": "",
+		"empty": "",
+		"ended": "",
+		"success": "",
+		"timesup": "",
+		"title": ""
+	},
+	"todo": {
+		"add": "",
+		"none": "",
+		"remove": "",
+		"title": ""
+	},
+	"transcript": {
+		"done": "",
+		"edited": "",
+		"useslash": ""
+	},
+	"transform": {
+		"missing": "",
+		"time": {
+			"longdate": "",
+			"longtime": "",
+			"longtimedate": "",
+			"relative": "",
+			"shortdate": "",
+			"shorttime": "",
+			"shorttimedate": "",
+			"title": ""
+		}
+	},
+	"translate": {
+		"doyoumean": "",
+		"error": "",
+		"errorcorrected": "",
+		"missing": "",
+		"translated": ""
+	},
+	"unban": {
+		"fail": "",
+		"success": ""
+	},
+	"unmute": {
+		"done": "",
+		"fail": "",
+		"notmuted": ""
+	},
+	"user": {
+		"admin": "",
+		"boostingsince": "",
+		"joined": "",
+		"noperms": "",
+		"owner": "",
+		"pending": "",
+		"permissions": "",
+		"privacy": "",
+		"profilecolor": "",
+		"public": "パブリック",
+		"requirecodegrant": "",
+		"roles": "",
+		"serveravatar": "",
+		"timeouted": "",
+		"tos": "",
+		"user": "ユーザー",
+		"voice": ""
+	},
+	"usersettings": {
+		"imageurl": "画像URL"
+	},
+	"voice": {
+		"deafedall": "",
+		"mutedall": ""
+	},
+	"warn": {
+		"cantwarn": "",
+		"missingreason": "",
+		"warned": ""
+	},
+	"work": {
+		"captcha": {
+			"start": ""
+		},
+		"lose": {
+			"time": ""
+		},
+		"win": ""
+	},
+	"ytsearch": {
+		"found": "",
+		"missing": "",
+		"unknown": ""
+	}
+}

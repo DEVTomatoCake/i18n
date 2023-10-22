@@ -1,0 +1,1650 @@
+{
+	"add": {
+		"fail": "Der Nutzer konnte nicht zum Kanal hinzugefügt werden",
+		"success": "{USERORROLE} wurde zum Ticket hinzugefügt"
+	},
+	"addemoji": {
+		"error": "⚠️ {URL} konnte nicht hinzugefügt werden!",
+		"missing": "Du musst ein Emoji angeben",
+		"noneadded": "Es wurden keine Emojis hinzugefügt",
+		"success": "Das Emoji {EMOJI} wurde mit dem Namen `{NAME}` hinzugefügt!",
+		"successnoname": "Das Emoji {EMOJI} wurde hinzugefügt!"
+	},
+	"afk": {
+		"afk": "{USER} ist afk!",
+		"end": "Du bist nicht länger afk!\nDu warst **{TIME}** abwesend.",
+		"mentions": "Erwähnungen",
+		"reason": "Grund",
+		"set": "Dein AFK-Status wurde gesetzt",
+		"since": "Seit"
+	},
+	"anagram": {
+		"wordfound": "Das Wort **{WORD}** wurde gefunden!"
+	},
+	"approve": {
+		"dm": "Dein Vorschlag **#{ID}** auf **{GUILD}** wurde von **{USER}** angenommen!"
+	},
+	"automod": {
+		"accountminage": "Dein Account ist nicht alt genug, er muss mindestens **{AGE}** alt sein!",
+		"capsmute": "{USER}, du wirst für zu viele CAPS gemuted!",
+		"capswarn": "{USER}, du darfst nicht so viele CAPS nutzen!",
+		"changereason": "Grund ändern",
+		"emptylinesmute": "{USER}, du wirst für zu viele leere Zeilen gemuted!",
+		"emptylineswarn": "{USER}, du darfst nicht so viele leere Zeilen nutzen!",
+		"flagreason": "Grund für Flag",
+		"massemojismute": "{USER}, du wurdest für das Senden von zu vielen Emojis gemuted!",
+		"massemojiswarn": "{USER}, du darfst nicht so viele Emojis senden!",
+		"massspoilermute": "{USER}, du wirst für zu viele Spoiler gemuted!",
+		"massspoilerwarn": "{USER}, du darfst nicht so viele Spoiler nutzen!",
+		"masszalgomute": "{USER}, du wurdest für zu viele Zalgo-Zeichen gemuted!",
+		"masszalgowarn": "{USER}, du darfst nicht so viele Zalgo-Zeichen in deiner Nachricht nutzen!",
+		"noinvites": "Du darfst hier keine Einladungen senden",
+		"nolinks": "Du darfst hier keine Links senden",
+		"onlyattachments": "Du darfst in diesem Kanal nur Anhänge und Bild-URLs senden",
+		"repeatmute": "{USER}, du wirst für wiederholte Nachrichten gemuted!",
+		"repeatwarn": "{USER}, du darfst deine Nachrichten nicht so oft wiederholen!",
+		"spammute": "{USER}, du wirst für Spam gemuted!",
+		"spamwarn": "{USER}, hör auf zu spammen!",
+		"userleft": "Der Nutzer ist nicht mehr auf dem Server!",
+		"viewmodlogs": "Modlogs anzeigen",
+		"violaterule": "[Automod] Verstoß gegen Regel \"{RULE}\""
+	},
+	"back": "Zurück",
+	"backup": {
+		"adminrolepos": "Meine Botrolle {ROLE} muss die höchste Rolle auf dem Server sein",
+		"automod": "AutoMod-Regeln",
+		"cancelled": "Das Laden des Backups `{CODE}` auf **{GUILDNAME}** wurde abgebrochen!",
+		"cancelloading": "Laden abbrechen",
+		"changesonly": "Nur Veränderungen",
+		"channelmessages": "100 Nachrichten pro Text-/Sprachkanal",
+		"channelthreads": "Kanäle & Threads",
+		"created": "Das Backup `{CODE}` von **{GUILDNAME}** wurde erstellt, **{DISPLAYNAME}**! Es ist `{SIZE}` groß (um {PERCENT} % komprimiert). Folgende Einstellungen wurden verwendet: {SELECTED}.",
+		"creating": "Backup wird erstellt…",
+		"creatingemojis": "Emojis erstellen",
+		"creatingstickers": "Sticker erstellen",
+		"creatingthreads": "Threads erstellen",
+		"delete": "Backup löschen",
+		"deleteconfirm": "Ja, Backup löschen",
+		"deleteconfirmtext": "⚠️ Bist du sicher, dass du das Backup `{CODE}` von **{GUILDNAME}** löschen möchtest? Dies kann nicht rückgängig gemacht werden! ⚠️",
+		"deleted": "Das Backup `{CODE}` von **{GUILDNAME}** wurde gelöscht!",
+		"deletingemojis": "Emojis löschen",
+		"deletingstickers": "Sticker löschen",
+		"emojis": "Emojis",
+		"events": "Events",
+		"filedownload": "Bilder/Anhänge runterladen (großes Backup, sicher)",
+		"fileurl": "URLs für Bilder/Anhänge (kleines Backup, unsicher)",
+		"infotitle": "Backup-Info über `{CODE}`",
+		"limit": "Du hast bereits **{LIMIT}** Backups erstellt. Lösche eines, um ein neues erstellen zu können",
+		"limitnotsaved": "Das Backup wurde nicht gespeichert, weil es größer ist als das aktuelle Limit von **{LIMIT}**",
+		"load": "Backup laden",
+		"loadconfirm": "Ja, Backup laden und die ausgewählten Serverteile ersetzen",
+		"loadconfirmselect": "⚠️ Bist du sicher, dass du das Backup `{CODE}` von **{GUILDNAME}** laden möchtest?\n\nWenn du dir sicher bist, wähle die Teile des Servers aus, welche ersetzt (**!**) werden sollen.",
+		"loadconfirmtext": "⚠️ Bist du sicher, dass du das Backup `{CODE}` von **{GUILDNAME}** laden möchtest? Dies kann nicht rückgängig gemacht werden! ⚠️\n\nFolgende Teile des Servers werden dabei gelöscht und entsprechend des Backups neu erstellt: {LIST}",
+		"loaded": "Das Backup `{CODE}` wurde erfolgreich auf **{GUILDNAME}** geladen!",
+		"loading": "Lade Backup `{CODE}` von **{GUILDNAME}**…",
+		"loadingowneronly": "Nur der Serverbesitzer darf Backups laden!",
+		"loadthreads": "Threads laden",
+		"messages": "Nachrichten",
+		"nicknames": "Nicknamen",
+		"nobackups": "Keine Backups vorhanden",
+		"restoringlong": "Stelle TomatenKuchen-Backup her…",
+		"restoringshort": "TK-Backup-Wiederherstellung…",
+		"running": "Es wird bereits eine Backupaktion auf diesem Server ausgeführt",
+		"saveall": "Alle werden gespeichert",
+		"select": "Backup auswählen…",
+		"selectbackupparts": "Wähle aus, welche Teile des Server gebackupt werden sollen.",
+		"selectedsavemessages": "Kanäle mit Nachrichtenanhangs-Speicherung",
+		"settings": "Einstellungen:",
+		"size": "Größe:",
+		"start": "Backup starten",
+		"state": {
+			"channelmessages": "Kanäle, Nachrichten",
+			"compressing": "Komprimieren",
+			"createcategories": "Kategorien erstellen",
+			"createremainingchannels": "Restliche Kanäle erstellen",
+			"createroles": "Rollen erstellen & verteilen",
+			"creatingwebhooks": "Webhooks für {CHANNEL} erstellen",
+			"decompressing": "Dekomprimieren",
+			"deletechannels": "Kanäle löschen",
+			"deleteroles": "Rollen löschen",
+			"finishing": "Fertigstellen",
+			"general": "Mitglieder laden, Icon, Banner",
+			"loadmessages": "Nachrichten laden",
+			"preparation": "Vorbereitung, Servereinstellungen etc.",
+			"roles": "Rollen, -mitglieder"
+		},
+		"stickers": "Sticker",
+		"stoppedloading": "Du hast dich gegen das Laden des Backups `{CODE}` entschieden.",
+		"threadmessages": "100 Nachrichten pro Thread",
+		"tkupsell": "Wusstest du, dass die meisten Multipurpose-Bots durch TomatenKuchen ersetzt werden können? :D",
+		"webhooks": "Webhooks"
+	},
+	"ban": {
+		"alreadybanned": "Der Nutzer ist bereits gebannt",
+		"cantban": "Ich kann **{USER}** nicht bannen",
+		"fail": "Der Nutzer konnte nicht gebannt werden",
+		"forceban": "Du kannst diese Überprüfung mit dem Argument `forceban` überspringen.",
+		"forcemissingreason": "Es wurde kein Bangrund angegeben.",
+		"maynot": "Du darfst **{USER}** nicht bannen, weil er Ban-Rechte hat",
+		"success": "**{MOD}** hat **{USER}** für **{DURATION}** gebannt: {REASON}",
+		"unbanned": "**{USER}** wurde nach **{TIME}** entbannt"
+	},
+	"banlist": {
+		"none": "Es sind keine Nutzer gebannt oder gemuted!",
+		"title": "**{BANS}** Nutzer sind gebannt und **{MUTES}** Nutzer gemuted:",
+		"unknown": "Der Nutzer ist nicht gebannt oder gemuted"
+	},
+	"birthday": {
+		"dayhigh": "Ein Monat hat nicht mehr als 31 Tage",
+		"daylow": "Der Tag kann nicht kleiner als oder gleich 0 sein",
+		"deleted": "Dein gespeicherter Geburtstag wurde gelöscht",
+		"deletedfictional": "Der fiktive Geburtstag **{NAME}** wurde gelöscht",
+		"fictivetitle": "Fiktive Geburtstage des Servers",
+		"invalidyear": "Du musst ein gültiges Jahr angeben",
+		"missingargs": "Du musst einen Geburtstag angeben",
+		"missingday": "Du musst die Zahl eines Tags angeben",
+		"missingmonth": "Du musst die Zahl eines Monats angeben",
+		"monthhigh": "Ein Jahr hat nicht mehr als 12 Monate",
+		"monthlow": "Der Monat kann nicht kleiner als oder gleich 0 sein",
+		"nofictive": "Es gibt keine fiktiven Geburtstage auf diesem Server!",
+		"nonesaved": "Du hast keinen Geburtstag gespeichert",
+		"unknownfictional": "Der fiktive Geburtstag **{NAME}** existiert auf diesem Server nicht",
+		"updated": "Dein Geburtstag wurde aktualisiert",
+		"updatedfictional": "Der fiktive Geburtstag **{NAME}** wurde aktualisiert"
+	},
+	"bot": {
+		"amount": "Insgesamt",
+		"commands": "Befehle",
+		"commandsused": "Befehle genutzt",
+		"mostused": "Oft genutzte Befehle",
+		"nocustom": "Nicht unterstützt für Custom-Bots",
+		"servers": "Server",
+		"size": {
+			"allcommands": "Befehle insgesamt:",
+			"allevents": "Events insgesamt:",
+			"biggestcommands": "Größte Befehle:",
+			"biggestevents": "Größte Events:",
+			"smallestcommands": "Kleinste Befehle:",
+			"smallestevents": "Kleinste Events:",
+			"title": "Statistiken über Dateigrößen",
+			"transcripts": "Transcripte:"
+		},
+		"speed": "Geschwindigkeit",
+		"statcorderror": "Die Informationen von Statcord können nicht abgefragt werden, bitte versuche es später nochmal",
+		"unknownguild": "Unbekannter Server",
+		"userscached": "davon im Cache:"
+	},
+	"calc": {
+		"invalid": "Ungültige Syntax",
+		"title": "|                   Taschenrechner                   |"
+	},
+	"cantusebutton": "Nur **{USER}** kann Buttons auf dieser Nachricht nutzen!",
+	"cantuseselect": "Nur **{USER}** kann das Selectmenü dieser Nachricht nutzen!",
+	"channelinfo": {
+		"automatic": "Automatisch",
+		"bitrate": "Bitrate",
+		"bots": "Davon Bots",
+		"created": "Kanal erstellt",
+		"members": "Nutzer im Kanal",
+		"notopic": "Kein Thema gesetzt",
+		"region": "Region",
+		"title": "Info für **{CHANNEL}**",
+		"type": "Typ",
+		"userlimit": "Benutzerlimit"
+	},
+	"channels": "Kanäle",
+	"channeltypes": {
+		"announcement": "Announcement-Kanal",
+		"announcementthread": "Announcement-Thread",
+		"category": "Kategorie",
+		"forum": "Forum-Kanal",
+		"media": "Medienkanal",
+		"privatethread": "Privater Thread",
+		"publicthread": "Öffentlicher Thread",
+		"stage": "Stage-Kanal",
+		"text": "Textkanal",
+		"voice": "Sprachkanal"
+	},
+	"chatgpt": {
+		"aioutput": "KI-Ergebnis (nur lesen)",
+		"dailylimit": "Das tägliche GPT-Generations-Limit für diesen Server wurde erreicht",
+		"input": "Der Text, auf den die KI antworten soll",
+		"modaltitle": "Unterhaltung mit ChatGPT",
+		"ratelimit": "Ein Ratelimit wurde erreicht. Bitte versuche es in einer Minute erneut"
+	},
+	"checkperms": {
+		"hasall": "✅ Alle **{AMOUNT}** notwendigen Berechtigungen wurden dem Bot gewährt.",
+		"missing": "Nur **{AMOUNT}** der **{NEEDED}** notwendigen Berechtigungen wurden dem Bot gewährt, es fehlen:\n{MISSING}",
+		"missingchannel": "Nur **{AMOUNT}** der **{NEEDED}** notwendigen Berechtigungen für den aktuellen Kanal wurden dem Bot gewährt, es fehlen:\n{MISSING}",
+		"missingguild": "Nur **{AMOUNT}** der **{NEEDED}** notwendigen Berechtigungen für den Server wurden dem Bot gewährt, es fehlen:\n{MISSING}"
+	},
+	"claim": {
+		"alreadyclaimed": "Dieses Ticket wurde schon von {USER} geclaimt",
+		"cantparticipant": "Du kannst als Beteiligter ein Ticket nicht claimen oder übertragen",
+		"claimed": "Das Ticket wurde von {USER} geclaimt!",
+		"claimother": "{USER} hat das Ticket {CLAIMER} übertragen!",
+		"disabled": "Das Beanspruchen/Claimen von Tickets ist hier nicht aktiviert",
+		"nobot": "Du kannst Tickets nicht an Bots übertragen",
+		"unclaimyou": "Das Ticket ist jetzt nicht mehr von dir geclaimed"
+	},
+	"clonecategory": {
+		"invalid": "Die Kategorie existiert nicht oder der Kanal ist keine Kategorie",
+		"missing": "Du musst eine Kategorie angeben",
+		"success": "Die Kategorie mit den Kanälen wird dupliziert"
+	},
+	"commanderror": "Während der Ausführung des Befehls `{COMMAND}` ist ein Fehler aufgetreten!\nDer Entwickler wurde informiert und wird versuchen, den Fehler zu beheben, also versuche es doch später noch einmal. Du kannst auch dem Support-Server <https://tomatenkuchen.com/discord> beitreten, um bei der Fehlerbehebung mitzuhelfen.",
+	"convert": {
+		"missing": "Du musst einen Wert und eine Einheit angeben",
+		"unknowntargetunit": "Unbekannte Zieleinheit **{UNIT}**",
+		"unknownunit": "Unbekannte Einheit **{UNIT}**"
+	},
+	"cooldown": "Du hast noch einen Cooldown!",
+	"counting": {
+		"lbcurrent": "aktuell:",
+		"lbtitle": "Counting-Leaderboard",
+		"next": "Die nächste Zahl ist **{NUMBER}**!",
+		"nochannel": "Es wurde kein Counting-Kanal festgelegt",
+		"twice": "Du darfst nicht zwei Mal hintereinander zählen!"
+	},
+	"customcommand": {
+		"deleted": "Der Befehl **{NAME}** wurde gelöscht",
+		"edited": "Der Befehl **{NAME}** wurde bearbeitet",
+		"list": "Liste aller Customcommands",
+		"missingarg": "Du musst Argument {ARG} angeben!",
+		"missingrole": "Du kannst diesen Befehl nicht ausführen, weil dir eine benötigte Rolle fehlt"
+	},
+	"customrole": {
+		"created": "Deine Customrolle {ROLE} wurde erstellt",
+		"deleted": "Deine Customrolle wurde gelöscht",
+		"editcolor": "Die Farbe deiner Customrolle {ROLE} wurde geändert",
+		"editicon": "Das Rollenicon deiner Customrolle {ROLE} wurde geändert",
+		"editname": "Deine Customrolle {ROLE} wurde umbenannt",
+		"missingparent": "Es wurde keine gültige Rolle ausgewählt, unter der die Customrollen erstellt werden sollen",
+		"missingrole": "Du kannst keine Customrolle erstellen, weil dir eine dafür benötigte Rolle fehlt",
+		"roleiconboostlevel": "Der Server muss mindestens Boost-Level 2 erreicht haben, um Rollenicons verwenden zu können",
+		"title": "Deine Customrolle",
+		"usermissing": "Du hast keine Customrolle auf dem Server, die du bearbeiten könntest"
+	},
+	"dcstatus": {
+		"current": "Aktueller Status:",
+		"lastincident": "Letzter Vorfall",
+		"lastupdate": "Letztes Update:"
+	},
+	"dehoist": {
+		"finished": "Es wurden **{SUCCESS}** Nutzer umbenannt, **{FAILED}** konnten nicht umbenannt werden",
+		"found": "Es wurden **{AMOUNT}** Nutzer mit einem Hoist-Namen gefunden, Umbenennung wird gestartet…",
+		"none": "Es wurden keine Nutzer zum Dehoisten gefunden"
+	},
+	"delete": {
+		"deleter": "Gelöscht von:"
+	},
+	"deny": {
+		"dm": "Dein Vorschlag **#{ID}** auf **{GUILD}** wurde von **{USER}** abgelehnt!"
+	},
+	"deutschebahn": {
+		"arrivalboard": "Ankunftstafel",
+		"changedarrival": "Anzahl der geänderten Ankunftszeiten",
+		"changeddepature": "Anzahl der geänderten Abfahrtszeiten",
+		"changedplatforms": "Anzahl der geänderten Bahnsteige",
+		"changedroutes": "Anzahl der geänderten Routen",
+		"changetypes": "Änderungstypen",
+		"departureboard": "Abfahrtstafel",
+		"eventcancelled": "Ereignis abgebrochen",
+		"eventnewstop": "Ereignis als neuer Halt hinzugefügt",
+		"eventplanned": "Ereignis geplant",
+		"messagepriorities": "Prioritäten der Meldungen",
+		"missing": "Du musst die EVA-Nummer einer Station angeben",
+		"removedstations": "Anzahl der entfernten Halte",
+		"title": "Deutsche-Bahn-Statistiken",
+		"traindelay": "Zugverspätung",
+		"trainearly": "Zugverfrühung",
+		"unknown": "Es wurde keine Station mit dieser EVA-Nummer gefunden"
+	},
+	"diff": {
+		"missing": "Du musst einen zweiten Text mit ` | ` getrennt angeben",
+		"title": "{PERCENT} ähnlich"
+	},
+	"dig": {
+		"found": "Du hast **{ITEM}** mit dem Wert **{VALUE}** gefunden",
+		"missingshovel": "Du brauchst eine Schaufel, um diesen Befehl nutzen zu können",
+		"nothingfound": "Du hast leider nichts gefunden"
+	},
+	"dns": {
+		"error": "Fehler beim Abrufen der Domain",
+		"minttl": "Minimale TTL:",
+		"missing": "Du musst eine Domain angeben",
+		"nodata": "Keine Daten gefunden!",
+		"noturl": "Du musst eine Domain statt einer URL angeben",
+		"priority": "Priorität",
+		"records": "{TYPE}-Einträge",
+		"select": "DNS-Typ auswählen"
+	},
+	"duden": {
+		"error": "Es ist ein Fehler beim Überprüfen der Grammatik aufgetreten",
+		"grammarcheck": "Grammatiküberprüfung",
+		"missing": "Du musst einen Unterbefehl und einen Wort/Satz angeben",
+		"missingsentence": "Du musst einen Typ und einen Wort/Satz angeben",
+		"missingword": "Du musst noch ein Wort angeben",
+		"noerrors": "Keine Fehler gefunden",
+		"noerrorsdesc": "Der Text ist fehlerfrei!",
+		"nosuggestions": "*keine Vorschläge*",
+		"results": "Ergebnisse",
+		"searchresults": "Suchergebnisse:",
+		"spelling": "Rechtschreibfehler",
+		"style": "Formatierungsfehler",
+		"unknown": "Es wurde kein Wort gefunden",
+		"wordselect": "Wort auswählen…"
+	},
+	"economy": {
+		"cooldown": "Du hast noch einen Cooldown für diesen Befehl: **{COOLDOWN}**",
+		"deposit": "Du hast **{AMOUNT}** auf die Bank eingezahlt",
+		"invalidamount": "Du musst einen gültigen Betrag angeben",
+		"inventory": "Inventar",
+		"job": "Beruf",
+		"leaderboard": "Globales Economy-Leaderboard",
+		"missingamount": "Du musst Geld angeben",
+		"missinguservalue": "Du musst einen Nutzer und einen Betrag angeben",
+		"nobank": "Du kannst nichts von der Bank abheben, weil du dort kein Geld hast",
+		"nobot": "Du darfst einem Bot kein Geld geben",
+		"nocash": "Du kannst nichts einzahlen, weil du kein Bargeld hast",
+		"nojob": "Keiner",
+		"notenough": "Du hast nicht so viel Bargeld",
+		"wallet": "Bargeld",
+		"withdraw": "Du hast **{AMOUNT}** von der Bank abgehoben",
+		"zinsen": "Zinsen pro Tag"
+	},
+	"embed": {
+		"addfield": "Feld hinzufügen",
+		"addfieldinline": "Feld inline? Ja/Nein",
+		"addfieldtitle": "Der Titel vom Feld",
+		"addfieldvalue": "Der Inhalt vom Feld",
+		"description": "Ändere den Inhalt des Embeds mit den Buttons unten!",
+		"editauthor": "Autor ändern",
+		"editauthoricon": "Ändere das Icon",
+		"editauthorurl": "Ändere die Autor-URL",
+		"editbigimage": "Ändere das {N}große Bild",
+		"editcolor": "Ändere die Embedfarbe als HEX-Code",
+		"editdescription": "Ändere die Beschreibung",
+		"editfooter": "Footer ändern",
+		"editimage": "Bilder ändern",
+		"editimages": "Embed-Bilder ändern",
+		"editsmallimage": "Ändere das kleine Bild",
+		"edittitle": "Titel/Beschreibung ändern",
+		"edittitletext": "Ändere den Titel",
+		"edittitleurl": "Ändere die URL des Titels",
+		"invalidinput": "Der angegebene Text konnte nicht in gültigen Embed-Code umgewandelt werden. Bitte überprüfe deine Eingabe und versuche es erneut, oder entferne dieses Feld, um die Nachricht zu bearbeiten.",
+		"invalidinputtitle": "Ungültiger Embed-Code",
+		"send": "Embed senden",
+		"title": "Embed-Ersteller"
+	},
+	"emoji": {
+		"animated": "Animiert",
+		"likes": "Likes:",
+		"lockupdated": "Die Rollen, welche das Emoji {EMOJI} verwenden können, wurden geändert",
+		"notanimated": "Nicht animiert",
+		"of": "Emojis von **{GUILD}**",
+		"publisher": "Veröffentlicht von:",
+		"search": {
+			"notfound": "Es wurden keine Emojis gefunden"
+		},
+		"source": "Quelle:",
+		"title": "Zeige **{CURRENT}** von insgesamt **{TOTAL}** Emojis",
+		"unknownsticker": "Unbekannter Sticker",
+		"usedby": "Verwendet von:"
+	},
+	"eval": {
+		"error": "Fehler",
+		"result": "Ergebnis",
+		"time": "Zeit"
+	},
+	"feedback": {
+		"text": "Dein Feedback oder Vorschlag",
+		"title": "Feedback geben"
+	},
+	"flag": {
+		"missing": "Du musst die Abkürzung eines Landes angeben",
+		"unknown": "Diese Länderabkürzung gibt es nicht"
+	},
+	"form": {
+		"addfield": "Formularfeld hinzufügen",
+		"anonymous": "Anonyme Antworten",
+		"cooldownedit": "Cooldown zwischen Antworten bearbeiten",
+		"created": "Das Formular **{SLUG}** (`{ID}`) wurde erstellt",
+		"createthread": "Thread auf Antwortnachricht erstellen",
+		"deleted": "Das Formular **{SLUG}** (`{ID}`) wurde gelöscht",
+		"editfield": "Formularfeld bearbeiten",
+		"editfieldspecific": "Feldspezifische Werte bearbeiten",
+		"editform": "Formular **{SLUG}** (`{ID}`) bearbeiten",
+		"editresultchannel": "Ergebniskanal wählen (tippen zum Suchen)",
+		"edittitle": "Titel oder Slug bearbeiten",
+		"edittype": "Typ ändern",
+		"fieldnameexists": "Es gibt bereits ein Feld mit dem Namen `{NAME}`. Bitte wähle einen anderen!",
+		"fieldoptions": "Optionen, getrennt mit \";\"",
+		"missingtitle": "Du musst einen URL-Slug und einen Titel angeben",
+		"none": "Es gibt auf diesem Server aktuell keine Formulare",
+		"oneperuser": "Eine Antwort pro Nutzer",
+		"onlymembers": "Nur Servermitglieder",
+		"preview": "Ansehen",
+		"regexpattern": "RegEx-Pattern zur Inhaltsvalidierung",
+		"setupdesc": "Das Formular wurde vorbereitet, du kannst es jetzt mit den Buttons unten einrichten.",
+		"setuptitle": "Formular **{SLUG}** (`{ID}`) einrichten",
+		"slugedit": "Slug bearbeiten",
+		"slugexists": "Es gibt bereits ein Formular mit dem Slug **{SLUG}**. Bitte wähle einen anderen!",
+		"title": "Formulare",
+		"type": {
+			"choice": "Einzel- oder Mehrfachauswahl",
+			"color": "Farbe",
+			"number": "Zahl",
+			"password": "Passwortfeld",
+			"range": "Range/Slider",
+			"textmulti": "Textfeld (mehrzeilig)",
+			"textsingle": "Textfeld (einzeilig)"
+		},
+		"unknown": "Es gibt kein Formular mit der ID bzw. dem Slug `{INPUT}`"
+	},
+	"game": {
+		"alreadyin": "Du bist dem Spiel schon beigetreten!",
+		"c4message": "Vier-gewinnt-Spiel von **{USER1}** und **{USER2}**:\nAktuell spielt: {TURN}.",
+		"full": "Das Spiel ist voll!",
+		"hangmanfail": "Hangman fehlgeschlagen!",
+		"joingame": "Spiel beitreten",
+		"notingame": "Du spielst nicht mit!",
+		"notyou": "Du darfst nicht gegen dich selbst spielen",
+		"notyourturn": "Du bist nicht dran!",
+		"singlelose": "Verloren",
+		"singlewin": "Gewonnen",
+		"startgame": "Spiel starten",
+		"tie": "Unentschieden",
+		"win": "{USER} hat das Spiel gewonnen!",
+		"yourturnmention": "{USER}, du bist dran!"
+	},
+	"github": {
+		"following": "Folgt",
+		"missing": "Du musst einen GitHub-Nutzernamen angeben",
+		"public_gists": "Öffentliche Gists",
+		"public_repos": "Öffentliche Repos",
+		"title": "**{USER}** auf GitHub",
+		"unknown": "Der Nutzer **{USER}** existiert nicht",
+		"username": "Nutzername"
+	},
+	"giveaway": {
+		"addrequirements": "Soll es zusätzliche Bedingungen für die Teilnehmer geben? Wenn nein, antworte mit `finish`, um das Giveaway zu erstellen. Wenn ja, antworte mit `ja`.",
+		"alreadyended": "Das Giveaway ist bereits beendet",
+		"alreadyparticipating": "Du nimmst schon an diesem Giveaway teil!",
+		"created": "Das Giveaway wurde erstellt!",
+		"creator": "Ersteller:",
+		"deleted": "Das Giveaway wurde gelöscht",
+		"dmmsg": "🎉 Du hast ein Giveaway auf **{GUILDNAME}** gewonnen! 🎉\nSieh auf dem Server nach, um dir deinen Gewinn abzuholen: {PRIZE}",
+		"edit": "Bearbeiten",
+		"edited": "Das Giveaway wurde bearbeitet!",
+		"editprize": "Preis bearbeiten",
+		"editprizebutton": "Preis/Zeit bearbeiten",
+		"edittime": "Relative Dauer vom Giveaway",
+		"edittitle": "Giveaway bearbeiten",
+		"ended": "Das Giveaway wurde beendet",
+		"endedmsg": "🎉 Das Giveaway wurde beendet! 🎉",
+		"endednowinner": "Es gibt keinen Gewinner.",
+		"ends": "Endet {TIME}",
+		"endtext": "🎉 **GIVEAWAY BEENDET** 🎉",
+		"endtime": "Beendet:",
+		"endwait": "Es kann bis zu einer Minute dauern.",
+		"errorlbpoints": "Du brauchst **{POINTS}** Punkte auf dem Leaderboard, um am Giveaway teilnehmen zu können! Du hast aktuell nur **{CURRENT}**.",
+		"errorminage": "Dein Account muss seit **{MINAGE}** auf Discord sein, damit du an dem Giveaway teilnehmen kannst!",
+		"errorminmemberage": "Du musst seit **{TIME}** auf dem Server sein, damit du an diesem Giveaway teilnehmen kannst!",
+		"errornoleaderboard": "Du hast noch nie eine Nachricht auf dem Server geschrieben, brauchst aber **{AMOUNT}** Leaderboard-Punkte, um am Giveaway teilnehmen zu können!",
+		"howlong": "Wie lange soll das Giveaway dauern? Beispiel: `2h 30m` oder `5d`",
+		"informdm": "Gewinner per PN informieren",
+		"invalidchannel": "Du musst einen gültigen Kanal angeben",
+		"join": "Beitreten",
+		"joined": "Beigetretene Nutzer: {AMOUNT}",
+		"limit": "Ein Server darf ohne Premium nicht mehr als **{LIMIT}** aktive Giveaways gleichzeitig haben",
+		"link": "Online ansehen",
+		"missingeditperms": "Du hast keine Berechtigung, um Giveaways zu bearbeiten!",
+		"missinguserperms": "❌ Du musst selbst Rechte für den Kanal haben",
+		"pricetoolong": "❌ Der Preis darf nicht länger als 256 Zeichen lang sein!",
+		"prize": "Preis:",
+		"req": {
+			"anyroles": "Du darfst aufgrund einer dir fehlenden Rolle nicht am Giveaway teilnehmen.",
+			"notroles": "Eine deiner Rollen verbietet es dir, am Giveaway teilzunehmen.",
+			"roles": "Dir fehlt mindestens eine benötigte Rolle, um am Giveaway teilnehmen zu können."
+		},
+		"requirements": {
+			"anyroles": "Hat eine dieser Rollen:",
+			"minage": "Minimales Accountalter:",
+			"minleaderboardpoints": "Minimale Leaderboard-Punkte:",
+			"minmemberage": "Mindestzeit auf dem Server:",
+			"notroles": "Hat nicht Rolle:",
+			"roles": "Hat alle dieser Rollen:"
+		},
+		"requirementstext": "**Teilnahmebedingungen festlegen**:\n\nDie Parameter werden nach folgendem Schema angegeben:\n> `<Bedingung>:<Wert>;<Weitere Bedingung>:<Wert 1>,<Wert 2>;…`\n\nMögliche Bedingungen:\n> `roles`: Nutzer muss alle dieser Rollen haben\n> `anyRoles`: Nutzer muss mindestens eine dieser Rollen haben\n> `notRoles`: Nutzer darf Rolle nicht haben\n> `minAge`: Nutzer-Account muss X alt sein\n> `minMemberAge`: Nutzer-Account muss seit X auf dem Server sein\n> `minLeaderboardPoints`: Nutzer muss X Punkte auf dem Leaderboard haben\n\nBeispiele:\n> `roles:Mitglied,Verifiziert`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
+		"reroll": "Neuen Gewinner aussuchen",
+		"rerolled": "Das Giveaway wurde erneut ausgerollt und der/die Gewinner sind: {USERS}",
+		"rerollednowinner": "Es konnten kein(e) Gewinner gefunden werden",
+		"savebutton": "Speichern",
+		"stillrunning": "Das Giveaway muss beendet sein, um es rerollen zu können",
+		"unknown": "Das Giveaway `{GIVEAWAY}` gibt es nicht",
+		"whatprizemulti": "Was sollen die Gewinner bekommen?",
+		"whatprizesingle": "Was soll der Gewinner bekommen?",
+		"whichchannel": "In welchem Kanal soll das Giveaway gestartet werden?",
+		"winner": "Gewinner:",
+		"winners": "Anzahl der Gewinner:",
+		"youjoined": "Du bist dem Giveaway erfolgreich mit **{ENTRIES}** Teilnahmen beigetreten!"
+	},
+	"gpt": {
+		"balanced": "Ausgeglichen (Standard)",
+		"creative": "Etwas kreativ",
+		"dailylimit": "Tägliches Limit erreicht",
+		"howcreative": "Wie kreativ soll ChatGPT antworten?",
+		"temperature": "Temperatur-Wert: {VALUE}",
+		"verycreative": "Sehr kreativ"
+	},
+	"guildonly": "Dieser Befehl kann nur auf Servern ausgeführt werden!",
+	"hack": {
+		"footer": "Definitiv echt™️",
+		"hacking": "Hacken… {PERCENT}%",
+		"loading": "Hacke **{USER}**…",
+		"nobot": "Du darfst keine Bots hacken",
+		"password": "Passwort"
+	},
+	"help": {
+		"admin": {
+			"description": "Zeigt Befehle zur Serververwaltung",
+			"title": "Admin"
+		},
+		"aliases": "Aliase",
+		"all": {
+			"description": "Zeigt alle Befehle vom Bot",
+			"title": "Alle Befehle"
+		},
+		"category": "Kategorie",
+		"description": "__Legende:__\n**<>** - Muss angegeben werden\n**[]** - Optional\n\nWähle eine Kategorie aus, um die Befehle zu sehen.",
+		"fun": {
+			"description": "Zeigt Fun-Befehle",
+			"title": "Fun"
+		},
+		"general": {
+			"description": "Zeigt allgemeine Befehle",
+			"title": "Allgemein"
+		},
+		"help": "Hilfe",
+		"moderation": {
+			"description": "Zeigt Moderations-Befehle",
+			"title": "Moderation"
+		},
+		"selectcategory": "Kategorie auswählen",
+		"suggest": {
+			"description": "Zeigt Befehle für Vorschläge an",
+			"title": "Vorschläge"
+		},
+		"ticket": {
+			"description": "Zeigt Ticket-Befehle",
+			"title": "Ticket"
+		},
+		"unknown": "Unbekannter Befehl/Kategorie!",
+		"usage": "Verwendung"
+	},
+	"http": {
+		"list": "Liste aller unterstützten Codes:"
+	},
+	"hug": {
+		"cantemoji": "Das Emoji kann nicht als Emoji hochgeladen werden!",
+		"doneemoji": "Das Bild wurde zusätzlich als Emoji hochgeladen: {EMOJI}"
+	},
+	"image": {
+		"invalidwidget": "Ungültiges Widget",
+		"missingmultiple": "Du musst mehr Bilder angeben",
+		"toobig": "Das Bild ist zu groß!"
+	},
+	"imageloadfail": "Das Bild kann nicht geladen werden",
+	"importmissingreply": "Du musst auf die Nachricht antworten, die du importieren willst!",
+	"integration": {
+		"actions": "Aktionen",
+		"arguments": "Argumente",
+		"exampleresult": "Beispielergebnis:",
+		"exampleusing": "Mit:",
+		"function": "Funktion:",
+		"lastupdated": "Zuletzt aktualisiert:",
+		"missingfunction": "Du musst den Namen einer Funktion angeben",
+		"missingname": "Du musst den Namen einer Integration angeben",
+		"noresults": "Es wurden keine passenden Integrationen gefunden",
+		"onlyusable": "Nur verwendbar für",
+		"publictitle": "Öffentliche Integrationen",
+		"tests": "Tests",
+		"unknown": "Diese Integration existiert nicht oder sie ist nicht öffentlich",
+		"unknownfunction": "Es gibt keine Funktion mit dem Namen `{FUNCTION}`",
+		"use": "Verwenden",
+		"verified": "Verifiziert:"
+	},
+	"invalidsubcommand": "Du musst einen gültigen Unterbefehl angeben",
+	"invaliduser": "Du musst einen Nutzer angeben",
+	"invite": "Bot einladen",
+	"inviteinfo": {
+		"boosts": "Boosts:",
+		"inviter": "Eingeladen von",
+		"maxuses": "Maximale Verwendungen:",
+		"missing": "Du musst eine Einladung angeben",
+		"online": "Online:",
+		"serverid": "Server-ID:",
+		"title": "Invite-Info",
+		"unknown": "Unbekannte Einladung",
+		"uses": "Verwendungen"
+	},
+	"isitdown": {
+		"available": "Website ist erreichbar",
+		"missingurl": "Du musst eine Webseite-URL angeben",
+		"notavailable": "Website ist nicht erreichbar"
+	},
+	"join": {
+		"inviter": "Einladung erstellt von {USER}",
+		"vanity": "Beigetreten mit Vanity-URL"
+	},
+	"kick": {
+		"cantkick": "Ich kann **{USER}** nicht kicken",
+		"fail": "Der Nutzer kann nicht gekickt werden",
+		"maynot": "Du darfst **{USER}** nicht kicken, weil er Kick-Rechte hat"
+	},
+	"leaderboard": {
+		"importcancel": "Das Laden vom Leaderboard wurde abgebrochen",
+		"imported": "Das Laden von **{SUCCESS}** Einträgen wurde abgeschlossen, **{DISPLAYNAME}**!\n**{FAILED}** Einträge wurden ignoriert, da die Nutzer nicht auf dem Server sind.",
+		"importing": "Das Leaderboard wird jetzt geladen, als Anhang findest du die alten Leveldaten des Servers",
+		"level": "Level",
+		"points": "Punkte",
+		"unavailable": "Dieses Leaderboard existiert nicht oder ein anderer Fehler ist aufgetreten"
+	},
+	"level": {
+		"disabled": "Level sind hier deaktiviert",
+		"notfound": "**{USER}** hat noch nie eine Nachricht gesendet",
+		"progress": "Fortschritt:"
+	},
+	"lock": {
+		"locked": "**{SUCCESS}** Kanäle wurden gesperrt, **{FAILED}** konnten nicht gesperrt werden",
+		"unlocked": "**{SUCCESS}** Kanäle wurden entsperrt, **{FAILED}** konnten nicht entsperrt werden"
+	},
+	"logs": {
+		"accountcreated": "Account erstellt",
+		"afkchannel": "AFK-Kanal bearbeitet",
+		"author": "Ersteller",
+		"autoarchiveduration": "Autoarchivierungszeit von `{CHANNEL}` aktualisiert",
+		"automodactions": "Aktionen der AutoMod-Regel **{RULE}** bearbeitet",
+		"automodcreate": "AutoMod-Regel **{RULE}** erstellt",
+		"automoddelete": "AutoMod-Regel **{RULE}** gelöscht",
+		"automodexemptchannels": "Ausgenommene Kanäle der AutoMod-Regel **{RULE}** bearbeitet",
+		"automodexemptroles": "Ausgenommene Rollen der AutoMod-Regel **{RULE}** bearbeitet",
+		"automodrename": "AutoMod-Regel umbenannt",
+		"automodruledisable": "AutoMod-Regel **{RULE}** deaktiviert",
+		"automodruleenable": "AutoMod-Regel **{RULE}** aktiviert",
+		"automodtrigger": "Auslöser der AutoMod-Regel **{RULE}** bearbeitet",
+		"avatarupdate": "Avatar geändert",
+		"banadd": "Nutzer gebannt",
+		"banremove": "Nutzer entbannt",
+		"bitrate": "Bitrate von `{CHANNEL}` aktualisiert",
+		"boostadd": "Serverboost hinzugefügt",
+		"boostremove": "Serverboost entfernt",
+		"botadd": "Bot hinzugefügt",
+		"botkick": "Bot entfernt",
+		"bulkdelete": "**{MESSAGES}** Nachrichten in `{CHANNEL}` gecleared",
+		"camerastarted": "Kamera aktiviert",
+		"camerastopped": "Kamera deaktiviert",
+		"categorycreate": "Kategorie erstellt",
+		"categorydelete": "Kategorie gelöscht",
+		"channelcategory": "`{CHANNEL}` in andere Kategorie verschoben",
+		"channelflags": "Kanalflags von `{CHANNEL}` aktualisiert",
+		"channelicon": "Kanalicon von `{CHANNEL}` geändert",
+		"channeliconcolor": "Kanaliconfarbe von `{CHANNEL}` geändert",
+		"channelname": "Kanalname aktualisiert",
+		"channelnsfw": "NSFW-Kennzeichnung von `{CHANNEL}` bearbeitet",
+		"channelperms": "Kanalberechtigungen von `{CHANNEL}` geändert",
+		"channelpin": "Nachricht angepinnt",
+		"channeltype": "Kanaltyp von `{CHANNEL}` aktualisiert",
+		"channelunpin": "Nachricht nicht mehr angepinnt",
+		"defaultlayout": "Standardforumlayout von `{CHANNEL}` aktualisiert",
+		"defaultreactionemoji": "Standardreaktionsemoji von `{CHANNEL}` aktualisiert",
+		"defaultsorting": "Standardsortierung von `{CHANNEL}` aktualisiert",
+		"discriminatorupdate": "Discriminator geändert",
+		"emojicreate": "Emoji erstellt",
+		"emojidelete": "Emoji gelöscht",
+		"emojiedit": "Emoji bearbeitet",
+		"emojiroles": "Emojirollen aktualisiert",
+		"eventchannel": "Eventkanal von **{EVENT}** bearbeitet",
+		"eventcreate": "Event **{EVENT}** erstellt",
+		"eventdelete": "Event **{EVENT}** gelöscht",
+		"eventdescription": "Eventbeschreibung von **{EVENT}** bearbeitet",
+		"eventend": "Eventendzeit von **{EVENT}** bearbeitet",
+		"eventlocation": "Eventort von **{EVENT}** bearbeitet",
+		"eventname": "Eventname bearbeitet",
+		"eventstart": "Eventstartzeit von **{EVENT}** bearbeitet",
+		"eventstate": "Eventstatus von **{EVENT}** bearbeitet",
+		"globalnameupdate": "Anzeigename geändert",
+		"guildboostprogessoff": "Boostfortschrittsanzeige deaktiviert",
+		"guildboostprogesson": "Boostfortschrittsanzeige aktiviert",
+		"guilddescription": "Serverbeschreibung bearbeitet",
+		"guildname": "Servername geändert",
+		"guildpartneroff": "Server-Partnerstatus entfernt",
+		"guildpartneron": "Server-Partnerstatus erhalten",
+		"guildverificationlevel": "Serververifikationsbedingungen bearbeitet",
+		"guildverifiedoff": "Server-Verifizierungsstatus entfernt",
+		"guildverifiedon": "Server-Verifizierungsstatus erhalten",
+		"integrationadd": "Integration hinzugefügt",
+		"integrationremove": "Integration entfernt",
+		"invitecreate": "Einladung erstellt",
+		"invitedelete": "Einladung gelöscht",
+		"jump": "Dahin springen",
+		"memberadd": "Nutzer beigetreten",
+		"memberavatar": "Serveravatar geändert",
+		"memberremove": "Nutzer verlassen",
+		"memberspruned": "**{AMOUNT}** inaktive Mitglieder gekickt",
+		"membersprunedtime": "Inaktiv seit **{DAYS}** Tag(en)",
+		"messageid": "Nachrichten-ID",
+		"msgdelete": "Nachricht in `{CHANNEL}` gelöscht",
+		"msgdeletetime": "Nachricht in `{CHANNEL}` nach **{TIME}** gelöscht",
+		"msgedit": "Nachricht in `{CHANNEL}` bearbeitet",
+		"msgedittime": "Nachricht in `{CHANNEL}` nach **{TIME}** bearbeitet",
+		"nicknameupdate": "Nickname geändert",
+		"publicupdateschannel": "Kanal für Communityupdates geändert",
+		"reactionadd": "Reaktion hinzugefügt",
+		"reactionaddrr": "Reactionrole Rolle erhalten",
+		"reactionremove": "Reaktion entfernt",
+		"reactionremoveall": "Reaktionen gelöscht",
+		"reactionremoverr": "Reactionrole Rolle entfernt",
+		"rolecolor": "Rollenfarbe geändert",
+		"rolecreate": "Rolle erstellt",
+		"roledelete": "Rolle gelöscht",
+		"roleemoji": "Rollenemoji geändert",
+		"rolehoist": "Rollenhoist geändert",
+		"rolementionable": "Rollenerwähnbarkeit geändert",
+		"rolename": "Rollenname geändert",
+		"rolepermission": "Rollenberechtigungen geändert",
+		"rulesaccept": "Serverregeln akzeptiert",
+		"ruleschannel": "Regelkanal geändert",
+		"rulesunaccept": "Serverregeln nicht mehr akzeptiert",
+		"serverbanner": "Serverbanner bearbeitet",
+		"serverboostdec": "Boostlevel verringert",
+		"serverboostinc": "Boostlevel erhöht",
+		"servercontentfilter": "Server-Contentfilter bearbeitet",
+		"serverdefaultnotifs": "Server-Standardbenachrichtungen bearbeitet",
+		"serverdiscoverysplash": "Discoverysplash-Bild aktualisiert",
+		"servericon": "Servericon geändert",
+		"serverjoined": "Server betreten",
+		"servernsfwlevel": "Server-NSFW-Level bearbeitet",
+		"serverownerchanged": "Servereigentümer geändert",
+		"serversplash": "Serversplash-Bild aktualisiert",
+		"slowmode": "Slowmode von `{CHANNEL}` aktualisiert",
+		"stageinstancecreate": "Stage-Instanz erstellt",
+		"stageinstancedelete": "Stage-Instanz gelöscht",
+		"stickercreate": "Sticker **{STICKER}** erstellt",
+		"stickerdelete": "Sticker **{STICKER}** gelöscht",
+		"stickerdescription": "Stickerbeschreibung von **{STICKER}** bearbeitet",
+		"stickername": "Stickername bearbeitet",
+		"stickertags": "Stickertags von **{STICKER}** bearbeitet",
+		"streamstarted": "Stream gestartet",
+		"streamstopped": "Stream gestoppt",
+		"systemchannel": "Systemkanal bearbeitet",
+		"systemchannelmessages": "Systemkanal-Nachrichten bearbeitet",
+		"threadarchive": "Thread **{THREAD}** geschlossen",
+		"threadinactiveduration": "Threadinaktivitätsdauer von **{THREAD}** aktualisiert",
+		"threadlock": "Thread **{THREAD}** gesperrt",
+		"threadname": "Thread in `{PARENT}` umbenannt",
+		"threadslowmode": "Post-Slowmode von `{CHANNEL}` aktualisiert",
+		"threadunarchive": "Thread **{THREAD}** wiedereröffnet",
+		"threadunlock": "Thread **{THREAD}** entsperrt",
+		"timeoutend": "Timeout aufgehoben",
+		"timeoutstart": "Nutzer getimeouted",
+		"topic": "Kanalthema von `{CHANNEL}` aktualisiert",
+		"userjoinraid": "[Raid] Nutzer betreten",
+		"userkick": "Nutzer gekickt",
+		"userlimit": "Benutzerlimit von `{CHANNEL}` aktualisiert",
+		"usernameupdate": "Nutzername geändert",
+		"userroleadd": "Rolle hinzugefügt",
+		"userroleremove": "Rolle entfernt",
+		"vanityurl": "Vanity-URL bearbeitet",
+		"videoquality": "Videoübertragungsqualität von `{CHANNEL}` aktualisiert",
+		"voicechannelregion": "Sprachkanalregion von `{CHANNEL}` aktualisiert",
+		"voicejoin": "Sprachkanal betreten",
+		"voiceleave": "Sprachkanal verlassen",
+		"voiceswitch": "Sprachkanal gewechselt",
+		"webhookcreate": "Webhook erstellt",
+		"webhookdelete": "Webhook gelöscht",
+		"widgetchannel": "Widget-Kanal bearbeitet",
+		"widgetoff": "Widget deaktiviert",
+		"widgeton": "Widget aktiviert"
+	},
+	"lyrics": {
+		"missing": "Du musst einen Songnamen angeben",
+		"title": "**{NAME}** von **{AUTHOR}**",
+		"unknown": "Es wurde kein Song gefunden"
+	},
+	"mass": {
+		"ban": {
+			"finish": "Es wurden **{SUCCESS}\"** Nutzer gebannt, **{FAILED}** konnten nicht gebannt werden",
+			"start": "Die Nutzer werden jetzt gebannt…"
+		},
+		"cancel": "Abbrechen",
+		"cancelled": "Massenaktion wurde abgebrochen!",
+		"kick": {
+			"finish": "Es wurden **{SUCCESS}\"** Nutzer gekickt, **{FAILED}** konnten nicht gekickt werden",
+			"start": "Die Nutzer werden jetzt gekickt…"
+		},
+		"missing": "Du musst einen Grund und mindestens einen Nutzer angeben"
+	},
+	"maze": {
+		"columns": "Zeilen",
+		"crossings": "Anzahl der Kreuzungen",
+		"editmaze": "Maze bearbeiten",
+		"rows": "Spalten"
+	},
+	"mcbug": {
+		"attachments": "Anhänge",
+		"creatededited": "Erstellt/Bearbeitet",
+		"fixedinversion": "Behoben in Version",
+		"fixversion": "Keine",
+		"invalidid": "Ungültige Bug-ID",
+		"issuecreate": "Report erstellt:",
+		"linked": "Verlinkt",
+		"missing": "Du musst eine Minecraft-Bugreport-ID angeben",
+		"more": "…und **{AMOUNT}** weitere",
+		"sinceversion": "Seit Version",
+		"solution": "Lösung",
+		"state": {
+			"done": "**Erledigt**: Der Report wurde bearbeitet.",
+			"duplicate": "**Duplikat**: Inhalt wurde bereits in einem anderen Report gemeldet.",
+			"fixed": "**Behoben**: Der Bug wurde behoben.",
+			"open": "**Offen**: Der Report kann von einem Entwickler bearbeitet werden.",
+			"reopened": "**Erneut geöffnet**: Der Report wurde erneut geöffnet."
+		},
+		"unknown": "Diesen Minecraft-Bugreport gibt es nicht",
+		"uploadby": "Hochgeladen von {USER}"
+	},
+	"mclint": {
+		"missingcommand": "Du musst einen Befehl angeben"
+	},
+	"mcrecipe": {
+		"loading": "Lade…",
+		"missing": "Du musst einen deutschen Minecraft-Item-Namen angeben",
+		"title": "Rezept von **{ITEM}**",
+		"unknown": "Das Item **{ITEM}** wurde nicht gefunden"
+	},
+	"mcrelease": {
+		"paper": "Erster Paper-Build für **{VERSION}**",
+		"pre": "Neuer Minecraft-Pre-Release",
+		"rc": "Neuer Minecraft-Release Candidate",
+		"release": "Neue Minecraft-Vollversion",
+		"snapshot": "Neuer Minecraft-Snapshot"
+	},
+	"mcserver": {
+		"offline": "Die Server-IP ist ungültig oder der Server ist offline!",
+		"playersonline": "Spieler online",
+		"title": "Status von **{IP}**"
+	},
+	"mcupdate": {
+		"created": "Einrichtung abgeschlossen. Der Status wird sich ab jetzt alle paar Minuten aktualisieren",
+		"invalidchannel": "❌ Ungültiger Kanal!",
+		"invalidip": "❌ Ungültige IP/Domain!",
+		"invalidport": "❌ Ungültiger Port!",
+		"ip": "Welche IP hat der Server? Du kannst auch eine (Sub-)Domain angeben.",
+		"messagechannel": "In welchem Kanal soll der Status angezeigt werden?",
+		"messagewaiting": "Warte auf Einrichtung und erste Abfrage…",
+		"namechannel": "In welchem Kanalnamen soll der Status angezeigt werden?",
+		"offlineformat": "Wenn der Server offline ist, welche Nachricht soll angezeigt werden? Standard ist `{IP}:{Port} | **Server nicht erreichbar**`, folgende Argumente sind möglich: `{IP} {PORT}`",
+		"port": "Welchen Port hat der Server? Solltest du bei Schritt 1 eine (Sub-)Domain angegeben haben, schreibe `25565`. Nutze `-query=<Port>`, um einen Queryport anzugeben um die Spielernamen anzeigen zu können.",
+		"selecttype": "Wie soll der Status angezeigt werden? Beschreibung, Name, Nachricht",
+		"statusformat": "Wie soll der Status angezeigt werden? Folgende Argumente sind möglich: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
+		"topicchannel": "In welcher Kanalbeschreibung soll der Status angezeigt werden?"
+	},
+	"meme": {
+		"nothingfound": "Es wurde kein Meme gefunden",
+		"nsfw": "Das Meme wurde als nicht jugendfrei markiert"
+	},
+	"mention": "Erwähnung",
+	"message": {
+		"edited": "Die Nachricht wurde bearbeitet!",
+		"editfailed": "Die Nachricht kann nicht bearbeitet werden",
+		"embedhidden": "Die Embeds der Nachricht wurden versteckt",
+		"embedjson": "Der Inhalt der Embeds ist:",
+		"embedunhidden": "Die Embeds der Nachricht wurden wieder sichtbar gemacht",
+		"invalidembed": "Das JSON ist ungültig, nutze den Editor auf https://embed.tomatenkuchen.com zum Erstellen eines Embeds",
+		"missingmessage": "Du musst eine Nachricht angeben",
+		"missingmessageemoji": "Du musst eine Nachricht und ein Emoji angeben",
+		"missingtitledesc": "Du musst einen Titel und optional eine Beschreibung getrennt mit `|` angeben",
+		"msgid": "Die Nachrichten-ID der Nachricht ist `{ID}`",
+		"noembed": "Diese Nachricht hat kein Embed",
+		"noreference": "Du musst auf eine Nachricht antworten",
+		"noslash": "Diesen Befehl kannst du nicht mit Slashcommands nutzen",
+		"reacted": "Der Bot hat mit dem angegebenen Emoji reagiert!",
+		"reactfail": "Reagieren fehlgeschlagen! Stelle sicher, dass der Bot Zugang zu dem Emoji hat"
+	},
+	"minecraft": {
+		"missing": "Du musst einen Spielernamen angeben",
+		"unknown": "Unbekannter Spieler"
+	},
+	"minesweeper": {
+		"bombsleft": "**{BOMBS}** Bomben/Flaggen verbleibend",
+		"stats": "Zeit benötigt: **{TIME}**\nButtons gedrückt: **{BUTTONS}**"
+	},
+	"missingperms": {
+		"bot": "Ich habe nicht genug Rechte für diesen Befehl",
+		"user": "Du hast nicht genug Rechte für diesen Befehl"
+	},
+	"missingtext": "Du musst einen Text angeben",
+	"modal": {
+		"created": "Das Modal `{MODAL}` wurde erstellt",
+		"creating": "Modal **{MODAL}** erstellen",
+		"deleted": "Das Modal `{MODAL}` wurde gelöscht",
+		"description": "Titel: {TITLE}\nFelder: **{FIELDS}**",
+		"editing": "Modal **{MODAL}** bearbeiten",
+		"exists": "Das Modal `{MODAL}` existiert bereits",
+		"fieldadd": "Modal-Feld hinzufügen",
+		"fielddefault": "Vordefinierter Wert vom Feld",
+		"fielddefaulttitle": "Standardwert",
+		"fielddelete": "Feld löschen",
+		"fielddeleted": "Du hast das Feld `{FIELD}` gelöscht!",
+		"fieldedit": "Modal-Feld bearbeiten",
+		"fieldediting": "Du bearbeitest das Feld `{FIELD}`:",
+		"fieldmaxlength": "Die Maximallänge des Feldes.",
+		"fieldmaxlengthtitle": "Maximale Länge",
+		"fieldminlength": "Die Mindestlänge des Feldes.",
+		"fieldminlengthtitle": "Minimale Länge",
+		"fieldplaceholder": "Wird angezeigt, wenn das Feld leer ist.",
+		"fieldplaceholdertitle": "Platzhalter",
+		"fieldrequired": "Feld erforderlich",
+		"fieldstyle": "Aussehen: {STYLE}",
+		"idmaxlength": "Die ID darf maximal 32 Zeichen lang sein",
+		"missing": "Du musst eine ID und einen Titel angeben",
+		"none": "Es gibt keine Modals",
+		"prepared": "Das Modal wurde vorbereitet, du kannst es jetzt mit den Buttons unten einrichten.",
+		"preview": "Vorschau",
+		"titleedit": "Modal-Titel ändern",
+		"titlemaxlength": "Der Titel darf maximal 45 Zeichen lang sein",
+		"unknown": "Das Modal `{ID}` existiert nicht"
+	},
+	"modlogs": {
+		"date": "Datum",
+		"moderator": "Moderator",
+		"none": "Der Nutzer hat noch keine Modlogs",
+		"title": "Zeige **{CURRENT}** von insgesamt **{TOTAL}** Modlogs",
+		"titleshort": "Zeige **{TOTAL}** Modlogs",
+		"usertitle": "Modlogs von {USER}"
+	},
+	"movie": {
+		"birthday": "Geburtstag",
+		"birthplace": "Geburtsort",
+		"deathday": "Todestag",
+		"duration": "Dauer",
+		"episodes": "Episoden",
+		"knownfor": "bekannt für",
+		"knownfordepartment": "Bekannt für Abteilung",
+		"languages": "Sprache[n]",
+		"missingmovieid": "Du musst eine Film-ID angeben",
+		"missingpersonid": "Du musst eine Personen-ID angeben",
+		"missingquery": "Du musst einen Suchbegriff angeben",
+		"missingseriesid": "Du musst eine Serien-ID angeben",
+		"noresults": "Es wurde kein Ergebnis unter diesem Suchbegriff gefunden",
+		"nsfw": "Dieser Film/Serie ist nur für Erwachsene",
+		"nsfwperson": "Die Inhalte dieser Person wurde als nicht jugendfrei gekennzeichnet",
+		"producer": "Produziert von",
+		"rating": "Bewertung",
+		"searchtitle": "**{AMOUNT}** Suchergebnisse für **{QUERY}**",
+		"unknownmovie": "Es wurde kein Film mit diesem Suchbegriff gefunden",
+		"unknownperson": "Es wurde keine Person mit diesem Suchbegriff gefunden",
+		"unknownseries": "Es wurde keine Serie mit diesem Suchbegriff gefunden"
+	},
+	"ms": {
+		"and": "und",
+		"days": "Tag[e]",
+		"hours": "Stunde[n]",
+		"milliseconds": "Millisekunde[n]",
+		"minutes": "Minute[n]",
+		"months": "Monat[e]",
+		"seconds": "Sekunde[n]",
+		"weeks": "Woche[n]",
+		"years": "Jahr[e]"
+	},
+	"mute": {
+		"alreadymuted": "Der Nutzer ist schon gemuted",
+		"autounmute": "Automatisch entmuted",
+		"autounmutetext": "{USER} wurde nach **{TIME}** entmuted",
+		"cantmute": "Du darfst **{USER}** nicht muten",
+		"changeduration": "Dauer vom Mute ändern",
+		"done": "{USER} wurde von {MOD} für **{DURATION}** gemuted",
+		"expanded": "Mute verlängert",
+		"fail": "Der Nutzer konnte nicht gemuted werden"
+	},
+	"nitroverify": {
+		"alreadydone": "Du hast bereits die Nitro-Verifizierungs-Rolle",
+		"disabled": "Auf diesem Server ist keine Nitro-Verifizierung aktiviert",
+		"notanimated": "Da das Emoji nicht animiert ist, konnte dein Nitro nicht verifiziert werden",
+		"notfound": "Die Nitro-Verifizierungs-Rolle existiert nicht",
+		"otheruser": "Da ein anderer Nutzer auf die Nachricht reagiert hat wurde die Verifizierung abgebrochen",
+		"tutorial": "Um deine Nitro-Verifizierung zu bestätigen, reagiere in den nächsten **30 Sekunden** mit einem animierten Emoji auf diese Nachricht",
+		"verified": "Dein Nitro wurde erfolgreich verifiziert"
+	},
+	"none": "Kein",
+	"noreason": "Kein Grund angegeben",
+	"npm": {
+		"author": "Autor",
+		"downloadsmonth": "Downloads der letzten 30 Tage",
+		"edited": "Bearbeitet",
+		"keywords": "Schlagwörter",
+		"maintainer": "Verwaltet von",
+		"missing": "Du musst einen NPM-Package-Namen angeben",
+		"repository": "Repository:",
+		"sizeinstallation": "Größe nach dem Installieren",
+		"sizepublish": "Größe beim Veröffentlichen",
+		"unknown": "Das Package **{PACKAGE}** gibt es nicht",
+		"version": "Version:"
+	},
+	"periodensystem": {
+		"boilingpoint": "Siedepunkt:",
+		"defaultstate": "Standardzustand:",
+		"density": "Dichte:",
+		"discovered": "Entdeckt im Jahr",
+		"electronegativity": "Elektronegativität:",
+		"group": "Elementgruppe",
+		"ionizationenergy": "Ionisierungsenergie",
+		"mass": "Masse",
+		"meltingpoint": "Schmelzpunkt:",
+		"missing": "Du musst ein Element angeben",
+		"notknown": "Unbekannt",
+		"symbol": "Symbol",
+		"unknown": "Unbekanntes Element"
+	},
+	"permission": {
+		"adduser": "Benutzer hinzufügen",
+		"bitrate": {
+			"invalid": "Du musst eine gültige Bitrate zwischen **8 000** und **{LIMIT}** angeben",
+			"missing": "Du musst eine Zahl als Bitrate in kbps angeben",
+			"set": "Die Bitrate für deinen privaten Sprachkanal wurde auf **{BITRATE}** kbps gesetzt"
+		},
+		"closed": "Dein privater Sprachkanal wurde geschlossen",
+		"infotitle": "Information über **{NAME}**",
+		"missingvoice": "Du musst in einem Sprachkanal sein",
+		"modadd": "{USER} wurde dem privaten Kanal als Moderator hinzugefügt",
+		"modremove": "{USER} wurde vom privaten Kanal als Moderator entfernt",
+		"notprivatevoice": "Du bist nicht in deinem privaten Sprachkanal",
+		"opened": "Dein privater Sprachkanal wurde geöffnet",
+		"owner": "Besitzer des Kanals",
+		"private": "Privat",
+		"reset": "Die Rechte für deinen privaten Kanal wurden zurückgesetzt",
+		"state": "Status",
+		"useradd": "Du hast {USER} Zugriff auf deinen privaten Sprachkanal gegeben",
+		"userlimit": {
+			"missing": "Du musst ein Limit angeben",
+			"remove": "Das Nutzerlimit wurde entfernt",
+			"set": "Das Nutzerlimit wurde auf **{LIMIT}** gesetzt"
+		},
+		"userremove": "Du hast {USER} den Zugriff auf deinen privaten Sprachkanal genommen"
+	},
+	"permissions": {
+		"bitfield": "Berechtigungen für Bitfield {BITFIELD}",
+		"user": "Berechtigungen von {USER}"
+	},
+	"ping": {
+		"title": "Pinge…"
+	},
+	"pinstats": {
+		"currentchannel": "Dieser Kanal",
+		"server": "Serverweit",
+		"title": "Angepinnte Nachrichten-Statistiken"
+	},
+	"poll": {
+		"ended": "Umfrage ist beendet",
+		"ends": "Umfrage endet",
+		"hasended": "Diese Umfrage ist bereits beendet!",
+		"missingoptions": "Du musst Optionen mit ` | ` getrennt angeben",
+		"noresult": "Keiner hat abgestimmt!",
+		"roleblacklisted": "Du darfst aufgrund einer oder mehrerer deiner Rollen nicht an Umfragen teilnehmen!",
+		"vote": "Abstimmen",
+		"voteadded": "Du hast erfolgreich für **{OPTION}** abgestimmt!",
+		"votelimit": "Du kannst nur für **{MAXVOTES}** Optionen abstimmen!\nDu hast abgestimmt für:\n{VOTED}",
+		"voteplural": "Stimmen",
+		"voteremoved": "Deine Stimme für **{OPTION}** wurde entfernt!",
+		"votesingular": "Stimme"
+	},
+	"prefix": "Mein Prefix ist **/** oder",
+	"purge": {
+		"fail": "Die Nachrichten können nicht gelöscht werden",
+		"invalidamount": "Du musst eine Zahl zwischen **1** und **99** angeben",
+		"multi": "Es wurden **{DELETED}** Nachrichten gelöscht:{MESSAGES}",
+		"nonedeleted": "Es wurden keine Nachrichten gelöscht",
+		"single": "Es wurde **eine** Nachricht gelöscht:{MESSAGES}"
+	},
+	"qrcreate": {
+		"missing": "Du musst den Inhalt für den QR-Code angeben"
+	},
+	"qrread": {
+		"content": "Inhalt des QR-Codes:",
+		"error": "Es ist ein Fehler beim Lesen des QR-Codes aufgetreten",
+		"missing": "Du musst einen Link zu einem QR-Code angeben"
+	},
+	"quoted": "Zitiert von {USER}",
+	"random": {
+		"average": "Der Durchschnitt der **{AMOUNT}** Zahlen ist **{AVERAGE}**",
+		"averagemissing": "Du musst mehr Zahlen angeben, damit der Durchschnitt berechnet werden kann",
+		"chosen": "Ich nehme **{CHOSEN}**!",
+		"dicemultiple": "**{AMOUNT}** Zahlen zwischen **1** und **{MAX}** generiert: **{NUMBERS}**",
+		"dicesingle": "Zahl zwischen **1** und **{MAX}** generiert: **{NUMBER}**",
+		"missingchoices": "Du musst mehr mögliche Antworten mit `,` getrennt angeben",
+		"optionlist": "Liste der Optionen:"
+	},
+	"reactionrole": {
+		"roleadded": "Dir wurde die Rolle {ROLE} hinzugefügt!",
+		"roleaddedmultiple": "Dir wurden die Rollen {ROLES} hinzugefügt!",
+		"roleremoved": "Dir wurde die Rolle {ROLE} entfernt!",
+		"roleremovedmultiple": "Dir wurden die Rollen {ROLES} entfernt!",
+		"selecttext": "Rollen auswählen",
+		"unknownemoji": "Unbekanntes Emoji!",
+		"unknownmessage": "Unbekannte Nachricht!",
+		"unknownmsg": "Es gibt keine Reactionroles (mehr) für diese Nachricht!"
+	},
+	"reddit": {
+		"unknownsubreddit": "Subreddit nicht existent?"
+	},
+	"remind": {
+		"alreadycopied": "Du hast diesen Reminder bereits kopiert!",
+		"cleared": "Deine Reminder wurden gelöscht",
+		"copied": "Du hast den Reminder von {USER} kopiert!",
+		"copy": "Reminder auch stellen",
+		"copyown": "Du kannst deine eigenen Reminder nicht kopieren!",
+		"created": "Der Reminder wird dich {TIME} erinnern an:\n{TEXT}",
+		"deletebutton": "Löschen",
+		"deleted": "Der Reminder wurde gelöscht!",
+		"edit": "Reminder bearbeiten",
+		"editdelete": "Reminder bearbeiten/löschen",
+		"edited": "Der Reminder wurde bearbeitet!",
+		"edittext": "Ändere den Text",
+		"edittime": "Ändere die Zeit",
+		"endsin": "Läuft ab",
+		"finished": "Hier ist deine Erinnerung, {USERS}",
+		"later": "Erinnere mich später",
+		"latercustom": "Benutzerdefiniert…",
+		"limit": "Du darfst nicht mehr als **{LIMIT}** Reminder gleichzeitig haben",
+		"manage": "Reminder verwalten",
+		"missingreminder": "Dieser Reminder existiert nicht mehr!",
+		"missingtime": "Du musst eine gültige Zeit angeben",
+		"noreminders": "Du hast keine Reminder mehr!",
+		"ranout": "Dieser Reminder ist bereits abgelaufen!",
+		"snoozenotyou": "Du darfst dieses Selectmenu nicht benutzen!",
+		"snoozeselecttime": "Zeit auswählen",
+		"snoozetime": "Gib die Zeit für den Reminder an",
+		"title": "Deine Reminder",
+		"your": "Dein Reminder"
+	},
+	"remove": {
+		"fail": "Der Nutzer konnte nicht vom Kanal entfernt werden",
+		"success": "{USERORROLE} wurde vom Ticket entfernt"
+	},
+	"reply": {
+		"dm": "**{USER}** hat auf deinen Vorschlag **#{ID}** auf **{GUILD}** geantwortet!"
+	},
+	"role": {
+		"botcount": "**{COUNT}** Bots mit der Rolle",
+		"buyable": "Kaufbar",
+		"clearedperms": "Alle Rechte der Rolle (ohne Overwrites) wurden entfernt",
+		"clearedpermsshort": "Berechtigungen entfernt",
+		"duplicate": {
+			"duped": "Die Rolle {NEWROLE} wurde als Kopie von {OLDROLE} erstellt",
+			"missingperms": "Der Bot kann die Rolle aufgrund von fehlenden Berechtigungen nicht erstellen",
+			"permshelp": "Vermutlich hat die Rolle Rechte, die der Bot nicht hat. Gib dem Bot die benötigten Rechte oder temporär Administrator."
+		},
+		"footer": "{COUNT} Rollen gefunden • 🔒 = Managed",
+		"list": "Liste aller Rollen:",
+		"listperm": "Liste aller Rollen mit der Berechtigung **{PERMISSION}**:",
+		"managed": "Diese Rolle kann nicht manuell vergeben oder entfernt werden",
+		"managedby": "Verwaltet durch",
+		"massadd": {
+			"finish": "**{MEMBERCOUNT}** Nutzern wurde die Rolle **{ROLE}** hinzugefügt, **{FAILED}** Nutzern konnte sie nicht hinzugefügt werden",
+			"start": "Ich füge **{MEMBERCOUNT}** Mitgliedern die Rolle **{ROLE}** hinzu"
+		},
+		"massremove": {
+			"finish": "**{MEMBERCOUNT}** Nutzern wurde die Rolle **{ROLE}** entfernt, **{FAILED}** Nutzern konnte sie nicht entfernt werden",
+			"start": "Ich entferne von **{MEMBERCOUNT}** Mitgliedern die Rolle **{ROLE}**"
+		},
+		"mentionable": "Erwähnbar",
+		"missing": "Du musst eine Aktion und eine Rolle angeben",
+		"missingpermission": "Du musst eine Berechtigung angeben",
+		"nousers": "Es wurden keine Nutzer mit der Rolle {ROLE} gefunden!",
+		"randomtitle": "**{AMOUNT}** zufällig ausgewählte Nutzer mit der Rolle **{ROLE}**",
+		"roleorder": "Ich kann diese Rolle nicht vergeben/entfernen, da sie über meiner höchsten Rolle ist",
+		"tempadd": "{USER} hat die Rolle {ROLE} von {MODERATOR} erhalten.",
+		"tempremove": "{USER} hat die Rolle {ROLE} von {MODERATOR} entzogen bekommen.",
+		"temprequested": "Rolle gegeben",
+		"toomany": "Zu viele, um alle aufzulisten",
+		"unknown": "Unbekannte Rolle",
+		"usercount": "**{COUNT}** Nutzer mit der Rolle"
+	},
+	"say": {
+		"error": "Die Nachricht konnte nicht gesendet werden"
+	},
+	"scheresteinpapier": {
+		"title": "Schere Stein Papier"
+	},
+	"screenshot": {
+		"title": "Website-Screenshot"
+	},
+	"server": {
+		"badges": "Badges",
+		"badgeshave": "haben",
+		"categories": "Kategorien",
+		"contentfilter": {
+			"all": "Alle Nachrichten",
+			"disabled": "Deaktiviert",
+			"withoutroles": "Nachrichten von Nutzern ohne Rolle"
+		},
+		"created": "Erstellt",
+		"description": "Beschreibung",
+		"emojianimated": "Animierte Emojis",
+		"emojinotanimated": "Normale Emojis",
+		"features": "Features:",
+		"members": "Mitglieder",
+		"messagefilter": "Nachrichten-Filter:",
+		"newestmember": "Neustes Mitglied",
+		"newestuser": "Neuster Account",
+		"notifications": {
+			"onlymentions": "Nur Erwähnungen",
+			"text": "Benachrichtigungen"
+		},
+		"oldestuser": "Ältester Account",
+		"owner": "Besitzer",
+		"raid": "Bei dem letzten Raid sind **{AMOUNT}** Nutzer gekickt worden.",
+		"text": "Textkanäle",
+		"toomanyroles": "*Zu viele Rollen*",
+		"verificationlevel": {
+			"high": "Hoch",
+			"highest": "Höchste",
+			"low": "Niedrig",
+			"middle": "Mittel"
+		},
+		"verilvl": "Verifizierungslevel",
+		"voice": "Sprachkanäle"
+	},
+	"shop": {
+		"footer": "Nutze /shop buy <Name>, um einen Gegenstand zu kaufen",
+		"notenough": "Du hast nicht genug Tomaten dafür",
+		"shovel": {
+			"fail": "Du hast schon eine Schaufel",
+			"success": "Du hast eine Schaufel gekauft"
+		},
+		"unknown": "Den Gegenstand gibt es nicht"
+	},
+	"shorter": {
+		"averageuniqueusers": "Durchschnittliche einzigartige Besucher pro Tag",
+		"blacklisted": "Die URL ist geblacklisted",
+		"cantresolve": "⚠️ Kann {URL} nicht auflösen: {ERROR}",
+		"cfthreats": "Von Cloudflare erkannte Bedrohungen",
+		"created": "Die Short-URL **{URL}** wurde erstellt",
+		"exists": "Es existiert bereits eine Short-URL mit diesem Namen",
+		"invalidurl": "Du musst eine gültige URL angeben",
+		"mostusedbrowsers": "Meistgenutzte Browser",
+		"redirects": "URL-Weiterleitungen",
+		"statstitle": "shorter.cf Stats des letzten Monats",
+		"views": "Aufrufe",
+		"weekstats": "**{WEEK}.** Woche: {REQUESTS} Anfragen (davon {CACHED} % gecached, {ENCRYPTED} % verschlüsselt), {PAGEVIEWS} Seitenaufrufe"
+	},
+	"slowmode": {
+		"current": "Aktueller Slowmode:",
+		"error": "Der Slowmode konnte nicht gesetzt werden",
+		"missing": "Du musst einen gültigen Wert für den Slowmode angeben",
+		"updated": "Der Slowmode wurde auf **{TIME}** Sekunden gesetzt"
+	},
+	"snake": {
+		"down": "Unten",
+		"left": "Links",
+		"right": "Rechts",
+		"up": "Oben"
+	},
+	"snowflake": {
+		"counter": "Zähler",
+		"invalid": "Du musst einen gültigen Snowflake angeben",
+		"missing": "Du musst einen Snowflake, z. B. eine Nutzer-ID, angeben",
+		"process": "Prozess-ID"
+	},
+	"ssp": {
+		"paper": "Papier",
+		"playagain": "Nochmal spielen",
+		"scissors": "Schere",
+		"stone": "Stein"
+	},
+	"starboard": {
+		"description": "Embed-Beschreibung",
+		"fields": "Embed-Felder",
+		"title": "Embed-Titel"
+	},
+	"stats": {
+		"chatters": "Aktive Chatter",
+		"disabled": "Die Statistiken sind hier deaktiviert",
+		"messagesperday": "Nachrichten pro Tag",
+		"modlogs": {
+			"title": "Moderationsstatistiken",
+			"titlerange": "Moderationsstatistiken innerhalb von **{TIME}**",
+			"total": "Modlogs insgesamt"
+		},
+		"processing": "Die Statistiken sind für diesen Server noch nicht verfügbar",
+		"title": "Statistiken für **{GUILD}**"
+	},
+	"steam": {
+		"contentwarning": "Inhaltswarnung:",
+		"developers": "Entwickler",
+		"free": "Kostenlos",
+		"gameselect": "Spiel auswählen",
+		"missing": "Du musst einen Namen eines Eintrages im Steam-Store angeben",
+		"platforms": "Plattformen",
+		"price": "Preis",
+		"priceunknown": "Noch nicht bekannt",
+		"publishedat": "Veröffentlicht"
+	},
+	"suggest": {
+		"alreadyhandled": "Dieser Vorschlag wurde bereits vom Serverteam bearbeitet und kann daher im Inhalt nicht mehr verändert werden",
+		"approved": "Der Vorschlag **#{ID}** wurde angenommen!",
+		"approvedby": "Angenommen von {USER}",
+		"approvedon": "Angenommen am",
+		"autocomplete": {
+			"nonefound": "Keine Vorschläge gefunden",
+			"suggest": "Verwende /suggest, um etwas vorzuschlagen"
+		},
+		"awaitingreview": "Der Vorschlag wird nun geprüft und in {CHANNEL} angezeigt, sobald dieser zugelassen worden ist",
+		"denied": "Der Vorschlag **#{ID}** wurde abgelehnt!",
+		"deniedby": "Abgelehnt von {USER}",
+		"deniedon": "Abgelehnt am",
+		"edit": "Der Vorschlag **#{ID}** wurde bearbeitet!",
+		"lastedit": "Zuletzt bearbeitet",
+		"missingperms": "Der Bot hat nicht genug Rechte (Nachrichten senden/Reaktionen hinzufügen) in {CHANNEL}",
+		"missingreply": "Du musst einen Vorschlag und eine Antwort angeben",
+		"missingreviewchannel": "Der Kanal zur Überprüfung bzw. Zulassung von Vorschlägen fehlt",
+		"missingsuggestion": "Du musst einen Vorschlag angeben",
+		"nochannel": "Es wurde kein Kanal für Vorschläge festgelegt!",
+		"notown": "Das ist nicht dein Vorschlag",
+		"replied": "Die Antwort auf den Vorschlag **#{ID}** wurde gespeichert!",
+		"replyfrom": "Antwort von {USER}",
+		"reviewapprove": "Vorschlag zulassen",
+		"reviewdeny": "Vorschlag löschen",
+		"sent": "Der Vorschlag wurde abgesendet!",
+		"title": "Vorschlag",
+		"unknownmessage": "Diesen Vorschlag gibt es nicht"
+	},
+	"supportserver": "Support-Server",
+	"sync": {
+		"ban": {
+			"otherlimit": "Der andere Server synchronisiert seine Bans bereits mit zwei anderen Servern",
+			"started": "Die Bans/Unbans werden jetzt vom anderen Server auf diesen hier synchronisiert",
+			"thislimit": "Dieser Server synchronisiert seine Bans bereits mit zwei anderen Servern"
+		},
+		"invalidcode": "Dieser Verifikationscode ist ungültig",
+		"log": {
+			"othersyncing": "Der andere Server synchronisiert seine Logs bereits mit einem Server",
+			"started": "Die Logs werden jetzt vom anderen Server auf diesen hier synchronisiert",
+			"thissyncing": "Dieser Server synchronisiert seine Logs bereits mit einem Server"
+		},
+		"notsyncing": "Dieser Server synchronisiert nichts mit anderen Servern",
+		"stopped": "Die Synchronisierung der Logs sowie Bans/Unbans auf andere Server wurde beendet",
+		"unknownguild": "Dieser Server existiert nicht",
+		"verify": "Der Code, den du innerhalb der nächsten Minute auf dem anderen Server bei {SLASHCMD} eingeben musst, lautet `{CODE}`"
+	},
+	"tagebis": {
+		"missing": "Du musst Monat und Tag angeben",
+		"year": "**{YEAR}** ist zu **{PERCENT} %** vorbei!"
+	},
+	"template": {
+		"adminrole": "Meine Botrolle {ROLE} braucht Administrator-Rechte",
+		"buttoncancel": "Nein, Laden abbrechen",
+		"buttonload": "Ja, Template laden",
+		"cancel": "Das Laden vom Template wurde abgebrochen",
+		"finished": "Das Template **{NAME}** von **{CREATOR}** mit dem Code **{CODE}** wurde vollständig geladen!",
+		"started": "Das Template wird jetzt geladen. Du kannst das Laden mit dem Befehl `/template cancel` (`cancel` als Template-ID) auf dem Server abbrechen - bereits gelöschte Kanäle/Rollen werden dadurch aber nicht wiederhergestellt!\nGeschätzte Dauer: ",
+		"unknown": "Dieses Template gibt es nicht",
+		"warning": "Dies wird das Template **{NAME}** von **\"{CREATOR}** laden, es wurde bereits **{USES}** mal genutzt. Bist du sicher, das du fortfahren willst?\n⚠️ **Diese Aktion wird alle bestehenden Rollen und Kanäle (abhängig von den Argumenten) löschen und durch die neuen ersetzen.** ⚠️"
+	},
+	"test": {
+		"feed": {
+			"content": "Inhalt als JSON:",
+			"entriesdeleted": "Die vom Bot gespeicherten Einträge im Feed sind mehr als im Feed vorhanden sind (es wurden Einträge gelöscht). Der Feed muss neu geindexed werden",
+			"invalidcontent": "Die Inhalte des Feeds können nicht geparst werden (vermutlich ist es kein Feed)",
+			"newentries": "Der Feed wurde erfolgreich geladen und enthält **{AMOUNT}** neue Einträge",
+			"nonew": "Der Feed wurde erfolgreich geladen, enthält aber keine neuen Inhalte",
+			"notarray": "Der geparste Feedinhalt muss ein Array (eine Liste) sein",
+			"notindexed": "Der Feed ist dem Bot noch nicht bekannt, weswegen der Bot diesen erst indexen muss",
+			"redirected": "⚠️ Die URL `{INPUT}` wurde auf `{TARGET}` weitergeleitet, bitte nutze diese URL für Feeds!"
+		}
+	},
+	"testvote": "Vote ist kein echter Vote!",
+	"text": {
+		"failed": "Der Webhook konnte nicht erstellt werden"
+	},
+	"threads": {
+		"all": "Alle Threads",
+		"description": "Nachrichten | Mitglieder"
+	},
+	"ticket": {
+		"alreadyclosed": "Dieses Ticket ist schon geschlossen",
+		"alreadyopen": "Du darfst nur **{LIMIT}** Tickets gleichzeitig offen haben",
+		"closebutton": "Ticket schließen",
+		"closed": "Ticket wurde geschlossen",
+		"closedby": "Geschlossen von",
+		"closedm": "Dein Ticket auf **{GUILD}** wurde von **{CLOSER}** geschlossen.",
+		"created": "✅ Dein Ticket wurde in {CHANNEL} erstellt",
+		"createdbutton": "Dein Ticket wurde erstellt!",
+		"createdcategory": "Ticketkategorie erstellt",
+		"deletebutton": "Ticket löschen",
+		"deleting": "Ticket {CHANNEL} wurde gelöscht",
+		"empty": "*Nicht angegeben*",
+		"excludedrole": "Du darfst aufgrund der Rolle {ROLES} kein Ticket öffnen!",
+		"missingcategorymodal": "Diese Ticketkategorie bzw. dieses Modal existiert nicht mehr!",
+		"missingticketcategory": "Es gibt keine Kategorie mit dem Namen \"Ticket\" auf dem Server und es wurde keine Ticketkategorie festgelegt, weswegen das Ticket nicht erstellt werden kann",
+		"notclosed": "Dieser Kanal ist kein geschlossenes Ticket",
+		"notfound": "Dieser Kanal ist kein Ticket oder der Ersteller des Tickets ist unbekannt",
+		"noticket": "Dieser Kanal ist kein Ticket",
+		"notifyauthor": "Ersteller informieren",
+		"notifydone": "Der Ersteller wurde informiert",
+		"notifyerror": "Der Ersteller konnte nicht informiert werden",
+		"notranscript": "Es wurde kein automatisches Transcript erstellt, da zu wenig Nachrichten im Ticket gesendet wurden. Soll dennoch eins erstellt werden, nutze {TRANSCRIPT}.",
+		"previoustickets": "Vorherige Tickets",
+		"reopenbutton": "Ticket erneut öffnen",
+		"reopened": "Das Ticket wurde erneut geöffnet!",
+		"requireRole": "Du benötigst die Rolle {ROLE}, um ein Ticket in dieser Kategorie erstellen zu können!",
+		"ticketclosing": "Ticket wird in **5** Sekunden gelöscht",
+		"transcript": "Transcript ansehen",
+		"transcriptdiscordpromo": "Du möchtest auch alle Nachrichten, inklusive Anhänge, von nicht-Tickets archivieren? Tritt unserem Support-Server <https://tomatenkuchen.com/discord> bei und frag nach!"
+	},
+	"ticketembed": {
+		"addbutton": "Ticketkategorie hinzufügen",
+		"button": "Ticket erstellen",
+		"buttonstyle": "Das Aussehen des Buttons",
+		"buttontext": "Der Text des Buttons",
+		"buttonurl": "URL (nur bei Typ LINK)",
+		"categoryname": "Ticketkategoriename aus dem Dashboard",
+		"customavatar": "Die Avatar-URL des Webhooks",
+		"customize": "Aussehen anpassen",
+		"customizetitle": "Aussehen des Ticketembeds anpassen",
+		"customizeupdated": "Das Aussehen des Ticketembeds wurde geändert!",
+		"customname": "Der Anzeigename des Webhooks",
+		"description": "Um ein Ticket zu erstellen klicke auf \"Ticket erstellen\"",
+		"editmessage": "Nachricht bearbeiten",
+		"editweb": "Embed/Buttons bearbeiten",
+		"emoji": "Eine Emoji-ID für den Button",
+		"invalidcategory": "Die Ticketkategorie **{CATEGORY}** existiert nicht!",
+		"pastebutton": "JSON-Code kopieren/einfügen",
+		"pastejson": "Füge den JSON-Code der Nachricht ein.",
+		"sendin": "In {CHANNEL} senden",
+		"sent": "Das Ticketembed wurde gesendet!"
+	},
+	"tickets": {
+		"average": "Durchschnitt:",
+		"averageclose": "Durchschnittlich vergangene Zeit bis zum Schließen",
+		"averagedelete": "Durchschnittlich vergangene Zeit bis zum Löschen",
+		"buttonchannel": "Hier senden",
+		"buttondm": "Per PN senden",
+		"claimedcount": "Anzahl der geclaimten Tickets",
+		"claimfirst": "Zeit, in dem Tickets noch nicht geclaimt worden sind",
+		"closedcount": "Geschlossene Tickets",
+		"deletedcount": "Gelöschte Tickets",
+		"displaywarning": "Dies wird alle Tickets{? von dem angegebenen Nutzer?} dieses Servers öffentlich anzeigen und jeder mit dem Link kann auf das Transcript zugreifen.",
+		"opencount": "Offene Tickets",
+		"ownerscount": "Anzahl verschiedener Ticket-Ersteller",
+		"senddm": "Die Ticketlogs wurden dir per PN zugeschickt, wenn der Bot dich anschreiben kann!",
+		"stats": "Ticket-Statistiken",
+		"title": "Zeige **{CURRENT}** von insgesamt **{TOTAL}** Tickets",
+		"titleshort": "Zeige **{TOTAL}** Tickets",
+		"unknowncategory": "Die Ticketkategorie **{CATEGORY}** gibt es nicht",
+		"usertitle": "Tickets von {USER}"
+	},
+	"timer": {
+		"deleted": "Der Timer existiert nicht mehr!",
+		"empty": "Niemand ist dem Timer gefolgt D:",
+		"ended": "Der Timer wurde {TIME} beendet!",
+		"footer": "Nutze den Button, um beim Beenden des Timers benachrichtigt zu werden",
+		"success": "Du wirst nun benachrichtigt, sobald der Timer abgelaufen ist!",
+		"timesup": "Timer abgelaufen!",
+		"title": "Timer endet am {TIME}"
+	},
+	"timezone": {
+		"converted": "Umgerechnete Zeit:",
+		"given": "Gegebene Zeit:",
+		"timezone": "Zeitzone:"
+	},
+	"todo": {
+		"add": "Der Eintrag wurde hinzugefügt",
+		"none": "Deine Todo-Liste ist leer! Mit {SLASHTODOADD} <Eintrag> kannst du neue Einträge hinzufügen",
+		"remove": "Der Eintrag wurde entfernt",
+		"title": "Deine Todo-Liste"
+	},
+	"transcript": {
+		"done": "Es wurden **{MESSAGES}** Nachrichten gespeichert:",
+		"edited": "(Bearbeitet)",
+		"useslash": "{USER} verwendet {SLASHCOMMAND}"
+	},
+	"transform": {
+		"missing": "Du musst einen Typ und einen Text angeben",
+		"time": {
+			"longdate": "Langes Datum",
+			"longtime": "Lange Zeit",
+			"longtimedate": "Lange Zeit und Datum",
+			"relative": "Relative Zeit",
+			"shortdate": "Kurzes Datum",
+			"shorttime": "Kurze Zeit",
+			"shorttimedate": "Kurze Zeit und Datum",
+			"title": "Discord-Zeitformatierung"
+		}
+	},
+	"translate": {
+		"doyoumean": "Meinst du",
+		"error": "Der Text kann nicht übersetzt werden",
+		"errorcorrected": "Fehler korrigiert",
+		"missing": "Du musst eine Zielsprache und einen Text angeben",
+		"translated": "Der Text ```\n{TEXT}```\nwurde aus der Sprache **{LANGUAGE}** übersetzt:\n```{TRANSLATION}```"
+	},
+	"twitch": {
+		"currentstream": "Aktueller Livestream",
+		"game": "Spiel:",
+		"partner": "Twitch-Partner",
+		"title": "Titel:",
+		"unknown": "Diesen Twitch-Kanal gibt es nicht",
+		"viewers": "Zuschauer:"
+	},
+	"tz": "de-DE",
+	"unban": {
+		"fail": "Der Nutzer kann nicht entbannt werden",
+		"success": "Der Nutzer wurde entbannt"
+	},
+	"unmute": {
+		"done": "{USER} wurde von {MOD} entmuted",
+		"fail": "Der Nutzer kann nicht entmuted werden",
+		"notmuted": "Der Nutzer ist nicht gemuted"
+	},
+	"uno": {
+		"autoskip": "⏩ Dein Zug wurde übersprungen, da du die Karten sowieso hättest ziehen müssen.",
+		"calledfail": "Du kannst Uno aktuell nicht nutzen, weswegen du eine Strafkarte erhalten hast!",
+		"calledsuccess": "Du hast Uno gerufen!",
+		"dontuse": "Nicht verwenden",
+		"joined": "Du bist dem Spiel beigetreten!",
+		"missingplayers": "Es sind nicht genug Spieler für ein Uno-Spiel beigetreten D:",
+		"notowner": "Du bist nicht der Ersteller des Spiels!",
+		"selectcolor": "Wähle eine Farbe aus:",
+		"start": "{USER} lädt zu einer Runde Uno ein! Klicke auf den Knopf unter dieser Nachricht, um beizutreten! Das Spiel startet {TIMESTAMP} mit **{PLAYERS}** Spielern.",
+		"usedrawn": "Möchtest du die gezogene Karte verwenden?",
+		"viewcards": "Karten ansehen",
+		"win": "Du hast das Spiel gewonnen!"
+	},
+	"user": {
+		"admin": "Administrator",
+		"badge": {
+			"developer": "<:owner:712736235873108148> Entwickler",
+			"oldeconomy": "<a:pepemoney:960027591115407370> Altes Economysystem",
+			"staff": "<:staff:713984949639708712> Team",
+			"translator": "🏴‍☠️ Übersetzer"
+		},
+		"boostingsince": "Boostet den Server seit",
+		"globaldisplayname": "Globaler Anzeigename:",
+		"invites": "Einladungen:",
+		"joined": "Beigetreten",
+		"nickname": "Nickname:",
+		"noperms": "Keine zusätzlichen Berechtigungen",
+		"owner": "Serverbesitzer",
+		"pending": "Unverifiziert",
+		"permissions": "Berechtigungen",
+		"privacy": "Datenschutzerklärung",
+		"profilecolor": "Profilfarbe",
+		"public": "Öffentlich",
+		"requirecodegrant": "Code Grant erforderlich",
+		"roles": "Rollen",
+		"serveravatar": "Server-Avatar",
+		"supportserver": "Supportserver-ID:",
+		"timeouted": "Im Timeout",
+		"timeoutedvalue": "✅, endet {TIMESTAMP}",
+		"tos": "Nutzungsbedingungen (ToS)",
+		"user": "Nutzer",
+		"voice": "Sprachkanal"
+	},
+	"usersettings": {
+		"editlevelbg": "Levelhintergrund ändern",
+		"imageurl": "Bild-URL",
+		"levelbg": "Level-Hintergrundbild",
+		"saveticketatt": "Avatar und Anhänge in Tickets speichern",
+		"title": "Benutzereinstellungen"
+	},
+	"verification": {
+		"defaulttitle": "Verwende den Button unten, um dich zu verifizieren!",
+		"disabled": "Die Verifizierung ist auf diesem Server nicht aktiviert!",
+		"invalid": "Dein Ergebnis **{RESULT}** ist ungültig, versuche es erneut!",
+		"missingpermissions": "Ich brauche die Berechtigungen \"Kanal ansehen\", \"Nachrichten senden\" und \"Links einbetten\" in dem Kanal",
+		"modallabel": "Schreibe die Zeichen des Captcha-Bilds",
+		"modaltitle": "Beweise, dass du ein Mensch bist",
+		"sent": "Die Verifikationsnachricht wurde erfolgreich in {CHANNEL} gesendet!",
+		"success": "Du hast dich erfolgreich verifiziert!"
+	},
+	"voice": {
+		"deafedall": "Alle Mitglieder in deinem Sprachkanal, außer dir, wurden taub geschaltet",
+		"mutedall": "Alle Mitglieder in deinem Sprachkanal, außer dir, wurden stummgeschaltet"
+	},
+	"vote": {
+		"nextvote": "Nächster Vote in **{TIME}**"
+	},
+	"warn": {
+		"cantwarn": "Du darfst **{USER}** nicht verwarnen",
+		"missingreason": "Du musst einen Grund angeben",
+		"warned": "{USER} wurde verwarnt"
+	},
+	"wordsearch": {
+		"invalidposition": "Ungültige Position!",
+		"mark": "Wort markieren",
+		"noword": "An der angegeben Position wurde kein Wort gefunden!",
+		"position": "Start- und Endposition des Worts"
+	},
+	"work": {
+		"captcha": {
+			"start": "**{USER}**, löse folgendes Captcha:"
+		},
+		"lose": {
+			"time": "Du warst zu langsam!"
+		},
+		"win": "Gut gemacht! Du hast **{TIME}** Sekunden benötigt und **{AMOUNT}** Tomaten erhalten!"
+	},
+	"ytsearch": {
+		"country": "Land:",
+		"found": "**{AMOUNT}** Kanäle gefunden",
+		"hidden": "Versteckt",
+		"missing": "Du musst einen YouTube-Kanal-Namen angeben",
+		"onlychildren": "Kanal nur für Kinder:",
+		"selectchannel": "Kanal auswählen",
+		"subscribers": "Abonnenten:",
+		"topics": "Themen:",
+		"unknown": "Es wurden keine Kanäle gefunden"
+	}
+}

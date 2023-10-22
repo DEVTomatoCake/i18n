@@ -1,0 +1,1645 @@
+{
+	"add": {
+		"fail": "A felhasználót nem sikerült hozzáadni ehhez a csatornához",
+		"success": "{USERORROLE} hozzáadva a jegyhez"
+	},
+	"addemoji": {
+		"error": "⚠️ Nem sikerült hozzáadni a(z) {URL} címet!",
+		"missing": "Meg kell adnia egy hangulatjelet",
+		"noneadded": "Nem kerültek emojik hozzáadásra",
+		"success": "A(z) {EMOJI} hangulatjel `{NAME}` néven lett hozzáadva!",
+		"successnoname": "A hangulatjel {EMOJI} hozzáadva!"
+	},
+	"afk": {
+		"afk": "{USER} afk!",
+		"end": "Már nem vagy afk!\nAfk voltál **{TIME}**.",
+		"mentions": "Említések",
+		"reason": "Ok",
+		"set": "Az afk állapotod be van állítva",
+		"since": "Mivel"
+	},
+	"anagram": {
+		"wordfound": "A **{WORD}** szót találtuk!"
+	},
+	"approve": {
+		"dm": "A **{GUILD}**-on tett **#{ID}** javaslatát **{USER}** jóváhagyta!"
+	},
+	"automod": {
+		"accountminage": "A fiókod nem elég régi, legalább **{AGE}** évesnek kell lennie!",
+		"capsmute": "{USER}, elnémítottuk, mert túl sok nagybetűt használt!",
+		"capswarn": "{USER}, nem szabad ennyi nagybetűt használni!",
+		"changereason": "Változás oka",
+		"emptylinesmute": "{USER}, elnémítottuk, mert túl sok üres sort küldött spamre!",
+		"emptylineswarn": "{USER}, nem szabad ennyi üres sort használni!",
+		"flagreason": "A zászló oka",
+		"massemojismute": "{USER}, elnémították, mert túl sok emojit küldött!",
+		"massemojiswarn": "{USER}, nem szabad ennyi emojit küldened!",
+		"massspoilermute": "{USER}, elnémítottak, mert túl sok spoilert használtál!",
+		"massspoilerwarn": "{USER}, nem használhatsz ennyi spoilert!",
+		"masszalgomute": "{USER}, elnémítottak, mert túl sok zalgót használtál!",
+		"masszalgowarn": "{USER}, nem használhatsz ennyi zalgót!",
+		"noinvites": "Itt nem küldhet meghívókat",
+		"nolinks": "Ide nem küldhet linkeket",
+		"onlyattachments": "Ezen a csatornán csak mellékleteket és kép URL-eket küldhet",
+		"repeatmute": "{USER}, elnémítottuk az ismétlődő üzenetek miatt!",
+		"repeatwarn": "{USER}, ne ismételje túl gyakran az üzeneteit!",
+		"spammute": "{USER}, spam miatt elnémítottuk!",
+		"spamwarn": "{USER}, hagyd abba a spamküldést!",
+		"userleft": "A felhasználó már nincs a szerveren!",
+		"viewmodlogs": "Modlogok megtekintése",
+		"violaterule": "[Automod] A(z) „{RULE}” szabály megsértése"
+	},
+	"back": "Vissza",
+	"backup": {
+		"adminrolepos": "A botom {ROLE} szerepkörének a legmagasabb szerepkörnek kell lennie a kiszolgálón",
+		"automod": "AutoMod szabályok",
+		"cancelled": "A **{GUILDNAME}** biztonsági mentés `{CODE}` betöltése megszakadt!",
+		"cancelloading": "Betöltés megszüntetése",
+		"changesonly": "Csak változások",
+		"channelmessages": "100 üzenet szöveges/hang csatornánként",
+		"channelthreads": "Csatornák és szálak",
+		"created": "Létrejött a **{GUILDNAME}** biztonsági mentése, **{DISPLAYNAME}**! A fájl mérete `{SIZE}` ({PERCENT}%-kal tömörítve). A következő beállításokat használtuk: {SELECTED}.",
+		"creating": "Biztonsági mentés létrehozása…",
+		"creatingemojis": "Emojik létrehozása",
+		"creatingstickers": "Matricák készítése",
+		"creatingthreads": "Szálak létrehozása",
+		"delete": "Biztonsági mentés törlése",
+		"deleteconfirm": "Igen, biztonsági mentés törlése",
+		"deleteconfirmtext": "⚠️ Biztos, hogy törölni akarja a **{GUILDNAME}** `{CODE}` biztonsági másolatát? Ez visszafordíthatatlan! ⚠️",
+		"deleted": "A **{GUILDNAME}** `{CODE}` biztonsági mentése törlődött!",
+		"deletingemojis": "Emojik törlése",
+		"deletingstickers": "Matricák törlése",
+		"emojis": "Emojik",
+		"events": "Tervezett események",
+		"filedownload": "Képek/fájlok letöltése (nagy biztonsági mentés, biztonságos)",
+		"fileurl": "URL-ek használata az imgs/fájlokhoz (kis biztonsági mentés, nem biztonságos)",
+		"infotitle": "Biztonsági mentés a `{CODE}}-ról`",
+		"limit": "Ön már létrehozott **{LIMIT}** biztonsági mentéseket. Töröljön egyet, hogy újat tudjon létrehozni",
+		"limitnotsaved": "A biztonsági mentés nem mentésre került, mert nagyobb, mint az aktuális **{LIMIT}** határérték",
+		"load": "Biztonsági mentés betöltése",
+		"loadconfirm": "Igen, töltse be a biztonsági mentést és cserélje ki a kiválasztott alkatrészeket",
+		"loadconfirmselect": "⚠️ Biztos, hogy be akarja tölteni a biztonsági mentést `{CODE}` **{GUILDNAME}**-ból?\n\nHa igen, akkor válassza ki a szerver azon részeit, amelyeket ki kell cserélni (**!**).",
+		"loadconfirmtext": "⚠️ Biztos, hogy beszeretné olvasni a biztonsági mentés `{CODE}` -t a **{GUILDNAME}** szerveren? Ez a tevékenység visszavonhatatlan! ⚠️\n\nA következők fognak törlődni, illetve újragenerálódni a biztonsági mentés során: {LIST}",
+		"loaded": "A `{CODE}` biztonsági mentés sikeresen betöltődött a **{GUILDNAME}**-ra!",
+		"loading": "A **{GUILDNAME}** `{CODE}` biztonsági mentés betöltése…",
+		"loadingowneronly": "Biztonsági mentéseket csak a szerver tulajdonosa tölthet be!",
+		"loadthreads": "Szálak betöltése",
+		"messages": "Üzenetek",
+		"nicknames": "Becenevek",
+		"nobackups": "Nincs biztonsági mentés",
+		"restoringlong": "TomatenKuchen biztonsági mentés visszaállítása…",
+		"restoringshort": "TK biztonsági mentés visszaállítása…",
+		"running": "Ezen a kiszolgálón már folyamatban van egy biztonsági mentési művelet végrehajtása",
+		"saveall": "Mindenki megmenekül",
+		"select": "Biztonsági mentés kiválasztása…",
+		"selectbackupparts": "Válassza ki, hogy a kiszolgáló mely részeiről készüljön biztonsági mentés.",
+		"selectedsavemessages": "Csatornák az üzenetek csatolásának mentésével",
+		"settings": "Beállítások:",
+		"size": "Fájlméret:",
+		"start": "Biztonsági mentés indítása",
+		"state": {
+			"channelmessages": "Csatornák, üzenetek",
+			"compressing": "Tömörítés",
+			"createcategories": "Kategóriák létrehozása",
+			"createremainingchannels": "A fennmaradó csatornák létrehozása",
+			"createroles": "Szerepek létrehozása és hozzárendelése",
+			"creatingwebhooks": "Webhookok létrehozása a {CHANNEL} számára",
+			"decompressing": "Dekompresszálás",
+			"deletechannels": "Csatornák törlése",
+			"deleteroles": "Szerepek törlése",
+			"finishing": "Befejezés",
+			"general": "Tagok betöltése, ikon, banner",
+			"loadmessages": "rakodási üzenetek",
+			"preparation": "Előkészítés, szerver beállítások stb.",
+			"roles": "Szerepek, szereptagok"
+		},
+		"stickers": "Matricák",
+		"stoppedloading": "A biztonsági mentés betöltése ellen döntött a `{CODE}`.",
+		"threadmessages": "100 üzenet szálanként",
+		"tkupsell": "Tudtad, hogy a TomatenKuchen képes helyettesíteni a legtöbb többcélú botot? :D",
+		"webhooks": "Webhooks"
+	},
+	"ban": {
+		"alreadybanned": "A felhasználó már ki van tiltva",
+		"cantban": "Nem tudom kitiltani **{USER}**",
+		"fail": "A felhasználót nem lehetett kitiltani",
+		"forceban": "Ezt az ellenőrzést a `forceban` argumentummal kihagyhatja.",
+		"forcemissingreason": "A kitiltás okát nem közölték.",
+		"maynot": "Nem tilthatod ki **{USER}**-t, mert rendelkezik a Tagok tiltása engedéllyel",
+		"success": "**{MOD}** tiltott **{USER}** a **{DURATION}**: {REASON}",
+		"unbanned": "**{USER}** feloldották a tiltást **{TIME}** után"
+	},
+	"banlist": {
+		"none": "Nincsenek tiltott vagy elnémított felhasználók!",
+		"title": "A **{BANS}** felhasználók ki vannak tiltva, a **{MUTES}** pedig el vannak némítva:",
+		"unknown": "A felhasználó nincs letiltva vagy elnémítva"
+	},
+	"birthday": {
+		"dayhigh": "Egy hónap nem több mint 31 napból áll",
+		"daylow": "A nap nem lehet kisebb vagy egyenlő 0-val",
+		"deleted": "A mentett születésnapod törölve lett",
+		"deletedfictional": "A **{NAME}** fiktív születésnapot törölték",
+		"fictivetitle": "A szerver fiktív születésnapjai",
+		"invalidyear": "Érvényes évet kell megadnia",
+		"missingargs": "Hozzá kell adnia egy születésnapot",
+		"missingday": "Hozzá kell adnia egy nap számát",
+		"missingmonth": "Adj hozzá egy hónapnak a számát",
+		"monthhigh": "Egy évben csak 12 hónap van",
+		"monthlow": "A hónap nem lehet kisebb vagy egyenlő 0-val",
+		"nofictive": "Ezen a szerveren nincsenek fiktív születésnapok!",
+		"nonesaved": "Nincs megmentett születésnapod",
+		"unknownfictional": "A **{NAME}** fiktív születésnap nem létezik ezen a szerveren",
+		"updated": "Elmentettük a szülinapodat",
+		"updatedfictional": "A fiktív születésnap **{NAME}** frissült"
+	},
+	"bot": {
+		"amount": "Összeg",
+		"commands": "Parancsok",
+		"commandsused": "Használt parancsok",
+		"mostused": "Leggyakrabban használt parancsok",
+		"nocustom": "Nem támogatja az egyéni botokat",
+		"servers": "Szerverek",
+		"size": {
+			"allcommands": "Parancsok összességében:",
+			"allevents": "Események összességében:",
+			"biggestcommands": "A legnagyobb parancsok:",
+			"biggestevents": "Legnagyobb események:",
+			"smallestcommands": "Legkisebb parancsok:",
+			"smallestevents": "Legkisebb események:",
+			"title": "Statisztikák a fájlméretekről",
+			"transcripts": "Átiratok:"
+		},
+		"speed": "Sebesség",
+		"statcorderror": "A statcord adataidat nem sikerült lekérni. Kérjük, próbáld újra később",
+		"unknownguild": "Ismeretlen céh",
+		"userscached": "a gyorsítótárban:"
+	},
+	"calc": {
+		"invalid": "Érvénytelen szintaxis",
+		"title": "|                   Számológép                   |"
+	},
+	"cantusebutton": "Csak **{USER}** használhatja az üzenet gombjait!",
+	"cantuseselect": "Csak **{USER}** használhatja az üzenet kiválasztási menüjét!",
+	"channelinfo": {
+		"automatic": "Automatikus",
+		"bitrate": "Bitráta",
+		"bots": "A robotok mennyisége",
+		"created": "Csatorna létrehozva",
+		"members": "Felhasználók a csatornában",
+		"notopic": "Nincs téma beállítva",
+		"region": "Régió",
+		"title": "Információ a következőről: **{CHANNEL}**",
+		"type": "Típus",
+		"userlimit": "Felhasználói korlát"
+	},
+	"channels": "Csatornák",
+	"channeltypes": {
+		"announcement": "Bejelentő csatorna",
+		"announcementthread": "Bejelentési téma",
+		"category": "Kategória",
+		"forum": "Fórum csatorna",
+		"media": "Média csatorna",
+		"privatethread": "Privát szál",
+		"publicthread": "Nyilvános szál",
+		"stage": "Színpadi csatorna",
+		"text": "Szövegcsatorna",
+		"voice": "Hangcsatorna"
+	},
+	"chatgpt": {
+		"aioutput": "AI eredmény (csak olvasható)",
+		"dailylimit": "A kiszolgáló napi GPT generálási limitje elérte a következő értéket",
+		"input": "A szöveg, amelyre az AI-nak válaszolnia kell",
+		"modaltitle": "Chat a ChatGPT-vel",
+		"ratelimit": "Elérte a patkányhatárt. Kérjük, próbálja meg újra egy perc múlva"
+	},
+	"checkperms": {
+		"hasall": "✅ Minden **{AMOUNT}** szükséges engedélyt megadtunk a botnak.",
+		"missing": "A robotnak csak a **{NEEDED}** engedélyek **{AMOUNT}**-ját adta meg, a következők hiányoznak:\n{MISSING}",
+		"missingchannel": "A botnak a kellett **{NEEDED}** darab engedély helyett **{AMOUNT}** adott meg a jelenlegi csatornához, a következők hiányoznak:\n{MISSING}",
+		"missingguild": "A botnak a kellett **{NEEDED}** darab engedély helyett **{AMOUNT}** adott meg, a következők hiányoznak:\n{MISSING}"
+	},
+	"claim": {
+		"alreadyclaimed": "Ezt a jegyet már igényelte {USER}",
+		"cantparticipant": "Nem igényelhetsz jegyet, mint résztvevő",
+		"claimed": "A jegyet {USER} igényelte!",
+		"claimother": "{USER} átadta a jegyet {CLAIMER}-nek!",
+		"disabled": "A jegyek igénylése itt nem engedélyezett",
+		"nobot": "Nem adhatsz át jegyeket botoknak",
+		"unclaimyou": "A jegyet már nem igényli az Ön által"
+	},
+	"clonecategory": {
+		"invalid": "A kategória nem létezik, vagy a csatorna nem kategória",
+		"missing": "Meg kell adnia egy kategóriát",
+		"success": "A csatornákat tartalmazó kategória duplikálódik"
+	},
+	"commanderror": "Hiba történt a `{COMMAND}` parancs végrehajtása közben!\nA fejlesztőt értesítettük, és megpróbálja kijavítani a hibát, ezért próbálja meg később újra. Csatlakozhatsz a <https://tomatenkuchen.com/discord> támogatási szerverhez is, hogy segíts a hibajavításban.",
+	"convert": {
+		"missing": "Hozzá kell adnia egy értéket és egy egységet",
+		"unknowntargetunit": "Ismeretlen célegység **{UNIT}**",
+		"unknownunit": "Ismeretlen egység **{UNIT}**"
+	},
+	"cooldown": "Nem ért véget a cooldown-od!",
+	"counting": {
+		"lbcurrent": "jelenlegi futás:",
+		"lbtitle": "Számláló ranglista",
+		"next": "A következő szám **{NUMBER}**!",
+		"nochannel": "Nincs számoló csatorna beállítva",
+		"twice": "Nem szabad kétszer egymás után számolni!"
+	},
+	"customcommand": {
+		"deleted": "A **{NAME}** parancs törölve lett",
+		"edited": "A **{NAME}** parancs szerkesztve",
+		"list": "Egyedi parancsok listája",
+		"missingarg": "Hozzá kell adnia az {ARG} argumentumot!",
+		"missingrole": "Nem használhatja ezt a parancsot, mert hiányzik egy szükséges szerepkör"
+	},
+	"customrole": {
+		"created": "Az Ön egyéni szerepét {ROLE} létrehozták",
+		"deleted": "Az Ön egyéni szerepét törölték",
+		"editcolor": "Az egyéni szereped {ROLE} színét megszerkesztették",
+		"editicon": "Az egyéni szereped {ROLE} szerep ikonját szerkesztették",
+		"editname": "Az Ön egyéni szerepét {ROLE} átnevezték",
+		"missingparent": "Nem volt olyan érvényes szerepkör kiválasztva, amely alatt az egyéni szerepköröket létre kellene hozni",
+		"missingrole": "Nem hozhat létre egyéni szerepköröket, mivel hiányzik egy ehhez szükséges szerepkör",
+		"roleiconboostlevel": "A szerep ikonok használatához a kiszolgálót legalább 2-es szintre kell felturbózni",
+		"title": "Az Ön egyéni szerepe",
+		"usermissing": "Nincs egyéni szerepköröd a kiszolgálón, amit szerkeszthetnél"
+	},
+	"dcstatus": {
+		"current": "Jelenlegi állapot:",
+		"lastincident": "Utolsó incidens",
+		"lastupdate": "Utolsó frissítés:"
+	},
+	"dehoist": {
+		"finished": "**{SUCCESS}** felhasználót átneveztünk, **{FAILED}** nem nevezhető át",
+		"found": "**{AMOUNT}** felhasználót találtunk hoist névvel, átnevezés…",
+		"none": "Nem találhatók dehoist felhasználók"
+	},
+	"delete": {
+		"deleter": "Törölték:"
+	},
+	"deny": {
+		"dm": "Az Ön **#{ID}** javaslatát a **{GUILD}**-on a **{USER}** elutasította!"
+	},
+	"deutschebahn": {
+		"arrivalboard": "Érkezési tábla",
+		"changedarrival": "A megváltozott érkezési idők száma",
+		"changeddepature": "A megváltozott indulási idők száma",
+		"changedplatforms": "A megváltozott platformok mennyisége",
+		"changedroutes": "A megváltozott útvonalak száma",
+		"changetypes": "Változás típusok",
+		"departureboard": "Indulási tábla",
+		"eventcancelled": "Elmaradt esemény",
+		"eventnewstop": "Új megállóhelyként hozzáadott esemény",
+		"eventplanned": "Tervezett esemény",
+		"messagepriorities": "Üzenet prioritások",
+		"missing": "Hozzá kell adnia a vasútállomás EVA számát",
+		"removedstations": "Az eltávolított állomások száma",
+		"title": "Deutsche Bahn statisztikák",
+		"traindelay": "Vonat késés",
+		"trainearly": "Túl korán vonatozni",
+		"unknown": "Ezzel az EVA számmal nem találtak állomást"
+	},
+	"diff": {
+		"missing": "Hozzá kell adnia egy második szöveget, amelyet ` | `",
+		"title": "{PERCENT} hasonló"
+	},
+	"dig": {
+		"found": "Talált **{ITEM}** **{VALUE}** értékkel",
+		"missingshovel": "A parancs használatához egy lapátra van szüksége",
+		"nothingfound": "Sajnos nem találtál semmit"
+	},
+	"dns": {
+		"error": "Hiba történt a tartomány elérésekor",
+		"minttl": "Minimális TTL:",
+		"missing": "Hozzá kell adnia egy domaint",
+		"nodata": "Nem található adat!",
+		"noturl": "URL helyett egy tartományt kell megadnia",
+		"priority": "Prioritás",
+		"records": "{TYPE} rekordok",
+		"select": "DNS típus kiválasztása"
+	},
+	"duden": {
+		"error": "Hiba történt a nyelvtan ellenőrzése során",
+		"grammarcheck": "Nyelvtani ellenőrzés",
+		"missing": "Hozzá kell adnia egy alparancsot és egy szót/mondatot",
+		"missingsentence": "Egy típust és egy szót/mondatot kell megadnia",
+		"missingword": "Hozzá kell adnia egy szót",
+		"noerrors": "Nem találtunk hibát",
+		"noerrorsdesc": "A szöveg hibátlan!",
+		"nosuggestions": "*nincs javaslat*",
+		"results": "eredmény",
+		"searchresults": "Keresés eredményei:",
+		"spelling": "Helyesírási hibák",
+		"style": "Styling hibák",
+		"unknown": "Nem találtak szót",
+		"wordselect": "Válassza ki a szót…"
+	},
+	"economy": {
+		"cooldown": "Még mindig lehűtése van ehhez a parancshoz: **{COOLDOWN}**",
+		"deposit": "Befizettél **{AMOUNT}**",
+		"invalidamount": "Érvényes összeget kell hozzáadnia",
+		"inventory": "Leltár",
+		"job": "Munka",
+		"leaderboard": "Világgazdasági ranglista",
+		"missingamount": "Pénzt kell hozzáadnia",
+		"missinguservalue": "Hozzá kell adnia egy felhasználót és egy értéket",
+		"nobank": "A bankból nem tudsz felvenni, mert nincs ott pénzed",
+		"nobot": "Nem küldhet pénzt egy botnak",
+		"nocash": "Nem tudsz pénzt befizetni, mert nincs készpénzed",
+		"nojob": "Nincs",
+		"notenough": "Nincs elég készpénze",
+		"wallet": "Készpénz",
+		"withdraw": "Kivont **{AMOUNT}**",
+		"zinsen": "Napi kamat"
+	},
+	"embed": {
+		"addfield": "Mező hozzáadása",
+		"addfieldinline": "Field inline? Yes/No",
+		"addfieldtitle": "A mező címe",
+		"addfieldvalue": "A mező értéke",
+		"description": "Módosítsa a beágyazás tartalmát az alábbi gombok segítségével!",
+		"editauthor": "Szerző szerkesztése",
+		"editauthoricon": "Az ikon módosítása",
+		"editauthorurl": "A szerző URL-címének módosítása",
+		"editbigimage": "Módosítsa az {N}nagy képet",
+		"editcolor": "Módosítsa a beágyazási színt HEX kódként",
+		"editdescription": "Módosítsa a leírást",
+		"editfooter": "Lábléc szerkesztése",
+		"editimage": "Képek módosítása",
+		"editimages": "Beágyazott képek módosítása",
+		"editsmallimage": "Módosítsa a kis képet",
+		"edittitle": "Cím/leírás módosítása",
+		"edittitletext": "A cím módosítása",
+		"edittitleurl": "Módosítsa a cím URL-címét",
+		"invalidinput": "A bevitelét nem sikerült érvényes beágyazási kóddá alakítani. Kérjük, ellenőrizze bevitelét, és próbálja meg újra, vagy távolítsa el ezt a mezőt a szerkesztés folytatásához.",
+		"invalidinputtitle": "Érvénytelen beágyazási kód",
+		"send": "Beágyazás küldése",
+		"title": "Alkotó beágyazása"
+	},
+	"emoji": {
+		"animated": "Élénk",
+		"likes": "Kedveli:",
+		"lockupdated": "A {EMOJI} emoji-t használó szerepek frissültek",
+		"notanimated": "Nem animált",
+		"of": "**{GUILD}** hangulatjelei",
+		"publisher": "Kiadta:",
+		"search": {
+			"notfound": "Nem található hangulatjel"
+		},
+		"source": "Forrás:",
+		"title": "**{CURRENT}**/**{TOTAL}** hangulatjel látható",
+		"unknownsticker": "Ismeretlen matrica",
+		"usedby": "Használta:"
+	},
+	"eval": {
+		"error": "Hiba",
+		"result": "Eredmény",
+		"time": "Idő"
+	},
+	"feedback": {
+		"text": "Az Ön visszajelzése vagy javaslata",
+		"title": "Adjon visszajelzést"
+	},
+	"flag": {
+		"missing": "Egy ország rövidítését kell hozzáadni",
+		"unknown": "Ez az ország rövidítése nem létezik"
+	},
+	"form": {
+		"addfield": "Formanyomtatvány mező hozzáadása",
+		"anonymous": "Névtelen beadványok",
+		"cooldownedit": "A válaszok közötti lehűlés szerkesztése",
+		"created": "A **{SLUG}** (`{ID}`) űrlapot hozták létre",
+		"createthread": "Szál létrehozása a benyújtási üzenethez",
+		"deleted": "A **{SLUG}** (`{ID}`) űrlapot törölték",
+		"editfield": "Formanyomtatvány mező szerkesztése",
+		"editfieldspecific": "Mezőspecifikus beállítások szerkesztése",
+		"editform": "**{SLUG}** űrlap szerkesztése (`{ID}`)",
+		"editresultchannel": "Válassza ki az eredménycsatornát (a keresés típusa)",
+		"edittitle": "Cím vagy slug szerkesztése",
+		"edittype": "Típus szerkesztése",
+		"fieldnameexists": "Már van egy mező a `{NAME}` névvel. Kérjük, használjon valami mást!",
+		"fieldoptions": "\";\"-val elválasztott opciók",
+		"missingtitle": "Hozzá kell adnia egy URL-címet és egy címet",
+		"none": "Ezen a szerveren nincsenek űrlapok",
+		"oneperuser": "Felhasználónként egy válasz",
+		"onlymembers": "Csak szerver tagok",
+		"preview": "Megtekintés",
+		"regexpattern": "RegEx minta a tartalom érvényesítéséhez",
+		"setupdesc": "Az űrlap elkészült, most az alábbi gombok segítségével beállíthatja.",
+		"setuptitle": "A **{SLUG}** űrlap beállítása (`{ID}`)",
+		"slugedit": "Szerkesztés slug",
+		"slugexists": "Már van egy űrlap a **{SLUG}** jelszóval. Kérjük, használjon valami mást!",
+		"title": "Nyomtatványok",
+		"type": {
+			"choice": "Egy vagy többszörös választás",
+			"color": "Színes",
+			"number": "Szám",
+			"textmulti": "Szövegmező (több sor)",
+			"textsingle": "Szövegmező (egysoros)"
+		},
+		"unknown": "Nincs olyan űrlap, amelynek azonosítója vagy slugja `{INPUT}` lenne"
+	},
+	"game": {
+		"alreadyin": "Már csatlakoztál a játékhoz!",
+		"c4message": "**{USER1}** és **{USER2}** Connect Four játéka:\nJelenlegi forduló: FORDULÓ: {TURN}.",
+		"full": "A játék megtelt!",
+		"hangmanfail": "A hóhér elbukott!",
+		"joingame": "Csatlakozz a játékhoz",
+		"notingame": "Nem veszel részt!",
+		"notyou": "Nem játszhatsz saját magad ellen",
+		"notyourturn": "Nem te jössz!",
+		"singlelose": "Elveszett",
+		"singlewin": "Won",
+		"startgame": "Játék indítása",
+		"tie": "Döntetlen/sorsolás",
+		"win": "{USER} megnyerte a játékot!"
+	},
+	"github": {
+		"following": "Következő",
+		"missing": "Hozzá kell adnia egy GitHub-felhasználónevet",
+		"public_gists": "Nyilvános lényegek",
+		"public_repos": "Nyilvános repók",
+		"title": "**{USER}** a GitHubon",
+		"unknown": "A **{USER}** felhasználó nem létezik",
+		"username": "Felhasználónév"
+	},
+	"giveaway": {
+		"addrequirements": "Szeretne további követelményeket támasztani a résztvevőkkel szemben? Ha nem, válaszoljon a `finish` szóval, hogy létrehozza az ajándéktárgyat. Ha igen, válaszoljon az `yes`-nel.",
+		"alreadyended": "Az ajándékozás már véget ért",
+		"alreadyparticipating": "Ön már részt vesz ebben a nyereményjátékban!",
+		"created": "A nyereményjáték létrejött!",
+		"creator": "Teremtő:",
+		"deleted": "Az ajándékot törölték",
+		"dmmsg": "🎉 Megnyerted a **{GUILDNAME}** nyereményjátékát! 🎉\nLátogass el a szerverre, hogy átvehesd a nyereményedet: {PRIZE}",
+		"edit": "Szerkesztés",
+		"edited": "A nyereményjáték szerkesztve!",
+		"editprize": "Nyeremény szerkesztése",
+		"editprizebutton": "Nyeremény/Idő szerkesztése",
+		"edittime": "Az ajándékozás relatív időtartama",
+		"edittitle": "Nyereményjáték szerkesztése",
+		"ended": "A nyereményjáték véget ért",
+		"endedmsg": "🎉 A nyereményjáték véget ért! 🎉",
+		"endednowinner": "Nincsenek győztesek.",
+		"ends": "Véget ér {TIME}",
+		"endtext": "🎉 **AZ AJÁNDÉKOZÁS VÉGET ÉRT** 🎉",
+		"endtime": "Vége:",
+		"endwait": "Ez akár egy percig is eltarthat.",
+		"errorlbpoints": "**{POINTS}** pontokra van szükséged a ranglistán, hogy részt vehess az ajándékozásban! Jelenleg csak **{CURRENT}** pontjaid vannak.",
+		"errorminage": "A fiókodnak **{MINAGE}** óta a Discordon kell lennie, hogy részt vehess az ajándékozásban!",
+		"errorminmemberage": "**{TIME}** óta a szerveren kell lenned, hogy részt vehess a nyereményjátékban!",
+		"errornoleaderboard": "Még soha nem küldtél üzenetet ezen a szerveren, de **{AMOUNT}** ranglista pontokra van szükséged ahhoz, hogy részt vehess az ajándékozásban!",
+		"howlong": "Mennyi ideig tartson az ajándékozás? Példa: `2h 30m` vagy `5d`",
+		"informdm": "Nyertes értesítése DM-ben",
+		"invalidchannel": "Érvényes csatornát kell hozzáadni",
+		"join": "Csatlakozik",
+		"joined": "Beírt felhasználók: {AMOUNT}",
+		"limit": "Egy prémium nélküli szerver nem rendelkezhet egyszerre több mint **{LIMIT}** aktív ajándékozással",
+		"link": "Online megtekintés",
+		"missingeditperms": "Nincs engedélyed az ajándékok szerkesztésére!",
+		"missinguserperms": "❌ Neked kell rendelkezned jogosultságokkal a csatornához",
+		"pricetoolong": "❌ A nyeremény nem lehet hosszabb 256 karakternél!",
+		"prize": "Díj:",
+		"req": {
+			"anyroles": "Mivel hiányzik egy szükséges szerep, nem vehetsz részt a nyereményjátékban.",
+			"notroles": "Az egyik szereped nem engedi, hogy részt vegyél az ajándékozásban.",
+			"roles": "Legalább egy kötelező szerepkörre van szükséged ahhoz, hogy részt vehess az ajándékozásban."
+		},
+		"requirements": {
+			"anyroles": "Az említett szerepek bármelyikét betölti:",
+			"minage": "Minimális számlaéletkor:",
+			"minleaderboardpoints": "Minimális pontszám a ranglistán:",
+			"minmemberage": "Minimális idő a szerveren:",
+			"notroles": "Nincs szerepe:",
+			"roles": "Mindezeket a szerepeket betölti:"
+		},
+		"requirementstext": "**Az ajándékozási követelmények meghatározása**:\n\nA paramétert a következő módon kell megadni:\n> `<feltétel>:<érték>;<egy másik feltétel>:<érték 1>,<érték 2>;...`\n\nLehetséges követelmények:\n> ``szerepek``: A felhasználónak rendelkeznie kell az összes szerepkörrel\n> `anyRoles`: A felhasználónak rendelkeznie kell bármelyik szerepkörrel\n> `notRoles`: A felhasználónak nem lehet szerepe\n> `minAge`: A felhasználói fióknak X évesnek kell lennie\n> `minMemberAge`: A felhasználónak legalább X óta a szerveren kell lennie.\n> `minLeaderboardPoints`: A felhasználónak X ponttal kell rendelkeznie a ranglistán.\n\nPéldák:\n> ``roles:Member,Verified`\n> ``notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
+		"reroll": "Újradobás",
+		"rerolled": "A nyereményjátékot újraterveztük, és a nyertesek a következők: {USERS}",
+		"rerollednowinner": "Nem sikerült győztes(ek)et találni",
+		"savebutton": "Mentés",
+		"stillrunning": "Csak a befejezett ajándékokat lehet újradobni",
+		"unknown": "A nyereményjáték `{GIVEAWAY}` nem létezik",
+		"whatprizemulti": "Mit kapnak a nyertesek?",
+		"whatprizesingle": "Mit kapjon a győztes?",
+		"whichchannel": "Melyik csatornán kell elindítani az ajándékozást?",
+		"winner": "Győztesek:",
+		"winners": "A nyertesek száma:",
+		"youjoined": "Sikeresen csatlakoztál a nyereményjátékhoz **{ENTRIES}** belépőkkel!"
+	},
+	"gpt": {
+		"balanced": "Kiegyensúlyozott (alapértelmezett)",
+		"creative": "Egy kicsit kreatív",
+		"dailylimit": "Napi limit elérve",
+		"howcreative": "Mennyire kreatív a ChatGPT válasza?",
+		"verycreative": "Nagyon kreatív"
+	},
+	"guildonly": "Ez a parancs csak szervereken futtatható!",
+	"hack": {
+		"footer": "Határozottan igazi™️",
+		"hacking": "Hackelés… {PERCENT}%",
+		"loading": "**{USER}** hackelése…",
+		"nobot": "Botokat nem lehet felttörni",
+		"password": "Jelszó"
+	},
+	"help": {
+		"admin": {
+			"description": "A szerveradminisztrációhoz szükséges parancsokat jeleníti meg",
+			"title": "Admin"
+		},
+		"aliases": "Álnevek",
+		"all": {
+			"description": "Megjeleníti az összes bot parancsot",
+			"title": "Minden parancs"
+		},
+		"category": "Kategória",
+		"description": "__Parancshasználat:__\n**<>** - Kötelező\n**[]** - Választható\n\nVálasszon ki egy kategóriát a hozzá tartozó parancsok megtekintéséhez.",
+		"fun": {
+			"description": "Szórakoztató parancsokat jelenít meg",
+			"title": "Szórakozás"
+		},
+		"general": {
+			"description": "Általános parancsokat jelenít meg",
+			"title": "Tábornok"
+		},
+		"help": "Segítség",
+		"moderation": {
+			"description": "Moderálási parancsokat jelenít meg",
+			"title": "Moderálás"
+		},
+		"selectcategory": "Válassz kategóriát",
+		"suggest": {
+			"description": "Javaslati parancsokat jelenít meg",
+			"title": "Javaslatok"
+		},
+		"ticket": {
+			"description": "Jegyparancsokat jelenít meg",
+			"title": "Jegy"
+		},
+		"unknown": "Ismeretlen parancs/kategória!",
+		"usage": "Használat"
+	},
+	"http": {
+		"list": "Az összes támogatott kód listája:"
+	},
+	"hug": {
+		"cantemoji": "Az emoji nem tölthető fel emojiként!",
+		"doneemoji": "A képet emojiként is feltöltötték: {EMOJI}"
+	},
+	"image": {
+		"invalidwidget": "Érvénytelen widget",
+		"missingmultiple": "Több képet kell hozzáadni",
+		"toobig": "A kép túl nagy!"
+	},
+	"imageloadfail": "A képet nem sikerült betölteni",
+	"importmissingreply": "Válaszolnia kell az importálni kívánt üzenetre!",
+	"integration": {
+		"actions": "Tevékenységek",
+		"arguments": "Érvek",
+		"exampleresult": "Példa eredmény:",
+		"exampleusing": "Ezt az érvet használva:",
+		"function": "Funkció:",
+		"lastupdated": "Utolsó frissítés:",
+		"missingfunction": "Meg kell adnia egy függvény nevét",
+		"missingname": "Hozzá kell adnia egy integráció nevét",
+		"noresults": "Nem találtunk megfelelő integrációkat",
+		"onlyusable": "Csak a következő esetekben használható",
+		"publictitle": "Nyilvános integrációk",
+		"tests": "Tesztje",
+		"unknown": "Ez az integráció nem létezik, vagy nem nyilvános",
+		"unknownfunction": "Nincs függvény a `{FUNCTION}` névvel",
+		"use": "Használja a",
+		"verified": "Ellenőrzött:"
+	},
+	"invalidsubcommand": "Érvényes alparancsot kell megadnia",
+	"invaliduser": "Érvényes felhasználót kell megadni",
+	"invite": "Bot meghívó",
+	"inviteinfo": {
+		"boosts": "Fokozza:",
+		"inviter": "Meghívó",
+		"maxuses": "A felhasználások maximális száma:",
+		"missing": "Hozzá kell adnia egy meghívót",
+		"online": "Online:",
+		"serverid": "Kiszolgáló ID:",
+		"title": "Információ meghívása",
+		"unknown": "Ismeretlen meghívó",
+		"uses": "Felhasználások"
+	},
+	"isitdown": {
+		"available": "Weboldal elérhető",
+		"missingurl": "Meg kell adnia egy weboldal URL-címét",
+		"notavailable": "A weboldal nem elérhető"
+	},
+	"join": {
+		"inviter": "{USER} meghívója",
+		"vanity": "Csatlakozott a hiúsági URL-hez"
+	},
+	"kick": {
+		"cantkick": "Nem tudok rúgni **{USER}**",
+		"fail": "Nem tudom megrúgni ezt a felhasználót",
+		"maynot": "Nem rúghatsz **{USER}**, mert rendelkezik a Tagok rúgása joggal"
+	},
+	"leaderboard": {
+		"importcancel": "A ranglista importálása megszakadt",
+		"imported": "A **{SUCCESS}** bejegyzések betöltése befejeződött, **{DISPLAYNAME}**!\n**{FAILED}** bejegyzéseket figyelmen kívül hagytuk, mivel a felhasználók nincsenek a szerveren.",
+		"importing": "A ranglistát most importáljuk, a szerver régi szintadatai csatolva találhatók",
+		"level": "Szint",
+		"points": "Pontok",
+		"unavailable": "Ez a ranglista nem létezik vagy más hiba történt"
+	},
+	"level": {
+		"disabled": "A szintek itt le vannak tiltva",
+		"notfound": "**{USER}** még soha nem küldött üzenetet ide",
+		"progress": "Fejlődés:"
+	},
+	"lock": {
+		"locked": "**{SUCCESS}** a csatornákat zárolták, **{FAILED}** nem lehetett zárolni",
+		"unlocked": "**{SUCCESS}** a csatornákat feloldották, **{FAILED}** nem lehetett feloldani"
+	},
+	"logs": {
+		"accountcreated": "Létrehozott fiók",
+		"afkchannel": "AFK csatorna szerkesztett",
+		"author": "Szerző",
+		"autoarchiveduration": "A `{CHANNEL}` automatikus archiválási időtartama frissült",
+		"automodactions": "Az AutoMod szabály **{RULE}** szerkesztett műveletei",
+		"automodcreate": "AutoMod szabály **{RULE}** létrehozva",
+		"automoddelete": "AutoMod szabály **{RULE}** törölve",
+		"automodexemptchannels": "Az AutoMod szabály **{RULE}** kivételt képező csatornái szerkesztve",
+		"automodexemptroles": "Az AutoMod szabály **{RULE}** kivételes szerepeinek szerkesztése",
+		"automodrename": "AutoMod szabály átnevezése",
+		"automodruledisable": "AutoMod szabály **{RULE}** letiltva",
+		"automodruleenable": "AutoMod szabály **{RULE}** engedélyezve",
+		"automodtrigger": "Az AutoMod szabály **{RULE}** kiváltói szerkesztve",
+		"avatarupdate": "Az Avatar frissítve",
+		"banadd": "Felhasználó kitiltva",
+		"banremove": "Felhasználó kitiltása feloldva",
+		"bitrate": "A `{CHANNEL}` bitrátája frissült",
+		"boostadd": "Serverboost hozzáadva",
+		"boostremove": "A Serverboost eltávolítva",
+		"botadd": "Bot hozzáadva",
+		"botkick": "Bot eltávolítva",
+		"bulkdelete": "**{MESSAGES}** üzenetek a `{CHANNEL}\"-ben törölve",
+		"camerastarted": "Kamera engedélyezve",
+		"camerastopped": "A kamera letiltva",
+		"categorycreate": "Kategória létrehozva",
+		"categorydelete": "Kategória törölve",
+		"channelcategory": "`{CHANNEL}` átkerült más kategóriába",
+		"channelflags": "A `{CHANNEL}` csatornajelzők frissítése",
+		"channelicon": "A `{CHANNEL}` csatorna ikonja szerkesztve",
+		"channeliconcolor": "A `{CHANNEL}` csatorna ikon színe szerkesztve",
+		"channelname": "Csatorna neve frissítve",
+		"channelnsfw": "A `{CHANNEL}` NSFW állapota frissült",
+		"channelperms": "A `{CHANNEL}` csatornaengedélyek frissítése",
+		"channelpin": "Üzenet kitűzve",
+		"channeltype": "Csatorna típusa `{CHANNEL}` szerkesztve",
+		"channelunpin": "Üzenet feloldva",
+		"defaultlayout": "A `{CHANNEL}` fórum alapértelmezett elrendezése frissült",
+		"defaultreactionemoji": "A `{CHANNEL}` alapértelmezett reakció emoji frissítve",
+		"defaultsorting": "A `{CHANNEL}` alapértelmezett rendezése frissült",
+		"discriminatorupdate": "Diszkriminátor szerkesztve",
+		"emojicreate": "Emoji létrehozva",
+		"emojidelete": "Emoji törölve",
+		"emojiedit": "Emoji szerkesztve",
+		"emojiroles": "A hangulatjel-szerepek frissítve",
+		"eventchannel": "A **{EVENT}** eseménycsatornája frissült",
+		"eventcreate": "**{EVENT}** létrehozott esemény",
+		"eventdelete": "Esemény **{EVENT}** törölve",
+		"eventdescription": "A **{EVENT}** esemény leírása frissítve",
+		"eventend": "Az esemény végének időpontja **{EVENT}** frissítve",
+		"eventlocation": "Az esemény helyszíne **{EVENT}** szerkesztve",
+		"eventname": "Eseménynév frissítve",
+		"eventstart": "Az esemény kezdési időpontja **{EVENT}** frissítve",
+		"eventstate": "A **{EVENT}** esemény állapota frissült",
+		"globalnameupdate": "Globális név frissítve",
+		"guildboostprogessoff": "Boost progressbar letiltva",
+		"guildboostprogesson": "Boost progressbar engedélyezve",
+		"guilddescription": "Kiszolgáló leírása frissítve",
+		"guildname": "A szervernév frissítve",
+		"guildpartneroff": "Partnerszerver eltávolítva",
+		"guildpartneron": "Partnerszerver engedélyezve",
+		"guildverificationlevel": "Kiszolgálói ellenőrzési követelmények frissítve",
+		"guildverifiedoff": "A szerver ellenőrzése eltávolítva",
+		"guildverifiedon": "A szerver ellenőrzése engedélyezve",
+		"integrationadd": "Integráció hozzáadva",
+		"integrationremove": "Integráció eltávolítva",
+		"invitecreate": "Meghívó létrehozva",
+		"invitedelete": "Meghívó törölve",
+		"jump": "Ugrás",
+		"memberadd": "Felhasználó csatlakozott",
+		"memberavatar": "Szerveravatar frissítve",
+		"memberremove": "A felhasználó elment",
+		"memberspruned": "**{AMOUNT}** inaktív tagok kivágása",
+		"membersprunedtime": "Inaktív **{DAYS}** nap(ok) óta",
+		"messageid": "Üzenet azonosítója",
+		"msgdelete": "Üzenet a `{CHANNEL}`-ben törölve",
+		"msgdeletetime": "Üzenet a `{CHANNEL}`-ban **{TIME}** után törölték",
+		"msgedit": "Szerkesztett üzenet a `{CHANNEL}`-ben",
+		"msgedittime": "A **{TIME}** után szerkesztett üzenet a `{CHANNEL}`",
+		"nicknameupdate": "Becenév szerkesztve",
+		"publicupdateschannel": "Nyilvános frissítések csatorna frissítve",
+		"reactionadd": "Reakció hozzáadva",
+		"reactionaddrr": "Kapott reakció szerep szerep",
+		"reactionremove": "Reakció eltávolítva",
+		"reactionremoveall": "Reakciók eltávolítva",
+		"reactionremoverr": "Eltávolított reakció szerep szerep",
+		"rolecolor": "A szerep színe frissítve",
+		"rolecreate": "A szerep létrejött",
+		"roledelete": "A szerepkör törölve",
+		"roleemoji": "Szerep emoji frissítve",
+		"rolehoist": "Szerep emelő frissítve",
+		"rolementionable": "Szerepek említhetősége frissítve",
+		"rolename": "A szerepkör neve frissítve",
+		"rolepermission": "Szerepjogosultságok frissítése",
+		"rulesaccept": "Tagszűrés elfogadott",
+		"ruleschannel": "Szabályok csatorna frissítve",
+		"rulesunaccept": "A tagszűrőt már nem fogadják el",
+		"serverbanner": "Serverbanner frissítve",
+		"serverboostdec": "Boost szint csökkent",
+		"serverboostinc": "Boost szint megemelkedett",
+		"servercontentfilter": "Kiszolgálói tartalomszűrő frissítve",
+		"serverdefaultnotifs": "Kiszolgáló alapértelmezett üzenetértesítések frissítve",
+		"serverdiscoverysplash": "Discovery splash kép frissítve",
+		"servericon": "Szervericon megváltozott",
+		"serverjoined": "Kiszolgáló csatlakozott",
+		"servernsfwlevel": "Szerver NSFW szint frissítve",
+		"serverownerchanged": "Kiszolgáló tulajdonosa megváltozott",
+		"serversplash": "Fröccs kép frissítve",
+		"slowmode": "A `{CHANNEL}` lassú üzemmódja frissült",
+		"stageinstancecreate": "Stage instance létrehozott",
+		"stageinstancedelete": "Stage instance törölve",
+		"stickercreate": "Matrica **{STICKER}** létrehozva",
+		"stickerdelete": "Matrica **{STICKER}** törölve",
+		"stickerdescription": "A **{STICKER}** matrica leírása frissítve",
+		"stickername": "A matrica neve frissítve",
+		"stickertags": "A **{STICKER}** matrica címkék frissítve",
+		"streamstarted": "Az adatfolyam elindult",
+		"streamstopped": "Az adatfolyam leállt",
+		"systemchannel": "Rendszercsatorna szerkesztve",
+		"systemchannelmessages": "Rendszercsatorna üzenetek szerkesztése",
+		"threadarchive": "Szál **{THREAD}** lezárva",
+		"threadinactiveduration": "A **{THREAD}** inaktivitási időtartama frissült",
+		"threadlock": "Szál **{THREAD}** zárolt",
+		"threadname": "Szál átnevezése `{PARENT}`-ban",
+		"threadslowmode": "Post slowmode a `{CHANNEL}` frissítve",
+		"threadunarchive": "Szál **{THREAD}** újra megnyitva",
+		"threadunlock": "Szál **{THREAD}** feloldva",
+		"timeoutend": "Időtúllépés eltávolítva",
+		"timeoutstart": "Felhasználó időtúllépése",
+		"topic": "A `{CHANNEL}` csatorna témája frissült",
+		"userjoinraid": "[Raid] Felhasználó csatlakozott",
+		"userkick": "Felhasználó kirúgta",
+		"userlimit": "A `{CHANNEL}` felhasználói korlátja frissült",
+		"usernameupdate": "Felhasználónév frissítve",
+		"userroleadd": "Szerep hozzáadva",
+		"userroleremove": "Szerep eltávolítva",
+		"vanityurl": "Hiúság URL frissítve",
+		"videoquality": "A `{CHANNEL}` videó minősége frissült",
+		"voicechannelregion": "A `{CHANNEL}` hangcsatorna régiója szerkesztve",
+		"voicejoin": "Hangcsatorna csatlakozott",
+		"voiceleave": "Hangcsatorna maradt",
+		"voiceswitch": "Hangcsatorna átkapcsolva",
+		"webhookcreate": "Webhook létrehozva",
+		"webhookdelete": "Webhook törölve",
+		"widgetchannel": "Widget csatorna szerkesztve",
+		"widgetoff": "Widget letiltva",
+		"widgeton": "Widget engedélyezve"
+	},
+	"lyrics": {
+		"missing": "Hozzá kell adnia egy dal nevét",
+		"title": "**{NAME}** által **{AUTHOR}**",
+		"unknown": "Nem található dal"
+	},
+	"mass": {
+		"ban": {
+			"finish": "**{SUCCESS}** a felhasználókat kitiltották, **{FAILED}** nem sikerült kitiltani őket",
+			"start": "Felhasználók kitiltása…"
+		},
+		"cancel": "Törölje",
+		"cancelled": "A tömeges akciót törölték!",
+		"kick": {
+			"finish": "**{SUCCESS}** a felhasználókat kirúgták, **{FAILED}** nem sikerült kirúgni őket",
+			"start": "Kicking users…"
+		},
+		"missing": "Meg kell adnia egy okot és legalább egy felhasználót"
+	},
+	"maze": {
+		"columns": "Oszlopok",
+		"crossings": "Keresztezések száma",
+		"editmaze": "Labirintus szerkesztése",
+		"rows": "Sorok"
+	},
+	"mcbug": {
+		"attachments": "Mellékletek",
+		"creatededited": "Készült/szerkesztett",
+		"fixedinversion": "Verzióban javítva",
+		"fixversion": "Egyik sem",
+		"invalidid": "Érvénytelen hibaazonosító",
+		"issuecreate": "Létrehozott jelentés:",
+		"linked": "Linkelve",
+		"missing": "Hozzá kell adnia egy minecraft hibajelentés azonosítót",
+		"more": "…és **{AMOUNT}** további",
+		"sinceversion": "A verzió óta",
+		"solution": "Megoldás",
+		"state": {
+			"done": "**Kész**: A jelentést kezelték.",
+			"duplicate": "**Duplikátum**: A tartalom már szerepelt egy másik jelentésben.",
+			"fixed": "**Javítva**: A hibát kijavítottuk.",
+			"open": "**Nyitva**: A jelentést egy fejlesztő kezelheti.",
+			"reopened": "**Újranyitva**: A jelentést újra megnyitották."
+		},
+		"unknown": "Ez a minecraft hibajelentés nem létezik",
+		"uploadby": "Feltöltötte: {USER}"
+	},
+	"mclint": {
+		"missingcommand": "Meg kell adnia egy parancsot"
+	},
+	"mcrecipe": {
+		"loading": "Betöltés…",
+		"missing": "Hozzá kell adnia egy német minecraft elemnevet",
+		"title": "**{ITEM}** receptje",
+		"unknown": "A **{ITEM}** elem nem található"
+	},
+	"mcrelease": {
+		"paper": "Az első papíralapú build a **{VERSION}**-hoz",
+		"pre": "Új Minecraft előzetes kiadás",
+		"rc": "Új Minecraft kiadási jelölt",
+		"release": "Új Minecraft teljes kiadás",
+		"snapshot": "Új Minecraft pillanatkép"
+	},
+	"mcserver": {
+		"offline": "A szerver IP-címe érvénytelen, vagy a szerver offline állapotban van!",
+		"playersonline": "Játékosok online",
+		"title": "A **{IP}** állapota"
+	},
+	"mcupdate": {
+		"created": "Beállítás befejezve. Az állapot mostantól kezdve néhány percenként frissül",
+		"invalidchannel": "❌ Érvénytelen csatorna!",
+		"invalidip": "❌ Érvénytelen IP/domain!",
+		"invalidport": "❌ Érvénytelen port!",
+		"ip": "Milyen IP címe van a kiszolgálónak? Használhat (al)tartományt is.",
+		"messagechannel": "Melyik csatornán kell megjeleníteni az állapotot?",
+		"messagewaiting": "Várjuk a beállításokat és az első lekérdezést…",
+		"namechannel": "Melyik csatorna nevében kell megjeleníteni az állapotot?",
+		"offlineformat": "Ha a kiszolgáló offline, milyen üzenetet kell megjeleníteni? Alapértelmezett az `{IP}:{Port} | **Szerver nem elérhető**`, a következő argumentumok lehetségesek: `{IP} {PORT}`",
+		"port": "Milyen portja van a szervernek? Ha az 1. lépésnél (al)tartományt adtál meg, használd a `25565`-öt. A `-query=<Port>` használatával adj meg egy lekérdezési portot, hogy meg tudd jeleníteni a játékosok nevét.",
+		"selecttype": "Hogyan kell megjeleníteni az állapotot? beschreibung (téma), name, nachricht (üzenet)",
+		"statusformat": "Hogyan kell megjeleníteni az állapotot? A következő argumentumok lehetségesek: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
+		"topicchannel": "Melyik csatornatémában kell megjeleníteni az állapotot?"
+	},
+	"meme": {
+		"nothingfound": "Nem található mém",
+		"nsfw": "A mém nsfw-ként lett megjelölve"
+	},
+	"mention": "Említés",
+	"message": {
+		"edited": "Az üzenet szerkesztve!",
+		"editfailed": "Az üzenet nem szerkeszthető",
+		"embedhidden": "Az üzenet beágyazása el volt rejtve",
+		"embedjson": "A beágyazások tartalma:",
+		"embedunhidden": "Az üzenet beágyazásai újra láthatóvá váltak",
+		"invalidembed": "A JSON érvénytelen, használja a https://embed.tomatenkuchen.com oldalon található szerkesztőt a beágyazások létrehozásához",
+		"missingmessage": "Hozzá kell adnia egy üzenetet",
+		"missingmessageemoji": "Egy üzenetet és egy emojit kell hozzáadnia",
+		"missingtitledesc": "Hozzá kell adnia egy címet és opcionálisan egy leírást `|`-vel elválasztva",
+		"msgid": "Az üzenet azonosítója: `{ID}`",
+		"noembed": "Ennek az üzenetnek nincs beágyazása",
+		"noreference": "Üzenetre kell válaszolnia",
+		"noslash": "Ezt a parancsot nem tudod slash-parancsokkal használni",
+		"reacted": "A bot az adott emojival reagált!",
+		"reactfail": "Reagálni nem sikerült! Győződjön meg róla, hogy a bot hozzáfér az emojihoz"
+	},
+	"minecraft": {
+		"missing": "Hozzá kell adnod egy játékos nevet",
+		"unknown": "Ismeretlen játékos"
+	},
+	"minesweeper": {
+		"bombsleft": "**{BOMBS}** bombák/zászlók maradtak",
+		"stats": "A játék futott: **{TIME}**\nMegnyomott gombok: **{BUTTONS}**"
+	},
+	"missingperms": {
+		"bot": "Nincs elég jogosultságom ehhez a parancshoz",
+		"user": "Nincs elég jogosultságod ehhez"
+	},
+	"missingtext": "Be kell írnod egy szöveget",
+	"modal": {
+		"created": "A modális `{MODAL}` létrehozásra került",
+		"creating": "Modális létrehozása **{MODAL}**",
+		"deleted": "A `{MODAL}` modál törlésre került",
+		"description": "Cím: {TITLE}\nMezők: **{FIELDS}**",
+		"editing": "Modális szerkesztése **{MODAL}**",
+		"exists": "A `{MODAL}` modál már létezik",
+		"fieldadd": "Modális mező létrehozása",
+		"fielddefault": "A mező előre meghatározott értéke",
+		"fielddefaulttitle": "Alapértelmezett érték",
+		"fielddelete": "Mező törlése",
+		"fielddeleted": "Törölted a `{FIELD}` mezőt!",
+		"fieldedit": "Modális mező szerkesztése",
+		"fieldediting": "Ön a `{FIELD}` mezőt szerkeszti:",
+		"fieldmaxlength": "A mező maximális hossza.",
+		"fieldmaxlengthtitle": "Maximális hossz",
+		"fieldminlength": "A mező minimális hossza.",
+		"fieldminlengthtitle": "Minimális hossz",
+		"fieldplaceholder": "Akkor jelenik meg, ha a mező üres.",
+		"fieldplaceholdertitle": "Helytartó",
+		"fieldrequired": "Kötelező mező",
+		"fieldstyle": "Stílus: {STYLE}",
+		"idmaxlength": "Az azonosító nem lehet hosszabb 32 karakternél",
+		"missing": "Hozzá kell adnia egy azonosítót és egy címet",
+		"none": "Nincsenek modálisok",
+		"prepared": "A modál elkészült, most már beállíthatja az alábbi gombok segítségével.",
+		"preview": "Előnézet",
+		"titleedit": "Modális cím szerkesztése",
+		"titlemaxlength": "A cím nem lehet hosszabb 45 karakternél",
+		"unknown": "A `{ID}` modál nem létezik"
+	},
+	"modlogs": {
+		"date": "Dátum",
+		"moderator": "Moderátor",
+		"none": "A felhasználónak nincsenek előzetes log-jai",
+		"title": "**{CURRENT}**/**{TOTAL}** modlog megjelenítése",
+		"titleshort": "**{TOTAL}** modlog megjelenítése",
+		"usertitle": "{USER} modnaplói"
+	},
+	"movie": {
+		"birthday": "Születésnap",
+		"birthplace": "Születési hely",
+		"deathday": "Halottak napja",
+		"duration": "Időtartam",
+		"episodes": "Epizódok",
+		"knownfor": "erről ismert",
+		"knownfordepartment": "Ismert részleg",
+		"languages": "Nyelv[ek]",
+		"missingmovieid": "Meg kell adnod egy filmazonosítót",
+		"missingpersonid": "Meg kell adnod egy személyazonosítót",
+		"missingquery": "Meg kell adnod egy keresési feltételt",
+		"missingseriesid": "Határozz meg egy sorozat-azonosítót",
+		"noresults": "Nincs találat erre a feltételre",
+		"nsfw": "Ez a film vagy sorozat csak felnőtteknek szól",
+		"nsfwperson": "Ennek a személynek a tartalma nsfw-ként lett megjelölve",
+		"producer": "Producer",
+		"rating": "Értékelés",
+		"searchtitle": "**{AMOUNT}** keresési eredmények **{QUERY}** számára",
+		"unknownmovie": "A keresett kifejezéshez nem találtunk filmet",
+		"unknownperson": "Erre a keresési kifejezésre nem találtak személyt",
+		"unknownseries": "Erre a keresési kifejezésre nem találtak sorozatot"
+	},
+	"ms": {
+		"and": "és",
+		"days": "nap[s]",
+		"hours": "óra[s]",
+		"milliseconds": "milliszekundum[s]",
+		"minutes": "perc[s]",
+		"months": "hónap[ok]",
+		"seconds": "másodperc[ek]",
+		"weeks": "hét[ek]",
+		"years": "év[ek]"
+	},
+	"mute": {
+		"alreadymuted": "A felhasználó már le van némítva",
+		"autounmute": "Automatikus némítás feloldás",
+		"autounmutetext": "{USER} a **{TIME}** után kikapcsolták a némítást",
+		"cantmute": "Nem némíthatja el **{USER}**",
+		"changeduration": "A némítás időtartamának módosítása",
+		"done": "{USER} elnémította {MOD} **{DURATION}**",
+		"expanded": "Némítás kiterjesztve",
+		"fail": "A felhasználót nem sikerült lenémítani"
+	},
+	"nitroverify": {
+		"alreadydone": "Már rendelkezel nitro hitelesítő ranggal",
+		"disabled": "Ezen a szerveren nincs engedélyezve a nitro hitelesítés",
+		"notanimated": "Mivel az emoji nem animált, nem lehet a nitro-t ellenőrizni",
+		"notfound": "A nitro hitelesítő rang nem létezik",
+		"otheruser": "Mivel egy másik felhasználó reagált az üzenetre, a nitro hitelesítés megszakadt",
+		"tutorial": "A Nitro igazolásához reagálj a következő **30 másodpercen** belül egy animált emojival erre az üzenetre",
+		"verified": "A nitro hitelesítés sikeresen megtörtént"
+	},
+	"none": "Egyik sem",
+	"noreason": "Nincs ok",
+	"npm": {
+		"author": "Szerző",
+		"downloadsmonth": "Letöltések az elmúlt 30 napból",
+		"edited": "Szerkesztette",
+		"keywords": "Kulcsszavak",
+		"maintainer": "Által karbantartott",
+		"missing": "Hozzá kell adnod egy NPM csomagnevet",
+		"repository": "Tárhely:",
+		"sizeinstallation": "Méret telepítés után",
+		"sizepublish": "Közzététel mérete",
+		"unknown": "A **{PACKAGE}** csomag nem létezik",
+		"version": "Változat:"
+	},
+	"periodensystem": {
+		"boilingpoint": "Forráspont:",
+		"defaultstate": "Alapértelmezett állapot:",
+		"density": "Sűrűség:",
+		"discovered": "Felfedezve az évben",
+		"electronegativity": "Elektronegativitás:",
+		"group": "Elemcsoport",
+		"ionizationenergy": "Ionizációs energia",
+		"mass": "Tömeg",
+		"meltingpoint": "Olvadáspont:",
+		"missing": "Hozzá kell adnod egy elemet",
+		"notknown": "Ismeretlen",
+		"symbol": "Szimbólum",
+		"unknown": "Ismeretlen elem"
+	},
+	"permission": {
+		"adduser": "Felhasználó hozzáadása",
+		"bitrate": {
+			"invalid": "Érvényes bitrátát kell megadnia **8.000** és **{LIMIT}** között",
+			"missing": "Bitrátaként egy számot kell megadni kbps-ban",
+			"set": "A privát hangcsatornád bitrátája **{BITRATE}**-ra lett beállítva"
+		},
+		"closed": "A privát hangcsatornád be lett zárva",
+		"infotitle": "Információk **{NAME}**",
+		"missingvoice": "Hangcsatornán kell lenned",
+		"modadd": "{USER} hozzá lett adva a privát csatornához moderátorként",
+		"modremove": "{USER} eltávolították a privát csatornáról mint moderátor",
+		"notprivatevoice": "Nem vagy a saját privát hangcsatornádban",
+		"opened": "A privát hangcsatornád meg lett nyitva",
+		"owner": "A csatorna tulajdonosa",
+		"private": "Privát",
+		"reset": "A privát hangcsatornád engedélyeit visszaállítottuk",
+		"state": "Állam",
+		"useradd": "Engedélyeket adtál {USER} számára, hogy csatlakozzon a privát hangcsatornájához",
+		"userlimit": {
+			"missing": "Már rendelkezel nitro hitelesítő ranggal",
+			"remove": "A felhasználó limit el lett távolítva",
+			"set": "A felhasználó limit **{LIMIT}** értékre lett állítva"
+		},
+		"userremove": "Mostantól {USER} nem tud csatlakozni a privát csatornádhoz"
+	},
+	"permissions": {
+		"bitfield": "Bitfield {BITFIELD} jogosultságai",
+		"user": "{USER} jogosultságai"
+	},
+	"ping": {
+		"title": "Pingelés…"
+	},
+	"pinstats": {
+		"currentchannel": "Ez a csatorna",
+		"server": "Teljes szerver",
+		"title": "Pinned üzenetek statisztikái"
+	},
+	"poll": {
+		"ended": "A szavazás véget ért",
+		"ends": "A szavazás véget ér",
+		"hasended": "Ez a szavazás már véget ért!",
+		"missingoptions": "Hozzá kell adnod opciókat '|' -val elválasztva",
+		"noresult": "Senki nem szavazott!",
+		"roleblacklisted": "Egy vagy több szereped miatt nem vehetsz részt a szavazáson!",
+		"vote": "Szavazz",
+		"voteadded": "Ön sikeresen szavazott a **{OPTION}**-ra!",
+		"votelimit": "Csak a **{MAXVOTES}** lehetőségekre lehet szavazni!\nÖn a következőkre szavazott:\n{VOTED}",
+		"voteplural": "Szavazatok",
+		"voteremoved": "A **{OPTION}**-ra leadott szavazatát törölték!",
+		"votesingular": "Szavazz"
+	},
+	"prefix": "Az prefix-em **/** vagy",
+	"purge": {
+		"fail": "Az üzeneteket nem lehet törölni",
+		"invalidamount": "Adj meg egy számot **1** és **99** között",
+		"multi": "**{DELETED}** üzenetet töröltek:{MESSAGES}",
+		"nonedeleted": "Egyetlen üzenet sem lett törölve",
+		"single": "**Egy** üzenet lett törölve:{MESSAGES}"
+	},
+	"qrcreate": {
+		"missing": "Tartalmat kell hozzáadni a QR-kódhoz"
+	},
+	"qrread": {
+		"content": "A QR-kód tartalma:",
+		"error": "Hiba történt a QR-kód olvasása közben",
+		"missing": "Meg kell adnia egy QR-kódra mutató linket"
+	},
+	"quoted": "{USER} idézte",
+	"random": {
+		"average": "A **{AMOUNT}** számok átlaga a **{AVERAGE}**",
+		"averagemissing": "Több számot kell hozzáadni, hogy az átlagot ki lehessen számítani",
+		"chosen": "A **{CHOSEN}** választom!",
+		"dicemultiple": "Generált **{AMOUNT}** számok **1** és **{MAX}** között: **{NUMBERS}**",
+		"dicesingle": "Generált szám **1** és **{MAX}** között: **{NUMBER}**",
+		"missingchoices": "Több lehetséges választási lehetőséget kell hozzáadni, `,`-vel elválasztva",
+		"optionlist": "A lehetőségek listája:"
+	},
+	"reactionrole": {
+		"roleadded": "A {ROLE} szerepkört hozzád adtuk!",
+		"roleaddedmultiple": "A szerepek {ROLES} hozzád kerültek!",
+		"roleremoved": "A {ROLE} szerepet eltávolították tőled!",
+		"roleremovedmultiple": "A szerepek {ROLES} el lettek távolítva tőled!",
+		"selecttext": "Szerepek kiválasztása",
+		"unknownemoji": "Ismeretlen emoji!",
+		"unknownmessage": "Ismeretlen üzenet!",
+		"unknownmsg": "Erre az üzenetre (már) nincsenek reakciós szerepek!"
+	},
+	"reddit": {
+		"unknownsubreddit": "Subreddit nem létezik?"
+	},
+	"remind": {
+		"alreadycopied": "Ezt az emlékeztetőt már lemásolta!",
+		"cleared": "Az emlékeztetődet töröltük",
+		"copied": "Lemásoltad az emlékeztetőt a {USER}-ről!",
+		"copy": "Emlékeztessen engem is",
+		"copyown": "Nem másolhatod a saját emlékeztetőidet!",
+		"created": "Az emlékeztető emlékeztetni fog {TIME} -kor a következőkre:\n{TEXT}",
+		"deletebutton": "Töröl",
+		"deleted": "Az emlékeztető törölve lett!",
+		"edit": "Emlékeztető szerkesztése",
+		"editdelete": "Emlékeztető szerkesztése/törlése",
+		"edited": "Az emlékeztető szerkesztve lett!",
+		"edittext": "Módosítsa a szöveget",
+		"edittime": "Módosítsa az időt",
+		"endsin": "órakor ér véget",
+		"finished": "Itt az emlékeztető, {USERS}",
+		"later": "Emlékeztess később",
+		"latercustom": "Egyedi…",
+		"limit": "Egyszerre legfeljebb **{LIMIT}** emlékeztetőd lehet",
+		"manage": "Emlékeztetők kezelése",
+		"missingreminder": "Ez az emlékeztető már nem létezik!",
+		"missingtime": "Adj meg egy érvényes időt",
+		"noreminders": "Nincs több emlékeztető!",
+		"ranout": "Ez az emlékeztető már elfogyott!",
+		"snoozenotyou": "Ezt a kiválasztási menüt nem használhatja!",
+		"snoozeselecttime": "Válassza ki az időt",
+		"snoozetime": "Adja meg az emlékeztető időpontját",
+		"title": "Az emlékeztetőid",
+		"your": "Az emlékeztetőd"
+	},
+	"remove": {
+		"fail": "A felhasználót nem sikerült eltávolítani a csatornából",
+		"success": "{USERORROLE} el lett távolítva a Ticket-ből"
+	},
+	"reply": {
+		"dm": "**{USER}** válaszolt a **#{ID}** javaslatára **{GUILD}**!"
+	},
+	"role": {
+		"botcount": "**{COUNT}** bot rendelkezik ezzel a ranggal",
+		"buyable": "Megvásárolható",
+		"clearedperms": "A szerepkör összes jogosultsága (felülírás nélkül) eltávolításra került",
+		"clearedpermsshort": "Visszavont engedélyek",
+		"duplicate": {
+			"duped": "A {NEWROLE} szerep a {OLDROLE} másolataként jött létre",
+			"missingperms": "A bot nem tudja létrehozni a szerepet a hiányzó jogosultságok miatt",
+			"permshelp": "Valószínűleg a szerepkörnek olyan jogai vannak, amelyekkel a bot nem rendelkezik. Adja meg a botnak a szükséges jogokat, vagy ideiglenesen rendszergazdát."
+		},
+		"footer": "{COUNT} szerepeket találtunk • 🔒 = Kezelt",
+		"list": "Az összes rang kilistázása:",
+		"listperm": "A **{PERMISSION}** jogosultsággal rendelkező összes szerepkör listája:",
+		"managed": "Ez a szerep nem adható vagy távolítható el manuálisan",
+		"managedby": "Által kezelt",
+		"massadd": {
+			"finish": "**{MEMBERCOUNT}** felhasználót adtunk hozzá a **{ROLE}** ranghoz, de a rang nem adható a következő felhasználóhoz **{FAILED}**",
+			"start": "A **{ROLE}** rangot hozzá fogom adni **{MEMBERCOUNT}** felhasználóhoz"
+		},
+		"massremove": {
+			"finish": "A **{ROLE}** rang **{MEMBERCOUNT}** felhasználóhoz lett hozzáadva, de nem lehet eltávolítani a **{FAILED}** felhasználóktól",
+			"start": "Eltávolítom a **{ROLE}** rangot **{MEMBERCOUNT}** felhasználótól"
+		},
+		"mentionable": "Említésre méltó",
+		"missing": "Meg kell adnod egy műveletet és egy rangot",
+		"missingpermission": "Meg kell adnia egy engedélyt",
+		"nousers": "Nem találtunk {ROLE} szerepkörrel rendelkező felhasználót!",
+		"randomtitle": "**{AMOUNT}** véletlenszerűen kiválasztott felhasználók a **{ROLE}** szerepkörrel",
+		"roleorder": "Nem tudom hozzáadni/eltávolítani ezt a szerepet, mivel a legmagasabb szerepköröm felett van",
+		"tempadd": "{USER} megkapta a {ROLE} szerepet {MODERÁTOR}-tól.",
+		"tempremove": "{USER} a {MODERÁTOR} visszavonta a {ROLE} szerepkört.",
+		"temprequested": "Adott szerep",
+		"toomany": "Túl sok az összes megjelenítéséhez",
+		"unknown": "Ismeretlen rang",
+		"usercount": "**{COUNT}** felhasználó rendelkezik ezzel a ranggal"
+	},
+	"say": {
+		"error": "Az üzenetet nem sikerült elküldeni"
+	},
+	"scheresteinpapier": {
+		"title": "Kő papír olló"
+	},
+	"screenshot": {
+		"title": "Weboldal képernyőkép"
+	},
+	"server": {
+		"badges": "Jelvények",
+		"badgeshave": "van",
+		"categories": "Kategóriák",
+		"contentfilter": {
+			"all": "Mindenféle dolog",
+			"disabled": "Fogyatékkal élő",
+			"withoutroles": "Szerepkör nélküli felhasználók üzenetei"
+		},
+		"created": "Létrehozva",
+		"description": "Leírás",
+		"emojianimated": "Animált emojik",
+		"emojinotanimated": "Normál emojik",
+		"features": "Jellemzők:",
+		"members": "Tagok",
+		"messagefilter": "Üzenetszűrő:",
+		"newestmember": "Legújabb tag",
+		"newestuser": "Legújabb fiók",
+		"notifications": {
+			"onlymentions": "Csak a következőket említsed",
+			"text": "Értesítések"
+		},
+		"oldestuser": "Legrégebbi fiók",
+		"owner": "Tulajdonos",
+		"raid": "A legutóbbi rajtaütés miatt **{AMOUNT}** felhasználót rúgtak ki.",
+		"text": "Szöveges csatornák",
+		"toomanyroles": "*Túl sok rang*",
+		"verificationlevel": {
+			"high": "Magas",
+			"highest": "Legmagasabb",
+			"low": "Alacsony",
+			"middle": "Közepes"
+		},
+		"verilvl": "Hitelesítési szint",
+		"voice": "Hangcsatornák"
+	},
+	"shop": {
+		"footer": "A /shop buy <Név> használatával vásárolhatsz terméket",
+		"notenough": "Nincs elég paradicsomod",
+		"shovel": {
+			"fail": "Már van egy lapátod",
+			"success": "Vettél egy lapátot"
+		},
+		"unknown": "Ez az tárgy nem létezik"
+	},
+	"shorter": {
+		"averageuniqueusers": "Átlagos egyedi látogatók naponta",
+		"blacklisted": "Az URL feketelistára került",
+		"cantresolve": "⚠️ Nem tudja feloldani a {URL}: {ERROR}",
+		"cfthreats": "A Cloudflare által észlelt fenyegetések",
+		"created": "A rövid URL **{URL]** létrehozására került sor",
+		"exists": "Már létezik egy rövid URL ezzel a névvel",
+		"invalidurl": "Érvényes URL-t kell megadnia",
+		"mostusedbrowsers": "Leggyakrabban használt böngészők",
+		"redirects": "URL átirányítások",
+		"statstitle": "shorter.cf statisztikák az elmúlt hónapból",
+		"views": "Nézettség",
+		"weekstats": "**{WEEK}.** hét: {REQUESTS} kérések ({CACHED}%-uk gyorsítótárazva, {ENCRYPTED}%-uk titkosítva), {PAGEVIEWS} oldalmegtekintések"
+	},
+	"slowmode": {
+		"current": "Jelenlegi slowmode:",
+		"error": "Hiba történt a lassú üzemmód beállítása közben",
+		"missing": "Érvényes értéket kell megadnia a slowmode",
+		"updated": "A lassú üzemmód **{TIME}** másodpercre van állítva"
+	},
+	"snake": {
+		"down": "Lefelé",
+		"left": "Balra",
+		"right": "Jobbra",
+		"up": "Fel"
+	},
+	"snowflake": {
+		"counter": "Inkrementálás",
+		"invalid": "Érvényes hópelyhet kell hozzáadni",
+		"missing": "Hozzá kell adnia egy hópelyhet, pl. egy felhasználói azonosítót",
+		"process": "Folyamat azonosítója"
+	},
+	"ssp": {
+		"paper": "Papír",
+		"playagain": "Játsszon újra",
+		"scissors": "Olló",
+		"stone": "Kő"
+	},
+	"starboard": {
+		"description": "Embed description",
+		"fields": "Embed fields",
+		"title": "Embed title"
+	},
+	"stats": {
+		"chatters": "Aktív csevegők",
+		"disabled": "A statisztika nincs engedélyezve ezen a szerveren",
+		"messagesperday": "Üzenetek naponta",
+		"modlogs": {
+			"title": "Moderációs statisztikák",
+			"titlerange": "Moderálási statisztikák **{TIME}** alatt",
+			"total": "Összes modnapló"
+		},
+		"processing": "A statisztika még nem elérhető ezen a szerveren",
+		"title": "**{GUILD}** statisztikái"
+	},
+	"steam": {
+		"contentwarning": "Tartalmi figyelmeztetés:",
+		"developers": "Fejlesztő(k)",
+		"free": "Ingyenes",
+		"gameselect": "Játék kiválasztása",
+		"missing": "Hozzá kell adnod egy bejegyzést a Steam áruházban",
+		"platforms": "Platformok",
+		"price": "Ár",
+		"priceunknown": "Még ismeretlen",
+		"publishedat": "Megjelent"
+	},
+	"suggest": {
+		"alreadyhandled": "Ezt a javaslatot már kezelte a szerver személyzete, és mint ilyen, a tartalma nem szerkeszthető tovább",
+		"approved": "A(z) **#{ID}** javaslatot elfogadtuk!",
+		"approvedby": "{USER} Által lett jóváhagyva",
+		"approvedon": "Jóváhagyva",
+		"autocomplete": {
+			"nonefound": "Nem találtak javaslatokat",
+			"suggest": "A /suggest használatával javasolhat valamit"
+		},
+		"awaitingreview": "A javaslat mostantól ellenőrizhető és elérhető lesz a {CHANNEL} menüpontban, amint engedélyezik",
+		"denied": "A(z) **#{ID}** javaslatot elutasították!",
+		"deniedby": "{USER} Által elutasítva",
+		"deniedon": "Elutasítva",
+		"edit": "A(z) **#{ID}** javaslatot szerkesztették!",
+		"lastedit": "Utoljára szerkesztve",
+		"missingperms": "A botnak nincs elegendő engedélye (üzenetek küldése/reakciók hozzáadása) a következőben: {CHANNEL}",
+		"missingreply": "Hozzá kell adnod egy javaslatot és egy választ",
+		"missingreviewchannel": "Hiányzik a javaslatok felülvizsgálatára szolgáló csatorna",
+		"missingsuggestion": "Adj hozzá egy javaslatot",
+		"nochannel": "Nincs beállítva javaslati csatorna!",
+		"notown": "Ez nem a te javaslatod",
+		"replied": "A(z) **#{ID}** javaslatra adott választ elmentettük!",
+		"replyfrom": "Válasz tőle: {USER}",
+		"reviewapprove": "Javaslat engedélyezése",
+		"reviewdeny": "Javaslat elutasítása",
+		"sent": "A javaslat be lett küldve!",
+		"title": "Javaslat",
+		"unknownmessage": "Ez a javaslat nem létezik"
+	},
+	"supportserver": "Support szerver",
+	"sync": {
+		"ban": {
+			"otherlimit": "A másik szerver már szinkronizálja a tiltásokat két másik szerverrel",
+			"started": "A tiltások/letiltások mostantól szinkronizálódnak a másik szerverről erre a szerverre",
+			"thislimit": "Ez a szerver már szinkronizálja a tiltásokat két másik szerverrel"
+		},
+		"invalidcode": "Ez az ellenőrző kód érvénytelen",
+		"log": {
+			"othersyncing": "A másik szerver már szinkronizálja a naplóit egy másik szerverrel",
+			"started": "A naplók most szinkronizálódnak a másik szerverről erre a szerverre",
+			"thissyncing": "Ez a szerver már szinkronizálja a naplóit egy szerverrel"
+		},
+		"notsyncing": "Ez a szerver nem szinkronizál semmit más szerverekkel",
+		"stopped": "A naplók és tiltások/letiltások szinkronizálása más szerverekkel leállt",
+		"unknownguild": "Ez a szerver nem létezik",
+		"verify": "A kód, amelyet egy percen belül be kell illesztenie a {SLASHCMD}-be a másik szerveren, a következő: `{CODE}`"
+	},
+	"tagebis": {
+		"missing": "Adj meg egy hónapot és egy napot",
+		"year": "**{YEAR}** **{PERCENT}%** véget ért!"
+	},
+	"template": {
+		"adminrole": "A(z) {ROLE} bot rangomhoz rendszergazdai engedélyre van szükségem",
+		"buttoncancel": "Nem, töröld a betöltést",
+		"buttonload": "Igen, sablon betöltése",
+		"cancel": "A sablon betöltése megszakadt",
+		"finished": "A **{CREATOR}** **{NAME}** **{CODE}** kódú sablonod sikeresen betöltődött!",
+		"started": "A sablon most töltődik be. Megszakíthatja a `/sablon törlése` használatával – ez azonban nem fogja visszaállítani a már törölt csatornákat/rangokat!\nBecsült idő: ",
+		"unknown": "Ez a sablon nem létezik",
+		"warning": "Ezzel betölti a **{CREATOR}** **{NAME}** sablont, korábban **{USES}**-szor használták. Biztos, hogy folytatni szeretné?\n⚠️ **Ez a művelet (a argumentumoktól függően) törli az összes szerepet és csatornát, és lecseréli őket az újakra.** ⚠️"
+	},
+	"test": {
+		"feed": {
+			"content": "Tartalom JSON-ként:",
+			"entriesdeleted": "A bot által elmentett bejegyzések száma több, mint a feedben találhatóaké (a bejegyzéseket törölték). A feedet újra kell indexelni",
+			"invalidcontent": "Nem tudom elemezni a feed tartalmát (valószínűleg nem feed)",
+			"newentries": "A feed sikeresen betöltődött és **{AMOUNT}** új bejegyzéseket tartalmaz",
+			"nonew": "A feed sikeresen betöltődött, de nem tartalmaz új tartalmat",
+			"notarray": "Az elemzett takarmány tartalmának egy tömbnek (listának) kell lennie",
+			"notindexed": "A feed ismeretlen a bot számára, ezért a botnak először indexelnie kell",
+			"redirected": "⚠️ A `{INPUT}` URL-t átirányították a `{TARGET}` címre, kérjük, használja ezt az URL-t a feedekhez!"
+		}
+	},
+	"testvote": "A szavazás egy próbaszavazás!",
+	"text": {
+		"failed": "A webhook nem hozható létre"
+	},
+	"threads": {
+		"all": "Minden szál",
+		"description": "Üzenetek | Tagok"
+	},
+	"ticket": {
+		"alreadyclosed": "Ez a jegy már le van zárva",
+		"alreadyopen": "Egyszerre csak **{LIMIT}** jegyek lehetnek nyitva",
+		"closebutton": "Jegy bezárása",
+		"closed": "A jegyet lezárták",
+		"closedby": "Lezárva",
+		"closedm": "A **{GUILD}**-ra vonatkozó jegyét a **{CLOSER}** lezárta.",
+		"created": "✅ A jegyet létrehoztuk a(z) {CHANNEL} csatornán",
+		"createdbutton": "A ticket-ed meg lett nyitva!",
+		"createdcategory": "Létrehozott jegy kategória",
+		"deletebutton": "Ticket törlése",
+		"deleting": "A {CHANNEL} jegyet törölték",
+		"empty": "*Nem szerepel*",
+		"excludedrole": "Nem tudsz jegyet nyitni, mert a {ROLES} szerepkörrel rendelkezel!",
+		"missingcategorymodal": "A jegykategória vagy ez a modál már nem létezik!",
+		"missingticketcategory": "Ezen a kiszolgálón nincs \"Ticket\" nevű kategória, és nem volt beállítva jegykategória, ezért nem lehet létrehozni a jegyet",
+		"notclosed": "Ez a csatorna nem zárt ticket",
+		"notfound": "Vagy ez a csatorna nem jegy, vagy a jegy szerzője ismeretlen",
+		"noticket": "Ez a csatorna nem ticket",
+		"notifyauthor": "Értesítse a szerzőt",
+		"notifydone": "A szerzőt értesítették",
+		"notifyerror": "Nem tudta értesíteni a szerzőt",
+		"notranscript": "Nem jött létre automatikus transcript, mivel nem érkezett elég üzenet ebben a ticket-ben. Ha transcript-re van szükséged, használd a {TRANSCRIPT} parancsot.",
+		"previoustickets": "Korábbi ticket-ek",
+		"reopenbutton": "Ticket újranyitása",
+		"reopened": "A ticket újra meg lett nyitva!",
+		"requireRole": "A {ROLE} szerepkörre van szüksége ahhoz, hogy ebben a kategóriában jegyet tudjon létrehozni!",
+		"ticketclosing": "A ticket **5** másodpercen belül törlődik",
+		"transcript": "Átirat megtekintése",
+		"transcriptdiscordpromo": "Az összes üzenetet, beleértve a mellékleteket is, a nem jegyekből származó üzeneteket is archiválni szeretné? Csatlakozzon a támogatási szerverünkhöz <https://tomatenkuchen.com/discord> és kérje!"
+	},
+	"ticketembed": {
+		"addbutton": "Jegykategória hozzáadása",
+		"button": "Ticket létrehozása",
+		"buttonstyle": "A gomb stílusa",
+		"buttontext": "A gomb címkéje",
+		"buttonurl": "URL (csak LINK típus esetén)",
+		"categoryname": "Jegykategória neve a műszerfalról",
+		"customavatar": "A webhook avatár URL címe",
+		"customize": "Testreszabás",
+		"customizetitle": "A jegy beágyazásának testreszabása",
+		"customizeupdated": "A ticketembed megjelenése frissült!",
+		"customname": "A webhook neve",
+		"description": "Jegy létrehozásához kattintson a \"Jegy létrehozása\" gombra",
+		"editmessage": "Üzenet szerkesztése",
+		"editweb": "Beágyazás/gombok szerkesztése",
+		"emoji": "A gomb emoji azonosítója",
+		"invalidcategory": "A **{CATEGORY}** jegykategória nem létezik!",
+		"pastebutton": "JSON kód másolása/beillesztése",
+		"pastejson": "Illessze be az üzenet JSON-kódját.",
+		"sendin": "Küldés a {CHANNEL}",
+		"sent": "A ticketembed elküldésre került!"
+	},
+	"tickets": {
+		"average": "Átlagosan:",
+		"averageclose": "A jegyek átlagos időtartama zárásig",
+		"averagedelete": "A jegy törléséig tartó átlagos időtartam",
+		"buttonchannel": "Küldd ide",
+		"buttondm": "Küldj DM-ben",
+		"claimedcount": "Az igényelt jegyek összege",
+		"claimfirst": "A jegy egyszeri igénybevételéig eltelt idő",
+		"closedcount": "Lezárt jegyek",
+		"deletedcount": "Törölt jegyek",
+		"displaywarning": "Ez megmutatja{? a felhasználó?} összes jegyét erről a szerverről, és a linkkel mindenki hozzáférhet az átirathoz.",
+		"opencount": "Nyitott jegyek",
+		"ownerscount": "Egyedi jegytulajdonosok száma",
+		"senddm": "A ticket naplókat DM-en keresztül küldtük el neked, ha a bot tud dm-et küldeni neked!",
+		"stats": "Jegystatisztikák",
+		"title": "**{CURRENT}**/**{TOTAL}** ticket megjelenítése",
+		"titleshort": "**{TOTAL}** ticket megjelenítése",
+		"unknowncategory": "A **{CATEGORY}** jegykategória nem létezik",
+		"usertitle": "Jegyek a {USER}"
+	},
+	"timer": {
+		"deleted": "Az időzítő nem létezik!",
+		"empty": "Senki sem csatlakozott az időzítőhöz D:",
+		"ended": "Az időzítőd lejárt: {TIME}!",
+		"footer": "Használja a gombot, hogy értesítést kapjon az időzítő lejárta után",
+		"success": "Mostantól értesítést kapsz, ha az időzítő lejár!",
+		"timesup": "Lejárt az idő!",
+		"title": "Az időzítő {TIME}-kor ér véget"
+	},
+	"timezone": {
+		"converted": "Átváltott idő:",
+		"given": "Adott idő:",
+		"timezone": "Időzóna:"
+	},
+	"todo": {
+		"add": "Bejegyzés hozzáadva",
+		"none": "Üres a teendőlistád! Új bejegyzések hozzáadásához használd a {SLASHTODOADD} <Bejegyzés> parancsot",
+		"remove": "A bejegyzést eltávolították",
+		"title": "A teendő listád"
+	},
+	"transcript": {
+		"done": "**{MESSAGES}** üzenet mentve:",
+		"edited": "(szerkesztve)",
+		"useslash": "{USER} használta a {SLASHCOMMAND}"
+	},
+	"transform": {
+		"missing": "Hozzá kell adnia egy típust és egy szöveget",
+		"time": {
+			"longdate": "Hosszú randevú",
+			"longtime": "Hosszú idő",
+			"longtimedate": "Hosszú idő és dátum",
+			"relative": "Relatív idő",
+			"shortdate": "Rövid randevú",
+			"shorttime": "Rövid idő",
+			"shorttimedate": "Rövid idő és dátum",
+			"title": "Discord time formázás"
+		}
+	},
+	"translate": {
+		"doyoumean": "Úgy érted",
+		"error": "A szöveg nem fordítható le",
+		"errorcorrected": "Hiba javítva",
+		"missing": "Hozzá kell adni a célnyelvet és a szöveget",
+		"translated": "A ```\n{TEXT}```\na következő nyelvről lett lefordítva: **{LANGUAGE}**:\n```{TRANSLATION}```"
+	},
+	"twitch": {
+		"currentstream": "Jelenlegi livestream",
+		"game": "Játék:",
+		"partner": "Twitch partner",
+		"title": "Cím:",
+		"unknown": "Ez a Twitch csatorna nem létezik",
+		"viewers": "Nézők:"
+	},
+	"tz": "hu-HU",
+	"unban": {
+		"fail": "A felhasználó kitiltását nem lehetett feloldani",
+		"success": "A felhasználó kitiltása megszűnt"
+	},
+	"unmute": {
+		"done": "{USER} a {MOD} feloldotta a némítást",
+		"fail": "A felhasználó némítását nem sikerült feloldani",
+		"notmuted": "A felhasználó nincs némítva"
+	},
+	"uno": {
+		"autoskip": "⏩ A te köröd kihagyásra került, mivel a kártyákat amúgy is ki kellett volna húznod.",
+		"calledfail": "Jelenleg nem használhatod az Uno-t, ezért kaptál büntetőkártyát!",
+		"calledsuccess": "Te hívtad Uno-t!",
+		"dontuse": "Ne használja",
+		"joined": "Beléptél a játékba!",
+		"missingplayers": "Nem csatlakozott elég játékos egy Uno játékhoz D:",
+		"notowner": "Nem te vagy a játék alkotója!",
+		"selectcolor": "Válasszon ki egy színt:",
+		"start": "{USER} meghív egy Uno játékra! Kattints az üzenet alatti gombra a csatlakozáshoz! A játék {TIMESTAMP} kezdődik **{PLAYERS}** játékosok részvételével.",
+		"usedrawn": "Szeretné használni a kihúzott kártyát?",
+		"win": "Megnyerted a játékot!"
+	},
+	"user": {
+		"admin": "Adminisztrátor",
+		"badge": {
+			"developer": "<:owner:712736235873108148> Fejlesztő",
+			"oldeconomy": "<a:pepemoney:960027591115407370> Régi gazdasági rendszer",
+			"staff": "<:staff:713984949639708712> Személyzet",
+			"translator": "🏴‍☠️ Fordító"
+		},
+		"boostingsince": "Boosting szerver, mivel",
+		"globaldisplayname": "Globális megjelenített név:",
+		"invites": "Meghívók:",
+		"joined": "Csatlakozott",
+		"nickname": "Becenév:",
+		"noperms": "Nincsenek további engedélyek",
+		"owner": "Kiszolgáló tulajdonosa",
+		"pending": "Pending",
+		"permissions": "Engedélyek",
+		"privacy": "Adatvédelmi szabályzat",
+		"profilecolor": "Profil színe",
+		"public": "Nyilvános",
+		"requirecodegrant": "Kódtámogatás szükséges",
+		"roles": "Szerepek",
+		"serveravatar": "Szerver avatar",
+		"supportserver": "Támogató szerver azonosítója:",
+		"timeouted": "Timeouted",
+		"timeoutedvalue": "✅, ends {TIMESTAMP}",
+		"tos": "Szolgáltatási feltételek",
+		"user": "Felhasználók",
+		"voice": "Hangcsatorna"
+	},
+	"usersettings": {
+		"editlevelbg": "Szerkesztési szint háttér",
+		"imageurl": "Kép URL",
+		"levelbg": "Szint háttérképe",
+		"saveticketatt": "Avatar és mellékletek mentése a jegyekben",
+		"title": "Felhasználói beállítások"
+	},
+	"verification": {
+		"defaulttitle": "Használja az alábbi gombot, hogy ellenőrizze magát!",
+		"disabled": "Az ellenőrzés nincs engedélyezve ezen a szerveren!",
+		"invalid": "Az eredményed **{RESULT}** érvénytelen, próbáld újra!",
+		"missingpermissions": "Szükségem van a \"Csatorna megtekintése\", \"Üzenetek küldése\" és \"Linkek beágyazása\" jogosultságokra a csatornán",
+		"modallabel": "Írja a captcha kép karaktereit",
+		"modaltitle": "Bizonyítsd be, hogy ember vagy",
+		"sent": "Az ellenőrző üzenet sikeresen elküldésre került a {CHANNEL}-ban!",
+		"success": "Sikeresen igazoltad magad!"
+	},
+	"voice": {
+		"deafedall": "Megsüketítette az összes felhasználót a hangcsatornádon, kivéve téged",
+		"mutedall": "A hangcsatornádon lévő összes felhasználó elnémítása, kivéve téged"
+	},
+	"vote": {
+		"nextvote": "Következő szavazás **{TIME}**"
+	},
+	"warn": {
+		"cantwarn": "Nem figyelmeztetheti **{USER}**",
+		"missingreason": "Meg kell adnia az okot",
+		"warned": "{USER} figyelmeztetést kapott"
+	},
+	"wordsearch": {
+		"invalidposition": "Érvénytelen pozíció!",
+		"mark": "Jelölje meg a szót",
+		"noword": "Az adott pozícióra nem találtak szót!",
+		"position": "A szó kezdő- és véghelyzete"
+	},
+	"work": {
+		"captcha": {
+			"start": "**{USER}**, oldja meg a következő captcha-t:"
+		},
+		"lose": {
+			"time": "Túl lassú voltál!"
+		},
+		"win": "Szép munka! **{TIME}** másodpercbe telt, és **{AMOUNT}** paradicsomot keresett!"
+	},
+	"ytsearch": {
+		"country": "Ország:",
+		"found": "**{AMOUNT}** csatornát találtunk",
+		"hidden": "Rejtett",
+		"missing": "Hozzá kell adnod egy YouTube-csatorna nevét",
+		"onlychildren": "Csatorna csak gyerekeknek:",
+		"selectchannel": "Csatorna kiválasztása",
+		"subscribers": "Előfizetők:",
+		"topics": "Témák:",
+		"unknown": "Nem találtak csatornákat"
+	}
+}
