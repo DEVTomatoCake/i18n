@@ -21,7 +21,7 @@
 		"adminsuccess": "Der Application-API-Key für den Alias **{ALIAS}** wurde gespeichert! Du kannst jetzt den Node-Status anzeigen lassen.",
 		"aliasused": "Der Alias **{ALIAS}** wird bereits verwendet!",
 		"invalidurl": "Ungültige Panel-URL! Der Link muss die Startseite (Serverliste) des Panels sein sowie mit `https://` anfangen und mit `/` aufhören.",
-		"success": "Das Webinterface mit dem Alias **{ALIAS}** wurde gespeichert! Du kannst jetzt </manage:872924492593254454> auf Servern nutzen!",
+		"success": "Das Panel mit dem Alias **{ALIAS}** wurde gespeichert! Du kannst jetzt </manage:872924492593254454> nutzen!",
 		"tutorial": "So bekommst du einen API-Key:"
 	},
 	"button": {
@@ -110,7 +110,7 @@
 	},
 	"unknownalias": "Den Alias **{ALIAS}** gibt es nicht!",
 	"update": {
-		"editfail": ":warning: Die Nachricht kann nicht bearbeitet werden!\nStelle sicher, dass der Bot die Berechtigungen \"Kanal anzeigen\", \"Nachrichten senden\", \"Links einbetten\" sowie \"Nachrichtenverlauf anzeigen\" hat.",
+		"editfail": "⚠️ Die Nachricht kann nicht bearbeitet werden!\nStelle sicher, dass der Bot die Berechtigungen \"Kanal anzeigen\", \"Nachrichten senden\", \"Links einbetten\" sowie \"Nachrichtenverlauf anzeigen\" hat.",
 		"error": "Die Informationen können nicht abgefragt werden! Bitte warte etwas und versuche es nochmal!",
 		"freezed": "Dieses Embed ist inaktiv, du musst den Befehl erneut ausführen!",
 		"kill": "Kill",
