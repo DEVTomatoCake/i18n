@@ -435,6 +435,8 @@
 			"choice": "Single or multiple choice",
 			"color": "Color",
 			"number": "Number",
+			"password": "Password field",
+			"range": "Range/Slider",
 			"textmulti": "Text field (multiple lines)",
 			"textsingle": "Text field (single line)"
 		},
@@ -453,7 +455,8 @@
 		"singlewin": "Won",
 		"startgame": "Start game",
 		"tie": "Tie/Draw",
-		"win": "{USER} won the game!"
+		"win": "{USER} won the game!",
+		"yourturnmention": "{USER}, it's your turn!"
 	},
 	"github": {
 		"following": "Following",
@@ -516,7 +519,7 @@
 		"requirementstext": "**Set giveaway requirements**:\n\nYou have to input the parameter the following way:\n> `<Condition>:<Value>;<another Condition>:<Value 1>,<Value 2>;…`\n\nPossible requirements:\n> `roles`: User must have all of these roles\n> `anyRoles`: User must have any of these roles\n> `notRoles`: User must not have role\n> `minAge`: User account must be X old\n> `minMemberAge`: User must be at least since X on the server\n> `minLeaderboardPoints`: User must have X points on the leaderboard\n\nExamples:\n> `roles:Member,Verified`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Reroll",
 		"rerolled": "The giveaway was rerolled and the winners are: {USERS}",
-		"rerollednowinner": "No winner(s) could be found",
+		"rerollednowinner": "No winner could be found",
 		"savebutton": "Save",
 		"stillrunning": "You can only reroll ended giveaways",
 		"unknown": "The giveaway `{GIVEAWAY}` doesn't exist",
@@ -532,6 +535,7 @@
 		"creative": "A bit creative",
 		"dailylimit": "Daily limit reached",
 		"howcreative": "How creative should ChatGPT answer?",
+		"temperature": "Temperature value: {VALUE}",
 		"verycreative": "Very creative"
 	},
 	"guildonly": "This command can only be ran on servers!",
@@ -574,7 +578,7 @@
 		},
 		"ticket": {
 			"description": "Shows ticket commands",
-			"title": "Ticket"
+			"title": "Tickets"
 		},
 		"unknown": "Unknown command/category!",
 		"usage": "Usage"
@@ -1555,6 +1559,7 @@
 		"selectcolor": "Select a color:",
 		"start": "{USER} invites to a game of Uno! Click on the button below this message to join! The game starts {TIMESTAMP} with **{PLAYERS}** players.",
 		"usedrawn": "Do you want to use the drawn card?",
+		"viewcards": "View cards",
 		"win": "You've won the game!"
 	},
 	"user": {
