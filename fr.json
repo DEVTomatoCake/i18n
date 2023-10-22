@@ -21,7 +21,7 @@
 		"adminsuccess": "La clé api de l'application pour l'alias **{ALIAS}** a été sauvegardée ! Vous pouvez maintenant afficher l'état du nœud.",
 		"aliasused": "L'alias **{ALIAS}** est déjà utilisé !",
 		"invalidurl": "URL de panneau non valide ! Le lien doit être la page de démarrage (liste de serveurs) du panneau : commencer par `https://` et se terminer par `/`.",
-		"success": "L'interface Web avec l'alias **{ALIAS}** a été enregistrée ! Vous pouvez désormais utiliser </manage:872924492593254454> !",
+		"success": "Le panneau avec l'alias **{ALIAS}** a été sauvegardé ! Vous pouvez maintenant utiliser </manage:872924492593254454> !",
 		"tutorial": "Comment obtenir une clé API :"
 	},
 	"button": {
@@ -110,7 +110,7 @@
 	},
 	"unknownalias": "L'alias **{ALIAS}** n'existe pas !",
 	"update": {
-		"editfail": ":warning: Le message ne peut pas être édité !\nAssurez-vous que le bot a les permissions \"Voir le canal\", \"Envoyer des messages\", \"Intégrer des liens\" et \"Voir l'historique des messages\".",
+		"editfail": "⚠️ Le message ne peut pas être édité !\nAssurez-vous que le bot a les permissions \"Voir le canal\", \"Envoyer des messages\", \"Intégrer des liens\" et \"Voir l'historique des messages\".",
 		"error": "Impossible d'obtenir les données ! Veuillez réessayer plus tard !",
 		"freezed": "Cet embed est inactif, vous devez réexécuter la commande !",
 		"kill": "Tuer",
