@@ -21,7 +21,7 @@
 		"adminsuccess": "A **{ALIAS}** alias alkalmazás api-kulcsa el lett mentve! Most már megjeleníthető a csomópont állapota.",
 		"aliasused": "A **{ALIAS}** alias már használatban van!",
 		"invalidurl": "Érvénytelen panel URL! A linknek a panel kezdőoldalának (szerverlistájának) kell lennie: `https://` előtaggal kezdődik és `/` karakterrel végződik.",
-		"success": "A **{ALIAS}** alias webes felület mentése megtörtént! Most már használhatja a </manage:872924492593254454> címet!",
+		"success": "A **{ALIAS}** álnévvel ellátott panel mentésre került! Most már használhatja a </manage:872924492593254454>!",
 		"tutorial": "Az API kulcs beszerzése:"
 	},
 	"button": {
@@ -110,7 +110,7 @@
 	},
 	"unknownalias": "A **{ALIAS}** alias nem létezik!",
 	"update": {
-		"editfail": ":warning: Az üzenet nem szerkeszthető!\nGyőződjön meg róla, hogy a bot rendelkezik a \"Csatorna megtekintése\", \"Üzenetek küldése\", \"Linkek beágyazása\" és \"Üzenethistória megtekintése\" jogosultságokkal.",
+		"editfail": "⚠️ Az üzenet nem szerkeszthető!\nGyőződjön meg róla, hogy a bot rendelkezik a \"Csatorna megtekintése\", \"Üzenetek küldése\", \"Linkek beágyazása\" és \"Üzenethistória megtekintése\" jogosultságokkal.",
 		"error": "Nem sikerült beszerezni az adatokat! Kérlek, próbáld újra később!",
 		"freezed": "Ez a beágyazás inaktív, újra le kell futtatnia a parancsot!",
 		"kill": "Megöl",
