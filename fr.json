@@ -435,6 +435,8 @@
 			"choice": "Choix unique ou multiple",
 			"color": "Couleur",
 			"number": "Nombre",
+			"password": "Champ du mot de passe",
+			"range": "Gamme",
 			"textmulti": "Champ de texte (plusieurs lignes)",
 			"textsingle": "Champ de texte (une seule ligne)"
 		},
@@ -453,7 +455,8 @@
 		"singlewin": "Gagné",
 		"startgame": "Démarrer le jeu",
 		"tie": "Egalité",
-		"win": "{USER} a gagné la partie !"
+		"win": "{USER} a gagné la partie !",
+		"yourturnmention": "{USER}, c'est votre tour !"
 	},
 	"github": {
 		"following": "Suivante",
@@ -532,6 +535,7 @@
 		"creative": "Un peu de créativité",
 		"dailylimit": "Limite journalière atteinte",
 		"howcreative": "Dans quelle mesure la réponse de ChatGPT doit-elle être créative ?",
+		"temperature": "Valeur de la température : {VALUE}",
 		"verycreative": "Très créatif"
 	},
 	"guildonly": "Cette commande ne peut être exécutée que sur des serveurs !",
@@ -1555,6 +1559,7 @@
 		"selectcolor": "Sélectionnez une couleur :",
 		"start": "{USER} invite à une partie de Uno ! Cliquez sur le bouton en dessous de ce message pour participer ! La partie commence {TIMESTAMP} avec **{PLAYERS}** joueurs.",
 		"usedrawn": "Voulez-vous utiliser la carte dessinée ?",
+		"viewcards": "Voir les cartes",
 		"win": "Vous avez gagné le jeu !"
 	},
 	"user": {
