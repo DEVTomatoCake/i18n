@@ -435,6 +435,8 @@
 			"choice": "Egy vagy többszörös választás",
 			"color": "Színes",
 			"number": "Szám",
+			"password": "Jelszó mező",
+			"range": "Távolság/csúszka",
 			"textmulti": "Szövegmező (több sor)",
 			"textsingle": "Szövegmező (egysoros)"
 		},
@@ -453,7 +455,8 @@
 		"singlewin": "Won",
 		"startgame": "Játék indítása",
 		"tie": "Döntetlen/sorsolás",
-		"win": "{USER} megnyerte a játékot!"
+		"win": "{USER} megnyerte a játékot!",
+		"yourturnmention": "{USER}, te jössz!"
 	},
 	"github": {
 		"following": "Következő",
@@ -516,7 +519,7 @@
 		"requirementstext": "**Az ajándékozási követelmények meghatározása**:\n\nA paramétert a következő módon kell megadni:\n> `<feltétel>:<érték>;<egy másik feltétel>:<érték 1>,<érték 2>;...`\n\nLehetséges követelmények:\n> ``szerepek``: A felhasználónak rendelkeznie kell az összes szerepkörrel\n> `anyRoles`: A felhasználónak rendelkeznie kell bármelyik szerepkörrel\n> `notRoles`: A felhasználónak nem lehet szerepe\n> `minAge`: A felhasználói fióknak X évesnek kell lennie\n> `minMemberAge`: A felhasználónak legalább X óta a szerveren kell lennie.\n> `minLeaderboardPoints`: A felhasználónak X ponttal kell rendelkeznie a ranglistán.\n\nPéldák:\n> ``roles:Member,Verified`\n> ``notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Újradobás",
 		"rerolled": "A nyereményjátékot újraterveztük, és a nyertesek a következők: {USERS}",
-		"rerollednowinner": "Nem sikerült győztes(ek)et találni",
+		"rerollednowinner": "Nem sikerült győztest találni",
 		"savebutton": "Mentés",
 		"stillrunning": "Csak a befejezett ajándékokat lehet újradobni",
 		"unknown": "A nyereményjáték `{GIVEAWAY}` nem létezik",
@@ -532,6 +535,7 @@
 		"creative": "Egy kicsit kreatív",
 		"dailylimit": "Napi limit elérve",
 		"howcreative": "Mennyire kreatív a ChatGPT válasza?",
+		"temperature": "Hőmérsékleti érték: {VALUE}",
 		"verycreative": "Nagyon kreatív"
 	},
 	"guildonly": "Ez a parancs csak szervereken futtatható!",
@@ -574,7 +578,7 @@
 		},
 		"ticket": {
 			"description": "Jegyparancsokat jelenít meg",
-			"title": "Jegy"
+			"title": "Jegyek"
 		},
 		"unknown": "Ismeretlen parancs/kategória!",
 		"usage": "Használat"
@@ -1555,6 +1559,7 @@
 		"selectcolor": "Válasszon ki egy színt:",
 		"start": "{USER} meghív egy Uno játékra! Kattints az üzenet alatti gombra a csatlakozáshoz! A játék {TIMESTAMP} kezdődik **{PLAYERS}** játékosok részvételével.",
 		"usedrawn": "Szeretné használni a kihúzott kártyát?",
+		"viewcards": "Kártyák megtekintése",
 		"win": "Megnyerted a játékot!"
 	},
 	"user": {
