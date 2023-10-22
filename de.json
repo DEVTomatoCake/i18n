@@ -435,8 +435,6 @@
 			"choice": "Einzel- oder Mehrfachauswahl",
 			"color": "Farbe",
 			"number": "Zahl",
-			"password": "Passwortfeld",
-			"range": "Range/Slider",
 			"textmulti": "Textfeld (mehrzeilig)",
 			"textsingle": "Textfeld (einzeilig)"
 		},
@@ -455,8 +453,7 @@
 		"singlewin": "Gewonnen",
 		"startgame": "Spiel starten",
 		"tie": "Unentschieden",
-		"win": "{USER} hat das Spiel gewonnen!",
-		"yourturnmention": "{USER}, du bist dran!"
+		"win": "{USER} hat das Spiel gewonnen!"
 	},
 	"github": {
 		"following": "Folgt",
@@ -535,7 +532,6 @@
 		"creative": "Etwas kreativ",
 		"dailylimit": "Tägliches Limit erreicht",
 		"howcreative": "Wie kreativ soll ChatGPT antworten?",
-		"temperature": "Temperatur-Wert: {VALUE}",
 		"verycreative": "Sehr kreativ"
 	},
 	"guildonly": "Dieser Befehl kann nur auf Servern ausgeführt werden!",
@@ -1559,7 +1555,6 @@
 		"selectcolor": "Wähle eine Farbe aus:",
 		"start": "{USER} lädt zu einer Runde Uno ein! Klicke auf den Knopf unter dieser Nachricht, um beizutreten! Das Spiel startet {TIMESTAMP} mit **{PLAYERS}** Spielern.",
 		"usedrawn": "Möchtest du die gezogene Karte verwenden?",
-		"viewcards": "Karten ansehen",
 		"win": "Du hast das Spiel gewonnen!"
 	},
 	"user": {
