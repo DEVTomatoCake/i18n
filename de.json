@@ -435,6 +435,8 @@
 			"choice": "Einzel- oder Mehrfachauswahl",
 			"color": "Farbe",
 			"number": "Zahl",
+			"password": "Passwortfeld",
+			"range": "Range/Slider",
 			"textmulti": "Textfeld (mehrzeilig)",
 			"textsingle": "Textfeld (einzeilig)"
 		},
@@ -453,7 +455,8 @@
 		"singlewin": "Gewonnen",
 		"startgame": "Spiel starten",
 		"tie": "Unentschieden",
-		"win": "{USER} hat das Spiel gewonnen!"
+		"win": "{USER} hat das Spiel gewonnen!",
+		"yourturnmention": "{USER}, du bist dran!"
 	},
 	"github": {
 		"following": "Folgt",
@@ -516,7 +519,7 @@
 		"requirementstext": "**Teilnahmebedingungen festlegen**:\n\nDie Parameter werden nach folgendem Schema angegeben:\n> `<Bedingung>:<Wert>;<Weitere Bedingung>:<Wert 1>,<Wert 2>;…`\n\nMögliche Bedingungen:\n> `roles`: Nutzer muss alle dieser Rollen haben\n> `anyRoles`: Nutzer muss mindestens eine dieser Rollen haben\n> `notRoles`: Nutzer darf Rolle nicht haben\n> `minAge`: Nutzer-Account muss X alt sein\n> `minMemberAge`: Nutzer-Account muss seit X auf dem Server sein\n> `minLeaderboardPoints`: Nutzer muss X Punkte auf dem Leaderboard haben\n\nBeispiele:\n> `roles:Mitglied,Verifiziert`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Neuen Gewinner aussuchen",
 		"rerolled": "Das Giveaway wurde erneut ausgerollt und der/die Gewinner sind: {USERS}",
-		"rerollednowinner": "Es konnten kein(e) Gewinner gefunden werden",
+		"rerollednowinner": "Es konnte(n) kein(e) Gewinner gefunden werden",
 		"savebutton": "Speichern",
 		"stillrunning": "Das Giveaway muss beendet sein, um es rerollen zu können",
 		"unknown": "Das Giveaway `{GIVEAWAY}` gibt es nicht",
@@ -532,6 +535,7 @@
 		"creative": "Etwas kreativ",
 		"dailylimit": "Tägliches Limit erreicht",
 		"howcreative": "Wie kreativ soll ChatGPT antworten?",
+		"temperature": "Temperatur-Wert: {VALUE}",
 		"verycreative": "Sehr kreativ"
 	},
 	"guildonly": "Dieser Befehl kann nur auf Servern ausgeführt werden!",
@@ -556,7 +560,7 @@
 		"description": "__Legende:__\n**<>** - Muss angegeben werden\n**[]** - Optional\n\nWähle eine Kategorie aus, um die Befehle zu sehen.",
 		"fun": {
 			"description": "Zeigt Fun-Befehle",
-			"title": "Fun"
+			"title": "Unterhaltung"
 		},
 		"general": {
 			"description": "Zeigt allgemeine Befehle",
@@ -1555,6 +1559,7 @@
 		"selectcolor": "Wähle eine Farbe aus:",
 		"start": "{USER} lädt zu einer Runde Uno ein! Klicke auf den Knopf unter dieser Nachricht, um beizutreten! Das Spiel startet {TIMESTAMP} mit **{PLAYERS}** Spielern.",
 		"usedrawn": "Möchtest du die gezogene Karte verwenden?",
+		"viewcards": "Karten ansehen",
 		"win": "Du hast das Spiel gewonnen!"
 	},
 	"user": {
