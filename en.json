@@ -21,7 +21,7 @@
 		"adminsuccess": "The application api key for the alias **{ALIAS}** was saved! You can now display the node status.",
 		"aliasused": "The alias **{ALIAS}** is already used!",
 		"invalidurl": "Invalid panel url! The link must be the start page (server list) of the panel: start with `https://` and end with `/`.",
-		"success": "The webinterface with the alias **{ALIAS}** was saved! You can now use </manage:872924492593254454>!",
+		"success": "The panel with the alias **{ALIAS}** was saved! You can now use </manage:872924492593254454>!",
 		"tutorial": "How to get an API key:"
 	},
 	"button": {
@@ -110,7 +110,7 @@
 	},
 	"unknownalias": "The alias **{ALIAS}** doesn't exist!",
 	"update": {
-		"editfail": ":warning: The message cannot be edited!\nMake sure that the bot has the permissions \"View channel\", \"Send messages\", \"Embed links\" and \"View message history\".",
+		"editfail": "⚠️ The message cannot be edited!\nMake sure that the bot has the permissions \"View channel\", \"Send messages\", \"Embed links\" and \"View message history\".",
 		"error": "Couldn't get the data! Please try again later!",
 		"freezed": "This embed is inactive, you have to run the command again!",
 		"kill": "Kill",
