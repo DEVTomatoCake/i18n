@@ -124,7 +124,7 @@
 		"updatedfictional": ""
 	},
 	"bot": {
-		"amount": "",
+		"amount": "番号",
 		"commands": "コマンド",
 		"commandsused": "",
 		"mostused": "",
@@ -202,6 +202,9 @@
 		"list": "カスタムコマンド一覧",
 		"missingarg": "引数 {ARG} を指定する必要があります！",
 		"missingrole": "必要なロールがないため、このコマンドを実行できません"
+	},
+	"dcstatus": {
+		"lastupdate": "最後の変更："
 	},
 	"dehoist": {
 		"finished": "",
@@ -307,7 +310,7 @@
 		"public_repos": "",
 		"title": "",
 		"unknown": "",
-		"username": ""
+		"username": "ユーザー名"
 	},
 	"giveaway": {
 		"alreadyended": "",
@@ -391,7 +394,7 @@
 		},
 		"ticket": {
 			"description": "",
-			"title": ""
+			"title": "チケット"
 		},
 		"unknown": "",
 		"usage": "使用"
