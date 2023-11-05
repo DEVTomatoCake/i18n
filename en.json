@@ -1344,7 +1344,7 @@
 			"suggest": "Use /suggest to suggest something"
 		},
 		"awaitingreview": "The suggestion can now be checked and will be available in {CHANNEL} once it is allowed",
-		"cooldown": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag einreichen kannst",
+		"cooldown": "You have to wait **{TIME}** until you can submit a new suggestion",
 		"denied": "The suggestion **#{ID}** has been denied!",
 		"deniedby": "Denied by {USER}",
 		"deniedon": "Denied on",
@@ -1406,7 +1406,10 @@
 			"notarray": "The parsed feed content must be an array (a list)",
 			"notindexed": "The feed is unknown to the bot as of now which is why the bot has to index it first",
 			"redirected": "⚠️ The URL `{INPUT}` was redirected to `{TARGET}`, please use this URL for feeds!"
-		}
+		},
+		"invaliddm": "The DM message couldn't be sent because it is invalid",
+		"invalidleave": "The leave message couldn't be sent because it is invalid",
+		"invalidwelcome": "The welcome message couldn't be sent because it is invalid"
 	},
 	"testvote": "Vote is a test vote!",
 	"text": {
@@ -1419,6 +1422,7 @@
 	"ticket": {
 		"alreadyclosed": "This ticket is already closed",
 		"alreadyopen": "You can only have **{LIMIT}** tickets open at a time",
+		"claimbutton": "Claim ticket",
 		"closebutton": "Close ticket",
 		"closed": "Ticket has been closed",
 		"closedby": "Closed by",
@@ -1460,6 +1464,7 @@
 		"customizeupdated": "The appearance of the ticketembed was updated!",
 		"customname": "The name of the webhook",
 		"description": "To create a ticket click on \"Create Ticket\"",
+		"duplicatecategory": "There already is a button for the ticket category `{CATEGORY}`",
 		"editmessage": "Edit message",
 		"editweb": "Edit embed/buttons",
 		"emoji": "An emoji ID for the button",
