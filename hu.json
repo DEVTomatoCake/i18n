@@ -890,9 +890,6 @@
 		"statusformat": "Hogyan kell megjeleníteni az állapotot? A következő argumentumok lehetségesek: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
 		"topicchannel": "Melyik csatornatémában kell megjeleníteni az állapotot?"
 	},
-	"meme": {
-		"nsfw": "A mém nsfw-ként lett megjelölve"
-	},
 	"mention": "Említés",
 	"message": {
 		"edited": "Az üzenet szerkesztve!",
