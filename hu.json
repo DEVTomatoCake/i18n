@@ -1131,9 +1131,6 @@
 		"unknownmessage": "Ismeretlen üzenet!",
 		"unknownmsg": "Erre az üzenetre (már) nincsenek reakciós szerepek!"
 	},
-	"reddit": {
-		"unknownsubreddit": "Subreddit nem létezik?"
-	},
 	"remind": {
 		"alreadycopied": "Ezt az emlékeztetőt már lemásolta!",
 		"cleared": "Az emlékeztetődet töröltük",
