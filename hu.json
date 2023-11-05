@@ -262,6 +262,7 @@
 		"missingparent": "Nem volt olyan érvényes szerepkör kiválasztva, amely alatt az egyéni szerepköröket létre kellene hozni",
 		"missingrole": "Nem hozhat létre egyéni szerepköröket, mivel hiányzik egy ehhez szükséges szerepkör",
 		"roleiconboostlevel": "A szerep ikonok használatához a kiszolgálót legalább 2-es szintre kell felturbózni",
+		"rolelimit": "Ez a szerver közel van a Discords szerephatárához, ami szerverenként **250 szerep**. Egyéni szerepek nem hozhatók létre, amíg más szerepek nem kerülnek törlésre",
 		"title": "Az Ön egyéni szerepe",
 		"usermissing": "Nincs egyéni szerepköröd a kiszolgálón, amit szerkeszthetnél"
 	},
@@ -754,7 +755,7 @@
 		"rolementionable": "Szerepek említhetősége frissítve",
 		"rolename": "A szerepkör neve frissítve",
 		"rolepermission": "Szerepjogosultságok frissítése",
-		"rulesaccept": "Tagszűrés elfogadott",
+		"rulesaccept": "Befejeződött a szerver onboarding",
 		"ruleschannel": "Szabályok csatorna frissítve",
 		"rulesunaccept": "A tagszűrőt már nem fogadják el",
 		"serverbanner": "Serverbanner frissítve",
@@ -956,6 +957,7 @@
 		"date": "Dátum",
 		"moderator": "Moderátor",
 		"none": "A felhasználónak nincsenek előzetes log-jai",
+		"noothers": "Nincs hozzáférésed más felhasználók modlogjaihoz",
 		"title": "**{CURRENT}**/**{TOTAL}** modlog megjelenítése",
 		"titleshort": "**{TOTAL}** modlog megjelenítése",
 		"usertitle": "{USER} modnaplói"
@@ -1029,6 +1031,7 @@
 		"version": "Változat:"
 	},
 	"periodensystem": {
+		"atomicnumber": "Atomszám/protonszám az atommagban:",
 		"boilingpoint": "Forráspont:",
 		"defaultstate": "Alapértelmezett állapot:",
 		"density": "Sűrűség:",
@@ -1040,8 +1043,14 @@
 		"meltingpoint": "Olvadáspont:",
 		"missing": "Hozzá kell adnod egy elemet",
 		"notknown": "Ismeretlen",
+		"state": {
+			"gas": "Gáznemű",
+			"liquid": "Folyékony",
+			"solid": "Szilárd"
+		},
 		"symbol": "Szimbólum:",
-		"unknown": "Ismeretlen elem"
+		"unknown": "Ismeretlen elem",
+		"vandelwaalsradius": "Van-del-Waals sugár:"
 	},
 	"permission": {
 		"adduser": "Felhasználó hozzáadása",
@@ -1239,6 +1248,7 @@
 		"owner": "Tulajdonos",
 		"raid": "A legutóbbi rajtaütés miatt **{AMOUNT}** felhasználót rúgtak ki.",
 		"text": "Szöveges csatornák",
+		"title": "Szerver-információ: **{NAME}**",
 		"toomanyroles": "*Túl sok rang*",
 		"verificationlevel": {
 			"high": "Magas",
@@ -1321,7 +1331,8 @@
 		"platforms": "Platformok",
 		"price": "Ár",
 		"priceunknown": "Még ismeretlen",
-		"publishedat": "Megjelent"
+		"publishedat": "Megjelent",
+		"resulttitle": "**{RESULTS}** talált eredmények"
 	},
 	"suggest": {
 		"alreadyhandled": "Ezt a javaslatot már kezelte a szerver személyzete, és mint ilyen, a tartalma nem szerkeszthető tovább",
@@ -1544,12 +1555,18 @@
 		"autoskip": "⏩ A te köröd kihagyásra került, mivel a kártyákat amúgy is ki kellett volna húznod.",
 		"calledfail": "Jelenleg nem használhatod az Uno-t, ezért kaptál büntetőkártyát!",
 		"calledsuccess": "Te hívtad Uno-t!",
+		"cardhistory": "Kijátszott kártyák:",
+		"cards": "**{AMOUNT}** kártyák",
 		"dontuse": "Ne használja",
+		"drawcard": "Kártya húzása",
+		"endwin": "{USER} megnyerte a játékot! **{CARDS}** kártyákat játszottak ki.",
+		"invalidcard": "❌ Érvénytelen kártya **{CARD}**!",
 		"joined": "Beléptél a játékba!",
 		"missingplayers": "Nem csatlakozott elég játékos egy Uno játékhoz D:",
 		"notowner": "Nem te vagy a játék alkotója!",
 		"selectcolor": "Válasszon ki egy színt:",
 		"start": "{USER} meghív egy Uno játékra! Kattints az üzenet alatti gombra a csatlakozáshoz! A játék {TIMESTAMP} kezdődik **{PLAYERS}** játékosok részvételével.",
+		"update": "Üzenet frissítése",
 		"usedrawn": "Szeretné használni a kihúzott kártyát?",
 		"viewcards": "Kártyák megtekintése",
 		"win": "Megnyerted a játékot!"
