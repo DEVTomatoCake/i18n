@@ -957,6 +957,7 @@
 		"date": "Date",
 		"moderator": "Moderator",
 		"none": "The user has no modlogs",
+		"noothers": "You don't have access to other users modlogs",
 		"title": "Showing **{CURRENT}** of **{TOTAL}** modlogs",
 		"titleshort": "Showing **{TOTAL}** modlogs",
 		"usertitle": "Modlogs of {USER}"
@@ -1030,19 +1031,26 @@
 		"version": "Version:"
 	},
 	"periodensystem": {
+		"atomicnumber": "Atomic number/proton number in the nucleus:",
 		"boilingpoint": "Boiling point:",
 		"defaultstate": "Default state:",
 		"density": "Density:",
-		"discovered": "Discovered in year",
+		"discovered": "Discovered in year:",
 		"electronegativity": "Electronegativity:",
-		"group": "Element group",
-		"ionizationenergy": "Ionization energy",
-		"mass": "Mass",
+		"group": "Element group:",
+		"ionizationenergy": "Ionization energy:",
+		"mass": "Mass:",
 		"meltingpoint": "Melting point:",
 		"missing": "You must add an element",
 		"notknown": "Unknown",
-		"symbol": "Symbol",
-		"unknown": "Unknown element"
+		"state": {
+			"gas": "Gas",
+			"liquid": "Liquid",
+			"solid": "Solid"
+		},
+		"symbol": "Symbol:",
+		"unknown": "Unknown element",
+		"vandelwaalsradius": "Van-del-Waals radius:"
 	},
 	"permission": {
 		"adduser": "Add user",
@@ -1548,13 +1556,15 @@
 		"cardhistory": "Played cards:",
 		"cards": "**{AMOUNT}** cards",
 		"dontuse": "Don't use",
-		"endwin": "{USER} hat das Spiel gewonnen! Es wurden **{CARDS}** Karten ausgespielt.",
+		"drawcard": "Draw card",
+		"endwin": "{USER} has won the game! **{CARDS}** cards were played.",
 		"invalidcard": "❌ Invalid card **{CARD}**!",
 		"joined": "You joined the game!",
 		"missingplayers": "Not enough players joined for an Uno game D:",
 		"notowner": "You're not the creator of this game!",
 		"selectcolor": "Select a color:",
 		"start": "{USER} invites to a game of Uno! Click on the button below this message to join! The game starts {TIMESTAMP} with **{PLAYERS}** players.",
+		"update": "Update",
 		"usedrawn": "Do you want to use the drawn card?",
 		"viewcards": "View cards",
 		"win": "You've won the game!"
