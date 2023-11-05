@@ -891,7 +891,6 @@
 		"topicchannel": "In which channel topic should the status be displayed?"
 	},
 	"meme": {
-		"nothingfound": "No meme has been found",
 		"nsfw": "The meme was marked as nsfw"
 	},
 	"mention": "Mention",
