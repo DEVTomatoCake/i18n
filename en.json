@@ -1305,7 +1305,6 @@
 	},
 	"starboard": {
 		"description": "Embed description",
-		"fields": "Embed fields",
 		"title": "Embed title"
 	},
 	"stats": {
