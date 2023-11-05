@@ -890,9 +890,6 @@
 		"statusformat": "Wie soll der Status angezeigt werden? Folgende Argumente sind möglich: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
 		"topicchannel": "In welcher Kanalbeschreibung soll der Status angezeigt werden?"
 	},
-	"meme": {
-		"nsfw": "Das Meme wurde als nicht jugendfrei markiert"
-	},
 	"mention": "Erwähnung",
 	"message": {
 		"edited": "Die Nachricht wurde bearbeitet!",
