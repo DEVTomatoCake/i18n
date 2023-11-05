@@ -1248,6 +1248,7 @@
 		"owner": "Besitzer",
 		"raid": "Bei dem letzten Raid sind **{AMOUNT}** Nutzer gekickt worden.",
 		"text": "Textkanäle",
+		"title": "Serverinfo: **{NAME}**",
 		"toomanyroles": "*Zu viele Rollen*",
 		"verificationlevel": {
 			"high": "Hoch",
@@ -1330,7 +1331,8 @@
 		"platforms": "Plattformen",
 		"price": "Preis",
 		"priceunknown": "Noch nicht bekannt",
-		"publishedat": "Veröffentlicht"
+		"publishedat": "Veröffentlicht",
+		"resulttitle": "**{RESULTS}** Ergebnisse gefunden"
 	},
 	"suggest": {
 		"alreadyhandled": "Dieser Vorschlag wurde bereits vom Serverteam bearbeitet und kann daher im Inhalt nicht mehr verändert werden",
@@ -1342,6 +1344,7 @@
 			"suggest": "Verwende /suggest, um etwas vorzuschlagen"
 		},
 		"awaitingreview": "Der Vorschlag wird nun geprüft und in {CHANNEL} angezeigt, sobald dieser zugelassen worden ist",
+		"cooldown": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag einreichen kannst",
 		"denied": "Der Vorschlag **#{ID}** wurde abgelehnt!",
 		"deniedby": "Abgelehnt von {USER}",
 		"deniedon": "Abgelehnt am",
@@ -1403,7 +1406,10 @@
 			"notarray": "Der geparste Feedinhalt muss ein Array (eine Liste) sein",
 			"notindexed": "Der Feed ist dem Bot noch nicht bekannt, weswegen der Bot diesen erst indexen muss",
 			"redirected": "⚠️ Die URL `{INPUT}` wurde auf `{TARGET}` weitergeleitet, bitte nutze diese URL für Feeds!"
-		}
+		},
+		"invaliddm": "Die PN-Nachricht konnte nicht gesendet werden, weil sie ungültig ist",
+		"invalidleave": "Die Verlassensnachricht konnte nicht gesendet werden, weil sie ungültig ist",
+		"invalidwelcome": "Die Willkommensnachricht konnte nicht gesendet werden, weil sie ungültig ist"
 	},
 	"testvote": "Vote ist kein echter Vote!",
 	"text": {
