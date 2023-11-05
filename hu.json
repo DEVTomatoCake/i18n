@@ -1035,12 +1035,12 @@
 		"discovered": "Felfedezve az évben:",
 		"electronegativity": "Elektronegativitás:",
 		"group": "Elemcsoport:",
-		"ionizationenergy": "Ionizációs energia",
-		"mass": "Tömeg",
+		"ionizationenergy": "Ionizációs energia:",
+		"mass": "Tömeg:",
 		"meltingpoint": "Olvadáspont:",
 		"missing": "Hozzá kell adnod egy elemet",
 		"notknown": "Ismeretlen",
-		"symbol": "Szimbólum",
+		"symbol": "Szimbólum:",
 		"unknown": "Ismeretlen elem"
 	},
 	"permission": {
