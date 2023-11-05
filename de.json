@@ -957,6 +957,7 @@
 		"date": "Datum",
 		"moderator": "Moderator",
 		"none": "Der Nutzer hat noch keine Modlogs",
+		"noothers": "Du hast keinen Zugriff auf die Modlogs anderer",
 		"title": "Zeige **{CURRENT}** von insgesamt **{TOTAL}** Modlogs",
 		"titleshort": "Zeige **{TOTAL}** Modlogs",
 		"usertitle": "Modlogs von {USER}"
@@ -1030,19 +1031,26 @@
 		"version": "Version:"
 	},
 	"periodensystem": {
+		"atomicnumber": "Ordnungszahl/Protonenanzahl im Kern:",
 		"boilingpoint": "Siedepunkt:",
 		"defaultstate": "Standardzustand:",
 		"density": "Dichte:",
-		"discovered": "Entdeckt im Jahr",
+		"discovered": "Entdeckt im Jahr:",
 		"electronegativity": "Elektronegativität:",
-		"group": "Elementgruppe",
-		"ionizationenergy": "Ionisierungsenergie",
-		"mass": "Masse",
+		"group": "Elementgruppe:",
+		"ionizationenergy": "Ionisierungsenergie:",
+		"mass": "Masse:",
 		"meltingpoint": "Schmelzpunkt:",
 		"missing": "Du musst ein Element angeben",
 		"notknown": "Unbekannt",
-		"symbol": "Symbol",
-		"unknown": "Unbekanntes Element"
+		"state": {
+			"gas": "Gasförmig",
+			"liquid": "Flüssig",
+			"solid": "Fest"
+		},
+		"symbol": "Symbol:",
+		"unknown": "Unbekanntes Element",
+		"vandelwaalsradius": "Van-del-Waals-Radius:"
 	},
 	"permission": {
 		"adduser": "Benutzer hinzufügen",
@@ -1548,6 +1556,7 @@
 		"cardhistory": "Gespielte Karten:",
 		"cards": "**{AMOUNT}** Karten",
 		"dontuse": "Nicht verwenden",
+		"drawcard": "Karte ziehen",
 		"endwin": "{USER} hat das Spiel gewonnen! Es wurden **{CARDS}** Karten ausgespielt.",
 		"invalidcard": "❌ Ungültige Karte **{CARD}**!",
 		"joined": "Du bist dem Spiel beigetreten!",
@@ -1555,6 +1564,7 @@
 		"notowner": "Du bist nicht der Ersteller des Spiels!",
 		"selectcolor": "Wähle eine Farbe aus:",
 		"start": "{USER} lädt zu einer Runde Uno ein! Klicke auf den Knopf unter dieser Nachricht, um beizutreten! Das Spiel startet {TIMESTAMP} mit **{PLAYERS}** Spielern.",
+		"update": "Aktualisieren",
 		"usedrawn": "Möchtest du die gezogene Karte verwenden?",
 		"viewcards": "Karten ansehen",
 		"win": "Du hast das Spiel gewonnen!"
