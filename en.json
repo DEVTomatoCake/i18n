@@ -1044,7 +1044,7 @@
 		"missing": "You must add an element",
 		"notknown": "Unknown",
 		"state": {
-			"gas": "Gas",
+			"gas": "Gaseous",
 			"liquid": "Liquid",
 			"solid": "Solid"
 		},
@@ -1248,6 +1248,7 @@
 		"owner": "Owner",
 		"raid": "The last raid caused **{AMOUNT}** users to be kicked.",
 		"text": "Text channels",
+		"title": "Server info: **{NAME}**",
 		"toomanyroles": "*Too many roles*",
 		"verificationlevel": {
 			"high": "High",
@@ -1330,7 +1331,8 @@
 		"platforms": "Platforms",
 		"price": "Price",
 		"priceunknown": "Yet unknown",
-		"publishedat": "Published"
+		"publishedat": "Published",
+		"resulttitle": "**{RESULTS}** results found"
 	},
 	"suggest": {
 		"alreadyhandled": "This suggestion was already handled by server staff and as such it's content cannot be edited anymore",
@@ -1342,6 +1344,7 @@
 			"suggest": "Use /suggest to suggest something"
 		},
 		"awaitingreview": "The suggestion can now be checked and will be available in {CHANNEL} once it is allowed",
+		"cooldown": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag einreichen kannst",
 		"denied": "The suggestion **#{ID}** has been denied!",
 		"deniedby": "Denied by {USER}",
 		"deniedon": "Denied on",
