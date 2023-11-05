@@ -1131,9 +1131,6 @@
 		"unknownmessage": "Unbekannte Nachricht!",
 		"unknownmsg": "Es gibt keine Reactionroles (mehr) für diese Nachricht!"
 	},
-	"reddit": {
-		"unknownsubreddit": "Subreddit nicht existent?"
-	},
 	"remind": {
 		"alreadycopied": "Du hast diesen Reminder bereits kopiert!",
 		"cleared": "Deine Reminder wurden gelöscht",
