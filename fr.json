@@ -38,6 +38,7 @@
 		"massspoilerwarn": "{USER}, vous ne devez pas utiliser autant de spoilers !",
 		"masszalgomute": "{USER}, vous avez été mis en sourdine pour avoir utilisé trop de zalgo !",
 		"masszalgowarn": "{USER}, vous ne devez pas utiliser autant de zalgo !",
+		"messageblocked": "AutoMod a bloqué votre message",
 		"noinvites": "Vous ne pouvez pas envoyer d'invitations ici",
 		"nolinks": "Vous ne pouvez pas envoyer de liens ici",
 		"onlyattachments": "Vous ne pouvez envoyer que des pièces jointes et des URL d'image dans ce canal",
@@ -715,6 +716,7 @@
 		"eventname": "Mise à jour du nom de l'événement",
 		"eventstart": "Mise à jour de l'heure de début de l'événement **{EVENT}**",
 		"eventstate": "Mise à jour de l'état de l'événement de **{EVENT}**",
+		"forumtags": "Tags du forum de `{CHANNEL}` édités",
 		"globalnameupdate": "Mise à jour du nom global",
 		"guildboostprogessoff": "Booster la barre de progression désactivée",
 		"guildboostprogesson": "Booster la barre de progression activée",
@@ -736,6 +738,7 @@
 		"memberspruned": "**{AMOUNT}** membres inactifs élagués",
 		"membersprunedtime": "Inactif depuis **{DAYS}** jour(s)",
 		"messageid": "ID du message",
+		"modifiedby": "Modifié par",
 		"msgdelete": "Message dans `{CHANNEL}` supprimé",
 		"msgdeletetime": "Message dans `{CHANNEL}` supprimé après **{TIME}**",
 		"msgedit": "Message dans `{CHANNEL}` modifié",
@@ -1248,6 +1251,7 @@
 		"owner": "Propriétaire",
 		"raid": "Le dernier raid a entraîné l'exclusion de **{AMOUNT}** utilisateurs.",
 		"text": "Canaux de texte",
+		"title": "Informations sur le serveur : **{NAME}**",
 		"toomanyroles": "*Trop de rôles*",
 		"verificationlevel": {
 			"high": "Élevé",
@@ -1330,7 +1334,8 @@
 		"platforms": "Plateformes",
 		"price": "Prix",
 		"priceunknown": "Encore inconnue",
-		"publishedat": "Publié"
+		"publishedat": "Publié",
+		"resulttitle": "**{RESULTS}** résultats trouvés"
 	},
 	"suggest": {
 		"alreadyhandled": "Cette suggestion a déjà été traitée par le personnel du serveur et son contenu ne peut donc plus être modifié",
@@ -1342,6 +1347,7 @@
 			"suggest": "Utilisez /suggest pour suggérer quelque chose"
 		},
 		"awaitingreview": "La suggestion peut maintenant être vérifiée et sera disponible dans {CHANNEL} dès qu'elle sera autorisée",
+		"cooldown": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion",
 		"denied": "La suggestion **#{ID}** a été refusée !",
 		"deniedby": "Refusé par",
 		"deniedon": "Refusé le",
@@ -1403,7 +1409,10 @@
 			"notarray": "Le contenu du flux analysé doit être un array (une liste)",
 			"notindexed": "Le flux est inconnu du robot pour l'instant, c'est pourquoi le bot doit d'abord l'indexer",
 			"redirected": "⚠️ L'URL `{INPUT}` a été redirigée vers `{TARGET}`, veuillez utiliser cette URL pour les flux !"
-		}
+		},
+		"invaliddm": "Le message DM n'a pas pu être envoyé car il n'est pas valide",
+		"invalidleave": "Le message de congé n'a pas pu être envoyé car il n'est pas valide",
+		"invalidwelcome": "Le message de bienvenue n'a pas pu être envoyé car il n'est pas valide"
 	},
 	"testvote": "Le vote est un vote test !",
 	"text": {
@@ -1416,6 +1425,7 @@
 	"ticket": {
 		"alreadyclosed": "Ce ticket est déjà fermé",
 		"alreadyopen": "Vous ne pouvez avoir qu'un nombre **{LIMIT}** de tickets ouverts à la fois",
+		"claimbutton": "Réclamer un ticket",
 		"closebutton": "Fermer le ticket",
 		"closed": "Le ticket a été fermé",
 		"closedby": "Fermé par",
@@ -1457,6 +1467,7 @@
 		"customizeupdated": "L'apparence du ticket a été mise à jour !",
 		"customname": "Le nom du webhook",
 		"description": "Pour créer un ticket, cliquez sur \"Créer un ticket\"",
+		"duplicatecategory": "Il existe déjà un bouton pour la catégorie de billets `{CATEGORY}` !",
 		"editmessage": "Modifier le message",
 		"editweb": "Modifier les boutons d'incrustation",
 		"emoji": "Un identifiant emoji pour le bouton",
