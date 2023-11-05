@@ -1131,9 +1131,6 @@
 		"unknownmessage": "Message inconnu !",
 		"unknownmsg": "Il n'y a pas (plus) de rôles de réaction pour ce message !"
 	},
-	"reddit": {
-		"unknownsubreddit": "Subreddit inexistant ?"
-	},
 	"remind": {
 		"alreadycopied": "Vous avez déjà copié ce rappel !",
 		"cleared": "Vos rappels ont été supprimés",
