@@ -1131,9 +1131,6 @@
 		"unknownmessage": "Unknown message!",
 		"unknownmsg": "There are no reactionroles for this message (anymore)!"
 	},
-	"reddit": {
-		"unknownsubreddit": "Subreddit not existent?"
-	},
 	"remind": {
 		"alreadycopied": "You already copied this reminder!",
 		"cleared": "Your reminders have been deleted",
