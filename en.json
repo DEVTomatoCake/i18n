@@ -890,9 +890,6 @@
 		"statusformat": "How should the status be display? The following arguments are possible: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
 		"topicchannel": "In which channel topic should the status be displayed?"
 	},
-	"meme": {
-		"nsfw": "The meme was marked as nsfw"
-	},
 	"mention": "Mention",
 	"message": {
 		"edited": "The message has been edited!",
