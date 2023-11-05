@@ -1031,6 +1031,7 @@
 		"version": "Version :"
 	},
 	"periodensystem": {
+		"atomicnumber": "Nombre atomique/nombre de protons dans le noyau :",
 		"boilingpoint": "Point d'ébullition :",
 		"defaultstate": "État par défaut :",
 		"density": "Densité :",
@@ -1048,7 +1049,8 @@
 			"solid": "Solide"
 		},
 		"symbol": "Symbole :",
-		"unknown": "Élément inconnu"
+		"unknown": "Élément inconnu",
+		"vandelwaalsradius": "Rayon Van-del-Waals :"
 	},
 	"permission": {
 		"adduser": "Ajouter un utilisateur",
