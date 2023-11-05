@@ -890,9 +890,6 @@
 		"statusformat": "Comment le statut doit-il être affiché ? Les arguments suivants sont possibles : `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
 		"topicchannel": "Dans quelle rubrique du canal le statut doit-il être affiché ?"
 	},
-	"meme": {
-		"nsfw": "Le mème a été marqué comme nsfw"
-	},
 	"mention": "Mention",
 	"message": {
 		"edited": "Le message a été modifié !",
