@@ -244,7 +244,9 @@
 		"lbcurrent": "current run:",
 		"lbtitle": "Counting leaderboard",
 		"next": "The next number is **{NUMBER}**!",
+		"nextnumber": "{USER} <:triggered:435159948620464129> Next number is **{NUMBER}**…",
 		"nochannel": "There is no counting channel set",
+		"restart": "{USER} <:triggered:435159948620464129> And agaaain… My turn: **{NUMBER}**",
 		"twice": "You must not count twice in a row!"
 	},
 	"customcommand": {
