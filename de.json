@@ -244,7 +244,9 @@
 		"lbcurrent": "aktuell:",
 		"lbtitle": "Counting-Leaderboard",
 		"next": "Die nächste Zahl ist **{NUMBER}**!",
+		"nextnumber": "{USER} <:triggered:435159948620464129> Die nächste Zahl ist **{NUMBER}**…",
 		"nochannel": "Es wurde kein Counting-Kanal festgelegt",
+		"restart": "{USER} <:triggered:435159948620464129> Und wieder von vorne… meine Zahl: **{NUMBER}**",
 		"twice": "Du darfst nicht zwei Mal hintereinander zählen!"
 	},
 	"customcommand": {
