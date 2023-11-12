@@ -244,7 +244,9 @@
 		"lbcurrent": "en cours :",
 		"lbtitle": "Tableau de bord du comptage",
 		"next": "Le numéro suivant est **{NUMBER}** !",
+		"nextnumber": "{USER} <:triggered:435159948620464129> Le prochain numéro est **{NUMBER}**…",
 		"nochannel": "Il n'y a pas de canal de comptage défini",
+		"restart": "{USER} <:triggered:435159948620464129> Et encore une fois… A mon tour : **{NUMBER}**",
 		"twice": "Vous ne devez pas compter deux fois de suite !"
 	},
 	"customcommand": {
@@ -518,7 +520,7 @@
 			"notroles": "N'a pas de rôle :",
 			"roles": "Il joue tous ces rôles :"
 		},
-		"requirementstext": "**Set giveaway requirements** :\n\nVous devez saisir le paramètre de la manière suivante :\n> `<Condition>:<Valeur>;<autre condition>:<Valeur 1>,<Valeur 2> ;...`\n\nExigences possibles :\n> `rôles` : L'utilisateur doit avoir tous ces rôles\n> `anyRoles` : L'utilisateur doit avoir l'un de ces rôles\n> `notRoles` : L'utilisateur ne doit pas avoir de rôle\n> `minAge` : Le compte utilisateur doit être X old\n> `minMemberAge` : L'utilisateur doit être au moins depuis X sur le serveur\n> `minLeaderboardPoints` : L'utilisateur doit avoir X points sur le leaderboard\n\nExemples :\n> `roles:Membre,Vérifié`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
+		"requirementstext": "**Set giveaway requirements** :\n\nVous devez saisir le paramètre de la manière suivante :\n> `<Condition>:<Valeur>;<autre condition>:<Valeur 1>,<Valeur 2> ;…`\n\nExigences possibles :\n> `rôles` : L'utilisateur doit avoir tous ces rôles\n> `anyRoles` : L'utilisateur doit avoir l'un de ces rôles\n> `notRoles` : L'utilisateur ne doit pas avoir de rôle\n> `minAge` : Le compte utilisateur doit être X old\n> `minMemberAge` : L'utilisateur doit être au moins depuis X sur le serveur\n> `minLeaderboardPoints` : L'utilisateur doit avoir X points sur le leaderboard\n\nExemples :\n> `roles:Membre,Vérifié`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Reroll",
 		"rerolled": "Le concours a été renouvelé et les gagnants sont : {USERS}",
 		"rerollednowinner": "Aucun gagnant n'a pu être trouvé",
@@ -543,7 +545,7 @@
 	"guildonly": "Cette commande ne peut être exécutée que sur des serveurs !",
 	"hack": {
 		"footer": "Des ™️ bien réels",
-		"hacking": "Piratage... {PERCENT} %",
+		"hacking": "Piratage… {PERCENT} %",
 		"loading": "Hacking **{USER}**…",
 		"nobot": "Vous ne pouvez pas pirater les bots",
 		"password": "Mot de passe"
@@ -845,7 +847,7 @@
 		"issuecreate": "Rapport créé :",
 		"linked": "Lié",
 		"missing": "Vous devez ajouter un ID de rapport de bogue minecraft",
-		"more": "...et **{AMOUNT}** autres",
+		"more": "…et **{AMOUNT}** autres",
 		"sinceversion": "Depuis la version",
 		"solution": "Solution",
 		"state": {
