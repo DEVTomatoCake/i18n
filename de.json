@@ -121,5 +121,9 @@
 		"starting": "Startet",
 		"stop": "Stoppen",
 		"stopping": "Stoppt"
+	},
+	"uptime": {
+		"back": "Zurück",
+		"delete": "Löschen"
 	}
 }
