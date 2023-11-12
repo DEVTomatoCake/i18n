@@ -127,7 +127,7 @@
 		"forceban": "Vous pouvez ignorer cette vérification en utilisant l'argument `forceban`.",
 		"forcemissingreason": "Aucune raison d'interdiction n'a été donnée.",
 		"maynot": "Vous ne pouvez pas bannir **{USER}** parce qu'il a l'autorisation de bannir des membres",
-		"success": "**{MOD}** interdit **{UTILISATEUR}** : {RAISON}",
+		"success": "**{MOD}** a banni **{USER}** pour **{DURATION}** : {REASON}",
 		"unbanned": "**{USER}** a été débanné après **{TIME}**"
 	},
 	"banlist": {
@@ -392,7 +392,7 @@
 			"notfound": "Aucun émoticône trouvé"
 		},
 		"source": "Source :",
-		"title": "Affichage de **{ACTUEL}** sur **{TOTAL}** émoticônes",
+		"title": "Affichage de **{CURRENT}** sur **{TOTAL}** émoticônes",
 		"unknownsticker": "Autocollant inconnu",
 		"usedby": "Utilisé par :"
 	},
