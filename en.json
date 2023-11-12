@@ -1367,7 +1367,8 @@
 		"reviewdeny": "Reject suggestion",
 		"sent": "The suggestion was sent!",
 		"title": "Suggestion",
-		"unknownmessage": "This suggestion doesn't exist"
+		"unknownmessage": "This suggestion doesn't exist",
+		"votes": "Votes"
 	},
 	"supportserver": "Support server",
 	"sync": {
