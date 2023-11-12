@@ -121,5 +121,9 @@
 		"starting": "Indulás",
 		"stop": "Álljon meg",
 		"stopping": "Megállás"
+	},
+	"uptime": {
+		"back": "Vissza",
+		"delete": "Töröl"
 	}
 }
