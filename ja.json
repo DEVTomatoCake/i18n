@@ -121,5 +121,9 @@
 		"starting": "起動",
 		"stop": "停止",
 		"stopping": "停止"
+	},
+	"uptime": {
+		"back": "バック",
+		"delete": "削除"
 	}
 }
