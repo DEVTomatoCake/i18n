@@ -1367,7 +1367,8 @@
 		"reviewdeny": "Vorschlag löschen",
 		"sent": "Der Vorschlag wurde abgesendet!",
 		"title": "Vorschlag",
-		"unknownmessage": "Diesen Vorschlag gibt es nicht"
+		"unknownmessage": "Diesen Vorschlag gibt es nicht",
+		"votes": "Votes"
 	},
 	"supportserver": "Support-Server",
 	"sync": {
