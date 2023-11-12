@@ -38,6 +38,7 @@
 		"massspoilerwarn": "{USER}, nem használhatsz ennyi spoilert!",
 		"masszalgomute": "{USER}, elnémítottak, mert túl sok zalgót használtál!",
 		"masszalgowarn": "{USER}, nem használhatsz ennyi zalgót!",
+		"messageblocked": "AutoMod blokkolta az üzeneted",
 		"noinvites": "Itt nem küldhet meghívókat",
 		"nolinks": "Ide nem küldhet linkeket",
 		"onlyattachments": "Ezen a csatornán csak mellékleteket és kép URL-eket küldhet",
@@ -243,7 +244,9 @@
 		"lbcurrent": "jelenlegi futás:",
 		"lbtitle": "Számláló ranglista",
 		"next": "A következő szám **{NUMBER}**!",
+		"nextnumber": "{USER} <:triggered:435159948620464129> A következő szám **{NUMBER}**…",
 		"nochannel": "Nincs számoló csatorna beállítva",
+		"restart": "{USER} <:triggered:435159948620464129> And agaaain… Én jövök: **{NUMBER}**",
 		"twice": "Nem szabad kétszer egymás után számolni!"
 	},
 	"customcommand": {
@@ -517,7 +520,7 @@
 			"notroles": "Nincs szerepe:",
 			"roles": "Mindezeket a szerepeket betölti:"
 		},
-		"requirementstext": "**Az ajándékozási követelmények meghatározása**:\n\nA paramétert a következő módon kell megadni:\n> `<feltétel>:<érték>;<egy másik feltétel>:<érték 1>,<érték 2>;...`\n\nLehetséges követelmények:\n> ``szerepek``: A felhasználónak rendelkeznie kell az összes szerepkörrel\n> `anyRoles`: A felhasználónak rendelkeznie kell bármelyik szerepkörrel\n> `notRoles`: A felhasználónak nem lehet szerepe\n> `minAge`: A felhasználói fióknak X évesnek kell lennie\n> `minMemberAge`: A felhasználónak legalább X óta a szerveren kell lennie.\n> `minLeaderboardPoints`: A felhasználónak X ponttal kell rendelkeznie a ranglistán.\n\nPéldák:\n> ``roles:Member,Verified`\n> ``notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
+		"requirementstext": "**Az ajándékozási követelmények meghatározása**:\n\nA paramétert a következő módon kell megadni:\n> `<feltétel>:<érték>;<egy másik feltétel>:<érték 1>,<érték 2>;…`\n\nLehetséges követelmények:\n> `szerepek`: A felhasználónak rendelkeznie kell az összes szerepkörrel\n> `anyRoles`: A felhasználónak rendelkeznie kell bármelyik szerepkörrel\n> `notRoles`: A felhasználónak nem lehet szerepe\n> `minAge`: A felhasználói fióknak X évesnek kell lennie\n> `minMemberAge`: A felhasználónak legalább X óta a szerveren kell lennie.\n> `minLeaderboardPoints`: A felhasználónak X ponttal kell rendelkeznie a ranglistán.\n\nPéldák:\n> `roles:Member,Verified`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Újradobás",
 		"rerolled": "A nyereményjátékot újraterveztük, és a nyertesek a következők: {USERS}",
 		"rerollednowinner": "Nem sikerült győztest találni",
@@ -715,6 +718,7 @@
 		"eventname": "Eseménynév frissítve",
 		"eventstart": "Az esemény kezdési időpontja **{EVENT}** frissítve",
 		"eventstate": "A **{EVENT}** esemény állapota frissült",
+		"forumtags": "`{CHANNEL}` fórumcímkék szerkesztve",
 		"globalnameupdate": "Globális név frissítve",
 		"guildboostprogessoff": "Boost progressbar letiltva",
 		"guildboostprogesson": "Boost progressbar engedélyezve",
@@ -736,6 +740,7 @@
 		"memberspruned": "**{AMOUNT}** inaktív tagok kivágása",
 		"membersprunedtime": "Inaktív **{DAYS}** nap(ok) óta",
 		"messageid": "Üzenet azonosítója",
+		"modifiedby": "Módosította",
 		"msgdelete": "Üzenet a `{CHANNEL}`-ben törölve",
 		"msgdeletetime": "Üzenet a `{CHANNEL}`-ban **{TIME}** után törölték",
 		"msgedit": "Szerkesztett üzenet a `{CHANNEL}`-ben",
@@ -1344,6 +1349,7 @@
 			"suggest": "A /suggest használatával javasolhat valamit"
 		},
 		"awaitingreview": "A javaslat mostantól ellenőrizhető és elérhető lesz a {CHANNEL} menüpontban, amint engedélyezik",
+		"cooldown": "Várnia kell **{TIME}**, amíg új javaslatot nyújthat be",
 		"denied": "A(z) **#{ID}** javaslatot elutasították!",
 		"deniedby": "{USER} Által elutasítva",
 		"deniedon": "Elutasítva",
@@ -1405,7 +1411,10 @@
 			"notarray": "Az elemzett takarmány tartalmának egy tömbnek (listának) kell lennie",
 			"notindexed": "A feed ismeretlen a bot számára, ezért a botnak először indexelnie kell",
 			"redirected": "⚠️ A `{INPUT}` URL-t átirányították a `{TARGET}` címre, kérjük, használja ezt az URL-t a feedekhez!"
-		}
+		},
+		"invaliddm": "A DM üzenetet nem lehetett elküldeni, mert érvénytelen",
+		"invalidleave": "Az üzenetet nem lehetett elküldeni, mert érvénytelen",
+		"invalidwelcome": "Az üdvözlő üzenetet nem lehetett elküldeni, mert érvénytelen"
 	},
 	"testvote": "A szavazás egy próbaszavazás!",
 	"text": {
@@ -1418,6 +1427,7 @@
 	"ticket": {
 		"alreadyclosed": "Ez a jegy már le van zárva",
 		"alreadyopen": "Egyszerre csak **{LIMIT}** jegyek lehetnek nyitva",
+		"claimbutton": "Jegy igénylése",
 		"closebutton": "Jegy bezárása",
 		"closed": "A jegyet lezárták",
 		"closedby": "Lezárva",
@@ -1459,6 +1469,7 @@
 		"customizeupdated": "A ticketembed megjelenése frissült!",
 		"customname": "A webhook neve",
 		"description": "Jegy létrehozásához kattintson a \"Jegy létrehozása\" gombra",
+		"duplicatecategory": "Már van egy gomb a `{CATEGORY}` jegykategóriához!",
 		"editmessage": "Üzenet szerkesztése",
 		"editweb": "Beágyazás/gombok szerkesztése",
 		"emoji": "A gomb emoji azonosítója",
