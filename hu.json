@@ -493,9 +493,11 @@
 		"endtime": "Vége:",
 		"endwait": "Ez akár egy percig is eltarthat.",
 		"errorlbpoints": "**{POINTS}** pontokra van szükséged a ranglistán, hogy részt vehess az ajándékozásban! Jelenleg csak **{CURRENT}** pontjaid vannak.",
+		"errormessages": "Ön csak **{CURRENT}** küldött új üzeneteket, de szüksége van **{MESSAGES}** ahhoz, hogy részt vehessen az ajándékozásban.",
 		"errorminage": "A fiókodnak **{MINAGE}** óta a Discordon kell lennie, hogy részt vehess az ajándékozásban!",
 		"errorminmemberage": "**{TIME}** óta a szerveren kell lenned, hogy részt vehess a nyereményjátékban!",
 		"errornoleaderboard": "Még soha nem küldtél üzenetet ezen a szerveren, de **{AMOUNT}** ranglista pontokra van szükséged ahhoz, hogy részt vehess az ajándékozásban!",
+		"errornomessages": "Ön nem küldött új üzenetet, azonban **{MESSAGES}** szükséges ahhoz, hogy részt vehessen a nyereményjátékban.",
 		"howlong": "Mennyi ideig tartson az ajándékozás? Példa: `2h 30m` vagy `5d`",
 		"informdm": "Nyertes értesítése DM-ben",
 		"invalidchannel": "Érvényes csatornát kell hozzáadni",
@@ -651,6 +653,7 @@
 		"importcancel": "A ranglista importálása megszakadt",
 		"imported": "A **{SUCCESS}** bejegyzések betöltése befejeződött, **{DISPLAYNAME}**!\n**{FAILED}** bejegyzéseket figyelmen kívül hagytuk, mivel a felhasználók nincsenek a szerveren.",
 		"importing": "A ranglistát most importáljuk, a szerver régi szintadatai csatolva találhatók",
+		"importmee6": "Ez betölti a szerver szintadatait a MEE6-ból, **{USERS}** felhasználókat találtunk. Biztos, hogy folytatni akarja?\n⚠️ **Ezt a műveletet nem lehet visszafordítani!** A régi szintadatokról azonban kap egy biztonsági másolatot.",
 		"level": "Szint",
 		"points": "Pontok",
 		"unavailable": "Ez a ranglista nem létezik vagy más hiba történt"
@@ -1367,7 +1370,8 @@
 		"reviewdeny": "Javaslat elutasítása",
 		"sent": "A javaslat be lett küldve!",
 		"title": "Javaslat",
-		"unknownmessage": "Ez a javaslat nem létezik"
+		"unknownmessage": "Ez a javaslat nem létezik",
+		"votes": "Szavazatok"
 	},
 	"supportserver": "Support szerver",
 	"sync": {
