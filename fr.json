@@ -493,9 +493,11 @@
 		"endtime": "Terminé :",
 		"endwait": "Cela peut prendre jusqu'à une minute.",
 		"errorlbpoints": "Vous avez besoin de **{POINTS}** sur le tableau de classement pour pouvoir participer à ce cadeau ! Vous n'avez actuellement que **{CURRENT}**.",
+		"errormessages": "Vous n'avez envoyé que **{CURRENT}** nouveaux messages, mais vous avez besoin de **{MESSAGES}** pour pouvoir participer au concours.",
 		"errorminage": "Votre compte doit être sur Discord depuis **{MINAGE}** pour vous permettre de participer au concours !",
 		"errorminmemberage": "Vous devez être sur le serveur depuis **{TIME}** pour pouvoir participer à ce cadeau !",
 		"errornoleaderboard": "Vous n'avez jamais envoyé de message sur ce serveur mais vous avez besoin de **{AMOUNT}** points de classement pour pouvoir participer au tirage au sort !",
+		"errornomessages": "Vous n'avez pas envoyé de nouveaux messages, or vous avez besoin de **{MESSAGES}** pour pouvoir participer au concours.",
 		"howlong": "Combien de temps doit durer le cadeau ? Exemple : `2h 30m` ou `5d`",
 		"informdm": "Informer le gagnant via DM",
 		"invalidchannel": "Vous devez ajouter un canal valide",
@@ -651,6 +653,7 @@
 		"importcancel": "L'importation du classement a été interrompue",
 		"imported": "Le chargement des entrées **{SUCCESS}** est terminé, **{DISPLAYNAME}** !\n**{FAILED}** ont été ignorées car les utilisateurs ne sont pas sur le serveur.",
 		"importing": "Le leaderboard est maintenant importé, vous pouvez trouver les anciennes données de niveau du serveur ci-joint",
+		"importmee6": "Ceci chargera les données de niveau de ce serveur à partir de MEE6, **{USERS}** utilisateurs ont été trouvés. Êtes-vous sûr de vouloir continuer ?\n⚠️ **Cette action ne peut pas être annulée!** Vous recevrez cependant une sauvegarde des anciennes données de niveau.",
 		"level": "Level",
 		"points": "Points",
 		"unavailable": "Ce classement n'existe pas ou une autre erreur s'est produite"
@@ -1367,7 +1370,8 @@
 		"reviewdeny": "Rejeter la suggestion",
 		"sent": "La suggestion a été envoyée !",
 		"title": "Suggestion",
-		"unknownmessage": "Cette suggestion n'existe pas"
+		"unknownmessage": "Cette suggestion n'existe pas",
+		"votes": "Votes"
 	},
 	"supportserver": "Serveur de support",
 	"sync": {
