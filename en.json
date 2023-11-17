@@ -242,7 +242,6 @@
 	"cooldown": "You still have a cooldown!",
 	"counting": {
 		"lbcurrent": "current run:",
-		"lbtitle": "Counting leaderboard",
 		"next": "The next number is **{NUMBER}**!",
 		"nextnumber": "{USER} <:triggered:435159948620464129> Next number is **{NUMBER}**…",
 		"nochannel": "There is no counting channel set",
@@ -383,7 +382,7 @@
 	},
 	"emoji": {
 		"animated": "Animated",
-		"emojislots": "Verbleibende Emoji-Slots: **{REMAINING}**",
+		"emojislots": "Remaining emoji slots: **{REMAINING}**",
 		"likes": "Likes:",
 		"lockupdated": "The roles which can use the emoji {EMOJI} were updated",
 		"notanimated": "Not animated",
@@ -393,7 +392,7 @@
 			"notfound": "No emojis were found"
 		},
 		"source": "Source:",
-		"stickerslots": "Verbleibende Sticker-Slots: **{REMAINING}**",
+		"stickerslots": "Remaining sticker slots: **{REMAINING}**",
 		"title": "Showing **{CURRENT}** of **{TOTAL}** emojis",
 		"unknownsticker": "Unknown sticker",
 		"usedby": "Used by:"
@@ -406,6 +405,9 @@
 	"feedback": {
 		"text": "Your feedback or suggestion",
 		"title": "Give Feedback"
+	},
+	"fileblacklist": {
+		"empty": "There are no blacklisted files"
 	},
 	"flag": {
 		"missing": "You must add the abbreviation of a country",
@@ -517,12 +519,13 @@
 			"roles": "You need at least one required role to be able to participate in the giveaway."
 		},
 		"requirements": {
-			"anyroles": "Has any of those roles:",
-			"minage": "Minimum account age:",
-			"minleaderboardpoints": "Minimum leaderboard points:",
-			"minmemberage": "Minimum time on the server:",
-			"notroles": "Has not role:",
-			"roles": "Has all of those roles:"
+			"anyroles": "Have any of these roles: {ROLES}",
+			"minage": "Minimum account age: **{MINAGE}**",
+			"minleaderboardpoints": "Minimum leaderboard points: **{MINPOINTS}**",
+			"minmemberage": "Minimum time on the server: **{MINMEMBERAGE}**",
+			"minmessages": "Minimum amount of new messages: **{MINMESSAGES}**",
+			"notroles": "Have not any of these roles: {ROLES}",
+			"roles": "Have all of those roles: {ROLES}"
 		},
 		"requirementstext": "**Set giveaway requirements**:\n\nYou have to input the parameter the following way:\n> `<Condition>:<Value>;<another Condition>:<Value 1>,<Value 2>;…`\n\nPossible requirements:\n> `roles`: User must have all of these roles\n> `anyRoles`: User must have any of these roles\n> `notRoles`: User must not have role\n> `minAge`: User account must be X old\n> `minMemberAge`: User must be at least since X on the server\n> `minLeaderboardPoints`: User must have X points on the leaderboard\n\nExamples:\n> `roles:Member,Verified`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Reroll",
@@ -658,6 +661,13 @@
 		"importmee6": "This will load the level data of this server from MEE6, **{USERS}** users have been found. Are you sure you want to continue?\n⚠️ **This action cannot be reverted!** You'll however receive a backup of the old level data.",
 		"level": "Level",
 		"points": "Points",
+		"title": {
+			"botvote": "Bot vote leaderboard",
+			"counting": "Counting leaderboard",
+			"countingfail": "Counting fail leaderboard",
+			"level": "Level leaderboard",
+			"servervote": "Server vote leaderboard"
+		},
 		"unavailable": "This leaderboard doesn't exist or another error occured"
 	},
 	"level": {
@@ -1574,9 +1584,11 @@
 		"calledsuccess": "You called Uno!",
 		"cardhistory": "Played cards:",
 		"cards": "**{AMOUNT}** cards",
+		"currentturn": "It's {USER}s turn!",
 		"dontuse": "Don't use",
 		"drawcard": "Draw card",
 		"endwin": "{USER} has won the game! **{CARDS}** cards were played.",
+		"inactivekick": "{USER}, you've been kicked out of the Uno game because you were inactive for more than two minutes!",
 		"invalidcard": "❌ Invalid card **{CARD}**!",
 		"joined": "You joined the game!",
 		"missingplayers": "Not enough players joined for an Uno game D:",
