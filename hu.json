@@ -242,7 +242,6 @@
 	"cooldown": "Nem ért véget a cooldown-od!",
 	"counting": {
 		"lbcurrent": "jelenlegi futás:",
-		"lbtitle": "Számláló ranglista",
 		"next": "A következő szám **{NUMBER}**!",
 		"nextnumber": "{USER} <:triggered:435159948620464129> A következő szám **{NUMBER}**…",
 		"nochannel": "Nincs számoló csatorna beállítva",
