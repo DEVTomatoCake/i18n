@@ -726,6 +726,7 @@
 		"defaultlayout": "Default forum layout of `{CHANNEL}` updated",
 		"defaultreactionemoji": "Default reaction emoji of `{CHANNEL}` updated",
 		"defaultsorting": "Default sorting of `{CHANNEL}` updated",
+		"deleted": "**Deleted**",
 		"discriminatorupdate": "Discriminator edited",
 		"emojicreate": "Emoji created",
 		"emojidelete": "Emoji deleted",
@@ -767,7 +768,9 @@
 		"msgdeletetime": "Message in `{CHANNEL}` deleted after **{TIME}**",
 		"msgedit": "Message in `{CHANNEL}` edited",
 		"msgedittime": "Message in `{CHANNEL}` edited after **{TIME}**",
+		"new": "**New**",
 		"nicknameupdate": "Nickname edited",
+		"old": "**Old**",
 		"publicupdateschannel": "Public updates channel updated",
 		"reactionadd": "Reaction added",
 		"reactionaddrr": "Received reaction role role",
@@ -1347,7 +1350,11 @@
 			"total": "Total modlogs"
 		},
 		"processing": "The stats aren't available for this server yet",
-		"title": "Stats for **{GUILD}**"
+		"title": "Stats for **{GUILD}**",
+		"translation": {
+			"description": "Translated: **{TRANSLATED}**, suggested: **{SUGGESTED}**",
+			"title": "Translation statistics"
+		}
 	},
 	"steam": {
 		"contentwarning": "Content warning:",
