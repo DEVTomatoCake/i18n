@@ -668,7 +668,7 @@
 		"level": "Level",
 		"points": "Punkte",
 		"title": {
-			"botvote": "Bot-Vote-Leaderboard",
+			"botvote": "Botvote-Leaderboard",
 			"counting": "Counting-Leaderboard",
 			"countingfail": "Counting-Fehler-Leaderboard",
 			"level": "Level-Leaderboard",
