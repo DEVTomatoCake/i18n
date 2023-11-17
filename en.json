@@ -179,6 +179,12 @@
 		"invalid": "Invalid syntax",
 		"title": "|                         Calculator                        |"
 	},
+	"calculatelevel": {
+		"missing": "You must specify level points to calculate the level for"
+	},
+	"calculatepoints": {
+		"missing": "You must specify a level to calculate the points for"
+	},
 	"cantusebutton": "Only **{USER}** can use buttons on this message!",
 	"cantuseselect": "Only **{USER}** can use the select menu on this message!",
 	"channelinfo": {
@@ -673,7 +679,8 @@
 	"level": {
 		"disabled": "Levels are disabled here",
 		"notfound": "**{USER}** has never sent a message here",
-		"progress": "Progress:"
+		"progress": "Progress:",
+		"resetall": "Yes, reset all"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** channels were locked, **{FAILED}** couldn't be locked",
