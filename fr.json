@@ -242,7 +242,6 @@
 	"cooldown": "Vous avez encore un temps de recharge !",
 	"counting": {
 		"lbcurrent": "en cours :",
-		"lbtitle": "Tableau de bord du comptage",
 		"next": "Le numéro suivant est **{NUMBER}** !",
 		"nextnumber": "{USER} <:triggered:435159948620464129> Le prochain numéro est **{NUMBER}**…",
 		"nochannel": "Il n'y a pas de canal de comptage défini",
