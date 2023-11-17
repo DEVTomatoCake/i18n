@@ -383,6 +383,7 @@
 	},
 	"emoji": {
 		"animated": "Animated",
+		"emojislots": "Verbleibende Emoji-Slots: **{REMAINING}**",
 		"likes": "Likes:",
 		"lockupdated": "The roles which can use the emoji {EMOJI} were updated",
 		"notanimated": "Not animated",
@@ -392,6 +393,7 @@
 			"notfound": "No emojis were found"
 		},
 		"source": "Source:",
+		"stickerslots": "Verbleibende Sticker-Slots: **{REMAINING}**",
 		"title": "Showing **{CURRENT}** of **{TOTAL}** emojis",
 		"unknownsticker": "Unknown sticker",
 		"usedby": "Used by:"
