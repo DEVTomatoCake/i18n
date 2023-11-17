@@ -179,6 +179,12 @@
 		"invalid": "Érvénytelen szintaxis",
 		"title": "|                   Számológép                   |"
 	},
+	"calculatelevel": {
+		"missing": "A szint kiszámításához meg kell adnia a szintpontokat a következőkhöz"
+	},
+	"calculatepoints": {
+		"missing": "A pontok kiszámításához meg kell adnia egy szintet"
+	},
 	"cantusebutton": "Csak **{USER}** használhatja az üzenet gombjait!",
 	"cantuseselect": "Csak **{USER}** használhatja az üzenet kiválasztási menüjét!",
 	"channelinfo": {
@@ -382,6 +388,7 @@
 	},
 	"emoji": {
 		"animated": "Élénk",
+		"emojislots": "Megmaradt emoji-helyek: **{REMAINING}**",
 		"likes": "Kedveli:",
 		"lockupdated": "A {EMOJI} emoji-t használó szerepek frissültek",
 		"notanimated": "Nem animált",
@@ -391,6 +398,7 @@
 			"notfound": "Nem található hangulatjel"
 		},
 		"source": "Forrás:",
+		"stickerslots": "Megmaradt matricahelyek: **{REMAINING}**",
 		"title": "**{CURRENT}**/**{TOTAL}** hangulatjel látható",
 		"unknownsticker": "Ismeretlen matrica",
 		"usedby": "Használta:"
@@ -403,6 +411,9 @@
 	"feedback": {
 		"text": "Az Ön visszajelzése vagy javaslata",
 		"title": "Adjon visszajelzést"
+	},
+	"fileblacklist": {
+		"empty": "Nincsenek feketelistán szereplő fájlok"
 	},
 	"flag": {
 		"missing": "Egy ország rövidítését kell hozzáadni",
@@ -514,12 +525,13 @@
 			"roles": "Legalább egy kötelező szerepkörre van szükséged ahhoz, hogy részt vehess az ajándékozásban."
 		},
 		"requirements": {
-			"anyroles": "Az említett szerepek bármelyikét betölti:",
-			"minage": "Minimális számlaéletkor:",
-			"minleaderboardpoints": "Minimális pontszám a ranglistán:",
-			"minmemberage": "Minimális idő a szerveren:",
-			"notroles": "Nincs szerepe:",
-			"roles": "Mindezeket a szerepeket betölti:"
+			"anyroles": "A következő szerepek bármelyikét betöltheti: {ROLES}",
+			"minage": "Minimális számlaéletkor: **{MINAGE}**",
+			"minleaderboardpoints": "Minimális pontszám a ranglistán: **{MINPOINTS}**",
+			"minmemberage": "Minimális idő a szerveren: **{MINMEMBERAGE}**",
+			"minmessages": "Új üzenetek minimális száma: **{MINMESSAGES}**",
+			"notroles": "Nem rendelkezik egyik szerepkörrel sem: {ROLES}",
+			"roles": "Mindegyik szerepkört betöltik: {ROLES}"
 		},
 		"requirementstext": "**Az ajándékozási követelmények meghatározása**:\n\nA paramétert a következő módon kell megadni:\n> `<feltétel>:<érték>;<egy másik feltétel>:<érték 1>,<érték 2>;…`\n\nLehetséges követelmények:\n> `szerepek`: A felhasználónak rendelkeznie kell az összes szerepkörrel\n> `anyRoles`: A felhasználónak rendelkeznie kell bármelyik szerepkörrel\n> `notRoles`: A felhasználónak nem lehet szerepe\n> `minAge`: A felhasználói fióknak X évesnek kell lennie\n> `minMemberAge`: A felhasználónak legalább X óta a szerveren kell lennie.\n> `minLeaderboardPoints`: A felhasználónak X ponttal kell rendelkeznie a ranglistán.\n\nPéldák:\n> `roles:Member,Verified`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Újradobás",
@@ -655,12 +667,20 @@
 		"importmee6": "Ez betölti a szerver szintadatait a MEE6-ból, **{USERS}** felhasználókat találtunk. Biztos, hogy folytatni akarja?\n⚠️ **Ezt a műveletet nem lehet visszafordítani!** A régi szintadatokról azonban kap egy biztonsági másolatot.",
 		"level": "Szint",
 		"points": "Pontok",
+		"title": {
+			"botvote": "Bot szavazati ranglista",
+			"counting": "Számláló ranglista",
+			"countingfail": "Counting fail ranglista",
+			"level": "Szint ranglista",
+			"servervote": "Szerver szavazás ranglista"
+		},
 		"unavailable": "Ez a ranglista nem létezik vagy más hiba történt"
 	},
 	"level": {
 		"disabled": "A szintek itt le vannak tiltva",
 		"notfound": "**{USER}** még soha nem küldött üzenetet ide",
-		"progress": "Fejlődés:"
+		"progress": "Fejlődés:",
+		"resetall": "Igen, állítsa vissza az összes"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** a csatornákat zárolták, **{FAILED}** nem lehetett zárolni",
@@ -706,6 +726,7 @@
 		"defaultlayout": "A `{CHANNEL}` fórum alapértelmezett elrendezése frissült",
 		"defaultreactionemoji": "A `{CHANNEL}` alapértelmezett reakció emoji frissítve",
 		"defaultsorting": "A `{CHANNEL}` alapértelmezett rendezése frissült",
+		"deleted": "**Törölve**",
 		"discriminatorupdate": "Diszkriminátor szerkesztve",
 		"emojicreate": "Emoji létrehozva",
 		"emojidelete": "Emoji törölve",
@@ -747,7 +768,9 @@
 		"msgdeletetime": "Üzenet a `{CHANNEL}`-ban **{TIME}** után törölték",
 		"msgedit": "Szerkesztett üzenet a `{CHANNEL}`-ben",
 		"msgedittime": "A **{TIME}** után szerkesztett üzenet a `{CHANNEL}`",
+		"new": "**Új **",
 		"nicknameupdate": "Becenév szerkesztve",
+		"old": "**Old**",
 		"publicupdateschannel": "Nyilvános frissítések csatorna frissítve",
 		"reactionadd": "Reakció hozzáadva",
 		"reactionaddrr": "Kapott reakció szerep szerep",
@@ -1327,7 +1350,11 @@
 			"total": "Összes modnapló"
 		},
 		"processing": "A statisztika még nem elérhető ezen a szerveren",
-		"title": "**{GUILD}** statisztikái"
+		"title": "**{GUILD}** statisztikái",
+		"translation": {
+			"description": "Lefordítva: **{TRANSLATED}**, javasolt: **{SUGGESTED}**",
+			"title": "Fordítási statisztika"
+		}
 	},
 	"steam": {
 		"contentwarning": "Tartalmi figyelmeztetés:",
@@ -1571,9 +1598,11 @@
 		"calledsuccess": "Te hívtad Uno-t!",
 		"cardhistory": "Kijátszott kártyák:",
 		"cards": "**{AMOUNT}** kártyák",
+		"currentturn": "Most {USER}s a sor!",
 		"dontuse": "Ne használja",
 		"drawcard": "Kártya húzása",
 		"endwin": "{USER} megnyerte a játékot! **{CARDS}** kártyákat játszottak ki.",
+		"inactivekick": "{USER}, kirúgtak az Uno játékból, mert több mint két percig inaktív voltál!",
 		"invalidcard": "❌ Érvénytelen kártya **{CARD}**!",
 		"joined": "Beléptél a játékba!",
 		"missingplayers": "Nem csatlakozott elég játékos egy Uno játékhoz D:",
