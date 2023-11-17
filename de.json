@@ -242,7 +242,6 @@
 	"cooldown": "Du hast noch einen Cooldown!",
 	"counting": {
 		"lbcurrent": "aktuell:",
-		"lbtitle": "Counting-Leaderboard",
 		"next": "Die nächste Zahl ist **{NUMBER}**!",
 		"nextnumber": "{USER} <:triggered:435159948620464129> Die nächste Zahl ist **{NUMBER}**…",
 		"nochannel": "Es wurde kein Counting-Kanal festgelegt",
