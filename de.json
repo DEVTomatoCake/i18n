@@ -179,6 +179,12 @@
 		"invalid": "Ungültige Syntax",
 		"title": "|                   Taschenrechner                   |"
 	},
+	"calculatelevel": {
+		"missing": "Du musst Levelpunkte angeben, für die das Level berechnet werden soll"
+	},
+	"calculatepoints": {
+		"missing": "Du musst ein Level angeben, für das die Punkte berechnet werden sollen"
+	},
 	"cantusebutton": "Nur **{USER}** kann Buttons auf dieser Nachricht nutzen!",
 	"cantuseselect": "Nur **{USER}** kann das Selectmenü dieser Nachricht nutzen!",
 	"channelinfo": {
@@ -382,6 +388,7 @@
 	},
 	"emoji": {
 		"animated": "Animiert",
+		"emojislots": "Verbleibende Emoji-Slots: **{REMAINING}**",
 		"likes": "Likes:",
 		"lockupdated": "Die Rollen, welche das Emoji {EMOJI} verwenden können, wurden geändert",
 		"notanimated": "Nicht animiert",
@@ -391,6 +398,7 @@
 			"notfound": "Es wurden keine Emojis gefunden"
 		},
 		"source": "Quelle:",
+		"stickerslots": "Verbleibende Sticker-Slots: **{REMAINING}**",
 		"title": "Zeige **{CURRENT}** von insgesamt **{TOTAL}** Emojis",
 		"unknownsticker": "Unbekannter Sticker",
 		"usedby": "Verwendet von:"
@@ -403,6 +411,9 @@
 	"feedback": {
 		"text": "Dein Feedback oder Vorschlag",
 		"title": "Feedback geben"
+	},
+	"fileblacklist": {
+		"empty": "Es gibt keine geblacklisteten Dateien"
 	},
 	"flag": {
 		"missing": "Du musst die Abkürzung eines Landes angeben",
@@ -514,12 +525,13 @@
 			"roles": "Dir fehlt mindestens eine benötigte Rolle, um am Giveaway teilnehmen zu können."
 		},
 		"requirements": {
-			"anyroles": "Hat eine dieser Rollen:",
-			"minage": "Minimales Accountalter:",
-			"minleaderboardpoints": "Minimale Leaderboard-Punkte:",
-			"minmemberage": "Mindestzeit auf dem Server:",
-			"notroles": "Hat nicht Rolle:",
-			"roles": "Hat alle dieser Rollen:"
+			"anyroles": "Habe eine dieser Rollen: {ROLES}",
+			"minage": "Minimales Accountalter: **{MINAGE}**",
+			"minleaderboardpoints": "Minimale Leaderboard-Punkte: **{MINPOINTS}**",
+			"minmemberage": "Mindestzeit auf dem Server: **{MINMEMBERAGE}**",
+			"minmessages": "Mindestanzahl neuer Nachrichten: **{MINMESSAGES}**",
+			"notroles": "Habe keine dieser Rollen: {ROLES}",
+			"roles": "Habe alle diese Rollen: {ROLES}"
 		},
 		"requirementstext": "**Teilnahmebedingungen festlegen**:\n\nDie Parameter werden nach folgendem Schema angegeben:\n> `<Bedingung>:<Wert>;<Weitere Bedingung>:<Wert 1>,<Wert 2>;…`\n\nMögliche Bedingungen:\n> `roles`: Nutzer muss alle dieser Rollen haben\n> `anyRoles`: Nutzer muss mindestens eine dieser Rollen haben\n> `notRoles`: Nutzer darf Rolle nicht haben\n> `minAge`: Nutzer-Account muss X alt sein\n> `minMemberAge`: Nutzer-Account muss seit X auf dem Server sein\n> `minLeaderboardPoints`: Nutzer muss X Punkte auf dem Leaderboard haben\n\nBeispiele:\n> `roles:Mitglied,Verifiziert`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Neuen Gewinner aussuchen",
@@ -655,12 +667,20 @@
 		"importmee6": "Dies wird das Leaderboard dieses Servers von MEE6 laden, es wurden **{USERS}** Nutzer gefunden. Bist du sicher, dass du fortfahren willst?\n⚠️ **Diese Aktion kann nicht rückgängig gemacht werden!** Du erhältst jedoch ein Backup der alten Leveldaten.",
 		"level": "Level",
 		"points": "Punkte",
+		"title": {
+			"botvote": "Bot-Vote-Leaderboard",
+			"counting": "Counting-Leaderboard",
+			"countingfail": "Counting-Fehler-Leaderboard",
+			"level": "Level-Leaderboard",
+			"servervote": "Servervote-Leaderboard"
+		},
 		"unavailable": "Dieses Leaderboard existiert nicht oder ein anderer Fehler ist aufgetreten"
 	},
 	"level": {
 		"disabled": "Level sind hier deaktiviert",
 		"notfound": "**{USER}** hat noch nie eine Nachricht gesendet",
-		"progress": "Fortschritt:"
+		"progress": "Fortschritt:",
+		"resetall": "Ja, alle zurücksetzen"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** Kanäle wurden gesperrt, **{FAILED}** konnten nicht gesperrt werden",
@@ -706,6 +726,7 @@
 		"defaultlayout": "Standardforumlayout von `{CHANNEL}` aktualisiert",
 		"defaultreactionemoji": "Standardreaktionsemoji von `{CHANNEL}` aktualisiert",
 		"defaultsorting": "Standardsortierung von `{CHANNEL}` aktualisiert",
+		"deleted": "**Gelöscht**",
 		"discriminatorupdate": "Discriminator geändert",
 		"emojicreate": "Emoji erstellt",
 		"emojidelete": "Emoji gelöscht",
@@ -747,7 +768,9 @@
 		"msgdeletetime": "Nachricht in `{CHANNEL}` nach **{TIME}** gelöscht",
 		"msgedit": "Nachricht in `{CHANNEL}` bearbeitet",
 		"msgedittime": "Nachricht in `{CHANNEL}` nach **{TIME}** bearbeitet",
+		"new": "**Neu**",
 		"nicknameupdate": "Nickname geändert",
+		"old": "**Alt**",
 		"publicupdateschannel": "Kanal für Communityupdates geändert",
 		"reactionadd": "Reaktion hinzugefügt",
 		"reactionaddrr": "Reactionrole Rolle erhalten",
@@ -1327,7 +1350,11 @@
 			"total": "Modlogs insgesamt"
 		},
 		"processing": "Die Statistiken sind für diesen Server noch nicht verfügbar",
-		"title": "Statistiken für **{GUILD}**"
+		"title": "Statistiken für **{GUILD}**",
+		"translation": {
+			"description": "Übersetzt: **{TRANSLATED}**, vorgeschlagen: **{SUGGESTED}**",
+			"title": "Übersetzungsstatistiken"
+		}
 	},
 	"steam": {
 		"contentwarning": "Inhaltswarnung:",
@@ -1571,9 +1598,11 @@
 		"calledsuccess": "Du hast Uno gerufen!",
 		"cardhistory": "Gespielte Karten:",
 		"cards": "**{AMOUNT}** Karten",
+		"currentturn": "{USER} ist an der Reihe!",
 		"dontuse": "Nicht verwenden",
 		"drawcard": "Karte ziehen",
 		"endwin": "{USER} hat das Spiel gewonnen! Es wurden **{CARDS}** Karten ausgespielt.",
+		"inactivekick": "{USER}, du wurdest aus dem Uno-Spiel geworfen, weil du mehr als zwei Minuten lang inaktiv warst!",
 		"invalidcard": "❌ Ungültige Karte **{CARD}**!",
 		"joined": "Du bist dem Spiel beigetreten!",
 		"missingplayers": "Es sind nicht genug Spieler für ein Uno-Spiel beigetreten D:",
