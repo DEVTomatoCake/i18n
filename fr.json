@@ -157,6 +157,7 @@
 		"amount": "Montant",
 		"commands": "Commandes",
 		"commandsused": "Commandes utilisées",
+		"lines": "Lignes",
 		"mostused": "Commandes les plus utilisées",
 		"nocustom": "Pas de support pour les bots personnalisés",
 		"servers": "Serveurs",
@@ -178,6 +179,12 @@
 	"calc": {
 		"invalid": "Syntaxe incorrecte",
 		"title": "| Calculatrice                        |"
+	},
+	"calculatelevel": {
+		"missing": "Vous devez spécifier des points de niveau pour calculer le niveau de"
+	},
+	"calculatepoints": {
+		"missing": "Vous devez spécifier un niveau pour calculer les points pour"
 	},
 	"cantusebutton": "Seul **{USER}** peut utiliser les boutons de ce message !",
 	"cantuseselect": "Seul **{USER}** peut utiliser le menu de sélection de ce message !",
@@ -382,6 +389,7 @@
 	},
 	"emoji": {
 		"animated": "Animé",
+		"emojislots": "Emplacements d'emoji restants : **{REMAINING}**",
 		"likes": "Aime :",
 		"lockupdated": "Les rôles qui peuvent utiliser l'emoji {EMOJI} ont été mis à jour",
 		"notanimated": "Non animé",
@@ -391,6 +399,7 @@
 			"notfound": "Aucun émoticône trouvé"
 		},
 		"source": "Source :",
+		"stickerslots": "Emplacements restants pour les autocollants : **{REMAINING}**",
 		"title": "Affichage de **{CURRENT}** sur **{TOTAL}** émoticônes",
 		"unknownsticker": "Autocollant inconnu",
 		"usedby": "Utilisé par :"
@@ -403,6 +412,9 @@
 	"feedback": {
 		"text": "Vos commentaires ou suggestions",
 		"title": "Donnez votre avis"
+	},
+	"fileblacklist": {
+		"empty": "Il n'y a pas de fichiers sur liste noire"
 	},
 	"flag": {
 		"missing": "Vous devez ajouter l'abréviation d'un pays",
@@ -514,12 +526,13 @@
 			"roles": "Vous devez avoir au moins un rôle requis pour pouvoir participer au concours."
 		},
 		"requirements": {
-			"anyroles": "A l'un ou l'autre de ces rôles :",
-			"minage": "Âge minimum pour l'ouverture d'un compte :",
-			"minleaderboardpoints": "Nombre minimum de points au classement :",
-			"minmemberage": "Temps minimum sur le serveur :",
-			"notroles": "N'a pas de rôle :",
-			"roles": "Il joue tous ces rôles :"
+			"anyroles": "Avoir l'un de ces rôles : {ROLES}",
+			"minage": "Âge minimum pour l'ouverture d'un compte : **{MINAGE}**",
+			"minleaderboardpoints": "Nombre minimum de points au classement : **{MINPOINTS}**",
+			"minmemberage": "Temps minimum sur le serveur : **{MINMEMBERAGE}**",
+			"minmessages": "Nombre minimum de nouveaux messages : **{MINMESSAGES}**",
+			"notroles": "N'ont aucun de ces rôles : {ROLES}",
+			"roles": "Avoir tous ces rôles : {ROLES}"
 		},
 		"requirementstext": "**Set giveaway requirements** :\n\nVous devez saisir le paramètre de la manière suivante :\n> `<Condition>:<Valeur>;<autre condition>:<Valeur 1>,<Valeur 2> ;…`\n\nExigences possibles :\n> `rôles` : L'utilisateur doit avoir tous ces rôles\n> `anyRoles` : L'utilisateur doit avoir l'un de ces rôles\n> `notRoles` : L'utilisateur ne doit pas avoir de rôle\n> `minAge` : Le compte utilisateur doit être X old\n> `minMemberAge` : L'utilisateur doit être au moins depuis X sur le serveur\n> `minLeaderboardPoints` : L'utilisateur doit avoir X points sur le leaderboard\n\nExemples :\n> `roles:Membre,Vérifié`\n> `notRoles:Muted;minAge:3d;minLeaderboardPoints:500`",
 		"reroll": "Reroll",
@@ -655,12 +668,20 @@
 		"importmee6": "Ceci chargera les données de niveau de ce serveur à partir de MEE6, **{USERS}** utilisateurs ont été trouvés. Êtes-vous sûr de vouloir continuer ?\n⚠️ **Cette action ne peut pas être annulée!** Vous recevrez cependant une sauvegarde des anciennes données de niveau.",
 		"level": "Level",
 		"points": "Points",
+		"title": {
+			"botvote": "Classement des votes des robots",
+			"counting": "Tableau de bord du comptage",
+			"countingfail": "Classement des échecs de comptage",
+			"level": "Classement par niveau",
+			"servervote": "Classement des votes sur le serveur"
+		},
 		"unavailable": "Ce classement n'existe pas ou une autre erreur s'est produite"
 	},
 	"level": {
 		"disabled": "Les niveaux sont désactivés ici",
 		"notfound": "**{USER}** n'a jamais envoyé de message ici",
-		"progress": "Progrès :"
+		"progress": "Progrès :",
+		"resetall": "Oui, réinitialiser tout"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** les canaux ont été verrouillés, **{FAILED}** ils n'ont pas pu être verrouillés",
@@ -706,6 +727,7 @@
 		"defaultlayout": "Mise à jour de la présentation par défaut du forum `{CHANNEL}`",
 		"defaultreactionemoji": "Mise à jour de l'emoji de réaction par défaut pour `{CHANNEL}`",
 		"defaultsorting": "Mise à jour du tri par défaut de `{CHANNEL}`",
+		"deleted": "**Supprimé**",
 		"discriminatorupdate": "Discriminateur modifié",
 		"emojicreate": "Emoji créé",
 		"emojidelete": "Emoji supprimé",
@@ -747,7 +769,9 @@
 		"msgdeletetime": "Message dans `{CHANNEL}` supprimé après **{TIME}**",
 		"msgedit": "Message dans `{CHANNEL}` modifié",
 		"msgedittime": "Message dans `{CHANNEL}` édité après **{TIME}**",
+		"new": "**Nouveau**",
 		"nicknameupdate": "Surnom modifié",
+		"old": "**Ancien**",
 		"publicupdateschannel": "Mise à jour du canal des mises à jour publiques",
 		"reactionadd": "Réaction ajoutée",
 		"reactionaddrr": "Réaction reçue rôle rôle",
@@ -1327,7 +1351,11 @@
 			"total": "Total modlogs"
 		},
 		"processing": "Les statistiques ne sont pas encore disponibles pour ce serveur",
-		"title": "Statistiques pour **{GUILD}**"
+		"title": "Statistiques pour **{GUILD}**",
+		"translation": {
+			"description": "Traduit : **{TRANSLATED}**, suggéré : **{SUGGESTED}**",
+			"title": "Statistiques de traduction"
+		}
 	},
 	"steam": {
 		"contentwarning": "Avertissement sur le contenu :",
@@ -1571,9 +1599,11 @@
 		"calledsuccess": "Vous avez appelé Uno !",
 		"cardhistory": "Cartes jouées :",
 		"cards": "**{AMOUNT}** cartes",
+		"currentturn": "C'est au tour de {USER} !",
 		"dontuse": "Ne pas utiliser",
 		"drawcard": "Tirer une carte",
 		"endwin": "{USER} a gagné la partie ! **{CARDS}** cartes ont été jouées.",
+		"inactivekick": "{USER}, vous avez été exclu du jeu Uno car vous êtes resté inactif pendant plus de deux minutes !",
 		"invalidcard": "❌ Carte invalide **{CARD}** !",
 		"joined": "Vous avez rejoint le jeu !",
 		"missingplayers": "Il n'y a pas assez de joueurs pour une partie de Uno D :",
