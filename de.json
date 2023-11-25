@@ -157,6 +157,7 @@
 		"amount": "Insgesamt",
 		"commands": "Befehle",
 		"commandsused": "Befehle genutzt",
+		"lines": "Zeilen",
 		"mostused": "Oft genutzte Befehle",
 		"nocustom": "Nicht unterstützt für Custom-Bots",
 		"servers": "Server",
