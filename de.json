@@ -22,7 +22,8 @@
 		"aliasused": "Der Alias **{ALIAS}** wird bereits verwendet!",
 		"invalidurl": "Ungültige Panel-URL! Der Link muss die Startseite (Serverliste) des Panels sein sowie mit `https://` anfangen und mit `/` aufhören.",
 		"success": "Das Panel mit dem Alias **{ALIAS}** wurde gespeichert! Du kannst jetzt </manage:872924492593254454> nutzen!",
-		"tutorial": "So bekommst du einen API-Key:"
+		"tutorial": "So bekommst du einen API-Key:",
+		"tutorialsupport": "Support-Server"
 	},
 	"button": {
 		"cantkill": "**{SERVER}** kann nicht gekillt werden!",
