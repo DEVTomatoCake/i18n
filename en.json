@@ -1408,7 +1408,7 @@
 		},
 		"awaitingreview": "The suggestion can now be checked and will be available in {CHANNEL} once it is allowed",
 		"cooldown": "You have to wait **{TIME}** until you can submit a new suggestion",
-		"cooldowndm": "You have to wait **{TIME}** until you can submit a new suggestion on **{SERVER}**",
+		"cooldowndm": "You have to wait **{TIME}** until you can submit a new suggestion on **{SERVER}**!",
 		"denied": "The suggestion **#{ID}** has been denied!",
 		"deniedby": "Denied by {USER}",
 		"deniedon": "Denied on",
