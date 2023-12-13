@@ -176,6 +176,10 @@
 		"unknownguild": "guilde inconnue",
 		"userscached": "dans le cache :"
 	},
+	"botwebhook": {
+		"created": "Webhook créé, vous pouvez maintenant le personnaliser ! URL : {URL}",
+		"enabledms": "Veillez également à activer vos DM."
+	},
 	"calc": {
 		"invalid": "Syntaxe incorrecte",
 		"title": "| Calculatrice                        |"
@@ -554,7 +558,9 @@
 		"dailylimit": "Limite journalière atteinte",
 		"howcreative": "Dans quelle mesure la réponse de ChatGPT doit-elle être créative ?",
 		"temperature": "Valeur de la température : {VALUE}",
-		"verycreative": "Très créatif"
+		"topic": "S'en tenir le plus souvent au sujet",
+		"verycreative": "Très créatif",
+		"verytopic": "S'en tenir entièrement au sujet"
 	},
 	"guildonly": "Cette commande ne peut être exécutée que sur des serveurs !",
 	"hack": {
@@ -667,11 +673,16 @@
 		"importing": "Le leaderboard est maintenant importé, vous pouvez trouver les anciennes données de niveau du serveur ci-joint",
 		"importmee6": "Ceci chargera les données de niveau de ce serveur à partir de MEE6, **{USERS}** utilisateurs ont été trouvés. Êtes-vous sûr de vouloir continuer ?\n⚠️ **Cette action ne peut pas être annulée!** Vous recevrez cependant une sauvegarde des anciennes données de niveau.",
 		"level": "Level",
+		"nobotvote": "Personne n'a encore voté pour un bot sur ce serveur",
+		"nocountingfail": "Personne n'a encore échoué au comptage",
+		"noinvite": "Aucune invitation n'a encore été détectée sur ce serveur",
+		"noservervote": "Personne n'a encore voté pour ce serveur",
 		"points": "Points",
 		"title": {
 			"botvote": "Classement des votes des robots",
 			"counting": "Tableau de bord du comptage",
 			"countingfail": "Classement des échecs de comptage",
+			"invite": "Tableau de classement des invitations",
 			"level": "Classement par niveau",
 			"servervote": "Classement des votes sur le serveur"
 		},
@@ -679,9 +690,19 @@
 	},
 	"level": {
 		"disabled": "Les niveaux sont désactivés ici",
+		"invalidpoints": "Veuillez saisir une valeur de point comprise entre 0 et 100 000",
 		"notfound": "**{USER}** n'a jamais envoyé de message ici",
 		"progress": "Progrès :",
 		"resetall": "Oui, réinitialiser tout"
+	},
+	"levelmanage": {
+		"import": {
+			"averagexp": "Importation de la moyenne des xp",
+			"keeplevels": "Importer et conserver les niveaux",
+			"msgcount": "Importer des points à partir du décompte des messages",
+			"nodata": "Il n'y a pas d'utilisateurs dans le classement MEE6"
+		},
+		"resetcancelled": "La suppression de toutes les données de niveau de ce serveur a été annulée"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** les canaux ont été verrouillés, **{FAILED}** ils n'ont pas pu être verrouillés",
@@ -829,6 +850,8 @@
 		"userroleadd": "Rôle ajouté",
 		"userroleremove": "Rôle supprimé",
 		"vanityurl": "Mise à jour de l'URL de la vanité",
+		"verificationbypassdisabled": "Contournement de la vérification désactivé",
+		"verificationbypassenabled": "Contournement de la vérification activé",
 		"videoquality": "Mise à jour de la qualité vidéo de `{CHANNEL}`",
 		"voicechannelregion": "Région du canal vocal de `{CHANNEL}` éditée",
 		"voicejoin": "Canal vocal joint",
@@ -1161,6 +1184,11 @@
 		"missingchoices": "Vous devez ajouter d'autres choix possibles séparés par `,`",
 		"optionlist": "Liste des options :"
 	},
+	"rdap": {
+		"missingtld": "Le domaine doit avoir un TLD",
+		"noserver": "Le TLD n'a pas de serveur RDAP (WHOIS)",
+		"unknowndomain": "Le domaine n'a pas pu être trouvé"
+	},
 	"reactionrole": {
 		"roleadded": "Le rôle {ROLE} vous a été ajouté !",
 		"roleaddedmultiple": "Les rôles {ROLES} vous ont été ajoutés !",
@@ -1380,6 +1408,7 @@
 		},
 		"awaitingreview": "La suggestion peut maintenant être vérifiée et sera disponible dans {CHANNEL} dès qu'elle sera autorisée",
 		"cooldown": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion",
+		"cooldowndm": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion sur **{SERVER}**",
 		"denied": "La suggestion **#{ID}** a été refusée !",
 		"deniedby": "Refusé par",
 		"deniedon": "Refusé le",
@@ -1660,7 +1689,8 @@
 		"modallabel": "Écrire les caractères de l'image captcha",
 		"modaltitle": "Prouvez que vous êtes un être humain",
 		"sent": "Le message de vérification a été envoyé avec succès dans {CHANNEL} !",
-		"success": "Vous vous êtes vérifié avec succès !"
+		"success": "Vous vous êtes vérifié avec succès !",
+		"websitebutton": "Vérifier sur le site web du bot"
 	},
 	"voice": {
 		"deafedall": "Assourdissement de tous les utilisateurs de votre canal vocal, à l'exception de vous-même",
