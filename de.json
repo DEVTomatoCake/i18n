@@ -176,6 +176,10 @@
 		"unknownguild": "Unbekannter Server",
 		"userscached": "davon im Cache:"
 	},
+	"botwebhook": {
+		"created": "Webhook wurde erstellt, du kannst ihn jetzt bearbeiten! URL: {URL}",
+		"enabledms": "Stelle sicher, dass deine PNs aktiviert sind."
+	},
 	"calc": {
 		"invalid": "Ungültige Syntax",
 		"title": "|                   Taschenrechner                   |"
@@ -554,7 +558,9 @@
 		"dailylimit": "Tägliches Limit erreicht",
 		"howcreative": "Wie kreativ soll ChatGPT antworten?",
 		"temperature": "Temperatur-Wert: {VALUE}",
-		"verycreative": "Sehr kreativ"
+		"topic": "Größtenteils nah am Thema bleiben",
+		"verycreative": "Sehr kreativ",
+		"verytopic": "Immer nah am Thema bleiben"
 	},
 	"guildonly": "Dieser Befehl kann nur auf Servern ausgeführt werden!",
 	"hack": {
@@ -667,11 +673,16 @@
 		"importing": "Das Leaderboard wird jetzt geladen, als Anhang findest du die alten Leveldaten des Servers",
 		"importmee6": "Dies wird das Leaderboard dieses Servers von MEE6 laden, es wurden **{USERS}** Nutzer gefunden. Bist du sicher, dass du fortfahren willst?\n⚠️ **Diese Aktion kann nicht rückgängig gemacht werden!** Du erhältst jedoch ein Backup der alten Leveldaten.",
 		"level": "Level",
+		"nobotvote": "Es hat noch keiner für einen Bot auf diesem Server gevoted",
+		"nocountingfail": "Es hat noch keiner einen Fehler beim Zählen gemacht",
+		"noinvite": "Es wurde noch keine Einladung auf diesem Server erkannt",
+		"noservervote": "Es hat noch keiner für diesen Server gevoted",
 		"points": "Punkte",
 		"title": {
 			"botvote": "Botvote-Leaderboard",
 			"counting": "Counting-Leaderboard",
 			"countingfail": "Counting-Fehler-Leaderboard",
+			"invite": "Einladungsleaderboard",
 			"level": "Level-Leaderboard",
 			"servervote": "Servervote-Leaderboard"
 		},
@@ -679,9 +690,19 @@
 	},
 	"level": {
 		"disabled": "Level sind hier deaktiviert",
+		"invalidpoints": "Gib einen Punktewert zwischen 0 und 100 000 ein",
 		"notfound": "**{USER}** hat noch nie eine Nachricht gesendet",
 		"progress": "Fortschritt:",
 		"resetall": "Ja, alle zurücksetzen"
+	},
+	"levelmanage": {
+		"import": {
+			"averagexp": "Importen aus durchschnittlicher XP-Anzahl",
+			"keeplevels": "Importieren und Level behalten",
+			"msgcount": "Punkte aus Nachrichtenanzahl importieren",
+			"nodata": "Es gibt keine Nutzer auf dem MEE6-Leaderboard"
+		},
+		"resetcancelled": "Das Löschen aller Leveldaten dieses Servers wurde abgebrochen"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** Kanäle wurden gesperrt, **{FAILED}** konnten nicht gesperrt werden",
@@ -829,6 +850,8 @@
 		"userroleadd": "Rolle hinzugefügt",
 		"userroleremove": "Rolle entfernt",
 		"vanityurl": "Vanity-URL bearbeitet",
+		"verificationbypassdisabled": "Verifikations-Bypass deaktiviert",
+		"verificationbypassenabled": "Verifikations-Bypass aktiviert",
 		"videoquality": "Videoübertragungsqualität von `{CHANNEL}` aktualisiert",
 		"voicechannelregion": "Sprachkanalregion von `{CHANNEL}` aktualisiert",
 		"voicejoin": "Sprachkanal betreten",
@@ -1161,6 +1184,11 @@
 		"missingchoices": "Du musst mehr mögliche Antworten mit `,` getrennt angeben",
 		"optionlist": "Liste der Optionen:"
 	},
+	"rdap": {
+		"missingtld": "Die Domain muss eine TLD haben",
+		"noserver": "Die TLD hat keinen RDAP-(WHOIS-)Server",
+		"unknowndomain": "Die Domain konnte nicht gefunden werden"
+	},
 	"reactionrole": {
 		"roleadded": "Dir wurde die Rolle {ROLE} hinzugefügt!",
 		"roleaddedmultiple": "Dir wurden die Rollen {ROLES} hinzugefügt!",
@@ -1380,6 +1408,7 @@
 		},
 		"awaitingreview": "Der Vorschlag wird nun geprüft und in {CHANNEL} angezeigt, sobald dieser zugelassen worden ist",
 		"cooldown": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag einreichen kannst",
+		"cooldowndm": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag auf **{SERVER}** erstellen kannst",
 		"denied": "Der Vorschlag **#{ID}** wurde abgelehnt!",
 		"deniedby": "Abgelehnt von {USER}",
 		"deniedon": "Abgelehnt am",
@@ -1660,7 +1689,8 @@
 		"modallabel": "Schreibe die Zeichen des Captcha-Bilds",
 		"modaltitle": "Beweise, dass du ein Mensch bist",
 		"sent": "Die Verifikationsnachricht wurde erfolgreich in {CHANNEL} gesendet!",
-		"success": "Du hast dich erfolgreich verifiziert!"
+		"success": "Du hast dich erfolgreich verifiziert!",
+		"websitebutton": "Auf der Website des Bots verifizieren"
 	},
 	"voice": {
 		"deafedall": "Alle Mitglieder in deinem Sprachkanal, außer dir, wurden taub geschaltet",
