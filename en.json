@@ -22,7 +22,8 @@
 		"aliasused": "The alias **{ALIAS}** is already used!",
 		"invalidurl": "Invalid panel url! The link must be the start page (server list) of the panel: start with `https://` and end with `/`.",
 		"success": "The panel with the alias **{ALIAS}** was saved! You can now use </manage:872924492593254454>!",
-		"tutorial": "How to get an API key:"
+		"tutorial": "How to get an API key:",
+		"tutorialsupport": "Support server"
 	},
 	"button": {
 		"cantkill": "Couldn't kill **{SERVER}**!",
