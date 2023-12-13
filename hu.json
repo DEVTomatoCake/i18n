@@ -22,7 +22,8 @@
 		"aliasused": "A **{ALIAS}** alias már használatban van!",
 		"invalidurl": "Érvénytelen panel URL! A linknek a panel kezdőoldalának (szerverlistájának) kell lennie: `https://` előtaggal kezdődik és `/` karakterrel végződik.",
 		"success": "A **{ALIAS}** álnévvel ellátott panel mentésre került! Most már használhatja a </manage:872924492593254454>!",
-		"tutorial": "Az API kulcs beszerzése:"
+		"tutorial": "Az API kulcs beszerzése:",
+		"tutorialsupport": "Support szerver"
 	},
 	"button": {
 		"cantkill": "Nem sikerült megölni **{SERVER}**!",
