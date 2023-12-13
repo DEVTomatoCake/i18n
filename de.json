@@ -1408,7 +1408,7 @@
 		},
 		"awaitingreview": "Der Vorschlag wird nun geprüft und in {CHANNEL} angezeigt, sobald dieser zugelassen worden ist",
 		"cooldown": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag einreichen kannst",
-		"cooldowndm": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag auf **{SERVER}** erstellen kannst",
+		"cooldowndm": "Du musst noch **{TIME}** warten, bis du einen neuen Vorschlag auf **{SERVER}** erstellen kannst!",
 		"denied": "Der Vorschlag **#{ID}** wurde abgelehnt!",
 		"deniedby": "Abgelehnt von {USER}",
 		"deniedon": "Abgelehnt am",
