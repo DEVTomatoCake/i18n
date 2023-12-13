@@ -176,6 +176,10 @@
 		"unknownguild": "Unknown guild",
 		"userscached": "in cache:"
 	},
+	"botwebhook": {
+		"created": "Webhook created, you can now customize it! URL: {url}",
+		"enabledms": "Make sure to enable your DMs too."
+	},
 	"calc": {
 		"invalid": "Invalid syntax",
 		"title": "|                         Calculator                        |"
