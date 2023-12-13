@@ -1408,7 +1408,7 @@
 		},
 		"awaitingreview": "La suggestion peut maintenant être vérifiée et sera disponible dans {CHANNEL} dès qu'elle sera autorisée",
 		"cooldown": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion",
-		"cooldowndm": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion sur **{SERVER}**",
+		"cooldowndm": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion sur **{SERVER}** !",
 		"denied": "La suggestion **#{ID}** a été refusée !",
 		"deniedby": "Refusé par",
 		"deniedon": "Refusé le",
