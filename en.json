@@ -177,7 +177,7 @@
 		"userscached": "in cache:"
 	},
 	"botwebhook": {
-		"created": "Webhook created, you can now customize it! URL: {url}",
+		"created": "Webhook created, you can now customize it! URL: {URL}",
 		"enabledms": "Make sure to enable your DMs too."
 	},
 	"calc": {
@@ -850,6 +850,8 @@
 		"userroleadd": "Role added",
 		"userroleremove": "Role removed",
 		"vanityurl": "Vanity URL updated",
+		"verificationbypassdisabled": "Verification bypass disabled",
+		"verificationbypassenabled": "Verification bypass enabled",
 		"videoquality": "Video quality of `{CHANNEL}` updated",
 		"voicechannelregion": "Voice channel region of `{CHANNEL}` edited",
 		"voicejoin": "Voice channel joined",
@@ -1406,6 +1408,7 @@
 		},
 		"awaitingreview": "The suggestion can now be checked and will be available in {CHANNEL} once it is allowed",
 		"cooldown": "You have to wait **{TIME}** until you can submit a new suggestion",
+		"cooldowndm": "You have to wait **{TIME}** until you can submit a new suggestion on **{SERVER}**",
 		"denied": "The suggestion **#{ID}** has been denied!",
 		"deniedby": "Denied by {USER}",
 		"deniedon": "Denied on",
@@ -1686,7 +1689,8 @@
 		"modallabel": "Write the characters of the captcha image",
 		"modaltitle": "Prove that you're a human",
 		"sent": "The verification message was sent successfully in {CHANNEL}!",
-		"success": "You've verified yourself successfully!"
+		"success": "You've verified yourself successfully!",
+		"websitebutton": "Verify on the bot's website"
 	},
 	"voice": {
 		"deafedall": "Deafened all users in your voice channel except you",
