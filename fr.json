@@ -22,7 +22,8 @@
 		"aliasused": "L'alias **{ALIAS}** est déjà utilisé !",
 		"invalidurl": "URL de panneau non valide ! Le lien doit être la page de démarrage (liste de serveurs) du panneau : commencer par `https://` et se terminer par `/`.",
 		"success": "Le panneau avec l'alias **{ALIAS}** a été sauvegardé ! Vous pouvez maintenant utiliser </manage:872924492593254454> !",
-		"tutorial": "Comment obtenir une clé API :"
+		"tutorial": "Comment obtenir une clé API :",
+		"tutorialsupport": "Serveur de support"
 	},
 	"button": {
 		"cantkill": "Impossible de tuer **{SERVER}** !",
