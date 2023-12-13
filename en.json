@@ -554,7 +554,9 @@
 		"dailylimit": "Daily limit reached",
 		"howcreative": "How creative should ChatGPT answer?",
 		"temperature": "Temperature value: {VALUE}",
-		"verycreative": "Very creative"
+		"topic": "Mostly stick to the topic",
+		"verycreative": "Very creative",
+		"verytopic": "Fully stick to the topic"
 	},
 	"guildonly": "This command can only be ran on servers!",
 	"hack": {
@@ -667,11 +669,16 @@
 		"importing": "The leaderboard is being imported now, you can find the old level data of the server attached",
 		"importmee6": "This will load the level data of this server from MEE6, **{USERS}** users have been found. Are you sure you want to continue?\n⚠️ **This action cannot be reverted!** You'll however receive a backup of the old level data.",
 		"level": "Level",
+		"nobotvote": "No one voted for a bot on this server yet",
+		"nocountingfail": "No one has failed counting yet",
+		"noinvite": "No invite has been detected on this server yet",
+		"noservervote": "No one voted for this server yet",
 		"points": "Points",
 		"title": {
 			"botvote": "Bot vote leaderboard",
 			"counting": "Counting leaderboard",
 			"countingfail": "Counting fail leaderboard",
+			"invite": "Invite leaderboard",
 			"level": "Level leaderboard",
 			"servervote": "Server vote leaderboard"
 		},
@@ -679,9 +686,19 @@
 	},
 	"level": {
 		"disabled": "Levels are disabled here",
+		"invalidpoints": "Please enter a point value between 0 and 100,000",
 		"notfound": "**{USER}** has never sent a message here",
 		"progress": "Progress:",
 		"resetall": "Yes, reset all"
+	},
+	"levelmanage": {
+		"import": {
+			"averagexp": "Import from averaged xp count",
+			"keeplevels": "Import and keep levels",
+			"msgcount": "Import points from message count",
+			"nodata": "There are no users on the MEE6 leaderboard"
+		},
+		"resetcancelled": "The deletion of all level data of this server was cancelled"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** channels were locked, **{FAILED}** couldn't be locked",
@@ -1160,6 +1177,11 @@
 		"dicesingle": "Generated number between **1** and **{MAX}**: **{NUMBER}**",
 		"missingchoices": "You must add more possible choices separated by `,`",
 		"optionlist": "List of options:"
+	},
+	"rdap": {
+		"missingtld": "The domain must have a TLD",
+		"noserver": "The TLD does not have a RDAP (WHOIS) server",
+		"unknowndomain": "The domain could not be found"
 	},
 	"reactionrole": {
 		"roleadded": "The role {ROLE} was added to you!",
