@@ -176,6 +176,10 @@
 		"unknownguild": "Ismeretlen céh",
 		"userscached": "a gyorsítótárban:"
 	},
+	"botwebhook": {
+		"created": "Webhook létrehozva, most már testreszabhatod! URL: {URL}",
+		"enabledms": "Győződjön meg róla, hogy a DM-eket is engedélyezi."
+	},
 	"calc": {
 		"invalid": "Érvénytelen szintaxis",
 		"title": "|                   Számológép                   |"
@@ -554,7 +558,9 @@
 		"dailylimit": "Napi limit elérve",
 		"howcreative": "Mennyire kreatív a ChatGPT válasza?",
 		"temperature": "Hőmérsékleti érték: {VALUE}",
-		"verycreative": "Nagyon kreatív"
+		"topic": "Többnyire a témához ragaszkodik",
+		"verycreative": "Nagyon kreatív",
+		"verytopic": "Teljesen ragaszkodjon a témához"
 	},
 	"guildonly": "Ez a parancs csak szervereken futtatható!",
 	"hack": {
@@ -667,11 +673,16 @@
 		"importing": "A ranglistát most importáljuk, a szerver régi szintadatai csatolva találhatók",
 		"importmee6": "Ez betölti a szerver szintadatait a MEE6-ból, **{USERS}** felhasználókat találtunk. Biztos, hogy folytatni akarja?\n⚠️ **Ezt a műveletet nem lehet visszafordítani!** A régi szintadatokról azonban kap egy biztonsági másolatot.",
 		"level": "Szint",
+		"nobotvote": "Még senki sem szavazott botra ezen a szerveren",
+		"nocountingfail": "Még senki sem bukott meg a számolásban",
+		"noinvite": "Ezen a szerveren még nem észleltek meghívót",
+		"noservervote": "Még senki sem szavazott erre a szerverre",
 		"points": "Pontok",
 		"title": {
 			"botvote": "Bot szavazati ranglista",
 			"counting": "Számláló ranglista",
 			"countingfail": "Counting fail ranglista",
+			"invite": "Meghívásos ranglista",
 			"level": "Szint ranglista",
 			"servervote": "Szerver szavazás ranglista"
 		},
@@ -679,9 +690,19 @@
 	},
 	"level": {
 		"disabled": "A szintek itt le vannak tiltva",
+		"invalidpoints": "Kérjük, adjon meg egy 0 és 100,000 közötti pontértéket",
 		"notfound": "**{USER}** még soha nem küldött üzenetet ide",
 		"progress": "Fejlődés:",
 		"resetall": "Igen, állítsa vissza az összes"
+	},
+	"levelmanage": {
+		"import": {
+			"averagexp": "Importálás az átlagolt xp-számból",
+			"keeplevels": "Szintek importálása és megtartása",
+			"msgcount": "Pontok importálása az üzenetek számából",
+			"nodata": "Nincsenek felhasználók a MEE6 ranglistán"
+		},
+		"resetcancelled": "A kiszolgáló összes szintadatának törlése törlésre került"
 	},
 	"lock": {
 		"locked": "**{SUCCESS}** a csatornákat zárolták, **{FAILED}** nem lehetett zárolni",
@@ -829,6 +850,8 @@
 		"userroleadd": "Szerep hozzáadva",
 		"userroleremove": "Szerep eltávolítva",
 		"vanityurl": "Hiúság URL frissítve",
+		"verificationbypassdisabled": "Ellenőrzés áthidalása letiltva",
+		"verificationbypassenabled": "Ellenőrzés megkerülése engedélyezve",
 		"videoquality": "A `{CHANNEL}` videó minősége frissült",
 		"voicechannelregion": "A `{CHANNEL}` hangcsatorna régiója szerkesztve",
 		"voicejoin": "Hangcsatorna csatlakozott",
@@ -1161,6 +1184,11 @@
 		"missingchoices": "Több lehetséges választási lehetőséget kell hozzáadni, `,`-vel elválasztva",
 		"optionlist": "A lehetőségek listája:"
 	},
+	"rdap": {
+		"missingtld": "A domainnek TLD-vel kell rendelkeznie",
+		"noserver": "A TLD nem rendelkezik RDAP (WHOIS) szerverrel",
+		"unknowndomain": "A tartományt nem sikerült megtalálni"
+	},
 	"reactionrole": {
 		"roleadded": "A {ROLE} szerepkört hozzád adtuk!",
 		"roleaddedmultiple": "A szerepek {ROLES} hozzád kerültek!",
@@ -1380,6 +1408,7 @@
 		},
 		"awaitingreview": "A javaslat mostantól ellenőrizhető és elérhető lesz a {CHANNEL} menüpontban, amint engedélyezik",
 		"cooldown": "Várnia kell **{TIME}**, amíg új javaslatot nyújthat be",
+		"cooldowndm": "Várnia kell **{TIME}**, amíg új javaslatot küldhet a **{SERVER}** oldalon!",
 		"denied": "A(z) **#{ID}** javaslatot elutasították!",
 		"deniedby": "{USER} Által elutasítva",
 		"deniedon": "Elutasítva",
@@ -1660,7 +1689,8 @@
 		"modallabel": "Írja a captcha kép karaktereit",
 		"modaltitle": "Bizonyítsd be, hogy ember vagy",
 		"sent": "Az ellenőrző üzenet sikeresen elküldésre került a {CHANNEL}-ban!",
-		"success": "Sikeresen igazoltad magad!"
+		"success": "Sikeresen igazoltad magad!",
+		"websitebutton": "Ellenőrizze a bot weboldalán"
 	},
 	"voice": {
 		"deafedall": "Megsüketítette az összes felhasználót a hangcsatornádon, kivéve téged",
