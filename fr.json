@@ -231,13 +231,13 @@
 		"missingguild": "Seules **{AMOUNT}** des **{NEEDED}** permissions ont été accordées au bot pour le serveur, les suivantes sont manquantes :\n{MISSING}"
 	},
 	"claim": {
-		"alreadyclaimed": "Ce billet a déjà été réclamé par {USER}",
-		"cantparticipant": "Vous ne pouvez pas réclamer un billet en tant que participant",
-		"claimed": "Le billet a été réclamé par {USER} !",
+		"alreadyclaimed": "Ce ticket a déjà été réclamé par {USER}",
+		"cantparticipant": "Vous ne pouvez pas réclamer un ticket en tant que participant",
+		"claimed": "Le ticket a été réclamé par {USER} !",
 		"claimother": "{USER} a transféré le ticket à {CLAIMER} !",
-		"disabled": "La réclamation de billets n'est pas activée ici",
+		"disabled": "La réclamation de tickets n'est pas activée ici",
 		"nobot": "Vous ne pouvez pas transférer des tickets à des robots",
-		"unclaimyou": "Le billet n'est plus réclamé"
+		"unclaimyou": "Le ticket n'est plus réclamé"
 	},
 	"clonecategory": {
 		"invalid": "La catégorie n'existe pas ou le canal n'est pas une catégorie",
@@ -710,6 +710,7 @@
 	},
 	"logs": {
 		"accountcreated": "Compte créé",
+		"added": "**Ajouté**",
 		"afkchannel": "Canal AFK modifié",
 		"author": "Auteur",
 		"autoarchiveduration": "Mise à jour de la durée d'archivage automatique de `{CHANNEL}`",
@@ -729,6 +730,7 @@
 		"boostadd": "Serverbooth ajouté",
 		"boostremove": "ServerBoost supprimé",
 		"botadd": "Bot ajouté",
+		"botaddcreated": "Bot créé",
 		"botkick": "Bot supprimé",
 		"bulkdelete": "**{MESSAGES}** messages dans `{CHANNEL}` effacés",
 		"camerastarted": "Caméra activée",
@@ -1187,7 +1189,9 @@
 	"rdap": {
 		"missingtld": "Le domaine doit avoir un TLD",
 		"noserver": "Le TLD n'a pas de serveur RDAP (WHOIS)",
-		"unknowndomain": "Le domaine n'a pas pu être trouvé"
+		"title": "WHOIS/RDAP : `{DOMAIN}`",
+		"unknowndomain": "Le domaine n'a pas pu être trouvé",
+		"whoisserver": "Serveur WHOIS"
 	},
 	"reactionrole": {
 		"roleadded": "Le rôle {ROLE} vous a été ajouté !",
@@ -1388,6 +1392,7 @@
 	"steam": {
 		"contentwarning": "Avertissement sur le contenu :",
 		"developers": "Développeur(s)",
+		"discountdefault": "(normalement {PRICE})",
 		"free": "Gratuit",
 		"gameselect": "Sélectionner le jeu",
 		"missing": "Vous devez ajouter le nom d'une entrée dans le Steam store",
@@ -1395,6 +1400,7 @@
 		"price": "Prix",
 		"priceunknown": "Encore inconnue",
 		"publishedat": "Publié",
+		"rating": "Evaluation sur Steam",
 		"resulttitle": "**{RESULTS}** résultats trouvés"
 	},
 	"suggest": {
@@ -1501,6 +1507,7 @@
 		"excludedrole": "Vous ne pouvez pas ouvrir un ticket car vous avez le rôle {ROLES} !",
 		"missingcategorymodal": "La catégorie de ticket ou cette modale n'existe plus !",
 		"missingticketcategory": "Il n'y a pas de catégorie appelée \"Ticket\" sur ce serveur et aucune catégorie de ticket n'a été définie, c'est pourquoi le ticket ne peut pas être créé",
+		"moved": "Le ticket a été déplacé avec succès de la catégorie `{ORIGIN}` vers `{TARGET}`",
 		"notclosed": "Ce canal n'est pas un ticket fermé",
 		"notfound": "Soit ce canal n'est pas un ticket, soit l'auteur du ticket est inconnu",
 		"noticket": "Cette chaîne n'est pas un ticket",
@@ -1508,16 +1515,17 @@
 		"notifydone": "L'auteur a été informé",
 		"notifyerror": "Impossible de prévenir l'auteur",
 		"notranscript": "Aucune transcription automatique n'a été créée, car il n'y avait pas assez de messages envoyés dans ce ticket. Si vous avez besoin d'une transcription, utilisez {TRANSCRIPT}.",
-		"previoustickets": "Billets précédents",
+		"previoustickets": "Tickets précédents",
+		"renamemissing": "Vous devez ajouter un nouveau nom au ticket",
 		"reopenbutton": "Rouvrir le ticket",
 		"reopened": "Le ticket a été rouvert !",
 		"requireRole": "Vous devez avoir le rôle {ROLE} pour pouvoir créer un ticket dans cette catégorie !",
 		"ticketclosing": "Le ticket sera supprimé dans **5** secondes",
 		"transcript": "Voir la transcription",
-		"transcriptdiscordpromo": "Vous souhaitez également archiver tous les messages, y compris les pièces jointes, qui ne sont pas des billets ? Rejoignez notre serveur de support <https://tomatenkuchen.com/discord> et demandez-le !"
+		"transcriptdiscordpromo": "Vous souhaitez également archiver tous les messages, y compris les pièces jointes, qui ne sont pas des tickets ? Rejoignez notre serveur de support <https://tomatenkuchen.com/discord> et demandez-le !"
 	},
 	"ticketembed": {
-		"addbutton": "Ajouter une catégorie de billet",
+		"addbutton": "Ajouter une catégorie de ticket",
 		"button": "Créer un ticket",
 		"buttonstyle": "Le style du bouton",
 		"buttontext": "L'étiquette du bouton",
@@ -1525,15 +1533,15 @@
 		"categoryname": "Nom de catégorie de ticket",
 		"customavatar": "L'URL de l'avatar du webhook",
 		"customize": "Personnaliser",
-		"customizetitle": "Personnaliser l'intégration du billet",
+		"customizetitle": "Personnaliser l'intégration du ticket",
 		"customizeupdated": "L'apparence du ticket a été mise à jour !",
 		"customname": "Le nom du webhook",
 		"description": "Pour créer un ticket, cliquez sur \"Créer un ticket\"",
-		"duplicatecategory": "Il existe déjà un bouton pour la catégorie de billets `{CATEGORY}` !",
+		"duplicatecategory": "Il existe déjà un bouton pour la catégorie de tickets `{CATEGORY}` !",
 		"editmessage": "Modifier le message",
 		"editweb": "Modifier les boutons d'incrustation",
 		"emoji": "Un identifiant emoji pour le bouton",
-		"invalidcategory": "La catégorie de billets **{CATEGORY}** n'existe pas !",
+		"invalidcategory": "La catégorie de ticket **{CATEGORY}** n'existe pas !",
 		"pastebutton": "Copier/coller du code JSON",
 		"pastejson": "Collez le code JSON du message.",
 		"sendin": "Envoyer à {CHANNEL}",
@@ -1545,18 +1553,18 @@
 		"averagedelete": "Durée moyenne du ticket jusqu'à sa suppression",
 		"buttonchannel": "Envoyer ici",
 		"buttondm": "Envoyer dans des DM",
-		"claimedcount": "Montant des billets réclamés",
+		"claimedcount": "Montant des ticket réclamés",
 		"claimfirst": "Temps écoulé jusqu'à ce qu'un ticket ait été réclamé une fois",
-		"closedcount": "Billets fermés",
-		"deletedcount": "Billets supprimés",
+		"closedcount": "Tickets fermés",
+		"deletedcount": "Tickets supprimés",
 		"displaywarning": "Cela affichera tous les tickets{ ? de l'utilisateur?} de ce serveur et toutes les personnes ayant le lien pourront accéder à la transcription.",
-		"opencount": "Billets ouverts",
-		"ownerscount": "Nombre de propriétaires uniques de billets",
+		"opencount": "Tickets ouverts",
+		"ownerscount": "Nombre de propriétaires uniques de tickets",
 		"senddm": "Les journaux des tickets vous ont été envoyés par le biais de dms si le bot pouvait vous dm !",
-		"stats": "Statistiques sur les billets",
-		"title": "Affichage de **{CURRENT}** de **{TOTAL}** billets",
-		"titleshort": "Affichage de **{TOTAL}** billets",
-		"unknowncategory": "La catégorie de billet **{CATEGORY}** n'existe pas",
+		"stats": "Statistiques sur les tickets",
+		"title": "Affichage de **{CURRENT}** de **{TOTAL}** tickets",
+		"titleshort": "Affichage de **{TOTAL}** tickets",
+		"unknowncategory": "La catégorie de ticket **{CATEGORY}** n'existe pas",
 		"usertitle": "Tickets de {USER}"
 	},
 	"timer": {
@@ -1586,6 +1594,7 @@
 	},
 	"transform": {
 		"missing": "Vous devez ajouter un type et un texte",
+		"requestedby": "A votre demande •",
 		"time": {
 			"longdate": "Date longue",
 			"longtime": "Heure longue",
@@ -1682,6 +1691,7 @@
 		"title": "Paramètres de l'utilisateur"
 	},
 	"verification": {
+		"captchastart": "Vous avez **{TIME}** pour détecter et saisir les caractères de couleur verte dans cette image.\nLes lettres dont la casse n'est pas claire sont mises par défaut en majuscules.",
 		"defaulttitle": "Utilisez le bouton ci-dessous pour vous identifier !",
 		"disabled": "La vérification n'est pas activée sur ce serveur !",
 		"invalid": "Votre résultat **{RESULT}** n'est pas valide, réessayez !",
