@@ -710,6 +710,7 @@
 	},
 	"logs": {
 		"accountcreated": "Account erstellt",
+		"added": "**Hinzugefügt**",
 		"afkchannel": "AFK-Kanal bearbeitet",
 		"author": "Ersteller",
 		"autoarchiveduration": "Autoarchivierungszeit von `{CHANNEL}` aktualisiert",
@@ -729,6 +730,7 @@
 		"boostadd": "Serverboost hinzugefügt",
 		"boostremove": "Serverboost entfernt",
 		"botadd": "Bot hinzugefügt",
+		"botaddcreated": "Bot erstellt",
 		"botkick": "Bot entfernt",
 		"bulkdelete": "**{MESSAGES}** Nachrichten in `{CHANNEL}` gecleared",
 		"camerastarted": "Kamera aktiviert",
@@ -1187,7 +1189,9 @@
 	"rdap": {
 		"missingtld": "Die Domain muss eine TLD haben",
 		"noserver": "Die TLD hat keinen RDAP-(WHOIS-)Server",
-		"unknowndomain": "Die Domain konnte nicht gefunden werden"
+		"title": "WHOIS/RDAP: `{DOMAIN}`",
+		"unknowndomain": "Die Domain konnte nicht gefunden werden",
+		"whoisserver": "WHOIS-Server"
 	},
 	"reactionrole": {
 		"roleadded": "Dir wurde die Rolle {ROLE} hinzugefügt!",
@@ -1388,6 +1392,7 @@
 	"steam": {
 		"contentwarning": "Inhaltswarnung:",
 		"developers": "Entwickler",
+		"discountdefault": "(normalerweise {PRICE})",
 		"free": "Kostenlos",
 		"gameselect": "Spiel auswählen",
 		"missing": "Du musst einen Namen eines Eintrages im Steam-Store angeben",
@@ -1395,6 +1400,7 @@
 		"price": "Preis",
 		"priceunknown": "Noch nicht bekannt",
 		"publishedat": "Veröffentlicht",
+		"rating": "Bewertung auf Steam",
 		"resulttitle": "**{RESULTS}** Ergebnisse gefunden"
 	},
 	"suggest": {
@@ -1501,6 +1507,7 @@
 		"excludedrole": "Du darfst aufgrund der Rolle {ROLES} kein Ticket öffnen!",
 		"missingcategorymodal": "Diese Ticketkategorie bzw. dieses Modal existiert nicht mehr!",
 		"missingticketcategory": "Es gibt keine Kategorie mit dem Namen \"Ticket\" auf dem Server und es wurde keine Ticketkategorie festgelegt, weswegen das Ticket nicht erstellt werden kann",
+		"moved": "Das Ticket wurde erfolgreich aus der Kategorie `{ORIGIN}` in `{TARGET}` verschoben",
 		"notclosed": "Dieser Kanal ist kein geschlossenes Ticket",
 		"notfound": "Dieser Kanal ist kein Ticket oder der Ersteller des Tickets ist unbekannt",
 		"noticket": "Dieser Kanal ist kein Ticket",
@@ -1509,6 +1516,7 @@
 		"notifyerror": "Der Ersteller konnte nicht informiert werden",
 		"notranscript": "Es wurde kein automatisches Transcript erstellt, da zu wenig Nachrichten im Ticket gesendet wurden. Soll dennoch eins erstellt werden, nutze {TRANSCRIPT}.",
 		"previoustickets": "Vorherige Tickets",
+		"renamemissing": "Du musst einen neuen Namen für das Ticket angeben",
 		"reopenbutton": "Ticket erneut öffnen",
 		"reopened": "Das Ticket wurde erneut geöffnet!",
 		"requireRole": "Du benötigst die Rolle {ROLE}, um ein Ticket in dieser Kategorie erstellen zu können!",
@@ -1586,6 +1594,7 @@
 	},
 	"transform": {
 		"missing": "Du musst einen Typ und einen Text angeben",
+		"requestedby": "Von dir angefragt •",
 		"time": {
 			"longdate": "Langes Datum",
 			"longtime": "Lange Zeit",
@@ -1682,6 +1691,7 @@
 		"title": "Benutzereinstellungen"
 	},
 	"verification": {
+		"captchastart": "Du hast **{TIME}** Zeit, um die grünen Zeichen im Bild zu erkennen und abzusenden.\nBuchstaben mit unklarer Groß-/Kleinschreibung werden standardmäßig Großschreibung.",
 		"defaulttitle": "Verwende den Button unten, um dich zu verifizieren!",
 		"disabled": "Die Verifizierung ist auf diesem Server nicht aktiviert!",
 		"invalid": "Dein Ergebnis **{RESULT}** ist ungültig, versuche es erneut!",
