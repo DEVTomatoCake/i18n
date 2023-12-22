@@ -1187,7 +1187,9 @@
 	"rdap": {
 		"missingtld": "The domain must have a TLD",
 		"noserver": "The TLD does not have a RDAP (WHOIS) server",
-		"unknowndomain": "The domain could not be found"
+		"title": "WHOIS/RDAP: `{DOMAIN}`",
+		"unknowndomain": "The domain could not be found",
+		"whoisserver": "WHOIS server"
 	},
 	"reactionrole": {
 		"roleadded": "The role {ROLE} was added to you!",
