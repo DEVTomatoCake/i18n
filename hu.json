@@ -710,6 +710,7 @@
 	},
 	"logs": {
 		"accountcreated": "Létrehozott fiók",
+		"added": "**Hozzáadva**",
 		"afkchannel": "AFK csatorna szerkesztett",
 		"author": "Szerző",
 		"autoarchiveduration": "A `{CHANNEL}` automatikus archiválási időtartama frissült",
@@ -729,6 +730,7 @@
 		"boostadd": "Serverboost hozzáadva",
 		"boostremove": "A Serverboost eltávolítva",
 		"botadd": "Bot hozzáadva",
+		"botaddcreated": "Létrehozott bot",
 		"botkick": "Bot eltávolítva",
 		"bulkdelete": "**{MESSAGES}** üzenetek a `{CHANNEL}\"-ben törölve",
 		"camerastarted": "Kamera engedélyezve",
@@ -1187,7 +1189,9 @@
 	"rdap": {
 		"missingtld": "A domainnek TLD-vel kell rendelkeznie",
 		"noserver": "A TLD nem rendelkezik RDAP (WHOIS) szerverrel",
-		"unknowndomain": "A tartományt nem sikerült megtalálni"
+		"title": "WHOIS/RDAP: `{DOMAIN}`",
+		"unknowndomain": "A tartományt nem sikerült megtalálni",
+		"whoisserver": "WHOIS szerver"
 	},
 	"reactionrole": {
 		"roleadded": "A {ROLE} szerepkört hozzád adtuk!",
@@ -1388,6 +1392,7 @@
 	"steam": {
 		"contentwarning": "Tartalmi figyelmeztetés:",
 		"developers": "Fejlesztő(k)",
+		"discountdefault": "(általában {PRICE})",
 		"free": "Ingyenes",
 		"gameselect": "Játék kiválasztása",
 		"missing": "Hozzá kell adnod egy bejegyzést a Steam áruházban",
@@ -1395,6 +1400,7 @@
 		"price": "Ár",
 		"priceunknown": "Még ismeretlen",
 		"publishedat": "Megjelent",
+		"rating": "Értékelés a Steamen",
 		"resulttitle": "**{RESULTS}** talált eredmények"
 	},
 	"suggest": {
@@ -1501,6 +1507,7 @@
 		"excludedrole": "Nem tudsz jegyet nyitni, mert a {ROLES} szerepkörrel rendelkezel!",
 		"missingcategorymodal": "A jegykategória vagy ez a modál már nem létezik!",
 		"missingticketcategory": "Ezen a kiszolgálón nincs \"Ticket\" nevű kategória, és nem volt beállítva jegykategória, ezért nem lehet létrehozni a jegyet",
+		"moved": "A jegyet sikeresen áthelyeztük a `{ORIGIN}` kategóriából a `{TARGET}` kategóriába",
 		"notclosed": "Ez a csatorna nem zárt ticket",
 		"notfound": "Vagy ez a csatorna nem jegy, vagy a jegy szerzője ismeretlen",
 		"noticket": "Ez a csatorna nem ticket",
@@ -1509,6 +1516,7 @@
 		"notifyerror": "Nem tudta értesíteni a szerzőt",
 		"notranscript": "Nem jött létre automatikus transcript, mivel nem érkezett elég üzenet ebben a ticket-ben. Ha transcript-re van szükséged, használd a {TRANSCRIPT} parancsot.",
 		"previoustickets": "Korábbi ticket-ek",
+		"renamemissing": "Új nevet kell adnia a jegyhez",
 		"reopenbutton": "Ticket újranyitása",
 		"reopened": "A ticket újra meg lett nyitva!",
 		"requireRole": "A {ROLE} szerepkörre van szüksége ahhoz, hogy ebben a kategóriában jegyet tudjon létrehozni!",
@@ -1586,6 +1594,7 @@
 	},
 	"transform": {
 		"missing": "Hozzá kell adnia egy típust és egy szöveget",
+		"requestedby": "Az Ön kérésére •",
 		"time": {
 			"longdate": "Hosszú randevú",
 			"longtime": "Hosszú idő",
@@ -1682,6 +1691,7 @@
 		"title": "Felhasználói beállítások"
 	},
 	"verification": {
+		"captchastart": "Önnek **{TIME}** van arra, hogy felismerje és beírja a képen látható zöld színű karaktereket.\nA nem egyértelmű tokozású betűk alapértelmezés szerint nagybetűsek.",
 		"defaulttitle": "Használja az alábbi gombot, hogy ellenőrizze magát!",
 		"disabled": "Az ellenőrzés nincs engedélyezve ezen a szerveren!",
 		"invalid": "Az eredményed **{RESULT}** érvénytelen, próbáld újra!",
