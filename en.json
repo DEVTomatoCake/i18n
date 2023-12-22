@@ -710,6 +710,7 @@
 	},
 	"logs": {
 		"accountcreated": "Account created",
+		"added": "**Added**",
 		"afkchannel": "AFK channel edited",
 		"author": "Author",
 		"autoarchiveduration": "Auto archive duration of `{CHANNEL}` updated",
@@ -729,6 +730,7 @@
 		"boostadd": "Serverboost added",
 		"boostremove": "Serverboost removed",
 		"botadd": "Bot added",
+		"botaddcreated": "Bot created",
 		"botkick": "Bot removed",
 		"bulkdelete": "**{MESSAGES}** messages in `{CHANNEL}` cleared",
 		"camerastarted": "Camera enabled",
@@ -1505,7 +1507,7 @@
 		"excludedrole": "You cannot open a ticket because you have the role {ROLES}!",
 		"missingcategorymodal": "The ticket category or this modal doesn't exist anymore!",
 		"missingticketcategory": "There's no category called \"Ticket\" on this server and there was no ticket category set, which is why the ticket cannot be created",
-		"moved": "The ticket was moved successfully from the category {ORIGIN} to {TARGET}",
+		"moved": "The ticket was moved successfully from the category `{ORIGIN}` to `{TARGET}`",
 		"notclosed": "This channel isn't a closed ticket",
 		"notfound": "Either this channel is not a ticket or the author of the ticket is unknown",
 		"noticket": "This channel isn't a ticket",
@@ -1592,6 +1594,7 @@
 	},
 	"transform": {
 		"missing": "You must add a type and a text",
+		"requestedby": "Requested by you •",
 		"time": {
 			"longdate": "Long date",
 			"longtime": "Long time",
@@ -1688,6 +1691,7 @@
 		"title": "User settings"
 	},
 	"verification": {
+		"captchastart": "You have **{TIME}** to detect and enter the green colored characters in this image.\nLetters with unclear casing default to uppercase.",
 		"defaulttitle": "Use the button below to verify yourself!",
 		"disabled": "The verification isn't enabled on this server!",
 		"invalid": "Your result **{RESULT}** is invalid, try again!",
