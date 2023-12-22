@@ -1390,6 +1390,7 @@
 	"steam": {
 		"contentwarning": "Content warning:",
 		"developers": "Developer(s)",
+		"discountdefault": "(normally {PRICE})",
 		"free": "Free",
 		"gameselect": "Select game",
 		"missing": "You must add a name of an entry in the Steam store",
@@ -1397,6 +1398,7 @@
 		"price": "Price",
 		"priceunknown": "Yet unknown",
 		"publishedat": "Published",
+		"rating": "Rating on Steam",
 		"resulttitle": "**{RESULTS}** results found"
 	},
 	"suggest": {
@@ -1503,6 +1505,7 @@
 		"excludedrole": "You cannot open a ticket because you have the role {ROLES}!",
 		"missingcategorymodal": "The ticket category or this modal doesn't exist anymore!",
 		"missingticketcategory": "There's no category called \"Ticket\" on this server and there was no ticket category set, which is why the ticket cannot be created",
+		"moved": "The ticket was moved successfully from the category {ORIGIN} to {TARGET}",
 		"notclosed": "This channel isn't a closed ticket",
 		"notfound": "Either this channel is not a ticket or the author of the ticket is unknown",
 		"noticket": "This channel isn't a ticket",
@@ -1511,6 +1514,7 @@
 		"notifyerror": "Couldn't notify the author",
 		"notranscript": "No automatic transcript was created, as there weren't enough messages sent in this ticket. If you do need a transcript, use {TRANSCRIPT}.",
 		"previoustickets": "Previous tickets",
+		"renamemissing": "You must add a new name for the ticket",
 		"reopenbutton": "Reopen ticket",
 		"reopened": "The ticket has been reopened!",
 		"requireRole": "You need the role {ROLE} to be able to create a ticket in this category!",
