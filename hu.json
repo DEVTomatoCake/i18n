@@ -1691,6 +1691,7 @@
 		"title": "Felhasználói beállítások"
 	},
 	"verification": {
+		"answer": "Válasz",
 		"captchastart": "Önnek **{TIME}** van arra, hogy felismerje és beírja a képen látható zöld színű karaktereket.\nA nem egyértelmű tokozású betűk alapértelmezés szerint nagybetűsek.",
 		"defaulttitle": "Használja az alábbi gombot, hogy ellenőrizze magát!",
 		"disabled": "Az ellenőrzés nincs engedélyezve ezen a szerveren!",
