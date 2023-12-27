@@ -1691,6 +1691,7 @@
 		"title": "Benutzereinstellungen"
 	},
 	"verification": {
+		"answer": "Beantworten",
 		"captchastart": "Du hast **{TIME}** Zeit, um die grünen Zeichen im Bild zu erkennen und abzusenden.\nBuchstaben mit unklarer Groß-/Kleinschreibung werden standardmäßig Großschreibung.",
 		"defaulttitle": "Verwende den Button unten, um dich zu verifizieren!",
 		"disabled": "Die Verifizierung ist auf diesem Server nicht aktiviert!",
