@@ -393,7 +393,7 @@
 	},
 	"emoji": {
 		"animated": "Élénk",
-		"emojislots": "Megmaradt emoji-helyek: **{REMAINING}**",
+		"emojislots": "**{STATIC}** statikus és **{ANIMATED}** animált emoji-helyek maradtak.",
 		"likes": "Kedveli:",
 		"lockupdated": "A {EMOJI} emoji-t használó szerepek frissültek",
 		"notanimated": "Nem animált",
