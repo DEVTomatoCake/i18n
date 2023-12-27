@@ -393,7 +393,7 @@
 	},
 	"emoji": {
 		"animated": "Animiert",
-		"emojislots": "Verbleibende Emoji-Slots: **{REMAINING}**",
+		"emojislots": "**{STATIC}** statische und **{ANIMATED}** animierte Emojislots übrig.",
 		"likes": "Likes:",
 		"lockupdated": "Die Rollen, welche das Emoji {EMOJI} verwenden können, wurden geändert",
 		"notanimated": "Nicht animiert",
