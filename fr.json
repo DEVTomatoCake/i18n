@@ -1691,6 +1691,7 @@
 		"title": "Paramètres de l'utilisateur"
 	},
 	"verification": {
+		"answer": "Réponse",
 		"captchastart": "Vous avez **{TIME}** pour détecter et saisir les caractères de couleur verte dans cette image.\nLes lettres dont la casse n'est pas claire sont mises par défaut en majuscules.",
 		"defaulttitle": "Utilisez le bouton ci-dessous pour vous identifier !",
 		"disabled": "La vérification n'est pas activée sur ce serveur !",
