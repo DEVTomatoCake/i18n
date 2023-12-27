@@ -1691,6 +1691,7 @@
 		"title": "User settings"
 	},
 	"verification": {
+		"answer": "Answer",
 		"captchastart": "You have **{TIME}** to detect and enter the green colored characters in this image.\nLetters with unclear casing default to uppercase.",
 		"defaulttitle": "Use the button below to verify yourself!",
 		"disabled": "The verification isn't enabled on this server!",
