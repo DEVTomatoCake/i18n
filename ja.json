@@ -289,7 +289,7 @@
 		},
 		"source": "",
 		"title": "",
-		"usedby": ""
+		"usedby": "利用される："
 	},
 	"eval": {
 		"error": "",
@@ -303,6 +303,9 @@
 	"flag": {
 		"missing": "",
 		"unknown": ""
+	},
+	"form": {
+		"preview": "表示"
 	},
 	"github": {
 		"following": "",
@@ -852,7 +855,7 @@
 		"description": "説明",
 		"emojianimated": "",
 		"emojinotanimated": "",
-		"members": "",
+		"members": "メンバー",
 		"messagefilter": "",
 		"newestmember": "",
 		"newestuser": "",
