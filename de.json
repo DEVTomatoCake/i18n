@@ -435,7 +435,7 @@
 		"editfieldspecific": "Feldspezifische Werte bearbeiten",
 		"editform": "Formular **{SLUG}** (`{ID}`) bearbeiten",
 		"editresultchannel": "Ergebniskanal wählen (tippen zum Suchen)",
-		"edittitle": "Titel oder Slug bearbeiten",
+		"edittitle": "Allgemeine Einstellungen bearbeiten",
 		"edittype": "Typ ändern",
 		"fieldnameexists": "Es gibt bereits ein Feld mit dem Namen `{NAME}`. Bitte wähle einen anderen!",
 		"fieldoptions": "Optionen, getrennt mit \";\"",
