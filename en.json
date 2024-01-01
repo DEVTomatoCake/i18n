@@ -435,7 +435,7 @@
 		"editfieldspecific": "Edit field specific options",
 		"editform": "Editing form **{SLUG}** (`{ID}`)",
 		"editresultchannel": "Select result channel (type to search)",
-		"edittitle": "Edit title or slug",
+		"edittitle": "Edit general settings",
 		"edittype": "Edit type",
 		"fieldnameexists": "There's a field with the name `{NAME}`already. Please use something else!",
 		"fieldoptions": "Options separated by \";\"",
