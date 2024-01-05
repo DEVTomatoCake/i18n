@@ -1562,6 +1562,7 @@
 		"ownerscount": "Nombre de propriétaires uniques de tickets",
 		"senddm": "Les journaux des tickets vous ont été envoyés par le biais de dms si le bot pouvait vous dm !",
 		"state": {
+			"closed": "Fermé",
 			"open": "Ouvert"
 		},
 		"stats": "Statistiques sur les tickets",
