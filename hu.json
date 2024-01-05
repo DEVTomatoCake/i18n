@@ -1562,6 +1562,7 @@
 		"ownerscount": "Egyedi jegytulajdonosok száma",
 		"senddm": "A ticket naplókat DM-en keresztül küldtük el neked, ha a bot tud dm-et küldeni neked!",
 		"state": {
+			"closed": "Zárva",
 			"open": "Nyisd ki"
 		},
 		"stats": "Jegystatisztikák",
