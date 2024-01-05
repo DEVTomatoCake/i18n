@@ -435,7 +435,7 @@
 		"editfieldspecific": "Modifier les options spécifiques au champ",
 		"editform": "Modification du formulaire **{SLUG}** (`{ID}`)",
 		"editresultchannel": "Sélectionner le canal de résultat (type de recherche)",
-		"edittitle": "Modifier le titre ou l'étiquette",
+		"edittitle": "Modifier les paramètres généraux",
 		"edittype": "Modifier le type",
 		"fieldnameexists": "Il existe déjà un champ portant le nom `{NAME}`. Veuillez utiliser autre chose !",
 		"fieldoptions": "Options separated by \";\"",
