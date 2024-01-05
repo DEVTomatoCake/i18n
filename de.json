@@ -1563,6 +1563,7 @@
 		"senddm": "Die Ticketlogs wurden dir per PN zugeschickt, wenn der Bot dich anschreiben kann!",
 		"state": {
 			"closed": "Geschlossen",
+			"deleted": "Gelöscht",
 			"open": "Offen"
 		},
 		"stats": "Ticket-Statistiken",
