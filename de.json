@@ -1562,6 +1562,7 @@
 		"ownerscount": "Anzahl verschiedener Ticket-Ersteller",
 		"senddm": "Die Ticketlogs wurden dir per PN zugeschickt, wenn der Bot dich anschreiben kann!",
 		"state": {
+			"closed": "Geschlossen",
 			"open": "Offen"
 		},
 		"stats": "Ticket-Statistiken",
