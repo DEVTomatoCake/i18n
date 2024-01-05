@@ -1563,6 +1563,7 @@
 		"senddm": "A ticket naplókat DM-en keresztül küldtük el neked, ha a bot tud dm-et küldeni neked!",
 		"state": {
 			"closed": "Zárva",
+			"deleted": "Törölve",
 			"open": "Nyisd ki"
 		},
 		"stats": "Jegystatisztikák",
