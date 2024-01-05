@@ -1561,6 +1561,9 @@
 		"opencount": "Tickets ouverts",
 		"ownerscount": "Nombre de propriétaires uniques de tickets",
 		"senddm": "Les journaux des tickets vous ont été envoyés par le biais de dms si le bot pouvait vous dm !",
+		"state": {
+			"open": "Ouvert"
+		},
 		"stats": "Statistiques sur les tickets",
 		"title": "Affichage de **{CURRENT}** de **{TOTAL}** tickets",
 		"titleshort": "Affichage de **{TOTAL}** tickets",
