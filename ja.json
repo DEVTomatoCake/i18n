@@ -1051,6 +1051,7 @@
 		"senddm": "",
 		"state": {
 			"closed": "終了しました",
+			"deleted": "削除された",
 			"open": "オープン"
 		},
 		"stats": "",
