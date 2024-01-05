@@ -1561,6 +1561,10 @@
 		"opencount": "Open tickets",
 		"ownerscount": "Amount of unique ticket owners",
 		"senddm": "The ticket logs were sent to you via dms if the bot could dm you!",
+		"state": {
+			"closed": "Closed",
+			"open": "Open"
+		},
 		"stats": "Ticket statistics",
 		"title": "Showing **{CURRENT}** of **{TOTAL}** tickets",
 		"titleshort": "Showing **{TOTAL}** tickets",
