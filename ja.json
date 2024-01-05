@@ -1049,6 +1049,9 @@
 		"opencount": "",
 		"ownerscount": "",
 		"senddm": "",
+		"state": {
+			"open": "オープン"
+		},
 		"stats": "",
 		"title": "",
 		"titleshort": ""
