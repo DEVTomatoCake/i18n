@@ -1050,6 +1050,7 @@
 		"ownerscount": "",
 		"senddm": "",
 		"state": {
+			"closed": "終了しました",
 			"open": "オープン"
 		},
 		"stats": "",
