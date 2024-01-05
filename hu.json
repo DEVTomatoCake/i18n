@@ -1561,6 +1561,9 @@
 		"opencount": "Nyitott jegyek",
 		"ownerscount": "Egyedi jegytulajdonosok száma",
 		"senddm": "A ticket naplókat DM-en keresztül küldtük el neked, ha a bot tud dm-et küldeni neked!",
+		"state": {
+			"open": "Nyisd ki"
+		},
 		"stats": "Jegystatisztikák",
 		"title": "**{CURRENT}**/**{TOTAL}** ticket megjelenítése",
 		"titleshort": "**{TOTAL}** ticket megjelenítése",
