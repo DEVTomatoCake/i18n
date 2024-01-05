@@ -1563,6 +1563,7 @@
 		"senddm": "The ticket logs were sent to you via dms if the bot could dm you!",
 		"state": {
 			"closed": "Closed",
+			"deleted": "Deleted",
 			"open": "Open"
 		},
 		"stats": "Ticket statistics",
