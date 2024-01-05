@@ -435,7 +435,7 @@
 		"editfieldspecific": "Mezőspecifikus beállítások szerkesztése",
 		"editform": "**{SLUG}** űrlap szerkesztése (`{ID}`)",
 		"editresultchannel": "Válassza ki az eredménycsatornát (a keresés típusa)",
-		"edittitle": "Cím vagy slug szerkesztése",
+		"edittitle": "Általános beállítások szerkesztése",
 		"edittype": "Típus szerkesztése",
 		"fieldnameexists": "Már van egy mező a `{NAME}` névvel. Kérjük, használjon valami mást!",
 		"fieldoptions": "\";\"-val elválasztott opciók",
