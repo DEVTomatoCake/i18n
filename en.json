@@ -1696,8 +1696,9 @@
 		"title": "User settings"
 	},
 	"verification": {
+		"alreadyverified": "You've got one or more verification roles already and are therefore unable to verify again!",
 		"answer": "Answer",
-		"captchastart": "You have **{TIME}** to detect and enter the green colored characters in this image.\nLetters with unclear casing default to uppercase.",
+		"captchastart": "Press the button and enter all green colored characters in the image.\nSubmit until: {TIME}",
 		"defaulttitle": "Use the button below to verify yourself!",
 		"disabled": "The verification isn't enabled on this server!",
 		"invalid": "Your result **{RESULT}** is invalid, try again!",
