@@ -1696,8 +1696,9 @@
 		"title": "Felhasználói beállítások"
 	},
 	"verification": {
+		"alreadyverified": "Ön már rendelkezik egy vagy több ellenőrző szereppel, ezért nem tud újra ellenőrizni!",
 		"answer": "Válasz",
-		"captchastart": "Önnek **{TIME}** van arra, hogy felismerje és beírja a képen látható zöld színű karaktereket.\nA nem egyértelmű tokozású betűk alapértelmezés szerint nagybetűsek.",
+		"captchastart": "Nyomja meg a gombot, és adja meg a képen látható összes zöld színű karaktert.\nAddig küldje be, amíg: {TIME}",
 		"defaulttitle": "Használja az alábbi gombot, hogy ellenőrizze magát!",
 		"disabled": "Az ellenőrzés nincs engedélyezve ezen a szerveren!",
 		"invalid": "Az eredményed **{RESULT}** érvénytelen, próbáld újra!",
