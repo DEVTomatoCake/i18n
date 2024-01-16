@@ -1696,8 +1696,9 @@
 		"title": "Paramètres de l'utilisateur"
 	},
 	"verification": {
+		"alreadyverified": "Vous avez déjà un ou plusieurs rôles de vérification et ne pouvez donc pas vérifier à nouveau !",
 		"answer": "Réponse",
-		"captchastart": "Vous avez **{TIME}** pour détecter et saisir les caractères de couleur verte dans cette image.\nLes lettres dont la casse n'est pas claire sont mises par défaut en majuscules.",
+		"captchastart": "Appuyez sur le bouton et entrez tous les caractères de couleur verte dans l'image.\nSoumettre jusqu'à : {TIME}",
 		"defaulttitle": "Utilisez le bouton ci-dessous pour vous identifier !",
 		"disabled": "La vérification n'est pas activée sur ce serveur !",
 		"invalid": "Votre résultat **{RESULT}** n'est pas valide, réessayez !",
