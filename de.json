@@ -1696,8 +1696,9 @@
 		"title": "Benutzereinstellungen"
 	},
 	"verification": {
+		"alreadyverified": "Du besitzt schon eine oder mehrere Verifikationsrollen und kannst dich daher nicht erneut verifizieren!",
 		"answer": "Beantworten",
-		"captchastart": "Du hast **{TIME}** Zeit, um die grünen Zeichen im Bild zu erkennen und abzusenden.\nBuchstaben mit unklarer Groß-/Kleinschreibung werden standardmäßig Großschreibung.",
+		"captchastart": "Drücke den Button und gib alle grün gefärbten Zeichen im Bild ein.\nAbsenden bis: {TIME}",
 		"defaulttitle": "Verwende den Button unten, um dich zu verifizieren!",
 		"disabled": "Die Verifizierung ist auf diesem Server nicht aktiviert!",
 		"invalid": "Dein Ergebnis **{RESULT}** ist ungültig, versuche es erneut!",
