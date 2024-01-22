@@ -172,7 +172,6 @@
 			"transcripts": "Transcriptions :"
 		},
 		"speed": "Vitesse",
-		"statcorderror": "Impossible d'extraire les données de l'état. Réessayez plus tard",
 		"unknownguild": "guilde inconnue",
 		"userscached": "dans le cache :"
 	},
