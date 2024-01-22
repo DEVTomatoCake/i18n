@@ -157,7 +157,6 @@
 		"amount": "Amount",
 		"commands": "Commands",
 		"lines": "Lines",
-		"nocustom": "Not support for custom bots",
 		"servers": "Servers",
 		"size": {
 			"allcommands": "Commands overall:",
