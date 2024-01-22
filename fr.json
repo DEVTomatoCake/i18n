@@ -157,7 +157,6 @@
 		"amount": "Montant",
 		"commands": "Commandes",
 		"lines": "Lignes",
-		"nocustom": "Pas de support pour les bots personnalisés",
 		"servers": "Serveurs",
 		"size": {
 			"allcommands": "L'ensemble des commandes :",
