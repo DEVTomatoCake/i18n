@@ -156,7 +156,6 @@
 	"bot": {
 		"amount": "Amount",
 		"commands": "Commands",
-		"commandsused": "Used commands",
 		"lines": "Lines",
 		"mostused": "Most used commands",
 		"nocustom": "Not support for custom bots",
