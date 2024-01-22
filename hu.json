@@ -157,7 +157,6 @@
 		"amount": "Összeg",
 		"commands": "Parancsok",
 		"lines": "Vonalak",
-		"mostused": "Leggyakrabban használt parancsok",
 		"nocustom": "Nem támogatja az egyéni botokat",
 		"servers": "Szerverek",
 		"size": {
