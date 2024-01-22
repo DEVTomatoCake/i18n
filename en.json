@@ -172,7 +172,6 @@
 			"transcripts": "Transcripts:"
 		},
 		"speed": "Speed",
-		"statcorderror": "The data from statcord couldn't be fetched, please try again later",
 		"unknownguild": "Unknown guild",
 		"userscached": "in cache:"
 	},
