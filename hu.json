@@ -157,7 +157,6 @@
 		"amount": "Összeg",
 		"commands": "Parancsok",
 		"lines": "Vonalak",
-		"nocustom": "Nem támogatja az egyéni botokat",
 		"servers": "Szerverek",
 		"size": {
 			"allcommands": "Parancsok összességében:",
