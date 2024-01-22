@@ -177,6 +177,7 @@
 		"enabledms": "Make sure to enable your DMs too."
 	},
 	"calc": {
+		"inputtoolong": "The expression `{INPUT}` is too long!",
 		"invalid": "Invalid syntax",
 		"title": "|                         Calculator                        |"
 	},
