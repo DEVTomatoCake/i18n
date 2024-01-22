@@ -172,7 +172,6 @@
 			"transcripts": "Transcripte:"
 		},
 		"speed": "Geschwindigkeit",
-		"statcorderror": "Die Informationen von Statcord können nicht abgefragt werden, bitte versuche es später nochmal",
 		"unknownguild": "Unbekannter Server",
 		"userscached": "davon im Cache:"
 	},
