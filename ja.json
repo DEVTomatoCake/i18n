@@ -128,7 +128,6 @@
 	"bot": {
 		"amount": "番号",
 		"commands": "コマンド",
-		"commandsused": "",
 		"mostused": "",
 		"servers": "サーバー",
 		"size": {
