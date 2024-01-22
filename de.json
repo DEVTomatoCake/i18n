@@ -157,7 +157,6 @@
 		"amount": "Insgesamt",
 		"commands": "Befehle",
 		"lines": "Zeilen",
-		"mostused": "Oft genutzte Befehle",
 		"nocustom": "Nicht unterstützt für Custom-Bots",
 		"servers": "Server",
 		"size": {
