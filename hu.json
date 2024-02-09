@@ -1177,7 +1177,7 @@
 		"average": "A **{AMOUNT}** számok átlaga a **{AVERAGE}**",
 		"averagemissing": "Több számot kell hozzáadni, hogy az átlagot ki lehessen számítani",
 		"chosen": "A **{CHOSEN}** választom!",
-		"dicemultiple": "Generált **{AMOUNT}** számok **1** és **{MAX}** között: **{NUMBERS}**",
+		"dicemultiple": "Generált **{AMOUNT}** számok **1** és **{MAX}** között, **{USER}**: **{NUMBERS}**",
 		"dicesingle": "Generált szám **1** és **{MAX}** között: **{NUMBER}**",
 		"missingchoices": "Több lehetséges választási lehetőséget kell hozzáadni, `,`-vel elválasztva",
 		"optionlist": "A lehetőségek listája:"
