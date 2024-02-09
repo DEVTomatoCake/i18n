@@ -1177,7 +1177,7 @@
 		"average": "La moyenne des nombres **{AMOUNT}** est **{AVERAGE}**",
 		"averagemissing": "Vous devez ajouter d'autres nombres pour que la moyenne puisse être calculée",
 		"chosen": "Je choisis **{CHOSEN}** !",
-		"dicemultiple": "Génère **{AMOUNT}** nombres entre **1** et **{MAX}** : **{NUMBERS}**",
+		"dicemultiple": "Génère **{AMOUNT}** nombres entre **1** et **{MAX}**, **{USER}** : **{NUMBERS}**",
 		"dicesingle": "Nombre généré entre **1** et **{MAX}** : **{NUMBER}**",
 		"missingchoices": "Vous devez ajouter d'autres choix possibles séparés par `,`",
 		"optionlist": "Liste des options :"
