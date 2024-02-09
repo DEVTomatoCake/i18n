@@ -177,6 +177,7 @@
 		"enabledms": "Stelle sicher, dass deine PNs aktiviert sind."
 	},
 	"calc": {
+		"inputtoolong": "Die Eingabe `{INPUT}` ist zu lang!",
 		"invalid": "Ungültige Syntax",
 		"title": "|                   Taschenrechner                   |"
 	},
@@ -1177,7 +1178,7 @@
 		"average": "Der Durchschnitt der **{AMOUNT}** Zahlen ist **{AVERAGE}**",
 		"averagemissing": "Du musst mehr Zahlen angeben, damit der Durchschnitt berechnet werden kann",
 		"chosen": "Ich nehme **{CHOSEN}**!",
-		"dicemultiple": "**{AMOUNT}** Zahlen zwischen **1** und **{MAX}** generiert: **{NUMBERS}**",
+		"dicemultiple": "**{AMOUNT}** Zahlen zwischen **1** und **{MAX}** generiert, **{USER}**: **{NUMBERS}**",
 		"dicesingle": "Zahl zwischen **1** und **{MAX}** generiert: **{NUMBER}**",
 		"missingchoices": "Du musst mehr mögliche Antworten mit `,` getrennt angeben",
 		"optionlist": "Liste der Optionen:"
