@@ -1178,7 +1178,7 @@
 		"average": "The average of the **{AMOUNT}** numbers is **{AVERAGE}**",
 		"averagemissing": "You must add more numbers so the average can be calculated",
 		"chosen": "I choose **{CHOSEN}**!",
-		"dicemultiple": "Generated **{AMOUNT}** numbers between **1** and **{MAX}**: **{NUMBERS}**",
+		"dicemultiple": "Generated **{AMOUNT}** numbers between **1** and **{MAX}**, **{USER}**: **{NUMBERS}**",
 		"dicesingle": "Generated number between **1** and **{MAX}**: **{NUMBER}**",
 		"missingchoices": "You must add more possible choices separated by `,`",
 		"optionlist": "List of options:"
