@@ -177,6 +177,7 @@
 		"enabledms": "Győződjön meg róla, hogy a DM-eket is engedélyezi."
 	},
 	"calc": {
+		"inputtoolong": "A `{INPUT}` kifejezés túl hosszú!",
 		"invalid": "Érvénytelen szintaxis",
 		"title": "|                   Számológép                   |"
 	},
@@ -1337,7 +1338,7 @@
 		"invalidurl": "Érvényes URL-t kell megadnia",
 		"mostusedbrowsers": "Leggyakrabban használt böngészők",
 		"redirects": "URL átirányítások",
-		"statstitle": "shorter.cf statisztikák az elmúlt hónapból",
+		"statstitle": "sh0rt.zip statisztikák az elmúlt hónapból",
 		"views": "Nézettség",
 		"weekstats": "**{WEEK}.** hét: {REQUESTS} kérések ({CACHED}%-uk gyorsítótárazva, {ENCRYPTED}%-uk titkosítva), {PAGEVIEWS} oldalmegtekintések"
 	},
