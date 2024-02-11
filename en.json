@@ -1338,7 +1338,7 @@
 		"invalidurl": "You must enter a valid URL",
 		"mostusedbrowsers": "Most-used browsers",
 		"redirects": "URL redirects",
-		"statstitle": "shorter.cf stats of the last month",
+		"statstitle": "sh0rt.zip stats of the last month",
 		"views": "Views",
 		"weekstats": "**{WEEK}.** week: {REQUESTS} requests ({CACHED}% of them cached, {ENCRYPTED}% encrypted), {PAGEVIEWS} page views"
 	},
