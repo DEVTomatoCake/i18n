@@ -347,7 +347,7 @@
 		"wordselect": "Wort auswählen…"
 	},
 	"economy": {
-		"cooldown": "Du hast noch einen Cooldown für diesen Befehl: **{COOLDOWN}**",
+		"cooldown": "Du hast noch einen Cooldown für diesen Befehl, welcher {COOLDOWN} ausläuft",
 		"deposit": "Du hast **{AMOUNT}** auf die Bank eingezahlt",
 		"invalidamount": "Du musst einen gültigen Betrag angeben",
 		"inventory": "Inventar",
