@@ -1338,7 +1338,7 @@
 		"invalidurl": "Du musst eine gültige URL angeben",
 		"mostusedbrowsers": "Meistgenutzte Browser",
 		"redirects": "URL-Weiterleitungen",
-		"statstitle": "shorter.cf Stats des letzten Monats",
+		"statstitle": "sh0rt.zip-Stats des letzten Monats",
 		"views": "Aufrufe",
 		"weekstats": "**{WEEK}.** Woche: {REQUESTS} Anfragen (davon {CACHED} % gecached, {ENCRYPTED} % verschlüsselt), {PAGEVIEWS} Seitenaufrufe"
 	},
