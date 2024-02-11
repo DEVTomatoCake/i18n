@@ -177,6 +177,7 @@
 		"enabledms": "Veillez également à activer vos DM."
 	},
 	"calc": {
+		"inputtoolong": "L'expression `{INPUT}` est trop longue !",
 		"invalid": "Syntaxe incorrecte",
 		"title": "| Calculatrice                        |"
 	},
@@ -1337,7 +1338,7 @@
 		"invalidurl": "Vous devez saisir une URL valide",
 		"mostusedbrowsers": "Navigateurs les plus utilisés",
 		"redirects": "Redirections d'URL",
-		"statstitle": "stats du mois dernier de shorter.cf",
+		"statstitle": "stats du mois dernier de sh0rt.zip",
 		"views": "Points de vue",
 		"weekstats": "**{WEEK}.** semaine : {REQUESTS} requêtes ({CACHED}% d'entre elles mises en cache, {ENCRYPTED}% cryptées), {PAGEVIEWS} pages vues"
 	},
