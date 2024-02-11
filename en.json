@@ -347,7 +347,7 @@
 		"wordselect": "Select word…"
 	},
 	"economy": {
-		"cooldown": "You still have a cooldown for this command: **{COOLDOWN}**",
+		"cooldown": "You still have a cooldown for this command which runs out {COOLDOWN}",
 		"deposit": "You have deposited **{AMOUNT}**",
 		"invalidamount": "You must add a valid amount",
 		"inventory": "Inventory",
