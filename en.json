@@ -719,6 +719,7 @@
 		"automodrename": "AutoMod rule renamed",
 		"automodruledisable": "AutoMod rule **{RULE}** disabled",
 		"automodruleenable": "AutoMod rule **{RULE}** enabled",
+		"automodtimeout": "Timeout duration of the AutoMod rule **{RULE}** edited",
 		"automodtrigger": "Triggers of the AutoMod rule **{RULE}** edited",
 		"automodtriggeradd": "Keyword trigger added to AutoMod rule **{RULE}**",
 		"automodtriggerremove": "Keyword trigger removed from AutoMod rule **{RULE}**",
