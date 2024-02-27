@@ -920,7 +920,6 @@
 	"mcrecipe": {
 		"loading": "Loading…",
 		"missing": "You must add a German minecraft item name",
-		"title": "Recipe of **{ITEM}**",
 		"unknown": "The item **{ITEM}** couldn't be found"
 	},
 	"mcrelease": {
