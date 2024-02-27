@@ -920,7 +920,6 @@
 	"mcrecipe": {
 		"loading": "Betöltés…",
 		"missing": "Hozzá kell adnia egy német minecraft elemnevet",
-		"title": "**{ITEM}** receptje",
 		"unknown": "A **{ITEM}** elem nem található"
 	},
 	"mcrelease": {
