@@ -920,7 +920,6 @@
 	"mcrecipe": {
 		"loading": "Lade…",
 		"missing": "Du musst einen deutschen Minecraft-Item-Namen angeben",
-		"title": "Rezept von **{ITEM}**",
 		"unknown": "Das Item **{ITEM}** wurde nicht gefunden"
 	},
 	"mcrelease": {
