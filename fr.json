@@ -920,7 +920,6 @@
 	"mcrecipe": {
 		"loading": "Chargement…",
 		"missing": "Vous devez ajouter un nom d'élément minecraft allemand",
-		"title": "Recette de **{ITEM}**",
 		"unknown": "L'élément **{ITEM}** est introuvable"
 	},
 	"mcrelease": {
