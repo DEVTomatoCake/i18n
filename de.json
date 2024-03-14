@@ -1731,7 +1731,7 @@
 	},
 	"work": {
 		"captcha": {
-			"start": "**{USER}**, löse folgendes Captcha:"
+			"start": "**{USER}**, löse das angehängte Captcha, indem du mit den grün gefärbten Zeichen antwortet.\nWenn du dir nicht sicher über die Großschreibung eines Buchstabens bist, verwende Großschreibung."
 		},
 		"lose": {
 			"time": "Du warst zu langsam!"
