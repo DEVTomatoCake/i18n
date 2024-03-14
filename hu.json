@@ -1731,7 +1731,7 @@
 	},
 	"work": {
 		"captcha": {
-			"start": "**{USER}**, oldja meg a következő captcha-t:"
+			"start": "**{USER}**, oldja meg a mellékelt captcha-t a zöld színű karakterekkel.\nHa nem vagy biztos a karakterek betűtípusában, válaszd a nagybetűs változatot."
 		},
 		"lose": {
 			"time": "Túl lassú voltál!"
