@@ -1731,7 +1731,7 @@
 	},
 	"work": {
 		"captcha": {
-			"start": "**{USER}**, résolvez la capture suivante :"
+			"start": "**{USER}**, résolvez le captcha ci-joint en répondant avec les caractères de couleur verte.\nSi vous n'êtes pas sûr de la casse des caractères, choisissez la variante majuscule."
 		},
 		"lose": {
 			"time": "Tu étais trop lent !"
