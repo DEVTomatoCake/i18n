@@ -1731,7 +1731,7 @@
 	},
 	"work": {
 		"captcha": {
-			"start": "**{USER}**, solve the following captcha:"
+			"start": "**{USER}**, solve the attached captcha by responding with the green colored characters.\nIf you aren't sure about the character casing, choose the uppercase variant."
 		},
 		"lose": {
 			"time": "You were too slow!"
