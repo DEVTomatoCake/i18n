@@ -410,6 +410,13 @@
 		"result": "Eredmény",
 		"time": "Idő"
 	},
+	"event": {
+		"location": {
+			"external": "Külső: {LOCATION}",
+			"stage": "Színpadi csatorna: {CHANNEL}",
+			"voice": "Hangcsatorna: {CHANNEL}"
+		}
+	},
 	"feedback": {
 		"text": "Az Ön visszajelzése vagy javaslata",
 		"title": "Adjon visszajelzést"
