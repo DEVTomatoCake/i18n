@@ -413,7 +413,7 @@
 	"event": {
 		"location": {
 			"external": "External: {LOCATION}",
-			"stage": "Stagekanal: {CHANNEL}",
+			"stage": "Stage channel: {CHANNEL}",
 			"voice": "Voice channel: {CHANNEL}"
 		}
 	},
