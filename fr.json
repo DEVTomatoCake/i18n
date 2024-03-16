@@ -410,6 +410,13 @@
 		"result": "Résultat",
 		"time": "Heure"
 	},
+	"event": {
+		"location": {
+			"external": "Externe : {LOCATION}",
+			"stage": "Canal de scène : {CHANNEL}",
+			"voice": "Canal vocal : {CHANNEL}"
+		}
+	},
 	"feedback": {
 		"text": "Vos commentaires ou suggestions",
 		"title": "Donnez votre avis"
