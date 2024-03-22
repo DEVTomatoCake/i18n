@@ -1722,6 +1722,9 @@
 		"deafedall": "Assourdissement de tous les utilisateurs de votre canal vocal, à l'exception de vous-même",
 		"mutedall": "Mise en sourdine de tous les utilisateurs de votre canal vocal, à l'exception de vous-même"
 	},
+	"voicemute": {
+		"autounmute": "Mise en sourdine automatique de la voix"
+	},
 	"vote": {
 		"nextvote": "Prochain vote dans **{TIME}**"
 	},
