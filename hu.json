@@ -1722,6 +1722,9 @@
 		"deafedall": "Megsüketítette az összes felhasználót a hangcsatornádon, kivéve téged",
 		"mutedall": "A hangcsatornádon lévő összes felhasználó elnémítása, kivéve téged"
 	},
+	"voicemute": {
+		"autounmute": "Automatikus hangfeloldás"
+	},
 	"vote": {
 		"nextvote": "Következő szavazás **{TIME}**"
 	},
