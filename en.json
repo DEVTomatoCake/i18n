@@ -1722,6 +1722,9 @@
 		"deafedall": "Deafened all users in your voice channel except you",
 		"mutedall": "Muted all users in your voice channel except you"
 	},
+	"voicemute": {
+		"autounmute": "Automatic voice unmute"
+	},
 	"vote": {
 		"nextvote": "Next vote in **{TIME}**"
 	},
