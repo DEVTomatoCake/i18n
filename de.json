@@ -1722,6 +1722,9 @@
 		"deafedall": "Alle Mitglieder in deinem Sprachkanal, außer dir, wurden taub geschaltet",
 		"mutedall": "Alle Mitglieder in deinem Sprachkanal, außer dir, wurden stummgeschaltet"
 	},
+	"voicemute": {
+		"autounmute": "Automatischer Sprachunmute"
+	},
 	"vote": {
 		"nextvote": "Nächster Vote in **{TIME}**"
 	},
