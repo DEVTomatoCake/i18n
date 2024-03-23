@@ -666,6 +666,7 @@
 		"inviter": "Invité par {USER}",
 		"vanity": "Rejoint avec vanity URL"
 	},
+	"key": "fr",
 	"kick": {
 		"cantkick": "Je n'arrive pas à faire sortir **{USER}** de ses gonds",
 		"fail": "Je ne peux pas frapper cet utilisateur",
