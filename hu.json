@@ -666,6 +666,7 @@
 		"inviter": "{USER} meghívója",
 		"vanity": "Csatlakozott a hiúsági URL-hez"
 	},
+	"key": "hu",
 	"kick": {
 		"cantkick": "Nem tudok rúgni **{USER}**",
 		"fail": "Nem tudom megrúgni ezt a felhasználót",
