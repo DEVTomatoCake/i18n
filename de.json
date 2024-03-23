@@ -666,6 +666,7 @@
 		"inviter": "Einladung erstellt von {USER}",
 		"vanity": "Beigetreten mit Vanity-URL"
 	},
+	"key": "de",
 	"kick": {
 		"cantkick": "Ich kann **{USER}** nicht kicken",
 		"fail": "Der Nutzer kann nicht gekickt werden",
