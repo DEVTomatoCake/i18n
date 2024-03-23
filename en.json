@@ -666,6 +666,7 @@
 		"inviter": "Invited by {USER}",
 		"vanity": "Joined with vanity URL"
 	},
+	"key": "en",
 	"kick": {
 		"cantkick": "I cannot kick **{USER}**",
 		"fail": "I cannot kick this user",
