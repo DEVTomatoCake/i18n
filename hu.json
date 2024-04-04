@@ -922,9 +922,6 @@
 		"unknown": "Ez a minecraft hibajelentés nem létezik",
 		"uploadby": "Feltöltötte: {USER}"
 	},
-	"mclint": {
-		"missingcommand": "Meg kell adnia egy parancsot"
-	},
 	"mcrecipe": {
 		"loading": "Betöltés…",
 		"missing": "Hozzá kell adnia egy német minecraft elemnevet",
