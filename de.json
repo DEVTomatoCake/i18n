@@ -4,6 +4,7 @@
 		"success": "{USERORROLE} wurde zum Ticket hinzugefügt"
 	},
 	"addemoji": {
+		"cancelled": "Der Import wurde aufgrund des folgenden Fehler abgebrochen: `{ERROR}`",
 		"error": "⚠️ {URL} konnte nicht hinzugefügt werden!",
 		"missing": "Du musst ein Emoji angeben",
 		"noneadded": "Es wurden keine Emojis hinzugefügt",
@@ -189,6 +190,11 @@
 	},
 	"cantusebutton": "Nur **{USER}** kann Buttons auf dieser Nachricht nutzen!",
 	"cantuseselect": "Nur **{USER}** kann das Selectmenü dieser Nachricht nutzen!",
+	"channel": {
+		"invalid": "Du musst einen gültigen Kanal angeben",
+		"invalidsource": "Du musst einen gültigen Quellkanal angeben",
+		"invalidtarget": "Du musst einen gültigen Zielkanal angeben"
+	},
 	"channelinfo": {
 		"automatic": "Automatisch",
 		"bitrate": "Bitrate",
@@ -313,6 +319,7 @@
 	},
 	"diff": {
 		"missing": "Du musst einen zweiten Text mit ` | ` getrennt angeben",
+		"number": "Differenz: **{DIFFERENCE}**\nDurchschnitt: **{AVERAGE}**\nProzentuale Differenz: **{PERCENTAGE} %**",
 		"title": "{PERCENT} ähnlich"
 	},
 	"dig": {
@@ -391,6 +398,7 @@
 	"emoji": {
 		"animated": "Animiert",
 		"emojislots": "**{STATIC}** statische und **{ANIMATED}** animierte Emojislots übrig.",
+		"invalid": "Du musst ein gültiges Emoji angeben",
 		"likes": "Likes:",
 		"lockupdated": "Die Rollen, welche das Emoji {EMOJI} verwenden können, wurden geändert",
 		"notanimated": "Nicht animiert",
@@ -417,12 +425,17 @@
 			"voice": "Sprachkanal: {CHANNEL}"
 		}
 	},
+	"eventimport": {
+		"invalid": "Bitte gib eine gültige Kalenderdatei an",
+		"missing": "Bitte gib eine Kalenderdatei als Anhang oder eine URL als Argument an"
+	},
 	"feedback": {
 		"text": "Dein Feedback oder Vorschlag",
 		"title": "Feedback geben"
 	},
 	"fileblacklist": {
-		"empty": "Es gibt keine geblacklisteten Dateien"
+		"empty": "Es gibt keine geblacklisteten Dateien",
+		"missing": "Du musst eine Datei anhängen oder eine URL oder einen Dateihash zum Blacklisten angeben"
 	},
 	"flag": {
 		"missing": "Du musst die Abkürzung eines Landes angeben",
@@ -453,6 +466,7 @@
 		"setuptitle": "Formular **{SLUG}** (`{ID}`) einrichten",
 		"slugedit": "Slug bearbeiten",
 		"slugexists": "Es gibt bereits ein Formular mit dem Slug **{SLUG}**. Bitte wähle einen anderen!",
+		"submitmessage": "Text, der nach erfolgreichem Absenden angezeigt wird",
 		"title": "Formulare",
 		"type": {
 			"choice": "Einzel- oder Mehrfachauswahl",
@@ -470,6 +484,7 @@
 		"c4message": "Vier-gewinnt-Spiel von **{USER1}** und **{USER2}**:\nAktuell spielt: {TURN}.",
 		"full": "Das Spiel ist voll!",
 		"hangmanfail": "Hangman fehlgeschlagen!",
+		"invalidsize": "Die Feldgröße muss zwischen **{MIN}** und **{MAX}** liegen",
 		"joingame": "Spiel beitreten",
 		"notingame": "Du spielst nicht mit!",
 		"notyou": "Du darfst nicht gegen dich selbst spielen",
@@ -1396,6 +1411,7 @@
 		}
 	},
 	"steam": {
+		"achievements": "Fortschritte: **{AMOUNT}**",
 		"contentwarning": "Inhaltswarnung:",
 		"developers": "Entwickler",
 		"discountdefault": "(normalerweise {PRICE})",
@@ -1652,6 +1668,7 @@
 		"dontuse": "Nicht verwenden",
 		"drawcard": "Karte ziehen",
 		"endwin": "{USER} hat das Spiel gewonnen! Es wurden **{CARDS}** Karten ausgespielt.",
+		"forgotbutton": "⚠️ Du musst den Uno!-Button nutzen, bevor du die vorletzte Karte legst! Du hast **{CARDS}** Strafkarte(n) erhalten.",
 		"inactivekick": "{USER}, du wurdest aus dem Uno-Spiel geworfen, weil du mehr als zwei Minuten lang inaktiv warst!",
 		"invalidcard": "❌ Ungültige Karte **{CARD}**!",
 		"joined": "Du bist dem Spiel beigetreten!",
