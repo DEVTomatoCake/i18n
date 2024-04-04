@@ -922,9 +922,6 @@
 		"unknown": "This minecraft bugreport doesn't exist",
 		"uploadby": "Uploaded by {USER}"
 	},
-	"mclint": {
-		"missingcommand": "You must enter a command"
-	},
 	"mcrecipe": {
 		"loading": "Loading…",
 		"missing": "You must add a German minecraft item name",
