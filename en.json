@@ -426,14 +426,16 @@
 		}
 	},
 	"eventimport": {
-		"missing": "Please provide a calendar file as attachment or an URL of it as argument"
+		"invalid": "Please provide a valid calendar file",
+		"missing": "Please provide a calendar file as attachment or a URL of it as argument"
 	},
 	"feedback": {
 		"text": "Your feedback or suggestion",
 		"title": "Give Feedback"
 	},
 	"fileblacklist": {
-		"empty": "There are no blacklisted files"
+		"empty": "There are no blacklisted files",
+		"missing": "You must attach a file or provide a URL or file hash to blacklist"
 	},
 	"flag": {
 		"missing": "You must add the abbreviation of a country",
@@ -464,6 +466,7 @@
 		"setuptitle": "Setting up form **{SLUG}** (`{ID}`)",
 		"slugedit": "Edit slug",
 		"slugexists": "There's a form with the slug **{SLUG}** already. Please use something else!",
+		"submitmessage": "Text displayed after submitting successfully",
 		"title": "Forms",
 		"type": {
 			"choice": "Single or multiple choice",
@@ -481,6 +484,7 @@
 		"c4message": "Connect Four game of **{USER1}** and **{USER2}**:\nCurrent turn: {TURN}.",
 		"full": "The game is full!",
 		"hangmanfail": "Hangman failed!",
+		"invalidsize": "The field size must be between **{MIN}** and **{MAX}**",
 		"joingame": "Join game",
 		"notingame": "You're not participating!",
 		"notyou": "You may not play against yourself",
@@ -1407,6 +1411,7 @@
 		}
 	},
 	"steam": {
+		"achievements": "Achievements: **{AMOUNT}**",
 		"contentwarning": "Content warning:",
 		"developers": "Developer(s)",
 		"discountdefault": "(normally {PRICE})",
@@ -1663,6 +1668,7 @@
 		"dontuse": "Don't use",
 		"drawcard": "Draw card",
 		"endwin": "{USER} has won the game! **{CARDS}** cards were played.",
+		"forgotbutton": "⚠️ You must use the Uno! button before playing the second-to-last card! You received **{CARDS}** punishment card(s).",
 		"inactivekick": "{USER}, you've been kicked out of the Uno game because you were inactive for more than two minutes!",
 		"invalidcard": "❌ Invalid card **{CARD}**!",
 		"joined": "You joined the game!",
