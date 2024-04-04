@@ -540,8 +540,7 @@
 	},
 	"mass": {
 		"ban": {
-			"finish": "",
-			"start": ""
+			"finish": ""
 		},
 		"cancel": "キャンセルする",
 		"cancelled": "",
