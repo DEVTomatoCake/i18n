@@ -922,9 +922,6 @@
 		"unknown": "Diesen Minecraft-Bugreport gibt es nicht",
 		"uploadby": "Hochgeladen von {USER}"
 	},
-	"mclint": {
-		"missingcommand": "Du musst einen Befehl angeben"
-	},
 	"mcrecipe": {
 		"loading": "Lade…",
 		"missing": "Du musst einen deutschen Minecraft-Item-Namen angeben",
