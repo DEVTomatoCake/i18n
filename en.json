@@ -4,6 +4,7 @@
 		"success": "{USERORROLE} has been added to the ticket"
 	},
 	"addemoji": {
+		"cancelled": "The import was cancelled due to the following error: `{ERROR}`",
 		"error": "⚠️ Couldn't add {URL}!",
 		"missing": "You need to specify an emoji",
 		"noneadded": "No emojis were added",
@@ -318,7 +319,7 @@
 	},
 	"diff": {
 		"missing": "You must add a second text separated by ` | `",
-		"number": "Difference: **{DIFFERENCE}**\nAverage: **{AVERAGE}**\nPercentage difference: **{PERCENTAGE}**",
+		"number": "Difference: **{DIFFERENCE}**\nAverage: **{AVERAGE}**\nPercentage difference: **{PERCENTAGE}%**",
 		"title": "{PERCENT} similar"
 	},
 	"dig": {
@@ -397,6 +398,7 @@
 	"emoji": {
 		"animated": "Animated",
 		"emojislots": "**{STATIC}** static and **{ANIMATED}** animated emoji slots remaining.",
+		"invalid": "You must add a valid emoji",
 		"likes": "Likes:",
 		"lockupdated": "The roles which can use the emoji {EMOJI} were updated",
 		"notanimated": "Not animated",
@@ -422,6 +424,9 @@
 			"stage": "Stage channel: {CHANNEL}",
 			"voice": "Voice channel: {CHANNEL}"
 		}
+	},
+	"eventimport": {
+		"missing": "Please provide a calendar file as attachment or an URL of it as argument"
 	},
 	"feedback": {
 		"text": "Your feedback or suggestion",
