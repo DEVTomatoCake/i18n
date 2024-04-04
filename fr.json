@@ -922,9 +922,6 @@
 		"unknown": "Ce rapport de bogue d'exploration de données n'existe pas",
 		"uploadby": "Téléchargé par {USER}"
 	},
-	"mclint": {
-		"missingcommand": "Vous devez entrer une commande"
-	},
 	"mcrecipe": {
 		"loading": "Chargement…",
 		"missing": "Vous devez ajouter un nom d'élément minecraft allemand",
