@@ -189,6 +189,11 @@
 	},
 	"cantusebutton": "Only **{USER}** can use buttons on this message!",
 	"cantuseselect": "Only **{USER}** can use the select menu on this message!",
+	"channel": {
+		"invalid": "You must enter a valid channel",
+		"invalidsource": "You must enter a valid source channel",
+		"invalidtarget": "You must enter a valid target channel"
+	},
 	"channelinfo": {
 		"automatic": "Automatic",
 		"bitrate": "Bitrate",
@@ -313,6 +318,7 @@
 	},
 	"diff": {
 		"missing": "You must add a second text separated by ` | `",
+		"number": "Difference: **{DIFFERENCE}**\nAverage: **{AVERAGE}**\nPercentage difference: **{PERCENTAGE}**",
 		"title": "{PERCENT} similar"
 	},
 	"dig": {
