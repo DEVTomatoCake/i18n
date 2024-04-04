@@ -883,8 +883,7 @@
 	},
 	"mass": {
 		"ban": {
-			"finish": "**{SUCCESS}** a felhasználókat kitiltották, **{FAILED}** nem sikerült kitiltani őket",
-			"start": "Felhasználók kitiltása…"
+			"finish": "**{SUCCESS}** a felhasználókat kitiltották, **{FAILED}** nem sikerült kitiltani őket"
 		},
 		"cancel": "Törölje",
 		"cancelled": "A tömeges akciót törölték!",
