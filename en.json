@@ -883,8 +883,7 @@
 	},
 	"mass": {
 		"ban": {
-			"finish": "**{SUCCESS}** users have been banned, **{FAILED}** couldn't be banned",
-			"start": "Banning users…"
+			"finish": "**{SUCCESS}** users have been banned, **{FAILED}** couldn't be banned"
 		},
 		"cancel": "Cancel",
 		"cancelled": "Mass action was cancelled!",
