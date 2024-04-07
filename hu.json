@@ -1256,7 +1256,7 @@
 			"missingperms": "A bot nem tudja létrehozni a szerepet a hiányzó jogosultságok miatt",
 			"permshelp": "Valószínűleg a szerepkörnek olyan jogai vannak, amelyekkel a bot nem rendelkezik. Adja meg a botnak a szükséges jogokat, vagy ideiglenesen rendszergazdát."
 		},
-		"footer": "{COUNT} szerepeket találtunk • 🔒 = Kezelt",
+		"footer": "{COUNT} szerepeket találtunk • ⚙ = Kezelt",
 		"list": "Az összes rang kilistázása:",
 		"listperm": "A **{PERMISSION}** jogosultsággal rendelkező összes szerepkör listája:",
 		"managed": "Ez a szerep nem adható vagy távolítható el manuálisan",
