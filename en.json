@@ -1271,7 +1271,7 @@
 			"missingperms": "The bot cannot create the role due to missing permissions",
 			"permshelp": "Probably the role has rights that the bot does not have. Give the bot the rights it needs or temporarily administrator."
 		},
-		"footer": "{COUNT} roles found • 🔒 = Managed",
+		"footer": "{COUNT} roles found • ⚙ = Managed",
 		"list": "List of all roles:",
 		"listperm": "List of all roles with the permission **{PERMISSION}**:",
 		"managed": "This role cannot be given or removed manually",
