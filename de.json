@@ -1271,7 +1271,7 @@
 			"missingperms": "Der Bot kann die Rolle aufgrund von fehlenden Berechtigungen nicht erstellen",
 			"permshelp": "Vermutlich hat die Rolle Rechte, die der Bot nicht hat. Gib dem Bot die benötigten Rechte oder temporär Administrator."
 		},
-		"footer": "{COUNT} Rollen gefunden • 🔒 = Managed",
+		"footer": "{COUNT} Rollen gefunden • ⚙ = Managed",
 		"list": "Liste aller Rollen:",
 		"listperm": "Liste aller Rollen mit der Berechtigung **{PERMISSION}**:",
 		"managed": "Diese Rolle kann nicht manuell vergeben oder entfernt werden",
