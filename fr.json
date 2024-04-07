@@ -1256,7 +1256,7 @@
 			"missingperms": "Le robot ne peut pas créer le rôle en raison d'autorisations manquantes",
 			"permshelp": "Le rôle a probablement des droits que le robot n'a pas. Donnez au robot les droits dont il a besoin ou à l'administrateur temporaire."
 		},
-		"footer": "{COUNT} rôles trouvés • 🔒 = Géré",
+		"footer": "{COUNT} rôles trouvés • ⚙ = Géré",
 		"list": "Liste de tous les rôles :",
 		"listperm": "Liste de tous les rôles disposant de l'autorisation **{PERMISSION}** :",
 		"managed": "Ce rôle ne peut pas être attribué ou retiré manuellement",
