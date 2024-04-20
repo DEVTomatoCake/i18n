@@ -327,6 +327,10 @@
 		"missingshovel": "Du brauchst eine Schaufel, um diesen Befehl nutzen zu können",
 		"nothingfound": "Du hast leider nichts gefunden"
 	},
+	"dmreport": {
+		"buttoncancel": "Nein, Report abbrechen",
+		"buttonconfirm": "Ja, Report fortsetzen"
+	},
 	"dns": {
 		"error": "Fehler beim Abrufen der Domain",
 		"minttl": "Minimale TTL:",
