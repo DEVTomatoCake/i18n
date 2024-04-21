@@ -598,7 +598,7 @@
 			"description": "Zeigt Befehle zur Serververwaltung",
 			"title": "Admin"
 		},
-		"aliases": "Aliase",
+		"aliases": "Aliasse",
 		"all": {
 			"description": "Zeigt alle Befehle vom Bot",
 			"title": "Alle Befehle"
@@ -1754,7 +1754,7 @@
 	"wordsearch": {
 		"invalidposition": "Ungültige Position!",
 		"mark": "Wort markieren",
-		"noword": "An der angegeben Position wurde kein Wort gefunden!",
+		"noword": "An der angegebenen Position wurde kein Wort gefunden!",
 		"position": "Start- und Endposition des Worts"
 	},
 	"work": {
