@@ -902,7 +902,7 @@
 	},
 	"mass": {
 		"ban": {
-			"finish": "Es wurden **{SUCCESS}\"** Nutzer gebannt, **{FAILED}** konnten nicht gebannt werden"
+			"finish": "Es wurden **{SUCCESS}** Nutzer gebannt, **{FAILED}** konnten nicht gebannt werden"
 		},
 		"cancel": "Abbrechen",
 		"cancelled": "Massenaktion wurde abgebrochen!",
