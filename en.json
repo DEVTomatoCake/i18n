@@ -1361,7 +1361,7 @@
 		"blacklisted": "The URL is blacklisted",
 		"cantresolve": "⚠️ Cannot resolve {URL}: {ERROR}",
 		"cfthreats": "By Cloudflare detected threats",
-		"created": "The short URL **{URL]** was created",
+		"created": "The short URL **{URL}** was created",
 		"exists": "There is already a short URL with this name",
 		"invalidurl": "You must enter a valid URL",
 		"mostusedbrowsers": "Most-used browsers",
