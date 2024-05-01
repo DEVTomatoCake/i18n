@@ -1342,7 +1342,7 @@
 		"blacklisted": "L'URL est sur liste noire",
 		"cantresolve": "⚠️ Impossible de résoudre {URL} : {ERROR}",
 		"cfthreats": "Menaces détectées par Cloudflare",
-		"created": "L'URL courte **{URL]** a été créée",
+		"created": "L'URL courte **{URL}** a été créée",
 		"exists": "Il existe déjà un URL court portant ce nom",
 		"invalidurl": "Vous devez saisir une URL valide",
 		"mostusedbrowsers": "Navigateurs les plus utilisés",
@@ -1412,7 +1412,7 @@
 	"suggest": {
 		"alreadyhandled": "Cette suggestion a déjà été traitée par le personnel du serveur et son contenu ne peut donc plus être modifié",
 		"approved": "La suggestion **#{ID}** a été acceptée !",
-		"approvedby": "Approuvé par",
+		"approvedby": "Approuvé par {USER}",
 		"approvedon": "Approuvé le",
 		"autocomplete": {
 			"nonefound": "Aucune suggestion n'a été trouvée",
@@ -1422,7 +1422,7 @@
 		"cooldown": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion",
 		"cooldowndm": "Vous devez attendre **{TIME}** avant de pouvoir soumettre une nouvelle suggestion sur **{SERVER}** !",
 		"denied": "La suggestion **#{ID}** a été refusée !",
-		"deniedby": "Refusé par",
+		"deniedby": "Refusé par {USER}",
 		"deniedon": "Refusé le",
 		"edit": "La suggestion **#{ID}** a été modifiée !",
 		"lastedit": "Dernière modification",
