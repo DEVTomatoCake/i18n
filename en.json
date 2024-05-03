@@ -247,6 +247,9 @@
 		"missing": "You must enter a category",
 		"success": "The category with the channels is being duplicated"
 	},
+	"close": {
+		"confirmbutton": "Yes, close"
+	},
 	"commanderror": "An error occurred while executing the command `{COMMAND}`!\nThe developer was informed and will try to fix the error, so try again later. You can also join the support server <https://tomatenkuchen.com/discord> to help with bug fixing.",
 	"convert": {
 		"missing": "You must add a value and a unit",
@@ -293,6 +296,7 @@
 		"none": "Couldn't find users to dehoist"
 	},
 	"delete": {
+		"confirmbutton": "Yes, delete",
 		"deleter": "Deleted by:"
 	},
 	"deny": {
