@@ -247,6 +247,9 @@
 		"missing": "Du musst eine Kategorie angeben",
 		"success": "Die Kategorie mit den Kanälen wird dupliziert"
 	},
+	"close": {
+		"confirmbutton": "Ja, schließen"
+	},
 	"commanderror": "Während der Ausführung des Befehls `{COMMAND}` ist ein Fehler aufgetreten!\nDer Entwickler wurde informiert und wird versuchen, den Fehler zu beheben, also versuche es doch später noch einmal. Du kannst auch dem Support-Server <https://tomatenkuchen.com/discord> beitreten, um bei der Fehlerbehebung mitzuhelfen.",
 	"convert": {
 		"missing": "Du musst einen Wert und eine Einheit angeben",
@@ -293,6 +296,7 @@
 		"none": "Es wurden keine Nutzer zum Dehoisten gefunden"
 	},
 	"delete": {
+		"confirmbutton": "Ja, löschen",
 		"deleter": "Gelöscht von:"
 	},
 	"deny": {
