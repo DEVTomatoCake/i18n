@@ -1105,7 +1105,7 @@
 	"npm": {
 		"author": "Autor",
 		"downloadsmonth": "Downloads der letzten 30 Tage",
-		"edited": "Bearbeitet",
+		"edited": "Aktualisiert",
 		"keywords": "Schlagwörter",
 		"maintainer": "Verwaltet von",
 		"missing": "Du musst einen NPM-Package-Namen angeben",
