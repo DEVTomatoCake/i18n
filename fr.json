@@ -947,7 +947,7 @@
 		"messagechannel": "Dans quel canal le statut doit-il être affiché ?",
 		"messagewaiting": "En attente de l'installation et de la première requête…",
 		"namechannel": "Dans quel nom de canal le statut doit-il être affiché ?",
-		"offlineformat": "Si le serveur est hors ligne, quel message doit être affiché ? Le message par défaut est `{IP}:{Port} **Server not reachable**`, les arguments suivants sont possibles : `{IP} {PORT}`",
+		"offlineformat": "Si le serveur est hors ligne, quel message doit être affiché ? Le message par défaut est `{IP}:{PORT} **Server not reachable**`, les arguments suivants sont possibles : `{IP} {PORT}`",
 		"port": "Quel est le port du serveur ? Si vous avez saisi un (sous-)domaine à l'étape 1, utilisez `25565`. Utilisez `-query=<Port>` pour entrer un port de requête afin de pouvoir afficher les noms des joueurs.",
 		"selecttype": "Comment le statut doit-il être affiché ? beschreibung (topic), name, nachricht (message)",
 		"statusformat": "Comment le statut doit-il être affiché ? Les arguments suivants sont possibles : `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
@@ -1490,7 +1490,7 @@
 	},
 	"testvote": "Le vote est un vote test !",
 	"text": {
-		"failed": "Impossible de créer le webhook (limite de 10 webhooks atteinte?)"
+		"failed": "Impossible de créer le webhook"
 	},
 	"threads": {
 		"all": "Tous les threads",
@@ -1563,7 +1563,7 @@
 		"claimfirst": "Temps écoulé jusqu'à ce qu'un ticket ait été réclamé une fois",
 		"closedcount": "Tickets fermés",
 		"deletedcount": "Tickets supprimés",
-		"displaywarning": "Cela affichera tous les tickets{ ? de l'utilisateur?} de ce serveur et toutes les personnes ayant le lien pourront accéder à la transcription.",
+		"displaywarning": "Cela affichera tous les tickets{? de l'utilisateur?} de ce serveur et toutes les personnes ayant le lien pourront accéder à la transcription.",
 		"opencount": "Tickets ouverts",
 		"ownerscount": "Nombre de propriétaires uniques de tickets",
 		"senddm": "Les journaux des tickets vous ont été envoyés par le biais de dms si le bot pouvait vous dm !",
