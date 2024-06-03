@@ -714,7 +714,7 @@
 			"level": "Level leaderboard",
 			"servervote": "Server vote leaderboard"
 		},
-		"unavailable": "This leaderboard doesn't exist or another error occured"
+		"unavailable": "This leaderboard doesn't exist or another error occurred"
 	},
 	"level": {
 		"disabled": "Levels are disabled here",
@@ -774,7 +774,7 @@
 		"channeliconcolor": "Channel icon color of `{CHANNEL}` edited",
 		"channelname": "Channel name updated",
 		"channelnsfw": "NSFW state of `{CHANNEL}` updated",
-		"channelperms": "Channel permissons of `{CHANNEL}` updated",
+		"channelperms": "Channel permissions of `{CHANNEL}` updated",
 		"channelpin": "Message pinned",
 		"channeltopic": "Channel topic",
 		"channeltype": "Channel type of `{CHANNEL}` edited",
@@ -970,7 +970,7 @@
 		"messagechannel": "In which channel should the status be shown?",
 		"messagewaiting": "Waiting for setup and first query…",
 		"namechannel": "In which channel name should the status be displayed?",
-		"offlineformat": "If the server is offline, which message should be displayed? Default is `{IP}:{Port} | **Server not reachable**`, following arguments are possible: `{IP} {PORT}`",
+		"offlineformat": "If the server is offline, which message should be displayed? Default is `{IP}:{PORT} | **Server not reachable**`, following arguments are possible: `{IP} {PORT}`",
 		"port": "Which port does the server have? If you entered a (sub)domain for step 1, use `25565`. Use `-query=<Port>` to enter a query port to be able to display player names.",
 		"selecttype": "How should the status be displayed? beschreibung (topic), name, nachricht (message)",
 		"statusformat": "How should the status be display? The following arguments are possible: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
@@ -1493,7 +1493,7 @@
 		"buttonload": "Yes, load template",
 		"cancel": "The template loading has been cancelled",
 		"finished": "The template **{NAME}** by **{CREATOR}** with the code **{CODE}** was loaded successfully!",
-		"started": "The template will be loaded now. You can cancel it by using `/template cancel` (`cancel` as template id) - but this wont restore already deleted channels/roles!\nEstimated time: ",
+		"started": "The template will be loaded now. You can cancel it by using `/template cancel` (`cancel` as template ID) - but this won't restore already deleted channels/roles!\nEstimated time: ",
 		"unknown": "This template doesn't exist",
 		"warning": "This will load the template **{NAME}** by **{CREATOR}**, it was used **{USES}** times before. Are you sure that you want to continue?\n⚠️ **This action will (depending on arguments) delete all roles and channels and replace them with the new ones.** ⚠️"
 	},
