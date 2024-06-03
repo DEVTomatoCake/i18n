@@ -80,14 +80,14 @@
 		"needsupport": "If you have questions regarding that, feel free to ask on my support server: https://discord.gg/ZqzFUC8qe9",
 		"nobackups": "No backups available",
 		"noservers": "No servers",
-		"panelerrorshort": "An error occured while trying to connect to the panel.",
+		"panelerrorshort": "An error occurred while trying to connect to the panel.",
 		"selectserver": "Select server",
 		"serverlist": "Serverlist",
 		"unknown": "Unknown server! Use </manage:872924492593254454> to list all your servers."
 	},
 	"nodata": "You have to register a panel using </setup:1097100610366623784> first!",
 	"nodataadmin": "You have to register a panel using </setup:1097100610366623784> and then link it to an admin panel using </adminsetup:1097160563353731182>!",
-	"panelerror": "An error occured while connecting to the panel. Check if the panel is online, the url is correct and the api key valid.",
+	"panelerror": "An error occurred while connecting to the panel. Check if the panel is online, the url is correct and the api key valid.",
 	"settings": {
 		"alias": {
 			"delete": "The alias **{ALIAS}** was deleted!"
