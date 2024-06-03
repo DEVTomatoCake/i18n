@@ -947,7 +947,7 @@
 		"messagechannel": "Melyik csatornán kell megjeleníteni az állapotot?",
 		"messagewaiting": "Várjuk a beállításokat és az első lekérdezést…",
 		"namechannel": "Melyik csatorna nevében kell megjeleníteni az állapotot?",
-		"offlineformat": "Ha a kiszolgáló offline, milyen üzenetet kell megjeleníteni? Alapértelmezett az `{IP}:{Port} | **Szerver nem elérhető**`, a következő argumentumok lehetségesek: `{IP} {PORT}`",
+		"offlineformat": "Ha a kiszolgáló offline, milyen üzenetet kell megjeleníteni? Alapértelmezett az `{IP}:{PORT} | **Szerver nem elérhető**`, a következő argumentumok lehetségesek: `{IP} {PORT}`",
 		"port": "Milyen portja van a szervernek? Ha az 1. lépésnél (al)tartományt adtál meg, használd a `25565`-öt. A `-query=<Port>` használatával adj meg egy lekérdezési portot, hogy meg tudd jeleníteni a játékosok nevét.",
 		"selecttype": "Hogyan kell megjeleníteni az állapotot? beschreibung (téma), name, nachricht (üzenet)",
 		"statusformat": "Hogyan kell megjeleníteni az állapotot? A következő argumentumok lehetségesek: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
