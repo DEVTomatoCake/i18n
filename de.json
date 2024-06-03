@@ -970,7 +970,7 @@
 		"messagechannel": "In welchem Kanal soll der Status angezeigt werden?",
 		"messagewaiting": "Warte auf Einrichtung und erste Abfrage…",
 		"namechannel": "In welchem Kanalnamen soll der Status angezeigt werden?",
-		"offlineformat": "Wenn der Server offline ist, welche Nachricht soll angezeigt werden? Standard ist `{IP}:{Port} | **Server nicht erreichbar**`, folgende Argumente sind möglich: `{IP} {PORT}`",
+		"offlineformat": "Wenn der Server offline ist, welche Nachricht soll angezeigt werden? Standard ist `{IP}:{PORT} | **Server nicht erreichbar**`, folgende Argumente sind möglich: `{IP} {PORT}`",
 		"port": "Welchen Port hat der Server? Solltest du bei Schritt 1 eine (Sub-)Domain angegeben haben, schreibe `25565`. Nutze `-query=<Port>`, um einen Queryport anzugeben um die Spielernamen anzeigen zu können.",
 		"selecttype": "Wie soll der Status angezeigt werden? Beschreibung, Name, Nachricht",
 		"statusformat": "Wie soll der Status angezeigt werden? Folgende Argumente sind möglich: `{ONLINE} {MAX} {VERSION} {IP} {PORT}`",
