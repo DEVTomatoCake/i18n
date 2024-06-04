@@ -1318,7 +1318,6 @@
 		"raid": "A legutóbbi rajtaütés miatt **{AMOUNT}** felhasználót rúgtak ki.",
 		"text": "Szöveges csatornák",
 		"title": "Szerver-információ: **{NAME}**",
-		"toomanyroles": "*Túl sok rang*",
 		"verificationlevel": {
 			"high": "Magas",
 			"highest": "Legmagasabb",
