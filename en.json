@@ -1341,7 +1341,6 @@
 		"raid": "The last raid caused **{AMOUNT}** users to be kicked.",
 		"text": "Text channels",
 		"title": "Server info: **{NAME}**",
-		"toomanyroles": "*Too many roles*",
 		"verificationlevel": {
 			"high": "High",
 			"highest": "Highest",
