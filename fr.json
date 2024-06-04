@@ -1318,7 +1318,6 @@
 		"raid": "Le dernier raid a entraîné l'exclusion de **{AMOUNT}** utilisateurs.",
 		"text": "Canaux de texte",
 		"title": "Informations sur le serveur : **{NAME}**",
-		"toomanyroles": "*Trop de rôles*",
 		"verificationlevel": {
 			"high": "Élevé",
 			"highest": "Le plus élevé",
