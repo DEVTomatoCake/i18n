@@ -1341,7 +1341,6 @@
 		"raid": "Bei dem letzten Raid sind **{AMOUNT}** Nutzer gekickt worden.",
 		"text": "Textkanäle",
 		"title": "Serverinfo: **{NAME}**",
-		"toomanyroles": "*Zu viele Rollen*",
 		"verificationlevel": {
 			"high": "Hoch",
 			"highest": "Höchste",
