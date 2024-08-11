@@ -591,6 +591,7 @@
 	},
 	"guildonly": "This command can only be ran on servers!",
 	"hack": {
+		"email": "Email address",
 		"footer": "Definitely real™️",
 		"hacking": "Hacking… {PERCENT}%",
 		"loading": "Hacking **{USER}**…",
