@@ -591,6 +591,7 @@
 	},
 	"guildonly": "Dieser Befehl kann nur auf Servern ausgeführt werden!",
 	"hack": {
+		"email": "E-Mail-Adresse",
 		"footer": "Definitiv echt™️",
 		"hacking": "Hacken… {PERCENT}%",
 		"loading": "Hacke **{USER}**…",
