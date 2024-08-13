@@ -569,7 +569,7 @@
 	"guildonly": "Ez a parancs csak szervereken futtatható!",
 	"hack": {
 		"footer": "Határozottan igazi™️",
-		"hacking": "Hackelés… {PERCENT}%",
+		"hacking": "Hacking **{USER}**... {PERCENT}%",
 		"nobot": "Botokat nem lehet felttörni",
 		"password": "Jelszó"
 	},
