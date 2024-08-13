@@ -570,7 +570,6 @@
 	"hack": {
 		"footer": "Határozottan igazi™️",
 		"hacking": "Hackelés… {PERCENT}%",
-		"loading": "**{USER}** hackelése…",
 		"nobot": "Botokat nem lehet felttörni",
 		"password": "Jelszó"
 	},
