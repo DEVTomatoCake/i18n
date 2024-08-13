@@ -570,7 +570,6 @@
 	"hack": {
 		"footer": "Des ™️ bien réels",
 		"hacking": "Piratage… {PERCENT} %",
-		"loading": "Hacking **{USER}**…",
 		"nobot": "Vous ne pouvez pas pirater les bots",
 		"password": "Mot de passe"
 	},
