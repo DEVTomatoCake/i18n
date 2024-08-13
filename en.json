@@ -593,8 +593,7 @@
 	"hack": {
 		"email": "Email address",
 		"footer": "Definitely real™️",
-		"hacking": "Hacking… {PERCENT}%",
-		"loading": "Hacking **{USER}**…",
+		"hacking": "Hacking **{USER}**… {PERCENT}%",
 		"nobot": "You may not hack bots",
 		"password": "Password"
 	},
