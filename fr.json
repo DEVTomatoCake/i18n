@@ -569,7 +569,7 @@
 	"guildonly": "Cette commande ne peut être exécutée que sur des serveurs !",
 	"hack": {
 		"footer": "Des ™️ bien réels",
-		"hacking": "Piratage… {PERCENT} %",
+		"hacking": "Piratage de **{USER}**... {PERCENT}%",
 		"nobot": "Vous ne pouvez pas pirater les bots",
 		"password": "Mot de passe"
 	},
