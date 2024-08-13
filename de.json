@@ -593,7 +593,7 @@
 	"hack": {
 		"email": "E-Mail-Adresse",
 		"footer": "Definitiv echt™️",
-		"hacking": "Hacken… {PERCENT}%",
+		"hacking": "Hacke **{USER}**… {PERCENT} %",
 		"nobot": "Du darfst keine Bots hacken",
 		"password": "Passwort"
 	},
